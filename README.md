@@ -41,5 +41,5 @@
 ## Cсылка на прототипы страниц
 https://www.figma.com/design/MWMNxy24fxqtA7n0gvbVXO/Press-F-ui?node-id=0-1&t=qX4Fx4J47LV0RGMS-1
 
-## ссылка на API:
+## Ссылка на API:
 http://localhost:8000/
