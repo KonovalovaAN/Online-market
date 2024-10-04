@@ -38,8 +38,5 @@
 ## Use-Case Diagram: {cm:2024-09-29}
 ![alt text](docs/image.png) {cm:2024-09-29}
 
-## Cсылка на прототипы страниц
-https://www.figma.com/design/MWMNxy24fxqtA7n0gvbVXO/Press-F-ui?node-id=0-1&t=qX4Fx4J47LV0RGMS-1
-
 ## Ссылка на API:
 http://localhost:8000/
