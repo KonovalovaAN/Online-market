@@ -1,9 +1,6 @@
-from app_name.models import User
-user = User.objects.create(username='new_user', email='user@example.com', password='pass123')
-user = User.objects.get(id=1) # cоздаём пользователя
-print(user.username)
-user = User.objects.get(id=1) 
-print(user.username) # получить имя пользователя
-user.username = 'updated_user' # обновляем пользователя
-user.save() # сохраняем
-user.delete() # удаляем пользователя
+python manage.py create "new_user" "new_user@example.com" "password123" # Запуск программы через консоль
+python manage.py create "username" "email@example.com" "password"  # Создание пользователя
+python manage.py read # Чтение всех пользователей
+python manage.py read 1 # Чтение одного пользователя по ID
+python manage.py update 1 "new_username" "new_email@example.com" "new_password" # Обновление пользователя по ID
+python manage.py delete 1 # Удаление пользователя по ID
