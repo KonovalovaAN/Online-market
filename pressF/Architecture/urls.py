@@ -1,28 +1,7 @@
-from django.http import JsonResponse
-from django.views import View
-from .models import User
+from django.urls import path
+from .views import UserView
 
-class UserView(View):
-    def get(self, request, *args, **kwargs):
-        users = User.objects.all().values('id', 'username', 'email')
-        return JsonResponse(list(users), safe=False)
-
-    def post(self, request, *args, **kwargs):
-        new_user = User.objects.create(
-            username=request.POST.get('username'),
-            email=request.POST.get('email'),
-            password=request.POST.get('password')
-        )
-        return JsonResponse({'id': new_user.id, 'username': new_user.username})
-
-    def put(self, request, *args, **kwargs):
-        user = User.objects.get(id=kwargs.get('id'))
-        user.username = request.PUT.get('username', user.username)
-        user.email = request.PUT.get('email', user.email)
-        user.save()
-        return JsonResponse({'message': 'User updated successfully'})
-
-    def delete(self, request, *args, **kwargs):
-        user = User.objects.get(id=kwargs.get('id'))
-        user.delete()
-        return JsonResponse({'message': 'User deleted successfully'})
+urlpatterns = [
+    path('users/', UserView.as_view(), name='user-list'),            # Для работы с коллекцией пользователей
+    path('users/<int:id>/', UserView.as_view(), name='user-detail'),  # Для работы с конкретным пользователем
+]
