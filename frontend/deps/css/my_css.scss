@@ -1,0 +1,137 @@
+// Переменные
+$shadow-color: #000000;
+$badge-bg-color: #000000;
+$badge-font-size: 1rem;
+$badge-padding: 5px 10px;
+$badge-radius: 3px;
+$btn-height: 36px;
+$btn-margin: 0 5px;
+$number-width: 50px;
+$gray-color: gray;
+$product-font-size: 15px;
+$text-bg-color: rgb(240, 232, 107); // Цвет фона текста
+
+// Стиль для body
+body {
+  background-image: url("../images/bg-image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh; // Use viewport height for full height
+}
+
+// Стиль для dropdown-toggle
+.dropdown-toggle::after {
+  content: none;
+}
+
+// Стили для тени
+.custom-shadow {
+  box-shadow: 5px 5px 25px 19px $shadow-color;
+}
+
+// Стиль для идентификатора продукта
+.product_id {
+  color: $gray-color;
+  font-size: $product-font-size;
+}
+
+// Стили для бейджа
+.badge {
+  &.bg-warning.text-dark {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    z-index: 1;
+    padding: $badge-padding;
+    border-radius: $badge-radius;
+    font-size: $badge-font-size;
+    box-shadow: 2px 2px 15px 9px $badge-bg-color;
+  }
+
+  &-banner {
+    top: 80%;
+    border-radius: 15px;
+    font-size: 0.7rem;
+  }
+}
+
+// Стили для элементов списка
+.list-group-item {
+  margin-bottom: 15px;
+}
+
+// Стили для input-group
+.input-group {
+  .btn {
+    margin: $btn-margin;
+    height: $btn-height;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px; // Rounded corners for buttons
+    transition: background-color 0.2s ease; // Smooth transition for hover
+  }
+
+  .number {
+    text-align: center;
+    width: $number-width;
+    height: $btn-height;
+    border: 1px solid $gray-color; // Add border for better visibility
+    border-radius: 5px; // Rounded corners
+  }
+}
+
+// Стили для колонок
+.col {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+// Стили для кнопки поиска
+.btn-search {
+  background-color: $text-bg-color;
+  color: black;
+  border: none; // Remove default border
+  transition: background-color 0.2s ease; // Smooth transition for hover
+}
+
+.btn-search:hover {
+  background-color: #ac9b36; // Более насыщенный желтый при наведении
+  border-color: #a48f15;
+}
+
+// Стили для карточек изображений
+.card-custom {
+  .card-img {
+    width: 100%; // Make the image responsive to the card width
+    height: 200px; // Set a fixed height
+    object-fit: cover; // Ensure the image covers the area without distortion
+    border-radius: 15px; // Скругление углов изображения
+  }
+
+  // Дополнительные стили для карточки (если необходимо)
+  .card-body {
+    padding: 10px; // Пример дополнительного стиля
+  }
+}
+
+// Кастомная кнопка
+.btn-custom {
+  background-color: #343a40; // Используйте тот же цвет, что и ваш заголовок
+  color: white; // Цвет текста кнопки
+  border: none; // Remove default border
+  transition: background-color 0.2s ease; // Smooth transition for hover
+}
+
+.btn-custom:hover {
+  background-color: #495057; // Slightly lighter on hover
+}
+
+// Использование переменной для фона текста
+.text-background {
+  background-color: $text-bg-color;
+  padding: 20px;
+  border-radius: 15px;
+}
