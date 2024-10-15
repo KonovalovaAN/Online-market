@@ -1,11 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<!-- Фрагмент для вставки в block content для страницы about-->
-<!-- 
-Если добавить много текста для описния и footer будет "налазить" поверх текста,
-то уберите со страницы about вставку стиля для footer-a, и его отпустит"
--->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../deps/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../deps/css/my_css.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../deps/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../deps/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../deps/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../deps/favicon/site.webmanifest">
+    <title>Товар</title>
+</head>
 
-<div class="my-5 pt-5 px-2 pb-2 bg-white custom-shadow rounded">
-    <h2 class="m-2"><strong>О нас</strong></h2>
-    <p class="m-2" style="font-size: 1.2rem;">Текст о том какой классный этот интернет магазин.</p>
-</div>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">Главная</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Информация
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item  text-white" href="#">Доставка и оплата</a></li>
+                                <li><a class="dropdown-item  text-white" href="#">Контактная информация</a></li>
+                                <li><a class="dropdown-item  text-white" href="#">Про нас</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-white" href="../carts/cart.html">Корзина</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-white" href="../users/login.html">Войти</a>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Мой профиль
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item  text-white" href="../carts/cart.html">Корзина</a></li>
+                                <li><a class="dropdown-item  text-white" href="../users/profile.html">Личный кабинет</a>
+                                </li>
+                                <li><a class="dropdown-item  text-white" href="#">Админ панель</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item  text-white" href="#">Выйти</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+                        <button class="btn btn-search" type="submit">Поиск</button>
+                    </form> 
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row mt-1 position-fixed z-3">
+                <!-- Каталог -->
+                <div class="dropdown mb-2">
+                    <ul class="dropdown-menu bg-dark" data-bs-theme="dark">
+                        <li><a class="dropdown-item text-white" href="goods/catalog.html">Все товары</a></li>
+                        <li><a class="dropdown-item text-white" href="goods/catalog.html">Ноутбуки</a></li>
+                        <li><a class="dropdown-item text-white" href="goods/catalog.html">Планшеты</a></li>
+                        <li><a class="dropdown-item text-white" href="goods/catalog.html">Смартфона</a></li>
+                        <li><a class="dropdown-item text-white" href="goods/catalog.html">Компьютеры</a></li>
+                    </ul>
+                </div>
+                <!-- Закончилась разметка модального окна -->
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row mt-1">
+                <div class="col-lg-1">
+                    <!-- Пустой блок на усмотрение -->
+                </div>
+                <div style="padding: 10px; border-radius: 15px;"></div>
+                <div class="col-lg-30">
+                    <div style="padding: 10px; border-radius: 15px;"></div>
+                    <div class="text-background">
+                        <h3 class="text-center">Информация о разработчиках</h3>
+                    <div style="padding: 10px; border-radius: 15px;"></div>
+                    <div class="d-flex flex-row flex-nowrap overflow-auto">
+                        <!-- Карта товара -->
+                        <div class="p-4">
+                            <a class="text-decoration-none">
+                                <div class="card border-primary card-custom"> <!-- Используем новый класс здесь -->
+                                    <img src="../deps/images/baseavatar.jpg" class="card-img" alt="Text">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Text</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>                            
+                        <!-- Карта товара -->
+                        <div class="p-4">
+                            <a class="text-decoration-none">
+                                <div class="card border-primary card-custom">
+                                    <img src="../deps/images/baseavatar.jpg" class="card-img" alt="Text">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Text</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Карта товара -->
+                        <div class="p-4">
+                            <a class="text-decoration-none">
+                                <div class="card border-primary card-custom">
+                                    <img src="../deps/images/baseavatar.jpg" class="card-img" alt="Text">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Text</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Карта товара -->
+                        <div class="p-4">
+                            <a class="text-decoration-none">
+                                <div class="card border-primary card-custom">
+                                    <img src="../deps/images/baseavatar.jpg" class="card-img" alt="Text">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Text</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../deps/js/jquery/jquery-3.7.0.min.js"></script>
+    <script src="../deps/js/jquery-events.js"></script>
+    <script src="../deps/js/jquery-ajax.js"></script>
+    <script src="../deps/js/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
