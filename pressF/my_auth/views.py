@@ -1,31 +1,50 @@
-# views.py
-
-from rest_framework import generics
+from django.contrib.auth.models import User
+from rest_framework.views import APIView
 from rest_framework.response import Response
+from rest_framework import status
+from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework_simplejwt.tokens import RefreshToken
-from .serializers import RegisterSerializer, UserSerializer
-from django.contrib.auth import get_user_model, authenticate
+from .serializers import UserSerializer
+from django.contrib.auth import authenticate
 
-User = get_user_model()
+class RegisterView(APIView):
+    permission_classes = [AllowAny]
 
-class RegisterView(generics.CreateAPIView):
-    serializer_class = RegisterSerializer
+    def post(self, request):
+        username = request.data.get('username')
+        password = request.data.get('password')
+        email = request.data.get('email')
 
-class LoginView(generics.GenericAPIView):
-    serializer_class = UserSerializer
+        if User.objects.filter(username=username).exists():
+            return Response({"error": "Username already exists"}, status=status.HTTP_400_BAD_REQUEST)
 
-    def post(self, request, *args, **kwargs):
-        user = authenticate(username=request.data['username'], password=request.data['password'])
-        if user:
+        user = User.objects.create_user(username=username, password=password, email=email)
+        return Response({"message": "User registered successfully"}, status=status.HTTP_201_CREATED)
+
+class LoginView(APIView):
+    permission_classes = [AllowAny]
+
+    def post(self, request):
+        username = request.data.get('username')
+        password = request.data.get('password')
+
+        user = authenticate(username=username, password=password)
+        if user is not None:
             refresh = RefreshToken.for_user(user)
             return Response({
                 'refresh': str(refresh),
                 'access': str(refresh.access_token),
             })
-        return Response({'error': 'Invalid Credentials'}, status=400)
+        else:
+            return Response({"error": "Invalid credentials"}, status=status.HTTP_401_UNAUTHORIZED)
 
-class UserView(generics.RetrieveAPIView):
-    serializer_class = UserSerializer
+class UserView(APIView):
+    permission_classes = [IsAuthenticated]  # Можно изменить на IsAuthenticated, если требуется авторизация
 
-    def get_object(self):
-        return self.request.user
+    def get(self, request, username):
+        try:
+            user = User.objects.get(username=username)
+            serializer = UserSerializer(user)
+            return Response(serializer.data, status=status.HTTP_200_OK)
+        except User.DoesNotExist:
+            return Response({"error": "User not found"}, status=status.HTTP_404_NOT_FOUND)
