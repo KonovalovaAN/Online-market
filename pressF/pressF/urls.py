@@ -20,6 +20,6 @@ from django.contrib import admin
 urlpatterns = [
     path('admin', admin.site.urls),
     path('', include('main.urls', namespace='main')),
-    path('', include('goods.urls', namespace='goods'))
-
+    path('goods/', include('goods.urls', namespace='goods')),
+    path('api/', include('my_auth.urls')),
 ]
