@@ -1,0 +1,151 @@
+$primary-color: #eaee85;
+$secondary-color: #f0f0f0;
+$highlight-color: #a9a9a9;
+$font-color: rgb(46, 46, 46);
+$icon-size: 20px;  
+$shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+.chat-container {
+  position: fixed;
+  bottom: 80px;
+  right: 50px;
+  width: 310px;
+  background-color: $primary-color;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-shadow: $shadow;
+  padding: 10px;
+  color: $font-color;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+
+  .input-container {
+    display: flex;
+    align-items: center;
+
+    .icon-container {
+      margin-left: 20px;
+    }
+
+    .icon {
+      width: $icon-size;
+      height: $icon-size;
+      fill: #333;
+      cursor: pointer;
+    }
+  }
+}
+
+.chat-window {
+  position: fixed;
+  bottom: 80px;
+  right: 50px;
+  width: 310px;
+  height: 400px;
+  background-color: $secondary-color;
+  border-radius: 15px;
+  box-shadow: $shadow;
+  display: flex;
+  flex-direction: column;
+  
+  &.open {
+    animation: slideUp 0.4s ease forwards;
+  }
+
+  &.close {
+    animation: slideDown 0.4s ease forwards;
+  }
+
+  .chat-header {
+    background-color: $primary-color;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+
+    .icon {
+      width: $icon-size;
+      height: $icon-size;
+      cursor: pointer;
+    }
+  }
+
+  .chat-body {
+    flex: 1;
+    padding: 10px;
+    background-color: #d3d3d3;
+    overflow-y: auto; 
+  }
+
+  .chat-input {
+    display: flex;
+    align-items: center;  
+    background-color: $highlight-color;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    .clip-icon {
+      width: $icon-size;  
+      height: $icon-size;
+      margin-right: 10px; 
+      cursor: pointer;  
+      display: flex;       
+      align-items: center; 
+    }
+
+    input {
+      flex: 1;
+      padding: 5px;
+      border-radius: 10px;
+      border: none;
+      padding-right: 40px; 
+      background-image: url('./chatIcons/StickerIcon.svg');
+      background-repeat: no-repeat;
+      background-position: right 10px center;
+      background-size: $icon-size $icon-size;
+      cursor: pointer;
+    }
+
+    .send-button {
+      background: none;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      margin-left: 8px;
+
+      img {
+        width: $icon-size;    
+        height: $icon-size;
+        display: flex;        
+        align-items: center; 
+      }
+    }
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}

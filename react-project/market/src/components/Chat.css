@@ -1,0 +1,130 @@
+.chat-container {
+  position: fixed;
+  bottom: 80px;
+  right: 50px;
+  width: 310px;
+  background-color: #eaee85;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  color: rgb(46, 46, 46);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+.chat-container .input-container {
+  display: flex;
+  align-items: center;
+}
+.chat-container .input-container .icon-container {
+  margin-left: 20px;
+}
+.chat-container .input-container .icon {
+  width: 20px;
+  height: 20px;
+  fill: #333;
+  cursor: pointer;
+}
+
+.chat-window {
+  position: fixed;
+  bottom: 80px;
+  right: 50px;
+  width: 310px;
+  height: 400px;
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+.chat-window.open {
+  animation: slideUp 0.4s ease forwards;
+}
+.chat-window.close {
+  animation: slideDown 0.4s ease forwards;
+}
+.chat-window .chat-header {
+  background-color: #eaee85;
+  padding: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+.chat-window .chat-header .icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.chat-window .chat-body {
+  flex: 1;
+  padding: 10px;
+  background-color: #d3d3d3;
+  overflow-y: auto;
+}
+.chat-window .chat-input {
+  display: flex;
+  align-items: center;
+  background-color: #a9a9a9;
+  padding: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.chat-window .chat-input .clip-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.chat-window .chat-input input {
+  flex: 1;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  padding-right: 40px;
+  background-image: url("./chatIcons/StickerIcon.svg");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 20px 20px;
+  cursor: pointer;
+}
+.chat-window .chat-input .send-button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+.chat-window .chat-input .send-button img {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slideDown {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}/*# sourceMappingURL=Chat.css.map */
