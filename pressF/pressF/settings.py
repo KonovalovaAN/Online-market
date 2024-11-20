@@ -46,6 +46,12 @@ INSTALLED_APPS = [
     'my_auth'
 ]
 
+#Swagger
+INSTALLED_APPS += [
+    'drf_yasg',
+]
+#Swagger
+
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',

@@ -12,7 +12,7 @@ $('#login-form').on('submit', function (e) {
       localStorage.setItem('access', response.access);
       localStorage.setItem('refresh', response.refresh);
       alert('Login successful!');
-      window.location.href = 'catalog.html';
+      window.location.href = '../goods/catalog.html';
     },
     error: function (error) {
       console.error('Login error:', error);
