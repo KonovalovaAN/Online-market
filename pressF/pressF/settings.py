@@ -37,10 +37,26 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    'rest_framework',
+    'rest_framework_simplejwt',
 
     'main',
-    'goods'
+    'goods',
+    'my_auth'
 ]
+
+#Swagger
+INSTALLED_APPS += [
+    'drf_yasg',
+]
+#Swagger
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ),
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -51,6 +67,13 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+#jquery client
+INSTALLED_APPS += ['corsheaders']
+MIDDLEWARE.insert(0, 'corsheaders.middleware.CorsMiddleware')
+
+CORS_ALLOW_ALL_ORIGINS = True  # Для разработки
+#jquery client
 
 ROOT_URLCONF = 'pressF.urls'
 
