@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            width: 80%;
+            max-width: 600px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .search {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .search input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .search button {
+            padding: 10px;
+            background-color: #0275d8;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+        .search button:hover {
+            background-color: #025aa5;
+        }
+        .chat-window {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            height: 300px;
+            overflow-y: auto;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+        .chat-window .message {
+            margin-bottom: 10px;
+        }
+        .chat-window .message .sender {
+            font-weight: bold;
+        }
+        .chat-window .message .sender.me {
+            color: #0275d8;  /* Синий для своего имени */
+        }
+        .chat-window .message .sender.other {
+            color: #dc3545;  /* Красный для имени собеседника */
+        }
+        .chat-input {
+            display: flex;
+        }
+        .chat-input textarea {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: none;
+        }
+        .chat-input button {
+            padding: 10px;
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+        .chat-input button:hover {
+            background-color: #4cae4c;
+        }
+        .error {
+            color: red;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome, {{ username }}</h1>
+        <form class="search" method="post">
+            {% csrf_token %}
+            <input type="text" name="search_user" placeholder="Enter username to chat" required>
+            <button type="submit">Search</button>
+        </form>
+        {% if error %}
+        <p class="error">{{ error }}</p>
+        {% endif %}
+        {% if recipient %}
+        <h2>Chat with {{ recipient }}</h2>
+        <div class="chat-window">
+            {% for msg in messages %}
+            <div class="message">
+                <span class="sender {% if msg.sender == username %}me{% else %}other{% endif %}">{{ msg.sender }}:</span>
+                <span class="content">{{ msg.content }}</span>
+            </div>
+            {% endfor %}
+        </div>
+        <form class="chat-input" method="post">
+            {% csrf_token %}
+            <input type="hidden" name="recipient" value="{{ recipient }}">
+            <textarea name="message" rows="2" placeholder="Type your message here..." required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        {% endif %}
+    </div>
+</body>
+</html>
