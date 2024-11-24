@@ -34,6 +34,44 @@ function Catalog() {
                             <span>0</span>
                         </button>
                     </div>
+                    <div style={{ padding: '4px', borderRadius: '15px' }}></div>
+                    {/* Форма фильтров */}
+                    <div className="dropdown mb-2">
+                    <button className="btn btn-secondary dropdown-toggle btn-dark" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Фильтры
+                    </button>
+            
+                    <div action="" method="get" className="dropdown-menu bg-dark" data-bs-theme="dark">
+                        <div className="form-check text-white mx-3">
+                            <input className="form-check-input" type="checkbox" name="on_sale" id="flexCheckDefault" value="on"/>
+                            <input type="hidden" name="q" value="request.GET.q"/>
+                            <label className="form-check-label" for="flexCheckDefault">
+                                Товары по акции
+                            </label>
+                        </div>
+                        <p className="text-white mx-3 mt-3">Сортировать:</p>
+                        <div className="form-check text-white mx-3">
+                            <input className="form-check-input" type="radio" name="order_by" id="flexRadioDefault1" value="default" checked/>
+                            <label className="form-check-label" for="flexRadioDefault1">
+                                По умолчанию
+                            </label>
+                        </div>
+                        <div className="form-check text-white mx-3">
+                            <input className="form-check-input" type="radio" name="order_by" id="flexRadioDefault2" value="price"/>
+                            <label className="form-check-label" for="flexRadioDefault2">
+                                От дешевых к дорогим
+                            </label>
+                        </div>
+                        <div className="form-check text-white mx-3">
+                            <input className="form-check-input" type="radio" name="order_by" id="flexRadioDefault3" value="-price"/>
+                            <label className="form-check-label" for="flexRadioDefault3">
+                                От дорогих к дешевым
+                            </label>
+                        </div>
+                        <button type="submit" className="btn btn-primary mx-3 mt-3">Применить</button>
+                        </div>
+                    </div>
                     {/* Разметка модального окна корзины */}
                     <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel"
                         aria-hidden="true">
@@ -105,38 +143,6 @@ function Catalog() {
                     <div className="col-lg-10">
                         {/* Контент на странице */}
                         <div className="row">
-                            {/* Форма фильтров */}
-                            <div className="dropdown mb-2">
-                                <form action="" method="get" className="dropdown-menu bg-dark" data-bs-theme="dark">
-                                    <div className="form-check text-white mx-3">
-                                        <input className="form-check-input" type="checkbox" name="on_sale" id="flexCheckDefault" value="on"/>
-                                        <input type="hidden" name="q" value="request.GET.q"/>
-                                        <label className="form-check-label" for="flexCheckDefault">
-                                            Товары по акции
-                                        </label>
-                                    </div>
-                                    <p className="text-white mx-3 mt-3">Сортировать:</p>
-                                    <div className="form-check text-white mx-3">
-                                        <input className="form-check-input" type="radio" name="order_by" id="flexRadioDefault1" value="default" checked/>
-                                        <label className="form-check-label" for="flexRadioDefault1">
-                                            По умолчанию
-                                        </label>
-                                    </div>
-                                    <div className="form-check text-white mx-3">
-                                        <input className="form-check-input" type="radio" name="order_by" id="flexRadioDefault2" value="price"/>
-                                        <label className="form-check-label" for="flexRadioDefault2">
-                                            От дешевых к дорогим
-                                        </label>
-                                    </div>
-                                    <div className="form-check text-white mx-3">
-                                        <input className="form-check-input" type="radio" name="order_by" id="flexRadioDefault3" value="-price"/>
-                                        <label className="form-check-label" for="flexRadioDefault3">
-                                            От дорогих к дешевым
-                                        </label>
-                                    </div>
-                                    <button type="submit" className="btn btn-primary mx-3 mt-3">Применить</button>
-                                </form>
-                            </div>
                             {/* Карта товара */}
                             <div className="col-lg-4 col-md-6 p-4">
                                 <div className="card border-primary rounded custom-shadow">
