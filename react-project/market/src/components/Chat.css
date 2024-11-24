@@ -87,8 +87,7 @@
   padding: 5px;
   border-radius: 10px;
   border: none;
-  padding-right: 40px;
-  background-image: url("./chatIcons/StickerIcon.svg");
+  padding-right: 0px;
   background-repeat: no-repeat;
   background-position: right 10px center;
   background-size: 20px 20px;
@@ -97,9 +96,9 @@
 .chat-window .chat-input .send-button {
   background: none;
   border: none;
-  font-size: 16px;
+  font-size: 15px;
   cursor: pointer;
-  margin-left: 8px;
+  margin-left: 3px;
 }
 .chat-window .chat-input .send-button img {
   width: 20px;
@@ -127,4 +126,74 @@
     transform: translateY(100%);
     opacity: 0;
   }
+}
+.chat-body {
+  flex: 1;
+  padding: 10px;
+  background-color: #d3d3d3;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-bubble {
+  background-color: #e1f5fe;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 5px 0;
+  max-width: 70%;
+  word-wrap: break-word;
+  white-space: normal;
+  overflow-wrap: break-word;
+  display: inline-block;
+}
+
+.message-bubble.sent {
+  align-self: flex-end;
+  background-color: #d1e7dd;
+}
+
+.message-bubble.received {
+  align-self: flex-start;
+}
+
+.timestamp {
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 5px;
+  display: block;
+  text-align: right;
+}
+
+.emoji-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.emoji-picker {
+  position: absolute;
+  bottom: 60px;
+  right: 50px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 30px);
+  gap: 5px;
+  z-index: 10;
+}
+
+.emoji {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px;
+}
+.emoji:hover {
+  background-color: #f0f0f0;
+  border-radius: 5px;
 }/*# sourceMappingURL=Chat.css.map */
