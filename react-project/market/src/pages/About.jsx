@@ -16,7 +16,7 @@ function About() {
                 <div className="d-flex justify-content-center flex-wrap">
                   {["благодать.jpg", "лев.jpg", "ра.jpg", "лёха.jpg"].map((img, index) => (
                     <div className="p-4" key={index}>
-                      <a className="card-body">
+                      <a className="card-div">
                         <img src={`../deps/images/developers/${img}`} className="card-img" alt="Text" />
                         <h5 className="card-title text-center">{["Артём", "Лев", "Алина", "Алексей"][index]}</h5>
                       </a>

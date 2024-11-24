@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+//import React from 'react';
 import About from './pages/About';
 import Cart from './pages/Cart';
 import Catalog from './pages/Catalog';
@@ -12,8 +13,17 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Chat from './components/Chat'; 
+import { logEvent } from './utils/logger';
 
-function App() {
+
+const App = () => {
+  useEffect(() => {
+      logEvent('info', 'React app mounted');
+  }, []);
+
+  const handleClick = () => {
+      logEvent('warning', 'Button clicked', { buttonId: 'myButton' });
+  };
   return (
     <div>
       <Header />
@@ -34,6 +44,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;

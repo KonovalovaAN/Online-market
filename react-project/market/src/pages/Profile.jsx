@@ -5,8 +5,8 @@ function Profile() {
     document.title = "Профиль"; 
   }, []);
   return (
-    <div>
-      <body>
+
+      <div>
     <section>
         <div class="container">
             {/* Каталог и корзина с фиксированным расположением на странице */}
@@ -102,7 +102,7 @@ function Profile() {
                                                                             data-cart-id="" data-cart-change-url="">-</button>
                                                                     </span>
                                                                     <input type="text" class="form-control number" value="1"
-                                                                        readonly/>
+                                                                        readOnly/>
                                                                     <span class="input-group-btn">
                                                                         <button type="button" class="btn btn-dark btn-sm increment"
                                                                             data-cart-id="" data-cart-change-url="">+</button>
@@ -137,7 +137,7 @@ function Profile() {
                                         <h3 class="text-center mb-4">Мои заказы</h3>
                                                 <div class="accordion-item">
                                                     <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
-                                                        <div class="accordion-body">
+                                                        <div class="accordion-div">
                                                             <table class="table table-dark table-hover">
                                                                 <thead>
                                                                     <tr>
@@ -162,8 +162,7 @@ function Profile() {
                 </div>
         </section>
         <div style={{ padding: '35px', borderRadius: '15px' }}></div>
-      </body>
-    </div>
+      </div>
   )
 }
 

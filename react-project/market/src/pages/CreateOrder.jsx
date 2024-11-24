@@ -5,8 +5,7 @@ function CreateOrder() {
     document.title = "Оформление заказа"; 
   }, []);
   return (
-    <div>
-        <body>
+        <div>
             {/* <header>
                 <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
                     <div className="container">
@@ -109,7 +108,7 @@ function CreateOrder() {
                                                                         data-cart-id="" data-cart-change-url="">-</button>
                                                                 </span>
                                                                 <input type="text" className="form-control number" value="1"
-                                                                    readonly/>
+                                                                    readOnly/>
                                                                 <span className="input-group-btn">
                                                                     <button type="button" className="btn btn-dark btn-sm increment"
                                                                         data-cart-id="" data-cart-change-url="">+</button>
@@ -140,7 +139,7 @@ function CreateOrder() {
                                 <div className="container">
                                     <h3 className="text-center">Детали заказа</h3>
                                     <div className="card mb-3">
-                                        <div className="card-body">
+                                        <div className="card-div">
                                             <form>
                                                 <div className="row">
                                                     <div className="col-md-6 mb-3">
@@ -204,8 +203,7 @@ function CreateOrder() {
                 </div>
             </section>
             <div style={{ padding: '35px', borderRadius: '15px' }}></div>
-          </body>
-    </div>
+          </div>
   )
 }
 

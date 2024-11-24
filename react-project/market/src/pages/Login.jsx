@@ -4,9 +4,8 @@ function Login() {
   useEffect(() => {
     document.title = "Войти"; 
   }, []);
-  return (
-    <div>  
-      <body>
+  return (  
+      <div>
           <section>
               <div className="container">
                   {/* Каталог и корзина с фиксированным расположением на странице */}
@@ -36,7 +35,7 @@ function Login() {
                           </button>
                       </div>
                      {/* Разметка модального окна корзины */}
-                     <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                     <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel"
                             aria-hidden="true">
                             <div className="modal-dialog modal-dialog-scrollable">
                                 <div className="modal-content">
@@ -44,7 +43,7 @@ function Login() {
                                         <button type="button" className="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
-                                    <div className="modal-body">
+                                    <div className="modal-div">
                                         <h3 className="text-center mb-4">Корзина</h3>
                                         <div className="container" id="cart-items-container">
                                             {/* Разметка корзины */}
@@ -61,7 +60,7 @@ function Login() {
                                                                         <button type="button" className="btn btn-dark btn-sm decrement"
                                                                             data-cart-id="" data-cart-change-url="">-</button>
                                                                     </span>
-                                                                    <input type="text" className="form-control number" value="1" readonly/>
+                                                                    <input type="text" className="form-control number" value="1" readOnly/>
                                                                     <span className="input-group-btn">
                                                                         <button type="button" className="btn btn-dark btn-sm increment"
                                                                             data-cart-id="" data-cart-change-url="">+</button>
@@ -148,8 +147,7 @@ function Login() {
                     </div>
                 </div>
             </section>
-        </body>
-    </div>
+        </div>
   )
 }
 

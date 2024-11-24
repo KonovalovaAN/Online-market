@@ -2,8 +2,7 @@ import React from 'react'
 
 function Index() {
   return (
-    <div>
-        <body>
+        <div>
             <section>
                 <div className="container">
                     {/* Каталог и корзина с фиксированным расположением на странице */}
@@ -33,7 +32,7 @@ function Index() {
                         </div>
                         
                         {/* Разметка модального окна корзины */}
-                        <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel"
                             aria-hidden="true">
                             <div className="modal-dialog modal-dialog-scrollable">
                                 <div className="modal-content">
@@ -41,7 +40,7 @@ function Index() {
                                         <button type="button" className="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
-                                    <div className="modal-body">
+                                    <div className="modal-div">
                                         <h3 className="text-center mb-4">Корзина</h3>
                                         <div className="container" id="cart-items-container">
                                             {/* Разметка корзины */}
@@ -58,7 +57,7 @@ function Index() {
                                                                         <button type="button" className="btn btn-dark btn-sm decrement"
                                                                             data-cart-id="" data-cart-change-url="">-</button>
                                                                     </span>
-                                                                    <input type="text" className="form-control number" value="1" readonly/>
+                                                                    <input type="text" className="form-control number" value="1" readOnly/>
                                                                     <span className="input-group-btn">
                                                                         <button type="button" className="btn btn-dark btn-sm increment"
                                                                             data-cart-id="" data-cart-change-url="">+</button>
@@ -118,7 +117,7 @@ function Index() {
                                         <a href="/catalog" className="text-decoration-none">
                                             <div className="card border-primary rounded custom-shadow card-custom"> {/* Используем новый класс здесь */}
                                                 <img src="../deps/images/смартфоны.jpg" className="card-img" alt="Смартфоны"/>
-                                                <div className="card-body">
+                                                <div className="card-div">
                                                     <h5 className="card-title text-center">Смартфоны</h5>
                                                 </div>
                                             </div>
@@ -129,7 +128,7 @@ function Index() {
                                         <a href="/catalog" className="text-decoration-none">
                                             <div className="card border-primary rounded custom-shadow card-custom">
                                                 <img src="../deps/images/ноутбуки.jpg" className="card-img" alt="Ноутбуки"/>
-                                                <div className="card-body">
+                                                <div className="card-div">
                                                     <h5 className="card-title text-center">Ноутбуки</h5>
                                                 </div>
                                             </div>
@@ -140,7 +139,7 @@ function Index() {
                                         <a href="/catalog" className="text-decoration-none">
                                             <div className="card border-primary rounded custom-shadow card-custom">
                                                 <img src="../deps/images/планшеты.jpg" className="card-img" alt="Планшеты"/>
-                                                <div className="card-body">
+                                                <div className="card-div">
                                                     <h5 className="card-title text-center">Планшеты</h5>
                                                 </div>
                                             </div>
@@ -151,7 +150,7 @@ function Index() {
                                         <a href="/catalog" className="text-decoration-none">
                                             <div className="card border-primary rounded custom-shadow card-custom">
                                                 <img src="../deps/images/компьютеры.jpg" className="card-img" alt="Компьютеры"/>
-                                                <div className="card-body">
+                                                <div className="card-div">
                                                     <h5 className="card-title text-center">Компьютеры</h5>
                                                 </div>
                                             </div>
@@ -164,8 +163,7 @@ function Index() {
                 </section>
                 
             <div style={{ padding: '35px', borderRadius: '15px' }}></div>
-        </body>
-    </div>
+        </div>
   )
 }
 

@@ -60,7 +60,7 @@
   height: 20px;
   cursor: pointer;
 }
-.chat-window .chat-body {
+.chat-window .chat-div {
   flex: 1;
   padding: 10px;
   background-color: #d3d3d3;

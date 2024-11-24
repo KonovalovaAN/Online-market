@@ -5,8 +5,7 @@ function Catalog() {
     document.title = "Каталог"; 
   }, []);
   return (
-    <div>
-      <body>
+      <div>
         <section>
             <div className="container">
                 {/* Каталог и корзина с фиксированным расположением на странице */}
@@ -36,7 +35,7 @@ function Catalog() {
                         </button>
                     </div>
                     {/* Разметка модального окна корзины */}
-                    <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel"
                         aria-hidden="true">
                         <div className="modal-dialog modal-dialog-scrollable">
                             <div className="modal-content">
@@ -44,7 +43,7 @@ function Catalog() {
                                     <button type="button" className="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
-                                <div className="modal-body">
+                                <div className="modal-div">
                                     <h3 className="text-center mb-4">Корзина</h3>
                                     <div className="container" id="cart-items-container">
                                         {/* Разметка корзины */}
@@ -62,7 +61,7 @@ function Catalog() {
                                                                         data-cart-id="" data-cart-change-url="">-</button>
                                                                 </span>
                                                                 <input type="text" className="form-control number" value="1"
-                                                                    readonly/>
+                                                                    readOnly/>
                                                                 <span className="input-group-btn">
                                                                     <button type="button" className="btn btn-dark btn-sm increment"
                                                                         data-cart-id="" data-cart-change-url="">+</button>
@@ -142,7 +141,7 @@ function Catalog() {
                             <div className="col-lg-4 col-md-6 p-4">
                                 <div className="card border-primary rounded custom-shadow">
                                     <img src="../deps/images/goods/tablet3.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-body">
+                                    <div className="card-div">
                                         <a href="/product">
                                             <p className="card-title">Планшет Teclast P30T 4GB/128GB (серый)</p>
                                         </a>
@@ -162,7 +161,7 @@ function Catalog() {
                             <div className="col-lg-4 col-md-6 p-4">
                                 <div className="card border-primary rounded custom-shadow">
                                     <img src="../deps/images/goods/tablet2.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-body">
+                                    <div className="card-div">
                                         <a href="#">
                                             <p className="card-title">Планшет Huawei MatePad SE 11 Gray</p>
                                         </a>
@@ -182,7 +181,7 @@ function Catalog() {
                             <div className="col-lg-4 col-md-6 p-4">
                                 <div className="card border-primary rounded custom-shadow">
                                     <img src="../deps/images/goods/laptop3.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-body">
+                                    <div className="card-div">
                                         <a href="#">
                                             <p className="card-title">Ноутбук H-Book by Horizont 15 IPK1</p>
                                         </a>
@@ -202,7 +201,7 @@ function Catalog() {
                             <div className="col-lg-4 col-md-6 p-4">
                                 <div className="card border-primary rounded custom-shadow">
                                     <img src="../deps/images/goods/laptop2.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-body">
+                                    <div className="card-div">
                                         <a href="#">
                                             <p className="card-title">Игровой ноутбук MSI Cyborg 15 A13VF-1225XBY</p>
                                         </a>
@@ -222,7 +221,7 @@ function Catalog() {
                             <div className="col-lg-4 col-md-6 p-4">
                                 <div className="card border-primary rounded custom-shadow">
                                     <img src="../deps/images/goods/pc3.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-body">
+                                    <div className="card-div">
                                         <a href="https://www.youtube.com/watch?v=qFILPlp5QKo&ab_channel=MORGENSHTERNFAMILY">
                                             <p className="card-title">Игровой компьютер HAFF Gaming Mirana 1834ipd</p>
                                         </a>
@@ -242,7 +241,7 @@ function Catalog() {
                             <div className="col-lg-4 col-md-6 p-4">
                                 <div className="card border-primary rounded custom-shadow">
                                     <img src="../deps/images/goods/pc2.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-body">
+                                    <div className="card-div">
                                         <a href="#">
                                             <p className="card-title">Игровой компьютер Thunderobot JT00EP00QRU</p>
                                         </a>
@@ -262,7 +261,7 @@ function Catalog() {
                             <div className="col-lg-4 col-md-6 p-4">
                                 <div className="card border-primary rounded custom-shadow">
                                     <img src="../deps/images/goods/pc1.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-body">
+                                    <div className="card-div">
                                         <a href="#">
                                             <p className="card-title">Компьютер JET Gamer 5i9400FD16SD48X105TL2W5</p>
                                         </a>
@@ -282,7 +281,7 @@ function Catalog() {
                             <div className="col-lg-4 col-md-6 p-4">
                                 <div className="card border-primary rounded custom-shadow">
                                     <img src="../deps/images/goods/tablet1.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-body">
+                                    <div className="card-div">
                                         <a href="#">
                                             <p className="card-title">Планшет Xiaomi Redmi Pad SE 6GB/128GB RU (серый)</p>
                                         </a>
@@ -302,7 +301,7 @@ function Catalog() {
                             <div className="col-lg-4 col-md-6 p-4">
                                 <div className="card border-primary rounded custom-shadow">
                                     <img src="../deps/images/goods/laptop1.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-body">
+                                    <div className="card-div">
                                         <a href="#">
                                             <p className="card-title">Игровой ноутбук ASUS TUF Gaming A15 FA506NCR-HN044</p>
                                         </a>
@@ -322,7 +321,7 @@ function Catalog() {
                             <div className="col-lg-4 col-md-6 p-4">
                                 <div className="card border-primary rounded custom-shadow">
                                     <img src="../deps/images/goods/phone3.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-body">
+                                    <div className="card-div">
                                         <a href="#">
                                             <p className="card-title">Смартфон Huawei Pura 70 Pro 12GB/512GB (HBN-LX9) White</p>
                                         </a>
@@ -342,7 +341,7 @@ function Catalog() {
                             <div className="col-lg-4 col-md-6 p-4">
                                 <div className="card border-primary rounded custom-shadow">
                                     <img src="../deps/images/goods/phone2.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-body">
+                                    <div className="card-div">
                                         <a href="#">
                                             <p className="card-title">Смартфон Samsung Galaxy S24 FE 256GB серый</p>
                                         </a>
@@ -362,7 +361,7 @@ function Catalog() {
                             <div className="col-lg-4 col-md-6 p-4">
                                 <div className="card border-primary rounded custom-shadow">
                                     <img src="../deps/images/goods/phone1.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-body">
+                                    <div className="card-div">
                                         <a href="#">
                                             <p className="card-title">Смартфон Xiaomi 14T 12GB/256GB Titan Black RU</p>
                                         </a>
@@ -401,8 +400,7 @@ function Catalog() {
                 </div>
             </div>
         </section>
-      </body>
-    </div>
+      </div>
   )
 }
 

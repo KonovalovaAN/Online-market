@@ -5,8 +5,7 @@ function Product() {
     document.title = "Страница продукта"; 
   }, []);
   return (
-    <div>
-        <body>
+        <div>
           <section>
               <div className="container">
                   {/* Каталог и корзина с фиксированным расположением на странице */}
@@ -30,8 +29,7 @@ function Product() {
                   </div>
               </div>
           </section>
-      </body>
-    </div>
+      </div>
   )
 }
 

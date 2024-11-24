@@ -5,8 +5,8 @@ function Cart() {
     document.title = "Корзина"; 
   }, []);
   return (
+    
     <div>
-    <body>
       <section>
           <div class="container">
               {/* Каталог и корзина с фиксированным расположением на странице */}
@@ -58,7 +58,7 @@ function Cart() {
                                                                           data-cart-id="" data-cart-change-url="">-</button>
                                                                   </span>
                                                                   <input type="text" class="form-control number" value="1"
-                                                                      readonly/>
+                                                                      readOnly/>
                                                                   <span class="input-group-btn">
                                                                       <button type="button" class="btn btn-dark btn-sm increment"
                                                                           data-cart-id="" data-cart-change-url="">+</button>
@@ -95,8 +95,7 @@ function Cart() {
               </div>
           </div>
        </section>
-      </body>
-    </div>
+      </div>
   )
 }
 

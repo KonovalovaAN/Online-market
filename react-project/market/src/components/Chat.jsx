@@ -40,7 +40,7 @@ const Chat = () => {
             Напишите ваше сообщение
             <img src={closeIcon} alt="Close chat" className="icon" onClick={toggleChat} />
           </div>
-          <div className="chat-body">
+          <div className="chat-div">
             {/* Messages will go here */}
           </div>
           <div className="chat-input">
