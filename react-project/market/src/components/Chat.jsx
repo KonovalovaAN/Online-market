@@ -73,8 +73,6 @@ const Chat = () => {
             Напишите ваше сообщение
             <img src={closeIcon} alt="Close chat" className="icon" onClick={toggleChat} />
           </div>
-          <div className="chat-div">
-            {/* Messages will go here */}
           <div className="chat-body">
             {messages.map((msg, index) => (
               <div
