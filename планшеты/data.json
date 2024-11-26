@@ -1,0 +1,902 @@
+[
+    {
+        "image": "Планшет_Huawei_MatePad_SE_11_Wi-Fi_(AGS6-W09)_6GB_.jpg",
+        "name": "Планшет Huawei MatePad SE 11 Wi-Fi (AGS6-W09) 6GB/128GB Nebula Gray",
+        "description": "HiSilicon Kirin 710A , 8 -ядерный, 2.2 ГГц; ОЗУ 6 ГБ , 128 ГБ; 11 \" 1920x1200 пикселей, IPS; HarmonyOS 2.0; 7700 мАч",
+        "price": "499.00"
+    },
+    {
+        "image": "Планшет_Huawei_MatePad_11.5_Wi-Fi_8GB_128GB_(BTK-W.jpg",
+        "name": "Планшет Huawei MatePad 11.5 Wi-Fi 8GB/128GB (BTK-W09) серый + клавиатура",
+        "description": "Qualcomm Snapdragon 7 Gen1 , 8 -ядерный, 2.4 ГГц; ОЗУ 8 ГБ , 128 ГБ; 11.5 \" 2200х1440 пикселей, IPS; HarmonyOS 3.1; 7700 мАч",
+        "price": "899.00"
+    },
+    {
+        "image": "Планшет_Xiaomi_Redmi_Pad_SE_6GB_128GB_RU_(серый).jpg",
+        "name": "Планшет Xiaomi Redmi Pad SE 6GB/128GB RU (серый)",
+        "description": "Qualcomm Snapdragon 680 , 8 -ядерный, 2.4 ГГц; ОЗУ 6 ГБ , 128 ГБ; 11 \" 1920x1200 пикселей, IPS; Android 13; 8000 мАч",
+        "price": "699.00"
+    },
+    {
+        "image": "Планшет_TCL_NXTPAPER_14_WiFi_9491G_8GB_256GB_(gray.jpg",
+        "name": "Планшет TCL NXTPAPER 14 WiFi 9491G 8GB/256GB (gray)",
+        "description": "MediaTek Helio G99 , 8 -ядерный, 2.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 14.3 \" 2400x1600 пикселей, IPS; Android 14; 10000 мАч",
+        "price": "1449.00"
+    },
+    {
+        "image": "Планшет_Honor_Pad_9_(HEY2-W09)_Wi-Fi_8GB_256GB_(ко.jpg",
+        "name": "Планшет Honor Pad 9 (HEY2-W09) Wi-Fi 8GB/256GB (космический серый)",
+        "description": "Qualcomm Snapdragon 6 Gen1 , 8 -ядерный, 2.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 12.1 \" 2560x1600 пикселей, IPS; Android 13; 8300 мАч",
+        "price": "999.00"
+    },
+    {
+        "image": "Планшет_Huawei_MatePad_11.5_S_PaperMatte_Wi-Fi_(TG.jpg",
+        "name": "Планшет Huawei MatePad 11.5 S PaperMatte Wi-Fi (TGR-W09) 8GB/256GB Violet с клавиатурой",
+        "description": "HiSilicon Kirin 9000WL , 8 -ядерный, 2.49 ГГц; ОЗУ 8 ГБ , 256 ГБ; 11.5 \" 2800x1840 пикселей, IPS; HarmonyOS 4.2; 8800 мАч",
+        "price": "1499.00"
+    },
+    {
+        "image": "Планшет_Xiaomi_Redmi_Pad_SE_8.7_4GB_128GB_LTE_Grap.jpg",
+        "name": "Планшет Xiaomi Redmi Pad SE 8.7 4GB/128GB LTE Graphite Gray RU",
+        "description": "MediaTek Helio G85 , 8 -ядерный, 2.0 ГГц; ОЗУ 4 ГБ , 128 ГБ; 8.7 \" 1340x800 пикселей, IPS; Android 14 (HyperOS); 4G LTE; 6650 мАч",
+        "price": "499.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_A9_Wi-Fi_128GB_(серый).jpg",
+        "name": "Планшет Samsung Galaxy Tab A9 Wi-Fi 128GB (серый)",
+        "description": "MediaTek Helio G99 , 8 -ядерный, 2.2 ГГц; ОЗУ 8 ГБ , 128 ГБ; 8.7 \" 1340x800 пикселей, TFT; Android 13; 5100 мАч",
+        "price": "639.00"
+    },
+    {
+        "image": "Планшет_Xiaomi_Redmi_Pad_Pro_6GB_128GB_Graphite_Gr.jpg",
+        "name": "Планшет Xiaomi Redmi Pad Pro 6GB/128GB Graphite Gray RU",
+        "description": "Qualcomm Snapdragon 7s Gen2 , 8 -ядерный, 2.4 ГГц; ОЗУ 6 ГБ , 128 ГБ; 12.1 \" 2560x1600 пикселей, IPS; Android 14 (HyperOS); 10000 мАч",
+        "price": "999.00"
+    },
+    {
+        "image": "Детский_планшет_Topdevice_Kids_Tablet_K8_2GB_32GB_.jpg",
+        "name": "Детский планшет Topdevice Kids Tablet K8 2GB/32GB (оранжевый)",
+        "description": "Rockchip RK3566 , 4 -ядерный, 1.8 ГГц; ОЗУ 2 ГБ , 32 ГБ; 8 \" 1280x800 пикселей, IPS; Android 11; 4000 мАч",
+        "price": "222.00"
+    },
+    {
+        "image": "Планшет_POCO_Pad_8GB_256GB_Grey_EU.jpg",
+        "name": "Планшет POCO Pad 8GB/256GB Grey EU",
+        "description": "Qualcomm Snapdragon 7s Gen2 , 8 -ядерный, 2.4 ГГц; ОЗУ 8 ГБ , 256 ГБ; 12.1 \" 2560x1600 пикселей, IPS; Android 14 (HyperOS); 10000 мАч",
+        "price": "1099.00"
+    },
+    {
+        "image": "Планшет_Honor_Pad_9_(HEY2-W09)_Wi-Fi_8GB_128GB_(ко.jpg",
+        "name": "Планшет Honor Pad 9 (HEY2-W09) Wi-Fi 8GB/128GB (космический серый)",
+        "description": "Qualcomm Snapdragon 6 Gen1 , 8 -ядерный, 2.2 ГГц; ОЗУ 8 ГБ , 128 ГБ; 12.1 \" 2560x1600 пикселей, IPS; Android 13; 8300 мАч",
+        "price": "899.00"
+    },
+    {
+        "image": "Планшет_Huawei_MatePad_Pro_12.2_PaperMatte_Wi-Fi_(.jpg",
+        "name": "Планшет Huawei MatePad Pro 12.2 PaperMatte Wi-Fi (Miro-W09) 12GB/512GB Premium Gold с клавиатурой",
+        "description": "HiSilicon Kirin 9000S , 8 -ядерный, 2.62 ГГц; ОЗУ 12 ГБ , 512 ГБ; 12.2 \" 2800x1840 пикселей, OLED; HarmonyOS 4.2; 10100 мАч",
+        "price": "3199.00"
+    },
+    {
+        "image": "Планшет_Apple_iPad_Air_11_А2902_Wi-Fi_128GB_(MUWC3.jpg",
+        "name": "Планшет Apple iPad Air 11 А2902 Wi-Fi 128GB (MUWC3J/A_KIT) Space Gray + Адаптер питания",
+        "description": "Apple M2 , 8 -ядерный, 2.99 ГГц; ОЗУ 8 ГБ , 128 ГБ; 11 \" 2360x1640 пикселей, IPS; iPadOS 17",
+        "price": "2599.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_A9+_Wi-Fi_64GB_(темно-с.jpg",
+        "name": "Планшет Samsung Galaxy Tab A9+ Wi-Fi 64GB (темно-синий)",
+        "description": "Qualcomm Snapdragon 695 , 8 -ядерный, 2.2 ГГц; ОЗУ 4 ГБ , 64 ГБ; 11 \" 1920x1200 пикселей, TFT; Android 13; 7040 мАч",
+        "price": "599.00"
+    },
+    {
+        "image": "Планшет_Huawei_MatePad_11.5_S_Wi-Fi_(TGR-W09)_8GB_.jpg",
+        "name": "Планшет Huawei MatePad 11.5 S Wi-Fi (TGR-W09) 8GB/256GB Silver Frost с клавиатурой",
+        "description": "HiSilicon Kirin 9000WL , 8 -ядерный, 2.49 ГГц; ОЗУ 8 ГБ , 256 ГБ; 11.5 \" 2800x1840 пикселей, IPS; HarmonyOS 4.2; 8800 мАч",
+        "price": "1299.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_A9+_Wi-Fi_128GB_(темно-.jpg",
+        "name": "Планшет Samsung Galaxy Tab A9+ Wi-Fi 128GB (темно-синий)",
+        "description": "Qualcomm Snapdragon 695 , 8 -ядерный, 2.2 ГГц; ОЗУ 8 ГБ , 128 ГБ; 11 \" 1920x1200 пикселей, TFT; Android 13; 7040 мАч",
+        "price": "749.00"
+    },
+    {
+        "image": "Планшет_Honor_Pad_X9_(ELN-W09)_4GB_128GB_Space_Gra.jpg",
+        "name": "Планшет Honor Pad X9 (ELN-W09) 4GB/128GB Space Gray",
+        "description": "Qualcomm Snapdragon 685 , 8 -ядерный, 2.8 ГГц; ОЗУ 4 ГБ , 128 ГБ; 11.5 \" 2000х1200 пикселей, IPS; Android 13 (MagicOS 7.1); 7250 мАч",
+        "price": "699.00"
+    },
+    {
+        "image": "Планшет_Honor_Pad_X8a_(NDL-W09)_4GB_64GB_(серый).jpg",
+        "name": "Планшет Honor Pad X8a (NDL-W09) 4GB/64GB (серый)",
+        "description": "Qualcomm Snapdragon 680 , 8 -ядерный, 2.4 ГГц; ОЗУ 4 ГБ , 64 ГБ; 11 \" 1920x1200 пикселей, IPS; Android 14; 8300 мАч",
+        "price": "599.00"
+    },
+    {
+        "image": "Планшет_Huawei_MatePad_11.5_S_PaperMatte_Wi-Fi_(TG.jpg",
+        "name": "Планшет Huawei MatePad 11.5 S PaperMatte Wi-Fi (TGR-W09) 8GB/256GB Space Gray с клавиатурой",
+        "description": "HiSilicon Kirin 9000WL , 8 -ядерный, 2.49 ГГц; ОЗУ 8 ГБ , 256 ГБ; 11.5 \" 2800x1840 пикселей, IPS; HarmonyOS 4.2; 8800 мАч",
+        "price": "1499.00"
+    },
+    {
+        "image": "Планшет_Huawei_MatePad_SE_11_LTE_(AGS6-L09)_8GB_12.jpg",
+        "name": "Планшет Huawei MatePad SE 11 LTE (AGS6-L09) 8GB/128GB Nebula Gray",
+        "description": "HiSilicon Kirin 710A , 8 -ядерный, 2.2 ГГц; ОЗУ 8 ГБ , 128 ГБ; 11 \" 1920x1200 пикселей, IPS; HarmonyOS 2.0; 4G LTE; 7700 мАч",
+        "price": "649.00"
+    },
+    {
+        "image": "Планшет_Teclast_M50_6GB_128GB_(голубой).jpg",
+        "name": "Планшет Teclast M50 6GB/128GB (голубой)",
+        "description": "Unisoc Tiger T606 , 8 -ядерный, 1.6 ГГц; ОЗУ 6 ГБ , 128 ГБ; 10.1 \" 1280x800 пикселей, IPS; Android 13; 4G LTE; 6000 мАч",
+        "price": "439.00"
+    },
+    {
+        "image": "Планшет_Xiaomi_Pad_6_6GB_128GB_(шампань).jpg",
+        "name": "Планшет Xiaomi Pad 6 6GB/128GB (шампань)",
+        "description": "Qualcomm Snapdragon 870 , 8 -ядерный, 3.2 ГГц; ОЗУ 6 ГБ , 128 ГБ; 11 \" 2880х1800 пикселей, IPS; Android 13  (MIUI 14); 8840 мАч",
+        "price": "1414.00"
+    },
+    {
+        "image": "Планшет_Xiaomi_Redmi_Pad_SE_8GB_256GB_Graphite_Gra.jpg",
+        "name": "Планшет Xiaomi Redmi Pad SE 8GB/256GB Graphite Gray EU",
+        "description": "Qualcomm Snapdragon 680 , 8 -ядерный, 2.4 ГГц; ОЗУ 8 ГБ , 256 ГБ; 11 \" 1920x1200 пикселей, IPS; Android 13; 8000 мАч",
+        "price": "829.00"
+    },
+    {
+        "image": "Планшет_SAMSUNG_Galaxy_Tab_S9_FE_Wi-Fi_SM-X510_6GB.jpg",
+        "name": "Планшет SAMSUNG Galaxy Tab S9 FE Wi-Fi SM-X510 6GB/128GB (графит)",
+        "description": "Exynos 1380 , 8 -ядерный, 2.4 ГГц; ОЗУ 6 ГБ , 128 ГБ; 10.9 \" 2304x1440 пикселей, IPS; Android 13; 8000 мАч",
+        "price": "1429.00"
+    },
+    {
+        "image": "Планшет_Xiaomi_Redmi_Pad_Pro_8GB_256GB__Graphite_G.jpg",
+        "name": "Планшет Xiaomi Redmi Pad Pro 8GB/256GB  Graphite Gray RU",
+        "description": "Qualcomm Snapdragon 7s Gen2 , 8 -ядерный, 2.4 ГГц; ОЗУ 8 ГБ , 256 ГБ; 12.1 \" 2560x1600 пикселей, IPS; Android 14 (HyperOS); 10000 мАч",
+        "price": "1279.00"
+    },
+    {
+        "image": "Планшет_Apple_iPad_Air_11_Wi-Fi_128GB_Blue_(MUWD3J.jpg",
+        "name": "Планшет Apple iPad Air 11 Wi-Fi 128GB Blue (MUWD3J/A_KIT) А2902 + Адаптер питания",
+        "description": "Apple M2 , 8 -ядерный, 2.99 ГГц; ОЗУ 8 ГБ , 128 ГБ; 11 \" 2360x1640 пикселей, IPS; iPadOS 17",
+        "price": "2599.00"
+    },
+    {
+        "image": "Планшет_Honor_Pad_X8a_(NDL-W09)_4GB_128GB_(серый).jpg",
+        "name": "Планшет Honor Pad X8a (NDL-W09) 4GB/128GB (серый)",
+        "description": "Qualcomm Snapdragon 680 , 8 -ядерный, 2.4 ГГц; ОЗУ 4 ГБ , 128 ГБ; 11 \" 1920x1200 пикселей, IPS; Android 14; 8300 мАч",
+        "price": "749.00"
+    },
+    {
+        "image": "Планшет_Huawei_MatePad_11.5_LTE_6GB_128GB_(BTK-AL0.jpg",
+        "name": "Планшет Huawei MatePad 11.5 LTE 6GB/128GB (BTK-AL09) серый",
+        "description": "Qualcomm Snapdragon 7 Gen1 , 8 -ядерный, 2.4 ГГц; ОЗУ 6 ГБ , 128 ГБ; 11.5 \" 2200х1440 пикселей, IPS; HarmonyOS 3.1; 4G LTE; 7700 мАч",
+        "price": "899.00"
+    },
+    {
+        "image": "Планшет_SAMSUNG_Galaxy_Tab_S9_FE_Wi-Fi_SM-X510_8GB.jpg",
+        "name": "Планшет SAMSUNG Galaxy Tab S9 FE Wi-Fi SM-X510 8GB/256GB (графит)",
+        "description": "Exynos 1380 , 8 -ядерный, 2.4 ГГц; ОЗУ 8 ГБ , 256 ГБ; 10.9 \" 2304x1440 пикселей, IPS; Android 13; 8000 мАч",
+        "price": "1599.00"
+    },
+    {
+        "image": "Планшет_Huawei_MatePad_11.5_S_PaperMatte_Wi-Fi_(TG.jpg",
+        "name": "Планшет Huawei MatePad 11.5 S PaperMatte Wi-Fi (TGR-W09) 8GB/256GB Space Gray",
+        "description": "HiSilicon Kirin 9000WL , 8 -ядерный, 2.49 ГГц; ОЗУ 8 ГБ , 256 ГБ; 11.5 \" 2800x1840 пикселей, IPS; HarmonyOS 4.2; 8800 мАч",
+        "price": "1199.00"
+    },
+    {
+        "image": "Планшет_Honor_Pad_9_5G_(HEY2-N09)_8GB_256GB_(косми.jpg",
+        "name": "Планшет Honor Pad 9 5G (HEY2-N09) 8GB/256GB (космический серый)",
+        "description": "Qualcomm Snapdragon 6 Gen1 , 8 -ядерный, 2.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 12.1 \" 2560x1600 пикселей, IPS; Android 13; 5G; 8300 мАч",
+        "price": "1299.00"
+    },
+    {
+        "image": "Планшет_Honor_Pad_9_(HEY2-W09)_Wi-Fi_8GB_128GB_(зе.jpg",
+        "name": "Планшет Honor Pad 9 (HEY2-W09) Wi-Fi 8GB/128GB (зеленый)",
+        "description": "Qualcomm Snapdragon 6 Gen1 , 8 -ядерный, 2.2 ГГц; ОЗУ 8 ГБ , 128 ГБ; 12.1 \" 2560x1600 пикселей, IPS; Android 13; 8300 мАч",
+        "price": "899.00"
+    },
+    {
+        "image": "Планшет_Apple_iPad_Air_11_Wi-Fi_128GB_Starlight_(M.jpg",
+        "name": "Планшет Apple iPad Air 11 Wi-Fi 128GB Starlight (MUWE3J/A_KIT) А2902 + Адаптер питания",
+        "description": "Apple M2 , 8 -ядерный, 2.99 ГГц; ОЗУ 8 ГБ , 128 ГБ; 11 \" 2360x1640 пикселей, IPS; iPadOS 17",
+        "price": "2599.00"
+    },
+    {
+        "image": "Планшет_Xiaomi_Pad_6S_Pro_12.4_12GB_512GB_(темно-с.jpg",
+        "name": "Планшет Xiaomi Pad 6S Pro 12.4 12GB/512GB (темно-серый)",
+        "description": "Qualcomm Snapdragon 8 Gen2 , 8 -ядерный, 3.2 ГГц; ОЗУ 12 ГБ , 512 ГБ; 12.4 \" 3048х2032 пикселей, IPS; Android 14; 10000 мАч",
+        "price": "2699.00"
+    },
+    {
+        "image": "Планшет_Xiaomi_Pad_6S_Pro_12.4_8GB_256GB_(темно-се.jpg",
+        "name": "Планшет Xiaomi Pad 6S Pro 12.4 8GB/256GB (темно-серый)",
+        "description": "Qualcomm Snapdragon 8 Gen2 , 8 -ядерный, 3.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 12.4 \" 3048х2032 пикселей, IPS; Android 14; 10000 мАч",
+        "price": "2349.00"
+    },
+    {
+        "image": "Планшет_Teclast_P85T_4GB_64GB_(мятный).jpg",
+        "name": "Планшет Teclast P85T 4GB/64GB (мятный)",
+        "description": "Allwinner A523 , 8 -ядерный, 1.8 ГГц; ОЗУ 4 ГБ , 64 ГБ; 8 \" 1280x800 пикселей, IPS; Android 14; 5000 мАч",
+        "price": "349.00"
+    },
+    {
+        "image": "Планшет_Huawei_MatePad_11.5_S_Wi-Fi_(TGR-W09)_8GB_.jpg",
+        "name": "Планшет Huawei MatePad 11.5 S Wi-Fi (TGR-W09) 8GB/128GB  Space Gray",
+        "description": "HiSilicon Kirin 9000WL , 8 -ядерный, 2.49 ГГц; ОЗУ 8 ГБ , 128 ГБ; 11.5 \" 2800x1840 пикселей, IPS; HarmonyOS 4.2; 8800 мАч",
+        "price": "999.00"
+    },
+    {
+        "image": "Планшет_Apple_iPad_Air_13_2024_Wi-Fi_A2898_(MV2C3L.jpg",
+        "name": "Планшет Apple iPad Air 13 2024 Wi-Fi A2898 (MV2C3LL/A_KIT) 128GB Purple + Адаптер питания",
+        "description": "Apple M2 , 8 -ядерный, 2.99 ГГц; ОЗУ 8 ГБ , 128 ГБ; 13 \" 2732x2048 пикселей, IPS; iPadOS 17",
+        "price": "3299.00"
+    },
+    {
+        "image": "Планшет_TCL_Tab_11_9466X_4GB_128GB_(темно-серый)_+.jpg",
+        "name": "Планшет TCL Tab 11 9466X 4GB/128GB (темно-серый) + чехол",
+        "description": "MediaTek Helio P60T , 8 -ядерный, 2 ГГц; ОЗУ 4 ГБ , 128 ГБ; 10.95 \" 2000х1200 пикселей, IPS; Android 13; 8000 мАч",
+        "price": "599.00"
+    },
+    {
+        "image": "Планшет_Honor_Pad_X9_LTE_(ELN-L09)_4GB_64GB_Space_.jpg",
+        "name": "Планшет Honor Pad X9 LTE (ELN-L09) 4GB/64GB Space Gray",
+        "description": "Qualcomm Snapdragon 685 , 8 -ядерный, 2.8 ГГц; ОЗУ 4 ГБ , 64 ГБ; 11.5 \" 2000х1200 пикселей, IPS; Android 13 (MagicOS 7.1); 4G LTE; 7250 мАч",
+        "price": "699.00"
+    },
+    {
+        "image": "Планшет_Apple_iPad_Air_13_2024_Wi-Fi_A2898_(MV273L.jpg",
+        "name": "Планшет Apple iPad Air 13 2024 Wi-Fi A2898 (MV273LL/A_KIT) 128GB Space Gray + Адаптер питания",
+        "description": "Apple M2 , 8 -ядерный, 2.99 ГГц; ОЗУ 8 ГБ , 128 ГБ; 13 \" 2732x2048 пикселей, IPS; iPadOS 17",
+        "price": "3299.00"
+    },
+    {
+        "image": "Планшет_Digma_CITI_1313C_4G.jpg",
+        "name": "Планшет Digma CITI 1313C 4G",
+        "description": "Spreadtrum SC9863A1 , 8 -ядерный, 1.6 ГГц; ОЗУ 3 ГБ , 32 ГБ; 10.1 \" 1280x800 пикселей, IPS; Android 13; 4G LTE; 6000 мАч",
+        "price": "299.00"
+    },
+    {
+        "image": "Планшет_Honor_Pad_9_5G_(HEY2-N09)_8GB_128GB_(косми.jpg",
+        "name": "Планшет Honor Pad 9 5G (HEY2-N09) 8GB/128GB (космический серый)",
+        "description": "Qualcomm Snapdragon 6 Gen1 , 8 -ядерный, 2.2 ГГц; ОЗУ 8 ГБ , 128 ГБ; 12.1 \" 2560x1600 пикселей, IPS; Android 13; 5G; 8300 мАч",
+        "price": "1199.00"
+    },
+    {
+        "image": "Планшет_Xiaomi_Redmi_Pad_Pro_8GB_256GB_Ocean_Blue_.jpg",
+        "name": "Планшет Xiaomi Redmi Pad Pro 8GB/256GB Ocean Blue RU",
+        "description": "Qualcomm Snapdragon 7s Gen2 , 8 -ядерный, 2.4 ГГц; ОЗУ 8 ГБ , 256 ГБ; 12.1 \" 2560x1600 пикселей, IPS; Android 14 (HyperOS); 10000 мАч",
+        "price": "1279.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_A9_Wi-Fi_128GB_(серебри.jpg",
+        "name": "Планшет Samsung Galaxy Tab A9 Wi-Fi 128GB (серебристый)",
+        "description": "MediaTek Helio G99 , 8 -ядерный, 2.2 ГГц; ОЗУ 8 ГБ , 128 ГБ; 8.7 \" 1340x800 пикселей, TFT; Android 13; 5100 мАч",
+        "price": "639.00"
+    },
+    {
+        "image": "Детский_планшет_Teclast_P85T_Kids_4GB_64GB_(голубо.jpg",
+        "name": "Детский планшет Teclast P85T Kids 4GB/64GB (голубой)",
+        "description": "Allwinner A523 , 8 -ядерный, 1.8 ГГц; ОЗУ 4 ГБ , 64 ГБ; 8 \" 1280x800 пикселей, IPS; Android 13; 5000 мАч",
+        "price": "307.00"
+    },
+    {
+        "image": "Планшет_Blackview_Tab_60_6GB_128GB_(серый).jpg",
+        "name": "Планшет Blackview Tab 60 6GB/128GB (серый)",
+        "description": "Unisoc Tiger T606 , 8 -ядерный, 1.6 ГГц; ОЗУ 6 ГБ , 128 ГБ; 8.68 \" 1340x800 пикселей, IPS; Android 13; 4G LTE; 6050 мАч",
+        "price": "462.00"
+    },
+    {
+        "image": "Планшет_Honor_MagicPad_2_ROD2-W09_12GB_256GB_Black.jpg",
+        "name": "Планшет Honor MagicPad 2 ROD2-W09 12GB/256GB Black (5301AKHW) + клавиатура и стилус",
+        "description": "Qualcomm Snapdragon 8s Gen3 , 8 -ядерный, 3 ГГц; ОЗУ 12 ГБ , 256 ГБ; 12.3 \" 3000x1920 пикселей, OLED; Android 14 (MagicOS 8.0.1); 10050 мАч",
+        "price": "2899.00"
+    },
+    {
+        "image": "Планшет_Honor_Pad_X9_LTE_(ELN-L09)_4GB_128GB_Space.jpg",
+        "name": "Планшет Honor Pad X9 LTE (ELN-L09) 4GB/128GB Space Gray",
+        "description": "Qualcomm Snapdragon 685 , 8 -ядерный, 2.8 ГГц; ОЗУ 4 ГБ , 128 ГБ; 11.5 \" 2000х1200 пикселей, IPS; Android 13 (MagicOS 7.1); 4G LTE; 7250 мАч",
+        "price": "899.00"
+    },
+    {
+        "image": "Планшет_Digma_CITI_1314C_3_32_GB_(серый).jpg",
+        "name": "Планшет Digma CITI 1314C 3/32 GB (серый)",
+        "description": "Spreadtrum SC9863A1 , 8 -ядерный, 1.6 ГГц; ОЗУ 3 ГБ , 32 ГБ; 10.1 \" 1280x800 пикселей, IPS; Android 13; 4G LTE; 6000 мАч",
+        "price": "306.00"
+    },
+    {
+        "image": "Планшет_SAMSUNG_Galaxy_Tab_S10_Ultra_WiFi_12GB_256.jpg",
+        "name": "Планшет SAMSUNG Galaxy Tab S10 Ultra WiFi 12GB/256GB (SM-X920NZSRCAU) серебристый",
+        "description": "MediaTek Dimensity 9300+ , 8 -ядерный, 3.4 ГГц; ОЗУ 12 ГБ , 256 ГБ; 14.6 \" 2960х1848 пикселей, AMOLED; Android 14 (One UI 6.1); 11200 мАч",
+        "price": "4569.00"
+    },
+    {
+        "image": "Планшет_Teclast_P50_6GB_128GB_(бирюзовый).jpg",
+        "name": "Планшет Teclast P50 6GB/128GB (бирюзовый)",
+        "description": "Unisoc Tiger T606 , 8 -ядерный, 1.6 ГГц; ОЗУ 6 ГБ , 128 ГБ; 10.95 \" 1280x800 пикселей, IPS; Android 14; 4G LTE; 8000 мАч",
+        "price": "491.00"
+    },
+    {
+        "image": "Планшет_Digma_Pro_HIT_18_8GB_128GB_(фиолетовый).jpg",
+        "name": "Планшет Digma Pro HIT 18 8GB/128GB (фиолетовый)",
+        "description": "Unisoc T616 , 8 -ядерный, 2 ГГц; ОЗУ 8 ГБ , 128 ГБ; 10.51 \" 1920x1200 пикселей, IPS; Android 13; 4G LTE; 7000 мАч",
+        "price": "495.00"
+    },
+    {
+        "image": "Планшет_Blackview_Tab_16_Pro_8GB_256GB_Blue.jpg",
+        "name": "Планшет Blackview Tab 16 Pro 8GB/256GB Blue",
+        "description": "Unisoc Tiger T616 , 8 -ядерный, 2.0 ГГц; ОЗУ 8 ГБ , 256 ГБ; 11 \" 1920x1200 пикселей, IPS; Android 14; 4G LTE; 7700 мАч",
+        "price": "712.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_S6_Lite_2024_LTE_SM-P62.jpg",
+        "name": "Планшет Samsung Galaxy Tab S6 Lite 2024 LTE SM-P625 4GB/128GB (серый)",
+        "description": "Exynos 1280 , 8 -ядерный, 2.4 ГГц; ОЗУ 4 ГБ , 128 ГБ; 10.4 \" 2000х1200 пикселей, TFT; Android 14 (One UI 6.1); 4G LTE; 7040 мАч",
+        "price": "1271.00"
+    },
+    {
+        "image": "Планшет_Digma_Pro_HIT_18_6GB_128GB_(фиолетовый).jpg",
+        "name": "Планшет Digma Pro HIT 18 6GB/128GB (фиолетовый)",
+        "description": "Unisoc T616 , 8 -ядерный, 2 ГГц; ОЗУ 6 ГБ , 128 ГБ; 10.51 \" 1920x1200 пикселей, IPS; Android 13; 4G LTE; 7000 мАч",
+        "price": "453.00"
+    },
+    {
+        "image": "Планшет_Inoi_inoiPad_64+2GB_WC-221_(T100)_Space_Gr.jpg",
+        "name": "Планшет Inoi inoiPad 64+2GB WC-221 (T100) Space Gray",
+        "description": ", 4 -ядерный, 2.0 ГГц; ОЗУ 2 ГБ , 64 ГБ; 10.1 \" 1280x800 пикселей, IPS; Android 13; 3G; 6000 мАч",
+        "price": "499.00"
+    },
+    {
+        "image": "Планшет_TCL_NXTPAPER_11_9466X_4GB_128GB_(темно-сер.jpg",
+        "name": "Планшет TCL NXTPAPER 11 9466X 4GB/128GB (темно-серый) + чехол",
+        "description": "MediaTek Helio P60T , 8 -ядерный, 2 ГГц; ОЗУ 4 ГБ , 128 ГБ; 10.95 \" 2000х1200 пикселей, IPS; Android 13; 8000 мАч",
+        "price": "699.00"
+    },
+    {
+        "image": "Планшет_Apple_iPad_Air_13_2024_Wi-Fi_A2898_(MV293L.jpg",
+        "name": "Планшет Apple iPad Air 13 2024 Wi-Fi A2898 (MV293LL/A_KIT) 128GB Starlight + Адаптер питания",
+        "description": "Apple M2 , 8 -ядерный, 2.99 ГГц; ОЗУ 8 ГБ , 128 ГБ; 13 \" 2732x2048 пикселей, IPS; iPadOS 17",
+        "price": "3299.00"
+    },
+    {
+        "image": "Планшет_Huawei_MatePad_Pro_12.2_Wi-Fi_(Miro-W09)_1.jpg",
+        "name": "Планшет Huawei MatePad Pro 12.2 Wi-Fi (Miro-W09) 12GB/256GB Black с клавиатурой",
+        "description": "HiSilicon Kirin 9000S , 8 -ядерный, 2.62 ГГц; ОЗУ 12 ГБ , 256 ГБ; 12.2 \" 2800x1840 пикселей, OLED; HarmonyOS 4.2; 10100 мАч",
+        "price": "2899.00"
+    },
+    {
+        "image": "Планшет_Xiaomi_Redmi_Pad_Pro_5G_6GB_128GB_Graphite.jpg",
+        "name": "Планшет Xiaomi Redmi Pad Pro 5G 6GB/128GB Graphite Gray RU",
+        "description": "Qualcomm Snapdragon 7s Gen2 , 8 -ядерный, 2.4 ГГц; ОЗУ 6 ГБ , 128 ГБ; 12.1 \" 2560x1600 пикселей, IPS; Android 14 (HyperOS); 5G; 10000 мАч",
+        "price": "1249.00"
+    },
+    {
+        "image": "Планшет_Xiaomi_Redmi_Pad_Pro_6GB_128GB_Mint_Green_.jpg",
+        "name": "Планшет Xiaomi Redmi Pad Pro 6GB/128GB Mint Green RU",
+        "description": "Qualcomm Snapdragon 7s Gen2 , 8 -ядерный, 2.4 ГГц; ОЗУ 6 ГБ , 128 ГБ; 12.1 \" 2560x1600 пикселей, IPS; Android 14 (HyperOS); 10000 мАч",
+        "price": "999.00"
+    },
+    {
+        "image": "Планшет_Teclast_T65MAX_8GB_256GB_(серый).jpg",
+        "name": "Планшет Teclast T65MAX 8GB/256GB (серый)",
+        "description": "MediaTek Helio G99 , 8 -ядерный, 2.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 12.95 \" 1920x1200 пикселей, IPS; Android 14; 5G; 10000 мАч",
+        "price": "869.00"
+    },
+    {
+        "image": "Планшет_Huawei_MatePad_11_Wi-Fi_(2023)_8GB_128GB_(.jpg",
+        "name": "Планшет Huawei MatePad 11 Wi-Fi (2023) 8GB/128GB (DBR-W09) графитовый черный + клавиатура",
+        "description": "Qualcomm Snapdragon 865 , 8 -ядерный, 2.84 ГГц; ОЗУ 8 ГБ , 128 ГБ; 11 \" 2560x1600 пикселей, IPS; HarmonyOS 3.1; 7250 мАч",
+        "price": "1549.00"
+    },
+    {
+        "image": "Планшет_Honor_Pad_X8a_(NDL-L09)_4GB_128GB_LTE_Spac.jpg",
+        "name": "Планшет Honor Pad X8a (NDL-L09) 4GB/128GB LTE Space Grey",
+        "description": "Qualcomm Snapdragon 680 , 8 -ядерный, 2.4 ГГц; ОЗУ 4 ГБ , 128 ГБ; 11 \" 1920x1200 пикселей, IPS; Android 14; 4G LTE; 8300 мАч",
+        "price": "799.00"
+    },
+    {
+        "image": "Планшет_Digma_Pro_HIT_18_8GB_256GB_(фиолетовый).jpg",
+        "name": "Планшет Digma Pro HIT 18 8GB/256GB (фиолетовый)",
+        "description": "Unisoc T616 , 8 -ядерный, 2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 10.51 \" 1920x1200 пикселей, IPS; Android 13; 4G LTE; 7000 мАч",
+        "price": "557.00"
+    },
+    {
+        "image": "Планшет_Oukitel_RT6_8GB_256GB_(Black).jpg",
+        "name": "Планшет Oukitel RT6 8GB/256GB (Black)",
+        "description": "MediaTek MT8788 , 8 -ядерный, 2.0 ГГц; ОЗУ 8 ГБ , 256 ГБ; 10.1 \" 1920x1200 пикселей, IPS; Android 13; 4G LTE; 20000 мАч",
+        "price": "1016.00"
+    },
+    {
+        "image": "Планшет_Doogee_U10_4GB_128GB_(серый).jpg",
+        "name": "Планшет Doogee U10 4GB/128GB (серый)",
+        "description": "Rockchip RK3562 , 4 -ядерный, 2.0 ГГц; ОЗУ 4 ГБ , 128 ГБ; 10.1 \" 1280x800 пикселей, IPS; Android 13; 5060 мАч",
+        "price": "380.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_S9_Wi-Fi_SM-X710_8GB_12.jpg",
+        "name": "Планшет Samsung Galaxy Tab S9 Wi-Fi SM-X710 8GB/128GB (серый)",
+        "description": "Qualcomm Snapdragon 8 Gen2 , 8 -ядерный, 3.2 ГГц; ОЗУ 8 ГБ , 128 ГБ; 11 \" 2560x1600 пикселей, AMOLED; Android 13; 8400 мАч",
+        "price": "2599.00"
+    },
+    {
+        "image": "Планшет_Digma_Pro_HIT_16.jpg",
+        "name": "Планшет Digma Pro HIT 16",
+        "description": "Unisoc Tiger T616 , 8 -ядерный, 2 ГГц; ОЗУ 6 ГБ , 128 ГБ; 10.4 \" 2000х1200 пикселей, IPS; Android 13; 4G LTE; 7000 мАч",
+        "price": "586.00"
+    },
+    {
+        "image": "Планшет_Apple_iPad_Air_13_2024_Wi-Fi_A2898_(MV283L.jpg",
+        "name": "Планшет Apple iPad Air 13 2024 Wi-Fi A2898 (MV283LL/A_KIT) 128GB Blue + Адаптер питания",
+        "description": "Apple M2 , 8 -ядерный, 2.99 ГГц; ОЗУ 8 ГБ , 128 ГБ; 13 \" 2732x2048 пикселей, IPS; iPadOS 17",
+        "price": "3299.00"
+    },
+    {
+        "image": "Планшет_SAMSUNG_Galaxy_Tab_S9_FE_Wi-Fi_SM-X510_6GB.jpg",
+        "name": "Планшет SAMSUNG Galaxy Tab S9 FE Wi-Fi SM-X510 6GB/128GB (мятный)",
+        "description": "Exynos 1380 , 8 -ядерный, 2.4 ГГц; ОЗУ 6 ГБ , 128 ГБ; 10.9 \" 2304x1440 пикселей, IPS; Android 13; 8000 мАч",
+        "price": "1429.00"
+    },
+    {
+        "image": "Планшет_Blackview_Mega_1_MG12_12GB_256GB_(серый).jpg",
+        "name": "Планшет Blackview Mega 1_MG12 12GB/256GB (серый)",
+        "description": "MediaTek Helio G99 , 8 -ядерный, 2.2 ГГц; ОЗУ 12 ГБ , 256 ГБ; 11.5 \" 2000х1200 пикселей, IPS; Android 13; 4G LTE; 8000 мАч",
+        "price": "1043.00"
+    },
+    {
+        "image": "Планшет_Doogee_T30_Pro_8GB_256GB_LTE_(серый).jpg",
+        "name": "Планшет Doogee T30 Pro 8GB/256GB LTE (серый)",
+        "description": "MediaTek Helio G99 , 8 -ядерный, 2.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 11 \" 2560x1600 пикселей, IPS; Android 13; 4G LTE; 8580 мАч",
+        "price": "850.00"
+    },
+    {
+        "image": "Планшет_Teclast_T50HD_(6_256_Gb)_серый.jpg",
+        "name": "Планшет Teclast T50HD (6/256 Gb) серый",
+        "description": "Unisoc Tiger T606 , 8 -ядерный, 1.6 ГГц; ОЗУ 6 ГБ , 256 ГБ; 10.95 \" 1920x1200 пикселей, IPS; Android 14; 4G LTE; 8000 мАч",
+        "price": "635.00"
+    },
+    {
+        "image": "Планшет_Blackview_Tab_16_Pro_8GB_256GB_Gray.jpg",
+        "name": "Планшет Blackview Tab 16 Pro 8GB/256GB Gray",
+        "description": "Unisoc Tiger T616 , 8 -ядерный, 2.0 ГГц; ОЗУ 8 ГБ , 256 ГБ; 11 \" 1920x1200 пикселей, IPS; Android 14; 4G LTE; 7700 мАч",
+        "price": "759.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_S6_Lite_2024_Wi-Fi_SM-P.jpg",
+        "name": "Планшет Samsung Galaxy Tab S6 Lite 2024 Wi-Fi SM-P620 4GB/128GB (мятный)",
+        "description": "Exynos 1280 , 8 -ядерный, 2.4 ГГц; ОЗУ 4 ГБ , 128 ГБ; 10.4 \" 2000х1200 пикселей, TFT; Android 14 (One UI 6.1); 7040 мАч",
+        "price": "1120.00"
+    },
+    {
+        "image": "Планшет_TECLAST_P30T_Kids_4_64_GB_(синий).jpg",
+        "name": "Планшет TECLAST P30T Kids 4/64 GB (синий)",
+        "description": "Allwinner A523 , 8 -ядерный, 1.8 ГГц; ОЗУ 4 ГБ , 64 ГБ; 10.1 \" 1280x800 пикселей, IPS; Android 14; 6000 мАч",
+        "price": "377.00"
+    },
+    {
+        "image": "Планшет_Teclast_T50_Pro_8GB_256GB_LTE_(серый).jpg",
+        "name": "Планшет Teclast T50 Pro 8GB/256GB LTE (серый)",
+        "description": "MediaTek Helio G99 , 8 -ядерный, 2.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 11 \" 2000х1200 пикселей, IPS; Android 14; 4G LTE; 8000 мАч",
+        "price": "778.00"
+    },
+    {
+        "image": "Планшет_SAMSUNG_Galaxy_Tab_S10+_WiFi_12GB_256GB_(S.jpg",
+        "name": "Планшет SAMSUNG Galaxy Tab S10+ WiFi 12GB/256GB (SM-X820NZARCAU) серый",
+        "description": "MediaTek Dimensity 9300+ , 8 -ядерный, 3.4 ГГц; ОЗУ 12 ГБ , 256 ГБ; 12.4 \" 2800x1752 пикселей, AMOLED; Android 14 (One UI 6.1); 10090 мАч",
+        "price": "3799.00"
+    },
+    {
+        "image": "Планшет_TCL_Tab_11_4G_9166G_4GB_128GB_(темно-серый.jpg",
+        "name": "Планшет TCL Tab 11 4G 9166G 4GB/128GB (темно-серый) + чехол",
+        "description": "MediaTek Helio P60T , 8 -ядерный, 2 ГГц; ОЗУ 4 ГБ , 128 ГБ; 10.95 \" 2000х1200 пикселей, IPS; Android 13; 4G LTE; 8000 мАч",
+        "price": "699.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_S6_Lite_2024_Wi-Fi_SM-P.jpg",
+        "name": "Планшет Samsung Galaxy Tab S6 Lite 2024 Wi-Fi SM-P620 4GB/64GB (серый)",
+        "description": "Exynos 1280 , 8 -ядерный, 2.4 ГГц; ОЗУ 4 ГБ , 64 ГБ; 10.4 \" 2000х1200 пикселей, TFT; Android 14 (One UI 6.1); 7040 мАч",
+        "price": "1049.00"
+    },
+    {
+        "image": "Планшет_SAMSUNG_Galaxy_Tab_S9_FE_5G_SM-X516_8GB_25.jpg",
+        "name": "Планшет SAMSUNG Galaxy Tab S9 FE 5G SM-X516 8GB/256GB (графит)",
+        "description": "Exynos 1380 , 8 -ядерный, 2.4 ГГц; ОЗУ 8 ГБ , 256 ГБ; 10.9 \" 2304x1440 пикселей, IPS; Android 13; 5G; 8000 мАч",
+        "price": "2179.00"
+    },
+    {
+        "image": "Планшет_Lenovo_Tab_P11_2nd_Gen_(TB350XU)_ZABG0021_.jpg",
+        "name": "Планшет Lenovo Tab P11 2nd Gen (TB350XU) ZABG0021 6GB/128GB LTE Grey",
+        "description": "MediaTek Helio G99 , 8 -ядерный, 2.2 ГГц; ОЗУ 6 ГБ , 128 ГБ; 11.5 \" 2000х1200 пикселей, IPS; Android 12; 4G LTE; 7500 мАч",
+        "price": "1258.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_A9+_5G_64GB_(темно-сини.jpg",
+        "name": "Планшет Samsung Galaxy Tab A9+ 5G 64GB (темно-синий)",
+        "description": "Qualcomm Snapdragon 695 , 8 -ядерный, 2.2 ГГц; ОЗУ 4 ГБ , 64 ГБ; 11 \" 1920x1200 пикселей, TFT; Android 13; 5G; 7040 мАч",
+        "price": "1049.00"
+    },
+    {
+        "image": "Планшет_Doogee_T20_Mini_4GB_128GB_LTE_(чёрный).jpg",
+        "name": "Планшет Doogee T20 Mini 4GB/128GB LTE (чёрный)",
+        "description": "Unisoc Tiger T606 , 8 -ядерный, 1.6 ГГц; ОЗУ 4 ГБ , 128 ГБ; 8.4 \" 1920x1200 пикселей, IPS; Android 13; 4G LTE; 5060 мАч",
+        "price": "404.00"
+    },
+    {
+        "image": "Планшет_Blackview_Tab_12_Pro_(серый_космос).jpg",
+        "name": "Планшет Blackview Tab 12 Pro (серый космос)",
+        "description": "Unisoc Tiger T606 , 8 -ядерный, 1.6 ГГц; ОЗУ 8 ГБ , 128 ГБ; 10.1 \" 1920x1080 пикселей, IPS; Android 12; 4G LTE; 6580 мАч",
+        "price": "599.00"
+    },
+    {
+        "image": "Планшетный_компьютер_INOI_Pad_64+2GB_Wi-Fi+4G_(Spa.jpg",
+        "name": "Планшетный компьютер INOI Pad 64+2GB Wi-Fi+4G (Space Gray)",
+        "description": ", 4 -ядерный, 2.0 ГГц; ОЗУ 2 ГБ , 64 ГБ; 10.1 \" 1280x800 пикселей, IPS; Android 13; 4G LTE; 6000 мАч",
+        "price": "599.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_S9_5G_Ultra_SM-X916_12G.jpg",
+        "name": "Планшет Samsung Galaxy Tab S9 5G Ultra SM-X916 12GB/256GB (серый)",
+        "description": "Qualcomm Snapdragon 8 Gen2 , 8 -ядерный, 3.2 ГГц; ОЗУ 12 ГБ , 256 ГБ; 14.6 \" 2960х1848 пикселей, AMOLED; Android 13; 5G; 11200 мАч",
+        "price": "4599.00"
+    },
+    {
+        "image": "Планшет_Teclast_M50Mini_6GB_128GB_(мятный).jpg",
+        "name": "Планшет Teclast M50Mini 6GB/128GB (мятный)",
+        "description": "Unisoc Tiger T606 , 8 -ядерный, 1.6 ГГц; ОЗУ 6 ГБ , 128 ГБ; 8.68 \" 1340x800 пикселей, IPS; Android 14; 4G LTE; 5000 мАч",
+        "price": "459.00"
+    },
+    {
+        "image": "Планшет_Blackview_Tab_7_3GB_32GB_(серый).jpg",
+        "name": "Планшет Blackview Tab 7 3GB/32GB (серый)",
+        "description": "Unisoc Tiger T310 , 4 -ядерный, 2 ГГц; ОЗУ 3 ГБ , 32 ГБ; 10.1 \" 1280x800 пикселей, IPS; Android 11; 4G LTE; 6580 мАч",
+        "price": "399.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_S9_Wi-Fi_SM-X710_12GB_2.jpg",
+        "name": "Планшет Samsung Galaxy Tab S9 Wi-Fi SM-X710 12GB/256GB (бежевый)",
+        "description": "Qualcomm Snapdragon 8 Gen2 , 8 -ядерный, 3.2 ГГц; ОЗУ 12 ГБ , 256 ГБ; 11 \" 2560x1600 пикселей, AMOLED; Android 13; 8400 мАч",
+        "price": "2999.00"
+    },
+    {
+        "image": "Планшет_Doogee_T30_Max_8GB_512GB_LTE_(чёрный).jpg",
+        "name": "Планшет Doogee T30 Max 8GB/512GB LTE (чёрный)",
+        "description": "MediaTek Helio G99 , 8 -ядерный, 2.2 ГГц; ОЗУ 8 ГБ , 512 ГБ; 12.4 \" 2560x1600 пикселей, IPS; Android 14; 4G LTE; 10800 мАч",
+        "price": "1300.00"
+    },
+    {
+        "image": "Детский_планшет_Huawei_Matepad_SE_11&amp;quot;_(Ag.jpg",
+        "name": "Детский планшет Huawei Matepad SE 11&amp;quot; (Agassi6-W09BE) Kids 4GB/128GB",
+        "description": "HiSilicon Kirin 710A , 8 -ядерный, 2.2 ГГц; ОЗУ 4 ГБ , 128 ГБ; 11 \" 1920x1200 пикселей, IPS; HarmonyOS 2.0; 7700 мАч",
+        "price": "818.00"
+    },
+    {
+        "image": "Планшет_Xiaomi_Redmi_Pad_Pro_5G_6GB_128GB_Mint_Gre.jpg",
+        "name": "Планшет Xiaomi Redmi Pad Pro 5G 6GB/128GB Mint Green RU",
+        "description": "Qualcomm Snapdragon 7s Gen2 , 8 -ядерный, 2.4 ГГц; ОЗУ 6 ГБ , 128 ГБ; 12.1 \" 2560x1600 пикселей, IPS; Android 14 (HyperOS); 5G; 10000 мАч",
+        "price": "1249.00"
+    },
+    {
+        "image": "Планшет_Blackview_Tab_16_(мятный_зеленый).jpg",
+        "name": "Планшет Blackview Tab 16 (мятный зеленый)",
+        "description": "Unisoc Tiger T616 , 8 -ядерный, 2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 11 \" 2000х1200 пикселей, IPS; Android 12; 4G LTE; 7680 мАч",
+        "price": "799.00"
+    },
+    {
+        "image": "Планшет_Teclast_T60_8GB_256GB_(серый).jpg",
+        "name": "Планшет Teclast T60 8GB/256GB (серый)",
+        "description": "Unisoc Tiger T616 , 8 -ядерный, 2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 11.97 \" 2000х1200 пикселей, IPS; Android 13; 4G LTE; 8000 мАч",
+        "price": "772.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_S9+_5G_SM-X816_12GB_256.jpg",
+        "name": "Планшет Samsung Galaxy Tab S9+ 5G SM-X816 12GB/256GB (бежевый)",
+        "description": "Qualcomm Snapdragon 8 Gen2 , 8 -ядерный, 3.2 ГГц; ОЗУ 12 ГБ , 256 ГБ; 12.4 \" 2800x1752 пикселей, AMOLED; Android 13; 5G; 10090 мАч",
+        "price": "3799.00"
+    },
+    {
+        "image": "Планшет_SAMSUNG_Galaxy_Tab_S9_FE_5G_SM-X516_6GB_12.jpg",
+        "name": "Планшет SAMSUNG Galaxy Tab S9 FE 5G SM-X516 6GB/128GB (мятный)",
+        "description": "Exynos 1380 , 8 -ядерный, 2.4 ГГц; ОЗУ 6 ГБ , 128 ГБ; 10.9 \" 2304x1440 пикселей, IPS; Android 13; 5G; 8000 мАч",
+        "price": "1829.00"
+    },
+    {
+        "image": "Планшет_Digma_Pro_HIT_16_8GB_256GB_(серый).jpg",
+        "name": "Планшет Digma Pro HIT 16 8GB/256GB (серый)",
+        "description": "Unisoc T606 , 8 -ядерный, 1.6 ГГц; ОЗУ 8 ГБ , 256 ГБ; 10.4 \" 2000х1200 пикселей, IPS; Android 13; 4G LTE; 7000 мАч",
+        "price": "620.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_S9_5G_SM-X716_8GB_128GB.jpg",
+        "name": "Планшет Samsung Galaxy Tab S9 5G SM-X716 8GB/128GB (серый)",
+        "description": "Qualcomm Snapdragon 8 Gen2 , 8 -ядерный, 3.2 ГГц; ОЗУ 8 ГБ , 128 ГБ; 11 \" 2560x1600 пикселей, AMOLED; Android 13; 5G; 8400 мАч",
+        "price": "3099.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_S6_Lite_2024_Wi-Fi_SM-P.jpg",
+        "name": "Планшет Samsung Galaxy Tab S6 Lite 2024 Wi-Fi SM-P620 4GB/64GB (розовый)",
+        "description": "Exynos 1280 , 8 -ядерный, 2.4 ГГц; ОЗУ 4 ГБ , 64 ГБ; 10.4 \" 2000х1200 пикселей, TFT; Android 14 (One UI 6.1); 7040 мАч",
+        "price": "1027.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_S8_Ultra_Wi-Fi_128GB_(S.jpg",
+        "name": "Планшет Samsung Galaxy Tab S8 Ultra Wi-Fi 128GB (SM-X900NZAASER) темно-серый",
+        "description": "Qualcomm Snapdragon 8 Gen1 , 8 -ядерный, 2.99 ГГц; ОЗУ 8 ГБ , 128 ГБ; 14.6 \" 2960х1848 пикселей, AMOLED; Android 12; 11200 мАч",
+        "price": "3749.00"
+    },
+    {
+        "image": "Планшет_Topdevice_A8_2GB_32GB_LTE_(черный).jpg",
+        "name": "Планшет Topdevice A8 2GB/32GB LTE (черный)",
+        "description": "Unisoc Tiger T310 , 4 -ядерный, 2 ГГц; ОЗУ 2 ГБ , 32 ГБ; 8 \" 1280x800 пикселей, IPS; Android 11; 4G LTE; 4000 мАч",
+        "price": "319.00"
+    },
+    {
+        "image": "Планшет_Blackview_Tab_60_6GB_128GB_(синий).jpg",
+        "name": "Планшет Blackview Tab 60 6GB/128GB (синий)",
+        "description": "Unisoc Tiger T606 , 8 -ядерный, 1.6 ГГц; ОЗУ 6 ГБ , 128 ГБ; 8.68 \" 1340x800 пикселей, IPS; Android 13; 4G LTE; 6050 мАч",
+        "price": "461.00"
+    },
+    {
+        "image": "Планшет_Oukitel_RT3_(черный).jpg",
+        "name": "Планшет Oukitel RT3 (черный)",
+        "description": "MediaTek Helio P22 , 8 -ядерный, 2 ГГц; ОЗУ 4 ГБ , 64 ГБ; 8 \" 1280x800 пикселей, IPS; Android 12; 4G LTE; 5150 мАч",
+        "price": "608.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_S9+_5G_SM-X816_12GB_512.jpg",
+        "name": "Планшет Samsung Galaxy Tab S9+ 5G SM-X816 12GB/512GB (бежевый)",
+        "description": "Qualcomm Snapdragon 8 Gen2 , 8 -ядерный, 3.2 ГГц; ОЗУ 12 ГБ , 512 ГБ; 12.4 \" 2800x1752 пикселей, AMOLED; Android 13; 5G; 10090 мАч",
+        "price": "4299.00"
+    },
+    {
+        "image": "Планшет_Doogee_T30SE_4GB_128GB_LTE_(серый).jpg",
+        "name": "Планшет Doogee T30SE 4GB/128GB LTE (серый)",
+        "description": "Spreadtrum T606 , 8 -ядерный, 1.6 ГГц; ОЗУ 4 ГБ , 128 ГБ; 11 \" 1920x1200 пикселей, IPS; Android 14; 4G LTE; 8580 мАч",
+        "price": "539.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_S9+_Wi-Fi_SM-X810_12GB_.jpg",
+        "name": "Планшет Samsung Galaxy Tab S9+ Wi-Fi SM-X810 12GB/512GB (серый)",
+        "description": "Qualcomm Snapdragon 8 Gen2 , 8 -ядерный, 3.2 ГГц; ОЗУ 12 ГБ , 512 ГБ; 12.4 \" 2800x1752 пикселей, AMOLED; Android 13; 10090 мАч",
+        "price": "3699.00"
+    },
+    {
+        "image": "Планшет_SAMSUNG_Galaxy_Tab_S9_FE_5G_SM-X516_8GB_25.jpg",
+        "name": "Планшет SAMSUNG Galaxy Tab S9 FE 5G SM-X516 8GB/256GB (мятный)",
+        "description": "Exynos 1380 , 8 -ядерный, 2.4 ГГц; ОЗУ 8 ГБ , 256 ГБ; 10.9 \" 2304x1440 пикселей, IPS; Android 13; 5G; 8000 мАч",
+        "price": "2179.00"
+    },
+    {
+        "image": "Планшет_Blackview_Mega_1_FB8_8_256_gb.jpg",
+        "name": "Планшет Blackview Mega 1_FB8 8/256 gb",
+        "description": "MediaTek Helio G99 , 8 -ядерный, 2.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 11.5 \" 2000х1200 пикселей, IPS; Android 13; 4G LTE; 8000 мАч",
+        "price": "919.00"
+    },
+    {
+        "image": "Планшет_Doogee_U10_KID_4GB_128GB_Blue.jpg",
+        "name": "Планшет Doogee U10 KID 4GB/128GB Blue",
+        "description": "Rockchip RK3562 , 4 -ядерный, 2.0 ГГц; ОЗУ 4 ГБ , 128 ГБ; 10.1 \" 1280x800 пикселей, IPS; Android 13; 5060 мАч",
+        "price": "442.00"
+    },
+    {
+        "image": "Планшет_Blackview_Tab_15_8GB_128GB_(серый).jpg",
+        "name": "Планшет Blackview Tab 15 8GB/128GB (серый)",
+        "description": "Unisoc Tiger T610 , 8 -ядерный, 1.8 ГГц; ОЗУ 8 ГБ , 128 ГБ; 10.5 \" 1920x1200 пикселей, IPS; Android 12; 4G LTE; 8280 мАч",
+        "price": "729.00"
+    },
+    {
+        "image": "Планшет_Doogee_T20_Ultra_12GB_256GB_LTE_Серый.jpg",
+        "name": "Планшет Doogee T20 Ultra 12GB/256GB LTE Серый",
+        "description": "MediaTek Helio G99 , 8 -ядерный, 2.2 ГГц; ОЗУ 12 ГБ , 256 ГБ; 12 \" 2000х1200 пикселей, IPS; Android 13; 4G LTE; 10800 мАч",
+        "price": "978.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_S6_Lite_2024_Wi-Fi_SM-P.jpg",
+        "name": "Планшет Samsung Galaxy Tab S6 Lite 2024 Wi-Fi SM-P620 4GB/64GB (мятный)",
+        "description": "Exynos 1280 , 8 -ядерный, 2.4 ГГц; ОЗУ 4 ГБ , 64 ГБ; 10.4 \" 2000х1200 пикселей, TFT; Android 14 (One UI 6.1); 7040 мАч",
+        "price": "1070.00"
+    },
+    {
+        "image": "Планшет_Huawei_MatePad_Pro_13.2&amp;quot;_PCE-W29_.jpg",
+        "name": "Планшет Huawei MatePad Pro 13.2&amp;quot; PCE-W29 12GB/256GB (черный)",
+        "description": "HiSilicon Kirin 9000W , 8 -ядерный, 2.49 ГГц; ОЗУ 12 ГБ , 256 ГБ; 13.2 \" 2880х1920 пикселей, OLED; HarmonyOS 4; 10100 мАч",
+        "price": "3541.00"
+    },
+    {
+        "image": "Планшет_Blackview_Tab_12_Pro_(сумеречный_синий).jpg",
+        "name": "Планшет Blackview Tab 12 Pro (сумеречный синий)",
+        "description": "Unisoc Tiger T606 , 8 -ядерный, 1.6 ГГц; ОЗУ 8 ГБ , 128 ГБ; 10.1 \" 1920x1080 пикселей, IPS; Android 12; 4G LTE; 6580 мАч",
+        "price": "599.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_S6_Lite_2024_LTE_SM-P62.jpg",
+        "name": "Планшет Samsung Galaxy Tab S6 Lite 2024 LTE SM-P625 4GB/128GB (розовый)",
+        "description": "Exynos 1280 , 8 -ядерный, 2.4 ГГц; ОЗУ 4 ГБ , 128 ГБ; 10.4 \" 2000х1200 пикселей, TFT; Android 14 (One UI 6.1); 4G LTE; 7040 мАч",
+        "price": "1230.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_S9_Ultra_5G_SM-X916_12G.jpg",
+        "name": "Планшет Samsung Galaxy Tab S9 Ultra 5G SM-X916 12GB/256GB (бежевый)",
+        "description": "Qualcomm Snapdragon 8 Gen2 , 8 -ядерный, 3.2 ГГц; ОЗУ 12 ГБ , 256 ГБ; 14.6 \" 2960х1848 пикселей, AMOLED; Android 13; 5G; 11200 мАч",
+        "price": "4599.00"
+    },
+    {
+        "image": "Планшет_Blackview_Mega_1_MG8_8GB_256GB_(серый).jpg",
+        "name": "Планшет Blackview Mega 1_MG8 8GB/256GB (серый)",
+        "description": "MediaTek Helio G99 , 8 -ядерный, 2.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 11.5 \" 2000х1200 пикселей, IPS; Android 13; 4G LTE; 8000 мАч",
+        "price": "962.00"
+    },
+    {
+        "image": "Планшет_Huawei_Matepad_SE_11&amp;quot;_(Agassi6-W0.jpg",
+        "name": "Планшет Huawei Matepad SE 11&amp;quot; (Agassi6-W09DP) 8GB/128GB, голубой",
+        "description": "HiSilicon Kirin 710A , 8 -ядерный, 2.2 ГГц; ОЗУ 8 ГБ , 128 ГБ; 11 \" 1920x1200 пикселей, IPS; HarmonyOS 2.0; 7700 мАч",
+        "price": "943.00"
+    },
+    {
+        "image": "Планшет_Blackview_TAB_11_SE_8GB_128GB_Space_Gray.jpg",
+        "name": "Планшет Blackview TAB 11 SE 8GB/128GB Space Gray",
+        "description": "Unisoc Tiger T606 , 8 -ядерный, 1.6 ГГц; ОЗУ 8 ГБ , 128 ГБ; 10.36 \" 2000х1200 пикселей, IPS; Android 12; 4G LTE; 7680 мАч",
+        "price": "589.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_S9_Wi-Fi_SM-X710_8GB_12.jpg",
+        "name": "Планшет Samsung Galaxy Tab S9 Wi-Fi SM-X710 8GB/128GB (бежевый)",
+        "description": "Qualcomm Snapdragon 8 Gen2 , 8 -ядерный, 3.2 ГГц; ОЗУ 8 ГБ , 128 ГБ; 11 \" 2560x1600 пикселей, AMOLED; Android 13; 8400 мАч",
+        "price": "2599.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_S9+_Wi-Fi_SM-X810_12GB_.jpg",
+        "name": "Планшет Samsung Galaxy Tab S9+ Wi-Fi SM-X810 12GB/512GB (бежевый)",
+        "description": "Qualcomm Snapdragon 8 Gen2 , 8 -ядерный, 3.2 ГГц; ОЗУ 12 ГБ , 512 ГБ; 12.4 \" 2800x1752 пикселей, AMOLED; Android 13; 10090 мАч",
+        "price": "3699.00"
+    },
+    {
+        "image": "Планшет_Blackview_Tab_12_Pro_(лунное_серебро).jpg",
+        "name": "Планшет Blackview Tab 12 Pro (лунное серебро)",
+        "description": "Unisoc Tiger T606 , 8 -ядерный, 1.6 ГГц; ОЗУ 8 ГБ , 128 ГБ; 10.1 \" 1920x1080 пикселей, IPS; Android 12; 4G LTE; 6580 мАч",
+        "price": "629.00"
+    },
+    {
+        "image": "Планшет_Blackview_Tab_18_8GB_256GB_(серый_космос).jpg",
+        "name": "Планшет Blackview Tab 18 8GB/256GB (серый космос)",
+        "description": "MediaTek Helio G99 , 8 -ядерный, 2.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 12 \" 2000х1200 пикселей, IPS; Android 13; 4G LTE; 8800 мАч",
+        "price": "948.00"
+    },
+    {
+        "image": "Планшет_Blackview_Tab_18_8GB_256GB_(бирюзово-зелен.jpg",
+        "name": "Планшет Blackview Tab 18 8GB/256GB (бирюзово-зеленый)",
+        "description": "MediaTek Helio G99 , 8 -ядерный, 2.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 12 \" 2000х1200 пикселей, IPS; Android 13; 4G LTE; 8800 мАч",
+        "price": "1000.00"
+    },
+    {
+        "image": "Планшет_Blackview_Tab_60_6GB_128GB_(зеленый).jpg",
+        "name": "Планшет Blackview Tab 60 6GB/128GB (зеленый)",
+        "description": "Unisoc Tiger T606 , 8 -ядерный, 1.6 ГГц; ОЗУ 6 ГБ , 128 ГБ; 8.68 \" 1340x800 пикселей, IPS; Android 13; 4G LTE; 6050 мАч",
+        "price": "484.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_S9_5G_SM-X716_12GB_256G.jpg",
+        "name": "Планшет Samsung Galaxy Tab S9 5G SM-X716 12GB/256GB (серый)",
+        "description": "Qualcomm Snapdragon 8 Gen2 , 8 -ядерный, 3.2 ГГц; ОЗУ 12 ГБ , 256 ГБ; 11 \" 2560x1600 пикселей, AMOLED; Android 13; 5G; 8400 мАч",
+        "price": "3599.00"
+    },
+    {
+        "image": "Планшет_SAMSUNG_Galaxy_Tab_S9_FE+_5G_SM-X616_8GB_1.jpg",
+        "name": "Планшет SAMSUNG Galaxy Tab S9 FE+ 5G SM-X616 8GB/128GB (мятный)",
+        "description": "Exynos 1380 , 8 -ядерный, 2.4 ГГц; ОЗУ 8 ГБ , 128 ГБ; 12.4 \" 2560x1600 пикселей, IPS; Android 13; 5G; 10090 мАч",
+        "price": "2729.00"
+    },
+    {
+        "image": "Планшет_SAMSUNG_Galaxy_Tab_S10+_WiFi_12GB_512GB_(S.jpg",
+        "name": "Планшет SAMSUNG Galaxy Tab S10+ WiFi 12GB/512GB (SM-X820NZAPCAU) серый",
+        "description": "MediaTek Dimensity 9300+ , 8 -ядерный, 3.4 ГГц; ОЗУ 12 ГБ , 512 ГБ; 12.4 \" 2800x1752 пикселей, AMOLED; Android 14 (One UI 6.1); 10090 мАч",
+        "price": "4259.00"
+    },
+    {
+        "image": "Планшет_Teclast_T50_Max_8Gb_256Gb_(серебристый).jpg",
+        "name": "Планшет Teclast T50 Max 8Gb/256Gb (серебристый)",
+        "description": "MediaTek Helio G99 , 8 -ядерный, 2.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 11 \" 1920x1200 пикселей, IPS; Android 14; 4G LTE; 8000 мАч",
+        "price": "775.00"
+    },
+    {
+        "image": "Планшет_Blackview_Tab_13_Pro_8GB_128GB_LTE_(серый).jpg",
+        "name": "Планшет Blackview Tab 13 Pro 8GB/128GB LTE (серый)",
+        "description": "MediaTek Helio P60 , 8 -ядерный, 2.0 ГГц; ОЗУ 8 ГБ , 128 ГБ; 10.1 \" 1920x1200 пикселей, IPS; Android 13; 4G LTE; 7680 мАч",
+        "price": "720.00"
+    },
+    {
+        "image": "Планшет_Blackview_Tab_90_WiFi_8GB_128GB_(серый).jpg",
+        "name": "Планшет Blackview Tab 90 WiFi 8GB/128GB (серый)",
+        "description": "Unisoc Tiger T606 , 8 -ядерный, 1.6 ГГц; ОЗУ 8 ГБ , 128 ГБ; 10.92 \" 1280x800 пикселей, IPS; Android 14; 4G LTE; 8200 мАч",
+        "price": "596.00"
+    },
+    {
+        "image": "Планшет_Teclast_P30T_4GB_128GB_(серый)_+_аксессуар.jpg",
+        "name": "Планшет Teclast P30T 4GB/128GB (серый) + аксессуары",
+        "description": "Allwinner A523 , 8 -ядерный, 1.8 ГГц; ОЗУ 4 ГБ , 128 ГБ; 10.1 \" 1280x800 пикселей, IPS; Android 14; 6000 мАч",
+        "price": "499.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_S6_Lite_2024_LTE_SM-P62.jpg",
+        "name": "Планшет Samsung Galaxy Tab S6 Lite 2024 LTE SM-P625 4GB/128GB (мятный)",
+        "description": "Exynos 1280 , 8 -ядерный, 2.4 ГГц; ОЗУ 4 ГБ , 128 ГБ; 10.4 \" 2000х1200 пикселей, TFT; Android 14 (One UI 6.1); 4G LTE; 7040 мАч",
+        "price": "1276.00"
+    },
+    {
+        "image": "Планшет_SAMSUNG_Galaxy_Tab_S10+_WiFi_12GB_256GB_(S.jpg",
+        "name": "Планшет SAMSUNG Galaxy Tab S10+ WiFi 12GB/256GB (SM-X820NZSRCAU) серебристый",
+        "description": "MediaTek Dimensity 9300+ , 8 -ядерный, 3.4 ГГц; ОЗУ 12 ГБ , 256 ГБ; 12.4 \" 2800x1752 пикселей, AMOLED; Android 14 (One UI 6.1); 10090 мАч",
+        "price": "3799.00"
+    },
+    {
+        "image": "Планшет_SAMSUNG_Galaxy_Tab_S10+_WiFi_12GB_512GB_(S.jpg",
+        "name": "Планшет SAMSUNG Galaxy Tab S10+ WiFi 12GB/512GB (SM-X820NZSPCAU) серебристый",
+        "description": "MediaTek Dimensity 9300+ , 8 -ядерный, 3.4 ГГц; ОЗУ 12 ГБ , 512 ГБ; 12.4 \" 2800x1752 пикселей, AMOLED; Android 14 (One UI 6.1); 10090 мАч",
+        "price": "4259.00"
+    },
+    {
+        "image": "Планшет_SAMSUNG_Galaxy_Tab_S10+_5G_12GB_256GB_(SM-.jpg",
+        "name": "Планшет SAMSUNG Galaxy Tab S10+ 5G 12GB/256GB (SM-X826BZARCAU) серый",
+        "description": "MediaTek Dimensity 9300+ , 8 -ядерный, 3.4 ГГц; ОЗУ 12 ГБ , 256 ГБ; 12.4 \" 2800x1752 пикселей, AMOLED; Android 14 (One UI 6.1); 5G; 10090 мАч",
+        "price": "4379.00"
+    },
+    {
+        "image": "Планшет_Huawei_Matepad_SE_11_LTE_(Agassi6-L09B)_4G.jpg",
+        "name": "Планшет Huawei Matepad SE 11 LTE (Agassi6-L09B) 4GB/128GB (53014AYL) серый",
+        "description": "HiSilicon Kirin 710A , 8 -ядерный, 2.2 ГГц; ОЗУ 4 ГБ , 128 ГБ; 11 \" 1920x1200 пикселей, IPS; HarmonyOS 2.0; 4G LTE; 7700 мАч",
+        "price": "776.00"
+    },
+    {
+        "image": "Планшет_Huawei_MatePad_11_Wi-Fi_(2023)_6GB_128GB_(.jpg",
+        "name": "Планшет Huawei MatePad 11 Wi-Fi (2023) 6GB/128GB (DBR-W09) графитовый черный",
+        "description": "Qualcomm Snapdragon 865 , 8 -ядерный, 2.84 ГГц; ОЗУ 6 ГБ , 128 ГБ; 11 \" 2560x1600 пикселей, IPS; HarmonyOS 3.1; 7250 мАч",
+        "price": "1199.00"
+    },
+    {
+        "image": "Планшет_Blackview_Mega_1_P8_8GB_256GB_(фиолетовый).jpg",
+        "name": "Планшет Blackview Mega 1_P8 8GB/256GB (фиолетовый)",
+        "description": "MediaTek Helio G99 , 8 -ядерный, 2.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 11.5 \" 2000х1200 пикселей, IPS; Android 13; 4G LTE; 8000 мАч",
+        "price": "919.00"
+    },
+    {
+        "image": "Планшет_Digma_Pro_HIT_104_T616_8_256GB_(синий).jpg",
+        "name": "Планшет Digma Pro HIT 104 T616 8/256GB (синий)",
+        "description": "Unisoc T606 , 8 -ядерный, 1.6 ГГц; ОЗУ 8 ГБ , 256 ГБ; 10.1 \" 1920x1200 пикселей, IPS; Android 13; 4G LTE; 7000 мАч",
+        "price": "557.00"
+    },
+    {
+        "image": "Планшет_Blackview_Tab_15_8GB_128GB_(серебристый).jpg",
+        "name": "Планшет Blackview Tab 15 8GB/128GB (серебристый)",
+        "description": "Unisoc Tiger T610 , 8 -ядерный, 1.8 ГГц; ОЗУ 8 ГБ , 128 ГБ; 10.5 \" 1920x1200 пикселей, IPS; Android 12; 4G LTE; 8280 мАч",
+        "price": "729.00"
+    },
+    {
+        "image": "Планшет_Chuwi_HiPad_XPro_6GB_128GB_(серый).jpg",
+        "name": "Планшет Chuwi HiPad XPro 6GB/128GB (серый)",
+        "description": "Unisoc Tiger T616 , 8 -ядерный, 2.0 ГГц; ОЗУ 6 ГБ , 128 ГБ; 10.51 \" 1920x1200 пикселей, IPS; Android 12; 4G LTE; 7000 мАч",
+        "price": "697.00"
+    },
+    {
+        "image": "Планшет_Ulefone_Armor_Pad.jpg",
+        "name": "Планшет Ulefone Armor Pad",
+        "description": "MediaTek Helio G25 , 8 -ядерный, 2.0 ГГц; ОЗУ 4 ГБ , 64 ГБ; 8 \" 1280x800 пикселей, IPS; Android 12; 4G LTE; 7650 мАч",
+        "price": "959.00"
+    },
+    {
+        "image": "Планшет_Xiaomi_Redmi_Pad_Pro_5G_8GB_256GB_с_клавиа.jpg",
+        "name": "Планшет Xiaomi Redmi Pad Pro 5G 8GB/256GB с клавиатурой Graphite Gray RU",
+        "description": "Qualcomm Snapdragon 7s Gen2 , 8 -ядерный, 2.4 ГГц; ОЗУ 8 ГБ , 256 ГБ; 12.1 \" 2560x1600 пикселей, IPS; Android 14 (HyperOS); 5G; 10000 мАч",
+        "price": "1599.00"
+    },
+    {
+        "image": "Планшет_Oppo_Pad_Air_4GB_128GB_(серый).jpg",
+        "name": "Планшет Oppo Pad Air 4GB/128GB (серый)",
+        "description": "Qualcomm Snapdragon 680 , 8 -ядерный, 2.4 ГГц; ОЗУ 4 ГБ , 128 ГБ; 10.36 \" 2000х1200 пикселей, IPS; Android 12  (ColorOS 12.1); 7100 мАч",
+        "price": "821.00"
+    },
+    {
+        "image": "Планшет_Samsung_Galaxy_Tab_S6_Lite_2024_LTE_SM-P62.jpg",
+        "name": "Планшет Samsung Galaxy Tab S6 Lite 2024 LTE SM-P625 4GB/64GB (серый)",
+        "description": "Exynos 1280 , 8 -ядерный, 2.4 ГГц; ОЗУ 4 ГБ , 64 ГБ; 10.4 \" 2000х1200 пикселей, TFT; Android 14 (One UI 6.1); 4G LTE; 7040 мАч",
+        "price": "1181.00"
+    }
+]

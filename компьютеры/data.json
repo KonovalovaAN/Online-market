@@ -1,0 +1,902 @@
+[
+    {
+        "image": "Игровой_компьютер_Jet_Wizard_5i10400FD16SD48X166SG.jpg",
+        "name": "Игровой компьютер Jet Wizard 5i10400FD16SD48X166SG3W5",
+        "description": "Игровой; Без ОС; Intel Core-i5 10400F , 6 -ядерный 2.9 ГГц - 4.3 ГГц; Дискретная NVIDIA GeForce GTX 1660 Super , 6 ГБ; ОЗУ 16 ГБ DDR4 , SSD 480 ГБ",
+        "price": "2744.00"
+    },
+    {
+        "image": "Компьютер_JET_Gamer_5i9400FD16SD48X105TL2W5.jpg",
+        "name": "Компьютер JET Gamer 5i9400FD16SD48X105TL2W5",
+        "description": "Игровой; Dos; Intel Core-i5 9400F , 6 -ядерный 2.9 ГГц - 4.1 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 16 ГБ DDR4 , SSD 480 ГБ",
+        "price": "2486.00"
+    },
+    {
+        "image": "Игровой_компьютер_HAFF_Elemento_Aqua_WH48749_(ipd).jpg",
+        "name": "Игровой компьютер HAFF Elemento Aqua WH48749 (ipd)",
+        "description": "Игровой; Windows 11 Pro; AMD Ryzen 5 7500F , 6 -ядерный 3.7 ГГц - 5.0 ГГц; Дискретная NVIDIA GeForce RTX 4060 Ti , 8 ГБ; ОЗУ 32 ГБ DDR5 , SSD 1024 ГБ",
+        "price": "5455.00"
+    },
+    {
+        "image": "Игровой_компьютер_Thunderobot_Warrior_Turbo_RL3_JT.jpg",
+        "name": "Игровой компьютер Thunderobot Warrior Turbo RL3 JT00ET00QRU",
+        "description": "Игровой; Windows 11 Home; Intel Core-i7 14700 , 20 -ядерный 2.1 ГГц - 5.4 ГГц; Дискретная NVIDIA GeForce RTX 4070 Ti Super , 16 ГБ; ОЗУ 64 ГБ DDR5 , SSD 2048 ГБ, HDD 2000 ГБ",
+        "price": "13799.00"
+    },
+    {
+        "image": "Компьютер_Jet_Multimedia_22L037.jpg",
+        "name": "Компьютер Jet Multimedia 22L037",
+        "description": "Мультимедийный; FreeDOS; AMD Ryzen 5 5600G , 6 -ядерный 3.9 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 8 ГБ DDR4 , SSD 120 ГБ",
+        "price": "1578.00"
+    },
+    {
+        "image": "Компьютер_JET_Gamer_5R2600D16HD1SD24X166L2W6.jpg",
+        "name": "Компьютер JET Gamer 5R2600D16HD1SD24X166L2W6",
+        "description": "Игровой; Dos; AMD Ryzen 5 2600 , 6 -ядерный 3.4 ГГц - 3.9 ГГц; Дискретная NVIDIA GeForce GTX 1660 , 6 ГБ; ОЗУ 16 ГБ DDR4 , SSD 240 ГБ, HDD 1000 ГБ",
+        "price": "3341.00"
+    },
+    {
+        "image": "Игровой_компьютер_Thunderobot_Warrior_Turbo_RL2_JT.jpg",
+        "name": "Игровой компьютер Thunderobot Warrior Turbo RL2 JT00ED00QRU",
+        "description": "Игровой; Без ОС; Intel Core-i5 14400 , 10 -ядерный 2.5 ГГц - 4.7 ГГц; Дискретная NVIDIA GeForce RTX 4070 Ti Super , 16 ГБ; ОЗУ 32 ГБ DDR4 , SSD 1024 ГБ, HDD 2000 ГБ",
+        "price": "10455.00"
+    },
+    {
+        "image": "Компьютер_Jet_Multimedia_22L040.jpg",
+        "name": "Компьютер Jet Multimedia 22L040",
+        "description": "Мультимедийный; FreeDOS; AMD Ryzen 5 5600G , 6 -ядерный 3.9 ГГц - 4.4 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 8 ГБ DDR4 , SSD 240 ГБ",
+        "price": "1628.00"
+    },
+    {
+        "image": "Компьютер_JET_Gamer_5R2600D16SD12X166L2W6.jpg",
+        "name": "Компьютер JET Gamer 5R2600D16SD12X166L2W6",
+        "description": "Игровой; Dos; AMD Ryzen 5 2600 , 6 -ядерный 3.4 ГГц - 3.9 ГГц; Дискретная NVIDIA GeForce GTX 1660 , 6 ГБ; ОЗУ 16 ГБ DDR4 , SSD 120 ГБ",
+        "price": "2877.00"
+    },
+    {
+        "image": "Компьютер_JET_Wizard_5i9400FD16SD48X165G2W5.jpg",
+        "name": "Компьютер JET Wizard 5i9400FD16SD48X165G2W5",
+        "description": "Игровой; Dos; Intel Core-i5 9400F , 6 -ядерный 2.9 ГГц - 4.1 ГГц; Дискретная NVIDIA GeForce GTX 1650 , 4 ГБ; ОЗУ 16 ГБ DDR4 , SSD 480 ГБ",
+        "price": "2673.00"
+    },
+    {
+        "image": "Компьютер_HAFF_Elemento_Aero_ВК46505.jpg",
+        "name": "Компьютер HAFF Elemento Aero ВК46505",
+        "description": "Игровой; Windows 11 Pro; AMD Ryzen 7 5700X , 8 -ядерный 3.4 ГГц - 4.6 ГГц; Дискретная NVIDIA GeForce RTX 4070 Super , 12 ГБ; ОЗУ 32 ГБ DDR4 , SSD 1024 ГБ",
+        "price": "6099.00"
+    },
+    {
+        "image": "Компьютер_Jet_Multimedia_21L385.jpg",
+        "name": "Компьютер Jet Multimedia 21L385",
+        "description": "Игровой; FreeDOS; AMD Athlon 3000G , 2 -ядерный 3.5 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 8 ГБ DDR4 , SSD 120 ГБ",
+        "price": "1860.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22L298.jpg",
+        "name": "Компьютер Jet Gamer 22L298",
+        "description": "Игровой; FreeDOS; Intel Core-i5 12400F , 6 -ядерный 2.5 ГГц - 4.4 ГГц; Дискретная NVIDIA GeForce RTX 3050 , 8 ГБ; ОЗУ 32 ГБ DDR4 , SSD 240 ГБ",
+        "price": "3904.00"
+    },
+    {
+        "image": "Компьютер_JET_Multimedia_GE20D4SD12VGALW50.jpg",
+        "name": "Компьютер JET Multimedia GE20D4SD12VGALW50",
+        "description": "Офисный; FreeDOS; AMD Athlon 200GE , 2 -ядерный 3.2 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 4 ГБ DDR4 , SSD 120 ГБ",
+        "price": "839.00"
+    },
+    {
+        "image": "Игровой_компьютер_Thunderobot_Warrior_Super_RL3_JT.jpg",
+        "name": "Игровой компьютер Thunderobot Warrior Super RL3 JT00EK00QRU",
+        "description": "Игровой; Без ОС; Intel Core-i5 14400 , 10 -ядерный 2.5 ГГц - 4.7 ГГц; Дискретная NVIDIA GeForce RTX 4060 Ti , 8 ГБ; ОЗУ 32 ГБ DDR5 , SSD 1024 ГБ, HDD 1000 ГБ",
+        "price": "7199.00"
+    },
+    {
+        "image": "Игровой_компьютер_JET_Wizard_3i9100FD16HD1SD12X166.jpg",
+        "name": "Игровой компьютер JET Wizard 3i9100FD16HD1SD12X166L2W5",
+        "description": "Игровой; Без ОС; Intel Core-i3 9100F , 4 -ядерный 3.6 ГГц - 4.2 ГГц; Дискретная NVIDIA GeForce GTX 1660 , 6 ГБ; ОЗУ 16 ГБ DDR4 , SSD 120 ГБ, HDD 1000 ГБ",
+        "price": "3075.00"
+    },
+    {
+        "image": "Игровой_компьютер_Thunderobot_Warrior_Turbo_RL1_JT.jpg",
+        "name": "Игровой компьютер Thunderobot Warrior Turbo RL1 JT00EN00QRU",
+        "description": "Игровой; Без ОС; Intel Core-i5 14500 , 14 -ядерный 2.6 ГГц - 5.0 ГГц; Дискретная NVIDIA GeForce RTX 4070 Super , 12 ГБ; ОЗУ 32 ГБ DDR5 , SSD 1024 ГБ, HDD 2000 ГБ",
+        "price": "8555.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22L448.jpg",
+        "name": "Компьютер Jet Gamer 22L448",
+        "description": "Игровой; FreeDOS; Intel Core-i5 10400F , 6 -ядерный 2.9 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 8 ГБ DDR4 , SSD 480 ГБ",
+        "price": "2360.00"
+    },
+    {
+        "image": "Компьютер_Jet_Multimedia_21L525.jpg",
+        "name": "Компьютер Jet Multimedia 21L525",
+        "description": "Мультимедийный; FreeDOS; AMD Ryzen 5 5600G , 6 -ядерный 3.9 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 16 ГБ DDR4 , SSD 480 ГБ",
+        "price": "1865.00"
+    },
+    {
+        "image": "Компьютер_JET_Office_5i347D8SD12VGAM1W1.jpg",
+        "name": "Компьютер JET Office 5i347D8SD12VGAM1W1",
+        "description": "Офисный; Без ОС; Intel Core-i5 3470 , 4 -ядерный 3.2 ГГц - 3.6 ГГц; Встроенная Intel HD Graphics; ОЗУ 8 ГБ DDR3 , SSD 120 ГБ",
+        "price": "827.00"
+    },
+    {
+        "image": "Компьютер_HAFF_Elemento_Terra_BK46497.jpg",
+        "name": "Компьютер HAFF Elemento Terra BK46497",
+        "description": "Игровой; Windows 11 Pro; Intel Core-i5 12400F , 6 -ядерный 2.5 ГГц - 4.4 ГГц; Дискретная AMD Radeon RX580 , 8 ГБ; ОЗУ 16 ГБ DDR4 , SSD 1024 ГБ",
+        "price": "2699.00"
+    },
+    {
+        "image": "Компьютер_JET_Office_5i347D4SD12VGAM1W1.jpg",
+        "name": "Компьютер JET Office 5i347D4SD12VGAM1W1",
+        "description": "Офисный; Без ОС; Intel Core-i5 3470 , 4 -ядерный 3.2 ГГц - 3.6 ГГц; Встроенная Intel HD Graphics; ОЗУ 4 ГБ DDR3 , SSD 120 ГБ",
+        "price": "782.00"
+    },
+    {
+        "image": "Компьютер_JET_Wizard_5R2600D16SD12X105TL2W5.jpg",
+        "name": "Компьютер JET Wizard 5R2600D16SD12X105TL2W5",
+        "description": "Игровой; Dos; AMD Ryzen 5 2600 , 6 -ядерный 3.4 ГГц - 3.9 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 16 ГБ DDR4 , SSD 120 ГБ",
+        "price": "2146.00"
+    },
+    {
+        "image": "Компьютер_Jet_Multimedia_21L149.jpg",
+        "name": "Компьютер Jet Multimedia 21L149",
+        "description": "Игровой; FreeDOS; AMD Athlon 3600 , 2 -ядерный 3.5 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 8 ГБ DDR4 , SSD 240 ГБ",
+        "price": "1913.00"
+    },
+    {
+        "image": "Компьютер_JET_Gamer_5R2600D16HD1SD24X166TL2W6.jpg",
+        "name": "Компьютер JET Gamer 5R2600D16HD1SD24X166TL2W6",
+        "description": "Игровой; Dos; AMD Ryzen 5 2600 , 6 -ядерный 3.4 ГГц - 3.9 ГГц; Дискретная NVIDIA GeForce GTX 1660 Ti , 6 ГБ; ОЗУ 16 ГБ DDR4 , SSD 240 ГБ, HDD 1000 ГБ",
+        "price": "3341.00"
+    },
+    {
+        "image": "Компьютер_HAFF_Elemento_Aero_ВК46502.jpg",
+        "name": "Компьютер HAFF Elemento Aero ВК46502",
+        "description": "Игровой; Windows 11 Pro; AMD Ryzen 5 5600 , 6 -ядерный 3.5 ГГц - 4.4 ГГц; Дискретная NVIDIA GeForce RTX 4070 Super , 12 ГБ; ОЗУ 32 ГБ DDR4 , SSD 1024 ГБ",
+        "price": "5755.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22B408.jpg",
+        "name": "Компьютер Jet Gamer 22B408",
+        "description": "Игровой; FreeDOS; Intel Core-i7 12700KF , 12 -ядерный 2.7 ГГц - 5.0 ГГц; Дискретная NVIDIA GeForce RTX 3060 , 12 ГБ; ОЗУ 32 ГБ DDR4 , SSD 480 ГБ, HDD 2000 ГБ",
+        "price": "6015.00"
+    },
+    {
+        "image": "Компьютер_JET_Office_3i8100D8HD1VGALW50.jpg",
+        "name": "Компьютер JET Office 3i8100D8HD1VGALW50",
+        "description": "Офисный; Dos; Intel Core-i3 8100 , 4 -ядерный 3.6 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ DDR4 , HDD 1000 ГБ",
+        "price": "1393.00"
+    },
+    {
+        "image": "Компьютер_JET_Gamer_5i9600KD16HD1SD24X166TL2W6.jpg",
+        "name": "Компьютер JET Gamer 5i9600KD16HD1SD24X166TL2W6",
+        "description": "Игровой; Dos; Intel Core-i5 9600K , 6 -ядерный 3.6 ГГц - 4.6 ГГц; Дискретная NVIDIA GeForce GTX 1660 Ti , 6 ГБ; ОЗУ 16 ГБ DDR4 , SSD 240 ГБ, HDD 1000 ГБ",
+        "price": "3816.00"
+    },
+    {
+        "image": "Компьютер_HAFF_Home_BK50727.jpg",
+        "name": "Компьютер HAFF Home BK50727",
+        "description": "Офисный; Windows 11 Pro; AMD Ryzen 7 5700G , 8 -ядерный 3.8 ГГц - 4.6 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 32 ГБ DDR4 , SSD 512 ГБ",
+        "price": "1899.00"
+    },
+    {
+        "image": "Компьютер_HAFF_Home_BK50726.jpg",
+        "name": "Компьютер HAFF Home BK50726",
+        "description": "Офисный; Windows 11 Pro; AMD Ryzen 5 5600G , 6 -ядерный 3.9 ГГц - 4.4 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ",
+        "price": "1599.00"
+    },
+    {
+        "image": "Компьютер_Jet_Multimedia_22L088.jpg",
+        "name": "Компьютер Jet Multimedia 22L088",
+        "description": "Мультимедийный; FreeDOS; AMD Ryzen 5 5600G , 6 -ядерный 3.9 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 16 ГБ DDR4 , SSD 240 ГБ",
+        "price": "1778.00"
+    },
+    {
+        "image": "Компьютер_HAFF_Elemento_Terra_ВК45477.jpg",
+        "name": "Компьютер HAFF Elemento Terra ВК45477",
+        "description": "Игровой; Windows 11 Pro; Intel Core-i3 12100F , 4 -ядерный 3.3 ГГц - 4.3 ГГц; Дискретная AMD Radeon RX580 , 8 ГБ; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ",
+        "price": "2099.00"
+    },
+    {
+        "image": "Компьютер_JET_Wizard_PG5400D8SD24X105TL2W5.jpg",
+        "name": "Компьютер JET Wizard PG5400D8SD24X105TL2W5",
+        "description": "Игровой; Dos; Intel Pentium G5400 , 2 -ядерный 3.7 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 8 ГБ DDR4 , SSD 240 ГБ",
+        "price": "1983.00"
+    },
+    {
+        "image": "Компьютер_Jet_Multimedia_GE20D16SD12VGALW50.jpg",
+        "name": "Компьютер Jet Multimedia GE20D16SD12VGALW50",
+        "description": "Офисный; FreeDOS; AMD Athlon 200GE , 2 -ядерный 3.2 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 16 ГБ DDR4 , SSD 120 ГБ",
+        "price": "1095.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22B386.jpg",
+        "name": "Компьютер Jet Gamer 22B386",
+        "description": "Игровой; FreeDOS; AMD Ryzen 5 5600G , 6 -ядерный 3.9 ГГц - 4.4 ГГц; Дискретная NVIDIA GeForce RTX 3050 , 8 ГБ; ОЗУ 32 ГБ DDR4 , SSD 240 ГБ, HDD 1000 ГБ",
+        "price": "4023.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22L299.jpg",
+        "name": "Компьютер Jet Gamer 22L299",
+        "description": "Игровой; FreeDOS; Intel Core-i5 12400F , 6 -ядерный 2.5 ГГц - 4.4 ГГц; Дискретная NVIDIA GeForce RTX 3050 , 8 ГБ; ОЗУ 32 ГБ DDR4 , SSD 480 ГБ",
+        "price": "3989.00"
+    },
+    {
+        "image": "Компьютер_JET_Office_5i347D8SD96VGAM1W1.jpg",
+        "name": "Компьютер JET Office 5i347D8SD96VGAM1W1",
+        "description": "Офисный; Без ОС; Intel Core-i5 3470 , 4 -ядерный 3.2 ГГц - 3.6 ГГц; Встроенная Intel HD Graphics; ОЗУ 16 ГБ DDR3 , SSD 960 ГБ",
+        "price": "1122.00"
+    },
+    {
+        "image": "Компьютер_HAFF_Elemento_Flame_ВК46553.jpg",
+        "name": "Компьютер HAFF Elemento Flame ВК46553",
+        "description": "Игровой; Windows 11 Pro; Intel Core-i5 14600KF , 14 -ядерный 3.5 ГГц - 5.3 ГГц; Дискретная NVIDIA GeForce RTX 4070 Ti Super , 16 ГБ; ОЗУ 32 ГБ DDR5 , SSD 1024 ГБ",
+        "price": "8777.00"
+    },
+    {
+        "image": "Компьютер_HAFF_Elemento_Flame_BK47602.jpg",
+        "name": "Компьютер HAFF Elemento Flame BK47602",
+        "description": "Игровой; Windows 11 Pro; AMD Ryzen 7 7700 , 8 -ядерный 3.8 ГГц - 5.3 ГГц; Дискретная NVIDIA GeForce RTX 4070 Ti Super , 16 ГБ; ОЗУ 32 ГБ DDR5 , SSD 1024 ГБ",
+        "price": "8499.00"
+    },
+    {
+        "image": "Компьютер_JET_Wizard_5i9400FD8HD1SD24X165L2W5.jpg",
+        "name": "Компьютер JET Wizard 5i9400FD8HD1SD24X165L2W5",
+        "description": "Игровой; Dos; Intel Core-i5 9400F , 6 -ядерный 2.9 ГГц - 4.1 ГГц; Дискретная NVIDIA GeForce GTX 1650 , 4 ГБ; ОЗУ 8 ГБ DDR4 , SSD 240 ГБ, HDD 1000 ГБ",
+        "price": "2640.00"
+    },
+    {
+        "image": "Компьютер_JET_Gamer_5i9400FD16HD1SD12X166TL2W6.jpg",
+        "name": "Компьютер JET Gamer 5i9400FD16HD1SD12X166TL2W6",
+        "description": "Игровой; Dos; Intel Core-i5 9400F , 6 -ядерный 2.9 ГГц - 4.1 ГГц; Дискретная NVIDIA GeForce GTX 1660 Ti , 6 ГБ; ОЗУ 16 ГБ DDR4 , SSD 120 ГБ, HDD 1000 ГБ",
+        "price": "3619.00"
+    },
+    {
+        "image": "Компьютер_Jet_Wizard_21L354.jpg",
+        "name": "Компьютер Jet Wizard 21L354",
+        "description": "Игровой; FreeDOS; AMD Athlon 3000G , 2 -ядерный 3.5 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 16 ГБ DDR4 , SSD 120 ГБ",
+        "price": "2009.00"
+    },
+    {
+        "image": "Компьютер_JET_Gamer_5R2600D16HD1SD48X166TL2W6.jpg",
+        "name": "Компьютер JET Gamer 5R2600D16HD1SD48X166TL2W6",
+        "description": "Игровой; Dos; AMD Ryzen 5 2600 , 6 -ядерный 3.4 ГГц - 3.9 ГГц; Дискретная NVIDIA GeForce GTX 1660 Ti , 6 ГБ; ОЗУ 16 ГБ DDR4 , SSD 480 ГБ, HDD 1000 ГБ",
+        "price": "3628.00"
+    },
+    {
+        "image": "Компьютер_HAFF_Elemento_Terra_ВК46495.jpg",
+        "name": "Компьютер HAFF Elemento Terra ВК46495",
+        "description": "Игровой; Windows 11 Pro; AMD Ryzen 5 7500F , 6 -ядерный 3.7 ГГц - 5.0 ГГц; Дискретная NVIDIA GeForce RTX 3050 , 8 ГБ; ОЗУ 32 ГБ DDR5 , SSD 1024 ГБ",
+        "price": "3755.00"
+    },
+    {
+        "image": "Неттоп_Asus_PN64-B-S3165MD.jpg",
+        "name": "Неттоп Asus PN64-B-S3165MD",
+        "description": "Офисный; Без ОС; Intel Core-i3 1220P , 10 -ядерный 1.5 ГГц - 4.4 ГГц; Встроенная Intel UHD Graphics; ОЗУ Не установлена ГБ",
+        "price": "1486.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22L323.jpg",
+        "name": "Компьютер Jet Gamer 22L323",
+        "description": "Игровой; FreeDOS; AMD Ryzen 7 5700G , 8 -ядерный 3.8 ГГц - 4.6 ГГц; Дискретная NVIDIA GeForce RTX 3060 , 12 ГБ; ОЗУ 32 ГБ DDR4 , SSD 480 ГБ, HDD 2000 ГБ",
+        "price": "5055.00"
+    },
+    {
+        "image": "Компьютер_JET_Office_5i347D16SD48VGAM1W1.jpg",
+        "name": "Компьютер JET Office 5i347D16SD48VGAM1W1",
+        "description": "Офисный; Без ОС; Intel Core-i5 3470 , 4 -ядерный 3.2 ГГц - 3.6 ГГц; Встроенная Intel HD Graphics; ОЗУ 16 ГБ DDR3 , SSD 480 ГБ",
+        "price": "986.00"
+    },
+    {
+        "image": "Компьютер_HAFF_Office_BK50730.jpg",
+        "name": "Компьютер HAFF Office BK50730",
+        "description": "Офисный; Windows 11 Pro; Intel Pentium Gold G6405 , 2 -ядерный 4.1 ГГц; Встроенная Intel UHD Graphics; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ",
+        "price": "1155.00"
+    },
+    {
+        "image": "Компьютер_HAFF_Elemento_Flame_ВК46554.jpg",
+        "name": "Компьютер HAFF Elemento Flame ВК46554",
+        "description": "Игровой; Windows 11 Pro; AMD Ryzen 7 7700 , 8 -ядерный 3.8 ГГц - 5.3 ГГц; Дискретная NVIDIA GeForce RTX 4060 Ti , 8 ГБ; ОЗУ 32 ГБ DDR5 , SSD 1024 ГБ",
+        "price": "6255.00"
+    },
+    {
+        "image": "Компьютер_JET_Wizard_3i9100FD8SD24X105TLW50.jpg",
+        "name": "Компьютер JET Wizard 3i9100FD8SD24X105TLW50",
+        "description": "Игровой; Dos; Intel Core-i3 9100F , 4 -ядерный 3.6 ГГц - 4.2 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 8 ГБ DDR4 , SSD 240 ГБ",
+        "price": "2066.00"
+    },
+    {
+        "image": "Компьютер_Jet_Multimedia_22L087.jpg",
+        "name": "Компьютер Jet Multimedia 22L087",
+        "description": "Мультимедийный; FreeDOS; AMD Ryzen 5 5600G , 6 -ядерный 3.9 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 16 ГБ DDR4 , SSD 120 ГБ",
+        "price": "1727.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22L377.jpg",
+        "name": "Компьютер Jet Gamer 22L377",
+        "description": "Игровой; FreeDOS; AMD Ryzen 5 5600G , 6 -ядерный 3.9 ГГц - 4.4 ГГц; Дискретная NVIDIA GeForce RTX 3050 , 8 ГБ; ОЗУ 16 ГБ DDR4 , SSD 480 ГБ",
+        "price": "3662.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22L221.jpg",
+        "name": "Компьютер Jet Gamer 22L221",
+        "description": "Игровой; FreeDOS; Intel Core-i5 12400F , 6 -ядерный 2.5 ГГц - 4.4 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 16 ГБ DDR4 , SSD 240 ГБ, HDD 1000 ГБ",
+        "price": "2984.00"
+    },
+    {
+        "image": "Компьютер_JET_Gamer_5i9400FD16HD1SD24X105TL2W5.jpg",
+        "name": "Компьютер JET Gamer 5i9400FD16HD1SD24X105TL2W5",
+        "description": "Игровой; Dos; Intel Core-i5 9400F , 6 -ядерный 2.9 ГГц - 4.1 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 16 ГБ DDR4 , SSD 240 ГБ, HDD 1000 ГБ",
+        "price": "2455.00"
+    },
+    {
+        "image": "Компьютер_JET_Gamer_7i8700D16HD2SD24X206L2W6.jpg",
+        "name": "Компьютер JET Gamer 7i8700D16HD2SD24X206L2W6",
+        "description": "Игровой; Dos; Intel Core-i7 8700 , 6 -ядерный 3.2 ГГц - 4.6 ГГц; Дискретная NVIDIA GeForce RTX 2060 , 6 ГБ; ОЗУ 16 ГБ DDR4 , SSD 240 ГБ, HDD 2000 ГБ",
+        "price": "4371.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22L226.jpg",
+        "name": "Компьютер Jet Gamer 22L226",
+        "description": "Игровой; FreeDOS; AMD Ryzen 5 5600G , 6 -ядерный 3.9 ГГц - 4.4 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 16 ГБ DDR4 , SSD 1000 ГБ",
+        "price": "2655.00"
+    },
+    {
+        "image": "Компьютер_Jet_Multimedia_22L091.jpg",
+        "name": "Компьютер Jet Multimedia 22L091",
+        "description": "Мультимедийный; FreeDOS; AMD Ryzen 5 5600G , 6 -ядерный 3.9 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 16 ГБ DDR4 , SSD 480 ГБ, HDD 1000 ГБ",
+        "price": "2049.00"
+    },
+    {
+        "image": "Компьютер_JET_Office_5i347D4SD24VGAM1W1.jpg",
+        "name": "Компьютер JET Office 5i347D4SD24VGAM1W1",
+        "description": "Офисный; Без ОС; Intel Core-i5 3470 , 4 -ядерный 3.2 ГГц - 3.6 ГГц; Встроенная Intel HD Graphics; ОЗУ 4 ГБ DDR3 , SSD 240 ГБ",
+        "price": "804.00"
+    },
+    {
+        "image": "Компьютер_JET_Office_CG4900D4SD12VGALW50.jpg",
+        "name": "Компьютер JET Office CG4900D4SD12VGALW50",
+        "description": "Офисный; Dos; Intel Celeron G4900 , 2 -ядерный 3.1 ГГц; Встроенная Intel UHD Graphics; ОЗУ 4 ГБ DDR4 , SSD 120 ГБ",
+        "price": "803.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22L432.jpg",
+        "name": "Компьютер Jet Gamer 22L432",
+        "description": "Игровой; FreeDOS; AMD Ryzen 7 5700G , 8 -ядерный 3.8 ГГц - 4.6 ГГц; Дискретная NVIDIA GeForce RTX 3060 , 12 ГБ; ОЗУ 32 ГБ DDR4 , SSD 960 ГБ",
+        "price": "4925.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22B282.jpg",
+        "name": "Компьютер Jet Gamer 22B282",
+        "description": "Игровой; FreeDOS; Intel Core-i3 12100F , 4 -ядерный 3.3 ГГц - 4.3 ГГц; Дискретная NVIDIA GeForce RTX 3050 , 8 ГБ; ОЗУ 16 ГБ DDR4 , SSD 120 ГБ, HDD 1000 ГБ",
+        "price": "3443.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22L224.jpg",
+        "name": "Компьютер Jet Gamer 22L224",
+        "description": "Игровой; FreeDOS; AMD Ryzen 5 3600G , 6 -ядерный 3.6 ГГц - 4.2 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 8 ГБ DDR4 , SSD 240 ГБ",
+        "price": "2235.00"
+    },
+    {
+        "image": "Компьютер_JET_Office_CG4900D4HD05VGALW50.jpg",
+        "name": "Компьютер JET Office CG4900D4HD05VGALW50",
+        "description": "Офисный; Dos; Intel Celeron G4900 , 2 -ядерный 3.1 ГГц; Встроенная Intel UHD Graphics; ОЗУ 4 ГБ DDR4 , HDD 500 ГБ",
+        "price": "830.00"
+    },
+    {
+        "image": "Компьютер_JET_Multimedia_GE20D8SD48VGALW50.jpg",
+        "name": "Компьютер JET Multimedia GE20D8SD48VGALW50",
+        "description": "Офисный; FreeDOS; AMD Athlon 200GE , 2 -ядерный 3.2 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 8 ГБ DDR4 , SSD 240 ГБ",
+        "price": "1032.00"
+    },
+    {
+        "image": "Компьютер_JET_Office_PG5400D8HD1SD12VGALW50.jpg",
+        "name": "Компьютер JET Office PG5400D8HD1SD12VGALW50",
+        "description": "Офисный; Dos; Intel Pentium G5400 , 2 -ядерный 3.7 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ DDR4 , SSD 120 ГБ, HDD 1000 ГБ",
+        "price": "1152.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22B389.jpg",
+        "name": "Компьютер Jet Gamer 22B389",
+        "description": "Игровой; FreeDOS; AMD Ryzen 7 5700G , 8 -ядерный 3.8 ГГц - 4.6 ГГц; Дискретная NVIDIA GeForce RTX 3050 , 8 ГБ; ОЗУ 16 ГБ DDR4 , SSD 240 ГБ",
+        "price": "4079.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22B258.jpg",
+        "name": "Компьютер Jet Gamer 22B258",
+        "description": "Игровой; FreeDOS; Intel Core-i5 12400F , 6 -ядерный 2.5 ГГц - 4.4 ГГц; Дискретная NVIDIA GeForce GTX 1650 , 4 ГБ; ОЗУ 16 ГБ DDR4 , SSD 240 ГБ",
+        "price": "3000.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_21L304.jpg",
+        "name": "Компьютер Jet Gamer 21L304",
+        "description": "Игровой; FreeDOS; Intel Core-i5 10400F , 6 -ядерный 2.9 ГГц - 4.3 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 8 ГБ DDR4 , SSD 120 ГБ, HDD 1000 ГБ",
+        "price": "2408.00"
+    },
+    {
+        "image": "Компьютер_Lenovo_ThinkCentre_M70q_Gen_4_12E30023.jpg",
+        "name": "Компьютер Lenovo ThinkCentre M70q Gen 4 12E30023",
+        "description": "Офисный; Без ОС; Intel Core-i3 13100T , 4 -ядерный 2.5 ГГц - 4.2 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ DDR4 SO-DIMM , SSD 256 ГБ",
+        "price": "2547.00"
+    },
+    {
+        "image": "Компьютер_JET_Office_5i347D8SD48VGAM1W1.jpg",
+        "name": "Компьютер JET Office 5i347D8SD48VGAM1W1",
+        "description": "Офисный; Без ОС; Intel Core-i5 3470 , 4 -ядерный 3.2 ГГц - 3.6 ГГц; Встроенная Intel HD Graphics; ОЗУ 8 ГБ DDR3 , SSD 480 ГБ",
+        "price": "894.00"
+    },
+    {
+        "image": "Компьютер_JET_Office_5i347D8SD24VGAM1W1.jpg",
+        "name": "Компьютер JET Office 5i347D8SD24VGAM1W1",
+        "description": "Офисный; Без ОС; Intel Core-i5 3470 , 4 -ядерный 3.2 ГГц - 3.6 ГГц; Встроенная Intel HD Graphics; ОЗУ 8 ГБ DDR3 , SSD 240 ГБ",
+        "price": "849.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_21L311.jpg",
+        "name": "Компьютер Jet Gamer 21L311",
+        "description": "Игровой; FreeDOS; Intel Core-i5 10400F , 6 -ядерный 2.9 ГГц - 4.3 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 8 ГБ DDR4 , SSD 120 ГБ",
+        "price": "2222.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22L265.jpg",
+        "name": "Компьютер Jet Gamer 22L265",
+        "description": "Игровой; FreeDOS; AMD Ryzen 5 5600G , 6 -ядерный 3.9 ГГц - 4.4 ГГц; Дискретная NVIDIA GeForce GTX 1650 , 4 ГБ; ОЗУ 16 ГБ DDR4 , SSD 240 ГБ",
+        "price": "2553.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22L428.jpg",
+        "name": "Компьютер Jet Gamer 22L428",
+        "description": "Игровой; FreeDOS; AMD Ryzen 7 5700G , 8 -ядерный 3.8 ГГц - 4.6 ГГц; Дискретная NVIDIA GeForce RTX 3060 , 12 ГБ; ОЗУ 16 ГБ DDR4 , SSD 120 ГБ, HDD 2000 ГБ",
+        "price": "4658.00"
+    },
+    {
+        "image": "Компьютер_Jet_Multimedia_21L375.jpg",
+        "name": "Компьютер Jet Multimedia 21L375",
+        "description": "Игровой; FreeDOS; AMD Athlon 3000G , 2 -ядерный 3.5 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 8 ГБ DDR4 , SSD 480 ГБ",
+        "price": "1997.00"
+    },
+    {
+        "image": "Компьютер_JET_Gamer_7i8700D16SD12X166L2W6.jpg",
+        "name": "Компьютер JET Gamer 7i8700D16SD12X166L2W6",
+        "description": "Игровой; Dos; Intel Core-i7 8700 , 6 -ядерный 3.2 ГГц - 4.6 ГГц; Дискретная NVIDIA GeForce GTX 1660 , 6 ГБ; ОЗУ 16 ГБ DDR4 , SSD 120 ГБ",
+        "price": "3777.00"
+    },
+    {
+        "image": "Компьютер_JET_Multimedia_GE20D4SD48VGALW50.jpg",
+        "name": "Компьютер JET Multimedia GE20D4SD48VGALW50",
+        "description": "Офисный; FreeDOS; AMD Athlon 200GE , 2 -ядерный 3.2 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 4 ГБ DDR4 , SSD 480 ГБ",
+        "price": "975.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22B367.jpg",
+        "name": "Компьютер Jet Gamer 22B367",
+        "description": "Игровой; FreeDOS; Intel Core-i7 12700F , 12 -ядерный 1.6 ГГц - 4.9 ГГц; Дискретная NVIDIA GeForce RTX 3050 , 8 ГБ; ОЗУ 32 ГБ DDR4 , SSD 960 ГБ",
+        "price": "4950.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22L295.jpg",
+        "name": "Компьютер Jet Gamer 22L295",
+        "description": "Игровой; FreeDOS; Intel Core-i5 12400F , 6 -ядерный 2.5 ГГц - 4.4 ГГц; Дискретная NVIDIA GeForce RTX 3050 , 8 ГБ; ОЗУ 16 ГБ DDR4 , SSD 120 ГБ, HDD 1000 ГБ",
+        "price": "3777.00"
+    },
+    {
+        "image": "Неттоп_Asus_PB63-B-BP052MD.jpg",
+        "name": "Неттоп Asus PB63-B-BP052MD",
+        "description": "Офисный; Без ОС; Intel Pentium Gold G7400 , 2 -ядерный 3.7 ГГц; Встроенная Intel UHD Graphics; ОЗУ Не установлена ГБ",
+        "price": "1527.00"
+    },
+    {
+        "image": "Компьютер_Lenovo_ThinkCentre_M70q_Gen_4_12E30022.jpg",
+        "name": "Компьютер Lenovo ThinkCentre M70q Gen 4 12E30022",
+        "description": "Офисный; Без ОС; Intel Core-i5 13400T , 10 -ядерный 1.3 ГГц - 4.4 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ DDR4 SO-DIMM , SSD 256 ГБ",
+        "price": "3060.00"
+    },
+    {
+        "image": "Компьютер_JET_Office_CG4900D8HD05VGALW50.jpg",
+        "name": "Компьютер JET Office CG4900D8HD05VGALW50",
+        "description": "Офисный; Dos; Intel Celeron G4900 , 2 -ядерный 3.1 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ DDR4 , HDD 500 ГБ",
+        "price": "885.00"
+    },
+    {
+        "image": "Компьютер_JET_Gamer_5R3600D16SD48X165L2W5.jpg",
+        "name": "Компьютер JET Gamer 5R3600D16SD48X165L2W5",
+        "description": "Игровой; Dos; AMD Ryzen 5 3600 , 6 -ядерный 3.6 ГГц - 4.2 ГГц; Дискретная NVIDIA GeForce GTX 1650 , 4 ГБ; ОЗУ 16 ГБ DDR4 , SSD 480 ГБ",
+        "price": "2709.00"
+    },
+    {
+        "image": "Компьютер_Jet_Multimedia_22U037.jpg",
+        "name": "Компьютер Jet Multimedia 22U037",
+        "description": "Мультимедийный; FreeDOS; AMD Ryzen 5 5600G , 6 -ядерный 3.9 ГГц - 4.4 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 8 ГБ DDR4 , SSD 120 ГБ",
+        "price": "1485.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22L223.jpg",
+        "name": "Компьютер Jet Gamer 22L223",
+        "description": "Игровой; FreeDOS; AMD Ryzen 5 5600G , 6 -ядерный 3.9 ГГц - 4.4 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 8 ГБ DDR4 , SSD 120 ГБ",
+        "price": "2183.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22L423.jpg",
+        "name": "Компьютер Jet Gamer 22L423",
+        "description": "Игровой; FreeDOS; AMD Ryzen 7 5700G , 8 -ядерный 3.8 ГГц - 4.6 ГГц; Дискретная NVIDIA GeForce RTX 3060 , 12 ГБ; ОЗУ 16 ГБ DDR4 , SSD 480 ГБ",
+        "price": "4535.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_21B560.jpg",
+        "name": "Компьютер Jet Gamer 21B560",
+        "description": "Игровой; FreeDOS; AMD Ryzen 5 5600X , 6 -ядерный 3.7 ГГц - 4.6 ГГц; Дискретная NVIDIA GeForce RTX 3060 , 12 ГБ; ОЗУ 32 ГБ DDR4 , SSD 240 ГБ, HDD 1000 ГБ",
+        "price": "4533.00"
+    },
+    {
+        "image": "Компьютер_JET_Office_PG5400D4SD12VGALW50.jpg",
+        "name": "Компьютер JET Office PG5400D4SD12VGALW50",
+        "description": "Офисный; Dos; Intel Pentium G5400 , 2 -ядерный 3.7 ГГц; Встроенная Intel UHD Graphics; ОЗУ 4 ГБ DDR4 , SSD 120 ГБ",
+        "price": "911.00"
+    },
+    {
+        "image": "Компьютер_JET_Office_CG4900D8SD12VGALW50.jpg",
+        "name": "Компьютер JET Office CG4900D8SD12VGALW50",
+        "description": "Офисный; Dos; Intel Celeron G4900 , 2 -ядерный 3.1 ГГц; Встроенная Intel UHD Graphics , 4 ГБ; ОЗУ 8 ГБ DDR4 , SSD 120 ГБ",
+        "price": "858.00"
+    },
+    {
+        "image": "Компьютер_JET_Office_CG4900D4SD24VGALW50.jpg",
+        "name": "Компьютер JET Office CG4900D4SD24VGALW50",
+        "description": "Офисный; Dos; Intel Celeron G4900 , 2 -ядерный 3.1 ГГц; Встроенная Intel UHD Graphics; ОЗУ 4 ГБ DDR4 , SSD 240 ГБ",
+        "price": "855.00"
+    },
+    {
+        "image": "Компьютер_JET_Gamer_5R2600D16HD1SD12X166L2W6.jpg",
+        "name": "Компьютер JET Gamer 5R2600D16HD1SD12X166L2W6",
+        "description": "Игровой; Dos; AMD Ryzen 5 2600 , 6 -ядерный 3.4 ГГц - 3.9 ГГц; Дискретная NVIDIA GeForce GTX 1660 , 6 ГБ; ОЗУ 16 ГБ DDR4 , SSD 120 ГБ, HDD 1000 ГБ",
+        "price": "3299.00"
+    },
+    {
+        "image": "Компьютер_JET_Wizard_7i8700D16SD12VGAL3W5.jpg",
+        "name": "Компьютер JET Wizard 7i8700D16SD12VGAL3W5",
+        "description": "Офисный; Dos; Intel Core-i7 8700 , 6 -ядерный 3.2 ГГц - 4.6 ГГц; Встроенная Intel UHD Graphics; ОЗУ 16 ГБ DDR4 , SSD 120 ГБ",
+        "price": "1995.00"
+    },
+    {
+        "image": "Компьютер_JET_Wizard_5i9400FD16SD48X165L2W5.jpg",
+        "name": "Компьютер JET Wizard 5i9400FD16SD48X165L2W5",
+        "description": "Игровой; Dos; Intel Core-i5 9400F , 6 -ядерный 2.9 ГГц - 4.1 ГГц; Дискретная NVIDIA GeForce GTX 1650 , 4 ГБ; ОЗУ 16 ГБ DDR4 , SSD 480 ГБ",
+        "price": "2884.00"
+    },
+    {
+        "image": "Компьютер_JET_Gamer_5i9400FD16SD48X166TL2W6.jpg",
+        "name": "Компьютер JET Gamer 5i9400FD16SD48X166TL2W6",
+        "description": "Игровой; Dos; Intel Core-i5 9400F , 6 -ядерный 2.9 ГГц - 4.1 ГГц; Дискретная NVIDIA GeForce GTX 1660 Ti , 6 ГБ; ОЗУ 16 ГБ DDR4 , SSD 480 ГБ",
+        "price": "3134.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22B298.jpg",
+        "name": "Компьютер Jet Gamer 22B298",
+        "description": "Игровой; FreeDOS; Intel Core-i5 , 6 -ядерный 2.5 ГГц - 4.4 ГГц; Дискретная NVIDIA GeForce RTX 3050 , 8 ГБ; ОЗУ 32 ГБ DDR4 , SSD 240 ГБ",
+        "price": "3903.00"
+    },
+    {
+        "image": "Компьютер_Jet_Multimedia_21L521.jpg",
+        "name": "Компьютер Jet Multimedia 21L521",
+        "description": "Игровой; FreeDOS; AMD Athlon 3000G , 2 -ядерный 3.5 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 16 ГБ DDR4 , SSD 480 ГБ",
+        "price": "2145.00"
+    },
+    {
+        "image": "Компьютер_JET_Office_3i8100D4HD05VGALW50.jpg",
+        "name": "Компьютер JET Office 3i8100D4HD05VGALW50",
+        "description": "Офисный; Dos; Intel Core-i3 8100 , 4 -ядерный 3.6 ГГц; Встроенная Intel UHD Graphics; ОЗУ 4 ГБ DDR4 , HDD 500 ГБ",
+        "price": "1056.00"
+    },
+    {
+        "image": "Компьютер_JET_Office_5i8400D8HD1VGALW50.jpg",
+        "name": "Компьютер JET Office 5i8400D8HD1VGALW50",
+        "description": "Офисный; Dos; Intel Core-i5 8400 , 6 -ядерный 2.8 ГГц - 4.6 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ DDR4 , HDD 1000 ГБ",
+        "price": "1463.00"
+    },
+    {
+        "image": "Компьютер_JET_Gamer_5R3600D32SD24X165L2W5.jpg",
+        "name": "Компьютер JET Gamer 5R3600D32SD24X165L2W5",
+        "description": "Игровой; Dos; AMD Ryzen 5 3600 , 6 -ядерный 3.6 ГГц - 4.2 ГГц; Дискретная NVIDIA GeForce GTX 1650 , 4 ГБ; ОЗУ 32 ГБ DDR4 , SSD 240 ГБ",
+        "price": "3155.00"
+    },
+    {
+        "image": "Компьютер_Jet_Multimedia_21U157.jpg",
+        "name": "Компьютер Jet Multimedia 21U157",
+        "description": "Офисный; FreeDOS; AMD Athlon 3000G , 2 -ядерный 3.5 ГГц - 3.5 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 8 ГБ DDR4 , SSD 120 ГБ",
+        "price": "894.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22B323.jpg",
+        "name": "Компьютер Jet Gamer 22B323",
+        "description": "Игровой; FreeDOS; AMD Ryzen 7 5700G , 8 -ядерный 3.8 ГГц - 4.6 ГГц; Дискретная NVIDIA GeForce RTX 3060 , 12 ГБ; ОЗУ 32 ГБ DDR4 , SSD 480 ГБ, HDD 2000 ГБ",
+        "price": "5055.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22B259.jpg",
+        "name": "Компьютер Jet Gamer 22B259",
+        "description": "Игровой; Core-i5 12400F , 6 -ядерный 2.5 ГГц - 4.4 ГГц; Дискретная NVIDIA GeForce GTX 1650 , 4 ГБ; ОЗУ 16 ГБ DDR4 , SSD 480 ГБ",
+        "price": "3086.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22L386.jpg",
+        "name": "Компьютер Jet Gamer 22L386",
+        "description": "Игровой; FreeDOS; AMD Ryzen 5 5600G , 6 -ядерный 3.9 ГГц - 4.4 ГГц; Дискретная NVIDIA GeForce RTX 3050 , 8 ГБ; ОЗУ 32 ГБ DDR4 , SSD 240 ГБ, HDD 1000 ГБ",
+        "price": "4023.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22L437.jpg",
+        "name": "Компьютер Jet Gamer 22L437",
+        "description": "Игровой; FreeDOS; AMD Ryzen 7 5700G , 8 -ядерный 3.8 ГГц - 4.6 ГГц; Дискретная NVIDIA GeForce RTX 3060 , 12 ГБ; ОЗУ 32 ГБ DDR4 , SSD 120 ГБ, HDD 2000 ГБ",
+        "price": "4917.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22L294.jpg",
+        "name": "Компьютер Jet Gamer 22L294",
+        "description": "Игровой; FreeDOS; Intel Core-i5 12400F , 6 -ядерный 2.5 ГГц - 4.4 ГГц; Дискретная NVIDIA GeForce RTX 3050 , 8 ГБ; ОЗУ 16 ГБ DDR4 , SSD 960 ГБ",
+        "price": "3860.00"
+    },
+    {
+        "image": "Компьютер_Jet_Wizard_21L315.jpg",
+        "name": "Компьютер Jet Wizard 21L315",
+        "description": "Игровой; FreeDOS; AMD Athlon 3000G , 2 -ядерный 3.5 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 8 ГБ DDR4 , SSD 120 ГБ, HDD 1000 ГБ",
+        "price": "2046.00"
+    },
+    {
+        "image": "Компьютер_Jet_Multimedia_21L547.jpg",
+        "name": "Компьютер Jet Multimedia 21L547",
+        "description": "Мультимедийный; FreeDOS; AMD Ryzen 5 5600G , 6 -ядерный 3.9 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 8 ГБ DDR4 , SSD 480 ГБ",
+        "price": "1716.00"
+    },
+    {
+        "image": "Компьютер_JET_Wizard_3i8100D8HD1X105TL2W5.jpg",
+        "name": "Компьютер JET Wizard 3i8100D8HD1X105TL2W5",
+        "description": "Игровой; Dos; Intel Core-i3 8100 , 4 -ядерный 3.6 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 8 ГБ DDR4 , HDD 1000 ГБ",
+        "price": "2232.00"
+    },
+    {
+        "image": "Компьютер_JET_Office_3i8100D8SD48VGALW50.jpg",
+        "name": "Компьютер JET Office 3i8100D8SD48VGALW50",
+        "description": "Офисный; Dos; Intel Core-i3 8100 , 4 -ядерный 3.6 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ DDR4 , SSD 480 ГБ",
+        "price": "1338.00"
+    },
+    {
+        "image": "Компьютер_JET_Multimedia_GE20D4SD24VGALW50.jpg",
+        "name": "Компьютер JET Multimedia GE20D4SD24VGALW50",
+        "description": "Офисный; FreeDOS; AMD Athlon 200GE , 2 -ядерный 3.2 ГГц; Встроенная AMD Radeon Vega 3; ОЗУ 4 ГБ DDR4 , SSD 240 ГБ",
+        "price": "784.00"
+    },
+    {
+        "image": "Компьютер_Jet_Multimedia_GE20D16SD48VGALW50.jpg",
+        "name": "Компьютер Jet Multimedia GE20D16SD48VGALW50",
+        "description": "Офисный; FreeDOS; AMD Athlon 200GE , 2 -ядерный 3.2 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 16 ГБ DDR4 , SSD 480 ГБ",
+        "price": "1181.00"
+    },
+    {
+        "image": "Компьютер_Jet_Multimedia_GE20D16SD96VGALW50.jpg",
+        "name": "Компьютер Jet Multimedia GE20D16SD96VGALW50",
+        "description": "Офисный; FreeDOS; AMD Athlon 200GE , 2 -ядерный 3.2 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 16 ГБ DDR4 , SSD 960 ГБ",
+        "price": "1351.00"
+    },
+    {
+        "image": "Компьютер_Jet_Multimedia_21U183.jpg",
+        "name": "Компьютер Jet Multimedia 21U183",
+        "description": "Мультимедийный; FreeDOS; AMD Athlon 3000G , 2 -ядерный 3.5 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 8 ГБ DDR4 , SSD 480 ГБ",
+        "price": "1032.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22B376.jpg",
+        "name": "Компьютер Jet Gamer 22B376",
+        "description": "Игровой; FreeDOS; AMD Ryzen 5 5600G , 6 -ядерный 3.9 ГГц - 4.4 ГГц; Дискретная NVIDIA GeForce RTX 3050 , 8 ГБ; ОЗУ 16 ГБ DDR4 , SSD 240 ГБ",
+        "price": "3578.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22B283.jpg",
+        "name": "Компьютер Jet Gamer 22B283",
+        "description": "Игровой; FreeDOS; Intel Core-i3 12100F , 4 -ядерный 3.3 ГГц - 4.3 ГГц; Дискретная NVIDIA GeForce RTX 3050 , 8 ГБ; ОЗУ 16 ГБ DDR4 , SSD 240 ГБ, HDD 1000 ГБ",
+        "price": "3495.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22B369.jpg",
+        "name": "Компьютер Jet Gamer 22B369",
+        "description": "Игровой; FreeDOS; Intel Core-i7 12700F , 12 -ядерный 1.6 ГГц - 4.9 ГГц; Дискретная NVIDIA GeForce RTX 3050 , 8 ГБ; ОЗУ 32 ГБ DDR4 , SSD 240 ГБ, HDD 1000 ГБ",
+        "price": "4920.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22L431.jpg",
+        "name": "Компьютер Jet Gamer 22L431",
+        "description": "Игровой; FreeDOS; AMD Ryzen 7 5700G , 8 -ядерный 3.8 ГГц - 4.6 ГГц; Дискретная NVIDIA GeForce RTX 3060 , 12 ГБ; ОЗУ 32 ГБ DDR4 , SSD 240 ГБ",
+        "price": "4709.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_21U299.jpg",
+        "name": "Компьютер Jet Gamer 21U299",
+        "description": "Игровой; FreeDOS; Intel Core-i5 10400F , 6 -ядерный 2.9 ГГц - 4.3 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 16 ГБ DDR4 , SSD 480 ГБ",
+        "price": "2471.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22B194.jpg",
+        "name": "Компьютер Jet Gamer 22B194",
+        "description": "Игровой; FreeDOS; Intel Core-i3 12100F , 4 -ядерный 3.3 ГГц - 4.3 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 8 ГБ DDR4 , SSD 120 ГБ, HDD 1000 ГБ",
+        "price": "2426.00"
+    },
+    {
+        "image": "Компьютер_JET_Wizard_5R2600D8HD1SD12X105TL2W5.jpg",
+        "name": "Компьютер JET Wizard 5R2600D8HD1SD12X105TL2W5",
+        "description": "Игровой; Dos; AMD Ryzen 5 2600 , 6 -ядерный 3.4 ГГц - 3.9 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 8 ГБ DDR4 , SSD 120 ГБ, HDD 1000 ГБ",
+        "price": "2454.00"
+    },
+    {
+        "image": "Компьютер_JET_Wizard_7i8700D8HD1SD24X105TL2W5.jpg",
+        "name": "Компьютер JET Wizard 7i8700D8HD1SD24X105TL2W5",
+        "description": "Игровой; Dos; Intel Core-i7 8700 , 6 -ядерный 3.2 ГГц - 4.6 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 8 ГБ DDR4 , SSD 240 ГБ, HDD 1000 ГБ",
+        "price": "3132.00"
+    },
+    {
+        "image": "Компьютер_JET_Gamer_5R2600D16HD1SD24X166TL4W6.jpg",
+        "name": "Компьютер JET Gamer 5R2600D16HD1SD24X166TL4W6",
+        "description": "Игровой; Dos; AMD Ryzen 5 2600 , 6 -ядерный 3.4 ГГц - 3.9 ГГц; Дискретная NVIDIA GeForce GTX 1660 Ti , 6 ГБ; ОЗУ 16 ГБ DDR4 , SSD 240 ГБ, HDD 1000 ГБ",
+        "price": "3341.00"
+    },
+    {
+        "image": "Компьютер_JET_Gamer_5i9400FD16HD1SD24X166TL2W6.jpg",
+        "name": "Компьютер JET Gamer 5i9400FD16HD1SD24X166TL2W6",
+        "description": "Игровой; Dos; Intel Core-i5 9400F , 6 -ядерный 2.9 ГГц - 4.1 ГГц; Дискретная NVIDIA GeForce GTX 1660 Ti , 6 ГБ; ОЗУ 16 ГБ DDR4 , SSD 240 ГБ, HDD 1000 ГБ",
+        "price": "3568.00"
+    },
+    {
+        "image": "Компьютер_JET_Wizard_5i9400FD16HD1SD48X165L2W5.jpg",
+        "name": "Компьютер JET Wizard 5i9400FD16HD1SD48X165L2W5",
+        "description": "Игровой; Dos; Intel Core-i5 9400F , 6 -ядерный 2.9 ГГц - 4.1 ГГц; Дискретная NVIDIA GeForce GTX 1650 , 4 ГБ; ОЗУ 16 ГБ DDR4 , SSD 480 ГБ, HDD 1000 ГБ",
+        "price": "3081.00"
+    },
+    {
+        "image": "Компьютер_JET_Gamer_5i9600KD16HD1SD12X206L2W7.jpg",
+        "name": "Компьютер JET Gamer 5i9600KD16HD1SD12X206L2W7",
+        "description": "Игровой; Dos; Intel Core-i5 9600K , 6 -ядерный 3.6 ГГц - 4.6 ГГц; Дискретная NVIDIA GeForce RTX 2060 , 6 ГБ; ОЗУ 16 ГБ DDR4 , SSD 120 ГБ, HDD 1000 ГБ",
+        "price": "3960.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_21L308.jpg",
+        "name": "Компьютер Jet Gamer 21L308",
+        "description": "Игровой; FreeDOS; Intel Core-i5 10400F , 6 -ядерный 2.9 ГГц - 4.3 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 8 ГБ DDR4 , SSD 240 ГБ",
+        "price": "2273.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22B424.jpg",
+        "name": "Компьютер Jet Gamer 22B424",
+        "description": "Игровой; FreeDOS; AMD Ryzen 7 5700G , 8 -ядерный 3.8 ГГц - 4.6 ГГц; Дискретная NVIDIA GeForce RTX 3060 , 12 ГБ; ОЗУ 16 ГБ DDR4 , SSD 960 ГБ",
+        "price": "4665.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22B422.jpg",
+        "name": "Компьютер Jet Gamer 22B422",
+        "description": "Игровой; FreeDOS; AMD Ryzen 7 5700G , 8 -ядерный 3.8 ГГц - 4.6 ГГц; Дискретная NVIDIA GeForce RTX 3060 , 12 ГБ; ОЗУ 16 ГБ DDR4 , SSD 240 ГБ",
+        "price": "4449.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22B257.jpg",
+        "name": "Компьютер Jet Gamer 22B257",
+        "description": "Игровой; FreeDOS; Intel Core-i5 12400F , 6 -ядерный 2.5 ГГц - 4.4 ГГц; Дискретная NVIDIA GeForce GTX 1650 , 4 ГБ; ОЗУ 16 ГБ DDR4 , SSD 120 ГБ",
+        "price": "2948.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22B291.jpg",
+        "name": "Компьютер Jet Gamer 22B291",
+        "description": "Игровой; FreeDOS; Intel Core-i5 12400F , 6 -ядерный 2.5 ГГц - 4.4 ГГц; Дискретная NVIDIA GeForce RTX 3050 , 8 ГБ; ОЗУ 16 ГБ DDR4 , SSD 120 ГБ",
+        "price": "3591.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22B370.jpg",
+        "name": "Компьютер Jet Gamer 22B370",
+        "description": "Игровой; FreeDOS; Intel Core-i7 12700F , 12 -ядерный 1.6 ГГц - 4.9 ГГц; Дискретная NVIDIA GeForce RTX 3050 , 8 ГБ; ОЗУ 32 ГБ DDR4 , SSD 480 ГБ, HDD 1000 ГБ",
+        "price": "5006.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22L303.jpg",
+        "name": "Компьютер Jet Gamer 22L303",
+        "description": "Игровой; FreeDOS; Intel Core-i5 12400F , 6 -ядерный 2.5 ГГц - 4.4 ГГц; Дискретная NVIDIA GeForce RTX 3050 , 8 ГБ; ОЗУ 32 ГБ DDR4 , SSD 480 ГБ, HDD 1000 ГБ",
+        "price": "4175.00"
+    },
+    {
+        "image": "Компьютер_Jet_Multimedia_22L094.jpg",
+        "name": "Компьютер Jet Multimedia 22L094",
+        "description": "Мультимедийный; FreeDOS; AMD Ryzen 5 5600G , 6 -ядерный 3.9 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 32 ГБ DDR4 , SSD 960 ГБ",
+        "price": "2253.00"
+    },
+    {
+        "image": "Неттоп_Asus_PB63-B-B3053MD.jpg",
+        "name": "Неттоп Asus PB63-B-B3053MD",
+        "description": "Офисный; Без ОС; Intel Core-i3 13100 , 4 -ядерный 3.4 ГГц - 4.5 ГГц; Встроенная Intel UHD Graphics; ОЗУ Не установлена ГБ",
+        "price": "1732.00"
+    },
+    {
+        "image": "Неттоп_Asus_PB63-B-BC051MD.jpg",
+        "name": "Неттоп Asus PB63-B-BC051MD",
+        "description": "Офисный; Без ОС; Intel Celeron G6900 , 2 -ядерный 3.4 ГГц; Встроенная Intel UHD Graphics; ОЗУ Не установлена ГБ",
+        "price": "1395.00"
+    },
+    {
+        "image": "Компьютер_JET_Office_5i347D8SD96VGAM1W1.jpg",
+        "name": "Компьютер JET Office 5i347D8SD96VGAM1W1",
+        "description": "Офисный; Без ОС; Intel Core-i5 3470 , 4 -ядерный 3.2 ГГц - 3.6 ГГц; Встроенная Intel HD Graphics; ОЗУ 8 ГБ DDR3 , SSD 960 ГБ",
+        "price": "1031.00"
+    },
+    {
+        "image": "Компьютер_JET_Office_5i347D16SD24VGAM1W1.jpg",
+        "name": "Компьютер JET Office 5i347D16SD24VGAM1W1",
+        "description": "Офисный; Без ОС; Intel Core-i5 3470 , 4 -ядерный 3.2 ГГц - 3.6 ГГц; Встроенная Intel HD Graphics; ОЗУ 16 ГБ DDR3 , SSD 240 ГБ",
+        "price": "939.00"
+    },
+    {
+        "image": "Неттоп_Asus_PL64-B-S3092MN.jpg",
+        "name": "Неттоп Asus PL64-B-S3092MN",
+        "description": "Офисный; Без ОС; Intel Core-i3 1215U , 6 -ядерный 1.2 ГГц - 4.4 ГГц; Встроенная Intel UHD Graphics; ОЗУ Не установлена ГБ",
+        "price": "1755.00"
+    },
+    {
+        "image": "Компьютер_JET_Office_3i8100D8SD12VGALW50.jpg",
+        "name": "Компьютер JET Office 3i8100D8SD12VGALW50",
+        "description": "Офисный; Dos; Intel Core-i3 8100 , 4 -ядерный 3.6 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ DDR4 , SSD 120 ГБ",
+        "price": "1086.00"
+    },
+    {
+        "image": "Компьютер_JET_Wizard_5R2600D8HD05SD12X105TL2W5.jpg",
+        "name": "Компьютер JET Wizard 5R2600D8HD05SD12X105TL2W5",
+        "description": "Игровой; Dos; AMD Ryzen 5 2600 , 6 -ядерный 3.4 ГГц - 3.9 ГГц; Дискретная NVIDIA GeForce GTX 1050 Ti , 4 ГБ; ОЗУ 8 ГБ DDR4 , SSD 120 ГБ, HDD 500 ГБ",
+        "price": "2295.00"
+    },
+    {
+        "image": "Компьютер_JET_Gamer_5i9400FD16SD12X166L2W6.jpg",
+        "name": "Компьютер JET Gamer 5i9400FD16SD12X166L2W6",
+        "description": "Игровой; Dos; Intel Core-i5 9400F , 6 -ядерный 2.9 ГГц; Дискретная NVIDIA GeForce GTX 1660 , 6 ГБ; ОЗУ 16 ГБ DDR4 , SSD 120 ГБ",
+        "price": "3165.00"
+    },
+    {
+        "image": "Компьютер_JET_Office_5i8400D8HD1SD24VGALW50.jpg",
+        "name": "Компьютер JET Office 5i8400D8HD1SD24VGALW50",
+        "description": "Офисный; Dos; Intel Core-i5 8400 , 6 -ядерный 2.8 ГГц - 4.0 ГГц; Встроенная Intel HD Graphics; ОЗУ 8 ГБ DDR4 , SSD 240 ГБ, HDD 1000 ГБ",
+        "price": "1601.00"
+    },
+    {
+        "image": "Компьютер_Jet_Multimedia_21U525.jpg",
+        "name": "Компьютер Jet Multimedia 21U525",
+        "description": "Мультимедийный; FreeDOS; AMD Ryzen 5 5600G , 6 -ядерный 3.9 ГГц - 4.4 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 16 ГБ DDR4 , SSD 480 ГБ",
+        "price": "1770.00"
+    },
+    {
+        "image": "Компьютер_Jet_Multimedia_22U087.jpg",
+        "name": "Компьютер Jet Multimedia 22U087",
+        "description": "Мультимедийный; FreeDOS; AMD Ryzen 5 5600G , 6 -ядерный 3.9 ГГц - 4.4 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 16 ГБ DDR4 , SSD 120 ГБ",
+        "price": "1634.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22B431.jpg",
+        "name": "Компьютер Jet Gamer 22B431",
+        "description": "Игровой; FreeDOS; AMD Ryzen 7 5700G , 8 -ядерный 3.8 ГГц - 4.6 ГГц; Дискретная NVIDIA GeForce RTX 3060 , 12 ГБ; ОЗУ 32 ГБ DDR4 , SSD 240 ГБ",
+        "price": "4709.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22B436.jpg",
+        "name": "Компьютер Jet Gamer 22B436",
+        "description": "Игровой; FreeDOS; AMD Ryzen 7 5700G , 8 -ядерный 3.8 ГГц - 4.6 ГГц; Дискретная NVIDIA GeForce RTX 3060 , 12 ГБ; ОЗУ 32 ГБ DDR4 , SSD 120 ГБ, HDD 2000 ГБ",
+        "price": "4917.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22B299.jpg",
+        "name": "Компьютер Jet Gamer 22B299",
+        "description": "Игровой; FreeDOS; Intel Core-i5 12400F , 6 -ядерный 2.5 ГГц - 4.4 ГГц; Дискретная NVIDIA GeForce RTX 3050 , 8 ГБ; ОЗУ 32 ГБ DDR4 , SSD 480 ГБ",
+        "price": "3989.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22L268.jpg",
+        "name": "Компьютер Jet Gamer 22L268",
+        "description": "Игровой; FreeDOS; AMD Ryzen 5 5600G , 6 -ядерный 3.9 ГГц - 4.4 ГГц; Дискретная NVIDIA GeForce GTX 1650 , 4 ГБ; ОЗУ 16 ГБ DDR4 , SSD 120 ГБ, HDD 1000 ГБ",
+        "price": "3000.00"
+    },
+    {
+        "image": "Компьютер_Jet_Gamer_22L422.jpg",
+        "name": "Компьютер Jet Gamer 22L422",
+        "description": "Игровой; FreeDOS; AMD Ryzen 7 5700G , 8 -ядерный 3.8 ГГц - 4.6 ГГц; Дискретная NVIDIA GeForce RTX 3060 , 12 ГБ; ОЗУ 16 ГБ DDR4 , SSD 240 ГБ",
+        "price": "4449.00"
+    }
+]

@@ -1,0 +1,902 @@
+[
+    {
+        "image": "Смартфон_HONOR_X7c_6GB_128GB_(лесной_зеленый).jpg",
+        "name": "Смартфон HONOR X7c 6GB/128GB (лесной зеленый)",
+        "description": "6.77 \" 720x1610 пикселей, TFT , 120 Гц; Qualcomm Snapdragon 685 , 8 ядр., 2.8 ГГц; ОЗУ 6 ГБ , 128 ГБ; 108 Мп",
+        "price": "699.00"
+    },
+    {
+        "image": "Смартфон_Xiaomi_Redmi_Note_13_8GB_256GB_Midnight_B.jpg",
+        "name": "Смартфон Xiaomi Redmi Note 13 8GB/256GB Midnight Black RU",
+        "description": "6.67 \" 1080x2400 пикселей, AMOLED , 120 Гц; Qualcomm Snapdragon 685 , 8 ядр., 2.8 ГГц; ОЗУ 8 ГБ , 256 ГБ; 108 Мп",
+        "price": "699.00"
+    },
+    {
+        "image": "Смартфон_Xiaomi_Redmi_Note_13_8GB_256GB_Mint_Green.jpg",
+        "name": "Смартфон Xiaomi Redmi Note 13 8GB/256GB Mint Green RU",
+        "description": "6.67 \" 1080x2400 пикселей, AMOLED , 120 Гц; Qualcomm Snapdragon 685 , 8 ядр., 2.8 ГГц; ОЗУ 8 ГБ , 256 ГБ; 108 Мп",
+        "price": "699.00"
+    },
+    {
+        "image": "Смартфон_Apple_iPhone_15_128GB_Black_(MTP03HN_A).jpg",
+        "name": "Смартфон Apple iPhone 15 128GB Black (MTP03HN/A)",
+        "description": "6.1 \" 1179х2556 пикселей, OLED , 60 Гц; Apple A16 Bionic , 6 ядр., 3.46 ГГц; ОЗУ 6 ГБ , 128 ГБ; Да; 48 Мп",
+        "price": "2999.00"
+    },
+    {
+        "image": "Смартфон_Xiaomi_Redmi_12_8GB_256GB_Midnight_Black_.jpg",
+        "name": "Смартфон Xiaomi Redmi 12 8GB/256GB Midnight Black RU",
+        "description": "6.79 \" 1080x2460 пикселей, IPS , 90 Гц; MediaTek Helio G88 , 8 ядр., 2.0 ГГц; ОЗУ 8 ГБ , 256 ГБ; 50 Мп",
+        "price": "399.00"
+    },
+    {
+        "image": "Смартфон_Realme_C61_8GB_256GB_(темно-зеленый).jpg",
+        "name": "Смартфон Realme C61 8GB/256GB (темно-зеленый)",
+        "description": "6.74 \" 720х1600 пикселей, IPS , 90 Гц; UniSoC Tiger T612 , 8 ядр., 1.82 ГГц; ОЗУ 8 ГБ , 256 ГБ; 50 Мп",
+        "price": "369.00"
+    },
+    {
+        "image": "Смартфон_Infinix_Note_40_8GB_256GB_Obsidian_Black.jpg",
+        "name": "Смартфон Infinix Note 40 8GB/256GB Obsidian Black",
+        "description": "6.78 \" 1080x2436 пикселей, AMOLED , 120 Гц; MediaTek Helio G99 Ultimate , 8 ядр., 2.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 108 Мп",
+        "price": "699.00"
+    },
+    {
+        "image": "Смартфон_Huawei_nova_12i_8GB_256Gb_(CTR-L81)_Green.jpg",
+        "name": "Смартфон Huawei nova 12i 8GB/256Gb (CTR-L81) Green",
+        "description": "6.7 \" 1080x2388 пикселей, IPS , 90 Гц; Qualcomm Snapdragon 680 , 8 ядр., 2.4 ГГц; ОЗУ 8 ГБ , 256 ГБ; 108 Мп",
+        "price": "549.00"
+    },
+    {
+        "image": "Смартфон_Xiaomi_Redmi_12_8GB_256GB_с_NFC_Polar_Sil.jpg",
+        "name": "Смартфон Xiaomi Redmi 12 8GB/256GB с NFC Polar Silver RU",
+        "description": "6.79 \" 1080x2460 пикселей, IPS , 90 Гц; MediaTek Helio G88 , 8 ядр., 2.0 ГГц; ОЗУ 8 ГБ , 256 ГБ; 50 Мп",
+        "price": "399.00"
+    },
+    {
+        "image": "Смартфон_Apple_iPhone_15_Pro_128GB_Blue_Titanium_(.jpg",
+        "name": "Смартфон Apple iPhone 15 Pro 128GB Blue Titanium (MTUA3AH/A)",
+        "description": "6.1 \" 1179х2556 пикселей, OLED , 120 Гц; Apple A17 Pro , 6 ядр., 3.78 ГГц; ОЗУ 8 ГБ , 128 ГБ; Да; 48 Мп",
+        "price": "4399.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_A55_5G_8GB_256GB_(лавандов.jpg",
+        "name": "Смартфон Samsung Galaxy A55 5G 8GB/256GB (лавандовый)",
+        "description": "6.6 \" 1080x2340 пикселей, AMOLED (Super AMOLED) , 120 Гц; Exynos 1480 , 8 ядр., 2.75 ГГц; ОЗУ 8 ГБ , 256 ГБ; 50 Мп",
+        "price": "1549.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_A55_5G_8GB_128GB_(темно-си.jpg",
+        "name": "Смартфон Samsung Galaxy A55 5G 8GB/128GB (темно-синий)",
+        "description": "6.6 \" 1080x2340 пикселей, AMOLED (Super AMOLED) , 120 Гц; Exynos 1480 , 8 ядр., 2.75 ГГц; ОЗУ 8 ГБ , 128 ГБ; 50 Мп",
+        "price": "1369.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_S24_SM-S921_256GB_(черный).jpg",
+        "name": "Смартфон Samsung Galaxy S24 SM-S921 256GB (черный)",
+        "description": "6.2 \" 1080x2340 пикселей, Dynamic AMOLED 2X , 120 Гц; Exynos 2400 , 10 ядр., 3.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; Да; 50 Мп",
+        "price": "2999.00"
+    },
+    {
+        "image": "Смартфон_Tecno_POVA_5_(LH7n)_8GB_256GB_Mecha_Black.jpg",
+        "name": "Смартфон Tecno POVA 5 (LH7n) 8GB/256GB Mecha Black",
+        "description": "6.8 \" 1080x2460 пикселей, IPS , 120 Гц; MediaTek Helio G99 , 8 ядр., 2.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 50 Мп",
+        "price": "449.00"
+    },
+    {
+        "image": "Смартфон_Apple_iPhone_13_128GB_Midnight_(MLPF3HN_A.jpg",
+        "name": "Смартфон Apple iPhone 13 128GB Midnight (MLPF3HN/A)",
+        "description": "6.1 \" 1170x2532 пикселей, OLED , 60 Гц; Apple A15 Bionic , 6 ядр.; ОЗУ 4 ГБ , 128 ГБ; Да; 12 Мп",
+        "price": "2249.00"
+    },
+    {
+        "image": "Смартфон_Apple_iPhone_13_128GB_Starlight_(MLPG3HN_.jpg",
+        "name": "Смартфон Apple iPhone 13 128GB Starlight (MLPG3HN/A)",
+        "description": "6.1 \" 1170x2532 пикселей, OLED , 60 Гц; Apple A15 Bionic , 6 ядр.; ОЗУ 4 ГБ , 128 ГБ; Да; 12 Мп",
+        "price": "2249.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_A55_5G_8GB_256GB_(темно-си.jpg",
+        "name": "Смартфон Samsung Galaxy A55 5G 8GB/256GB (темно-синий)",
+        "description": "6.6 \" 1080x2340 пикселей, AMOLED (Super AMOLED) , 120 Гц; Exynos 1480 , 8 ядр., 2.75 ГГц; ОЗУ 8 ГБ , 256 ГБ; 50 Мп",
+        "price": "1549.00"
+    },
+    {
+        "image": "Смартфон_POCO_M6_Pro_12GB_512GB_Blue_RU.jpg",
+        "name": "Смартфон POCO M6 Pro 12GB/512GB Blue RU",
+        "description": "6.67 \" 1080x2400 пикселей, AMOLED , 120 Гц; MediaTek Helio G99 Ultra , 8 ядр., 2.2 ГГц; ОЗУ 12 ГБ , 512 ГБ; 64 Мп",
+        "price": "849.00"
+    },
+    {
+        "image": "Смартфон_Xiaomi_Redmi_13C_4GB_128GB_Navy_Blue_RU.jpg",
+        "name": "Смартфон Xiaomi Redmi 13C 4GB/128GB Navy Blue RU",
+        "description": "6.74 \" 720x1600 пикселей, IPS , 90 Гц; MediaTek Helio G85 , 8 ядр., 2.0 ГГц; ОЗУ 4 ГБ , 128 ГБ; 50 Мп",
+        "price": "329.00"
+    },
+    {
+        "image": "Смартфон_Xiaomi_Redmi_Note_13_Pro_8GB_256GB_Midnig.jpg",
+        "name": "Смартфон Xiaomi Redmi Note 13 Pro 8GB/256GB Midnight Black RU",
+        "description": "6.67 \" 1080x2400 пикселей, AMOLED , 120 Гц; MediaTek Helio G99 Ultra , 8 ядр., 2.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 200 Мп",
+        "price": "999.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_A55_5G_8GB_256GB_(голубой).jpg",
+        "name": "Смартфон Samsung Galaxy A55 5G 8GB/256GB (голубой)",
+        "description": "6.6 \" 1080x2340 пикселей, AMOLED (Super AMOLED) , 120 Гц; Exynos 1480 , 8 ядр., 2.75 ГГц; ОЗУ 8 ГБ , 256 ГБ; 50 Мп",
+        "price": "1549.00"
+    },
+    {
+        "image": "Смартфон_Apple_iPhone_16_128GB_Pink_(MYEA3HN_A).jpg",
+        "name": "Смартфон Apple iPhone 16 128GB Pink (MYEA3HN/A)",
+        "description": "6.1 \" 1179х2556 пикселей, OLED , 60 Гц; Apple A18 , 6 ядр., 4.04 ГГц; ОЗУ 8 ГБ , 128 ГБ; Да; 48 Мп",
+        "price": "3899.00"
+    },
+    {
+        "image": "Смартфон_Xiaomi_Redmi_13_8GB_256GB_Midnight_Black_.jpg",
+        "name": "Смартфон Xiaomi Redmi 13 8GB/256GB Midnight Black RU",
+        "description": "6.79 \" 1080x2400 пикселей, IPS , 90 Гц; MediaTek Helio G91 Ultra , 8 ядр., 2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 108 Мп",
+        "price": "599.00"
+    },
+    {
+        "image": "Смартфон_Huawei_Pura_70_12GB_256GB_(ADY-LX9)_White.jpg",
+        "name": "Смартфон Huawei Pura 70 12GB/256GB (ADY-LX9) White",
+        "description": "6.6 \" 1256х2760 пикселей, OLED , 120 Гц; HiSilicon Kirin 9000S1 , 8 ядр., 2.49 ГГц; ОЗУ 12 ГБ , 256 ГБ; 50 Мп",
+        "price": "1899.00"
+    },
+    {
+        "image": "Смартфон_APPLE_iPhone_14_128GB_Midnight_(MPUF3HN_A.jpg",
+        "name": "Смартфон APPLE iPhone 14 128GB Midnight (MPUF3HN/A)",
+        "description": "6.1 \" 1170x2532 пикселей, OLED , 60 Гц; Apple A15 Bionic , 6 ядр., 3.23 ГГц; ОЗУ 6 ГБ , 128 ГБ; Да; 12 Мп",
+        "price": "2599.00"
+    },
+    {
+        "image": "Смартфон_APPLE_iPhone_12_128Gb_Black_(MGJA3AA_A).jpg",
+        "name": "Смартфон APPLE iPhone 12 128Gb Black (MGJA3AA/A)",
+        "description": "6.1 \" 1170x2532 пикселей, OLED , 60 Гц; Apple A14 Bionic , 6 ядр.; ОЗУ 4 ГБ , 128 ГБ; Да; 12 Мп",
+        "price": "1999.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_A06_6GB_128GB_(SM-A065FZKH.jpg",
+        "name": "Смартфон Samsung Galaxy A06 6GB/128GB (SM-A065FZKHCAU) черный",
+        "description": "6.7 \" 720x1600 пикселей, PLS , 60 Гц; MediaTek Helio G85 , 8 ядр., 2.0 ГГц; ОЗУ 6 ГБ , 128 ГБ; 50 Мп",
+        "price": "439.00"
+    },
+    {
+        "image": "Смартфон_TCL_50_Pro_NXTPAPER_5G_T803D_(8GB_512GB)_.jpg",
+        "name": "Смартфон TCL 50 Pro NXTPAPER 5G T803D (8GB/512GB) Moon Gray",
+        "description": "6.8 \" 1080x2460 пикселей, IPS , 120 Гц; MediaTek Dimensity 6300 , 8 ядр., 2.4 ГГц; ОЗУ 8 ГБ , 512 ГБ; Да; 108 Мп",
+        "price": "1249.00"
+    },
+    {
+        "image": "Смартфон_Apple_iPhone_13_128GB_Pink_(MLPH3HN_A).jpg",
+        "name": "Смартфон Apple iPhone 13 128GB Pink (MLPH3HN/A)",
+        "description": "6.1 \" 1170x2532 пикселей, OLED , 60 Гц; Apple A15 Bionic , 6 ядр.; ОЗУ 4 ГБ , 128 ГБ; Да; 12 Мп",
+        "price": "2249.00"
+    },
+    {
+        "image": "Смартфон_Honor_X7b_8GB_128GB_Flowing_Silver.jpg",
+        "name": "Смартфон Honor X7b 8GB/128GB Flowing Silver",
+        "description": "6.8 \" 1080x2412 пикселей, IPS , 90 Гц; Qualcomm Snapdragon 680 , 8 ядр., 2.4 ГГц; ОЗУ 8 ГБ , 128 ГБ; 108 Мп",
+        "price": "549.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_S24_SM-S921_128GB_(черный).jpg",
+        "name": "Смартфон Samsung Galaxy S24 SM-S921 128GB (черный)",
+        "description": "6.2 \" 1080x2340 пикселей, Dynamic AMOLED 2X , 120 Гц; Exynos 2400 , 10 ядр., 3.2 ГГц; ОЗУ 8 ГБ , 128 ГБ; Да; 50 Мп",
+        "price": "2699.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_A35_5G_8GB_128GB_(лавандов.jpg",
+        "name": "Смартфон Samsung Galaxy A35 5G 8GB/128GB (лавандовый)",
+        "description": "6.6 \" 1080x2340 пикселей, AMOLED (Super AMOLED) , 120 Гц; Exynos 1380 , 8 ядр., 2.4 ГГц; ОЗУ 8 ГБ , 128 ГБ; 50 Мп",
+        "price": "1069.00"
+    },
+    {
+        "image": "Смартфон_HONOR_X8b_(LLY-LX1)_8GB_128GB_Glamorous_G.jpg",
+        "name": "Смартфон HONOR X8b (LLY-LX1) 8GB/128GB Glamorous Green",
+        "description": "6.7 \" 1080x2412 пикселей, AMOLED , 90 Гц; Qualcomm Snapdragon 680 , 8 ядр., 2.4 ГГц; ОЗУ 8 ГБ , 128 ГБ; 108 Мп",
+        "price": "699.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_A06_6GB_128GB_(SM-A065FLBH.jpg",
+        "name": "Смартфон Samsung Galaxy A06 6GB/128GB (SM-A065FLBHCAU) голубой",
+        "description": "6.7 \" 720x1600 пикселей, PLS , 60 Гц; MediaTek Helio G85 , 8 ядр., 2.0 ГГц; ОЗУ 6 ГБ , 128 ГБ; 50 Мп",
+        "price": "439.00"
+    },
+    {
+        "image": "Смартфон_Xiaomi_Redmi_A3_3GB_64GB_Midnight_Black_E.jpg",
+        "name": "Смартфон Xiaomi Redmi A3 3GB/64GB Midnight Black EU",
+        "description": "6.71 \" 720x1650 пикселей, IPS , 90 Гц; MediaTek Helio G36 , 8 ядр., 2.2 ГГц; ОЗУ 3 ГБ , 64 ГБ; 8 Мп",
+        "price": "249.00"
+    },
+    {
+        "image": "Смартфон_Huawei_Pura_70_12GB_256GB_(ADY-LX9)_Black.jpg",
+        "name": "Смартфон Huawei Pura 70 12GB/256GB (ADY-LX9) Black",
+        "description": "6.6 \" 1256х2760 пикселей, OLED , 120 Гц; HiSilicon Kirin 9000S1 , 8 ядр., 2.49 ГГц; ОЗУ 12 ГБ , 256 ГБ; 50 Мп",
+        "price": "1899.00"
+    },
+    {
+        "image": "Смартфон_Xiaomi_14T_12GB_256GB_Titan_Black_RU.jpg",
+        "name": "Смартфон Xiaomi 14T 12GB/256GB Titan Black RU",
+        "description": "6.67 \" 1220x2712 пикселей, OLED , 144 Гц; MediaTek Dimensity 8300 Ultra , 8 ядр., 3.35 ГГц; ОЗУ 12 ГБ , 256 ГБ; Да; 50 Мп",
+        "price": "1999.00"
+    },
+    {
+        "image": "Смартфон_Apple_iPhone_16_128GB_Black_(MYE73HN_A).jpg",
+        "name": "Смартфон Apple iPhone 16 128GB Black (MYE73HN/A)",
+        "description": "6.1 \" 1179х2556 пикселей, OLED , 60 Гц; Apple A18 , 6 ядр., 4.04 ГГц; ОЗУ 8 ГБ , 128 ГБ; Да; 48 Мп",
+        "price": "3899.00"
+    },
+    {
+        "image": "Смартфон_Xiaomi_Redmi_Note_13_Pro_12GB_512GB_Fores.jpg",
+        "name": "Смартфон Xiaomi Redmi Note 13 Pro 12GB/512GB Forest Green RU",
+        "description": "6.67 \" 1080x2400 пикселей, AMOLED , 120 Гц; MediaTek Helio G99 Ultra , 8 ядр., 2.2 ГГц; ОЗУ 12 ГБ , 512 ГБ; 200 Мп",
+        "price": "1199.00"
+    },
+    {
+        "image": "Смартфон_Huawei_Pura_70_12GB_256GB_(ADY-LX9)_Pink.jpg",
+        "name": "Смартфон Huawei Pura 70 12GB/256GB (ADY-LX9) Pink",
+        "description": "6.6 \" 1256х2760 пикселей, OLED , 120 Гц; HiSilicon Kirin 9000S1 , 8 ядр., 2.49 ГГц; ОЗУ 12 ГБ , 256 ГБ; 50 Мп",
+        "price": "1899.00"
+    },
+    {
+        "image": "Смартфон_Apple_iPhone_16_Pro_128GB_Black_Titanium_.jpg",
+        "name": "Смартфон Apple iPhone 16 Pro 128GB Black Titanium (MYND3QN/A)",
+        "description": "6.3 \" 1206x2622 пикселей, OLED , 120 Гц; Apple A18 Pro , 6 ядр., 4.04 ГГц; ОЗУ 8 ГБ , 128 ГБ; Да; 48 Мп",
+        "price": "5499.00"
+    },
+    {
+        "image": "Смартфон_Apple_iPhone_15_128GB_Pink_(MTP13HN_A).jpg",
+        "name": "Смартфон Apple iPhone 15 128GB Pink (MTP13HN/A)",
+        "description": "6.1 \" 1179х2556 пикселей, OLED , 60 Гц; Apple A16 Bionic , 6 ядр., 3.46 ГГц; ОЗУ 6 ГБ , 128 ГБ; Да; 48 Мп",
+        "price": "2999.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_S24+_SM-S926_256GB_(черный.jpg",
+        "name": "Смартфон Samsung Galaxy S24+ SM-S926 256GB (черный)",
+        "description": "6.7 \" 1440х3120 пикселей, Dynamic AMOLED 2X , 120 Гц; Exynos 2400 , 10 ядр., 3.2 ГГц; ОЗУ 12 ГБ , 256 ГБ; Да; 50 Мп",
+        "price": "3299.00"
+    },
+    {
+        "image": "Смартфон_POCO_M6_PRO_12GB_512GB_Black_RU.jpg",
+        "name": "Смартфон POCO M6 PRO 12GB/512GB Black RU",
+        "description": "6.67 \" 1080x2400 пикселей, AMOLED , 120 Гц; MediaTek Helio G99 Ultra , 8 ядр., 2.2 ГГц; ОЗУ 12 ГБ , 512 ГБ; 64 Мп",
+        "price": "849.00"
+    },
+    {
+        "image": "Смартфон_Apple_iPhone_13_128GB_Green_(MNGK3HN_A).jpg",
+        "name": "Смартфон Apple iPhone 13 128GB Green (MNGK3HN/A)",
+        "description": "6.1 \" 1170x2532 пикселей, OLED , 60 Гц; Apple A15 Bionic , 6 ядр.; ОЗУ 4 ГБ , 128 ГБ; Да; 12 Мп",
+        "price": "2249.00"
+    },
+    {
+        "image": "Смартфон_POCO_M6_Pro_8GB_256GB_Black_RU.jpg",
+        "name": "Смартфон POCO M6 Pro 8GB/256GB Black RU",
+        "description": "6.67 \" 1080x2400 пикселей, AMOLED , 120 Гц; MediaTek Helio G99 Ultra , 8 ядр., 2.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 64 Мп",
+        "price": "749.00"
+    },
+    {
+        "image": "Смартфон_Apple_iPhone_16_Pro_Max_256GB_Desert_Tita.jpg",
+        "name": "Смартфон Apple iPhone 16 Pro Max 256GB Desert Titanium (MYWX3QN/A)",
+        "description": "6.9 \" 1320x2868 пикселей, OLED , 120 Гц; Apple A18 Pro , 6 ядр., 4.04 ГГц; ОЗУ 8 ГБ , 256 ГБ; Да; 48 Мп",
+        "price": "7199.00"
+    },
+    {
+        "image": "Смартфон_Infinix_Hot_40_8GB_128GB_(черный).jpg",
+        "name": "Смартфон Infinix Hot 40 8GB/128GB (черный)",
+        "description": "6.78 \" 1080x2460 пикселей, IPS , 90 Гц; MediaTek Helio G88 , 8 ядр., 2.0 ГГц; ОЗУ 8 ГБ , 128 ГБ; 50 Мп",
+        "price": "398.00"
+    },
+    {
+        "image": "Смартфон_HONOR_X7c_8GB_256GB_(лесной_зеленый).jpg",
+        "name": "Смартфон HONOR X7c 8GB/256GB (лесной зеленый)",
+        "description": "6.77 \" 720x1610 пикселей, TFT , 120 Гц; Qualcomm Snapdragon 685 , 8 ядр., 2.8 ГГц; ОЗУ 8 ГБ , 256 ГБ; 108 Мп",
+        "price": "799.00"
+    },
+    {
+        "image": "Смартфон_Xiaomi_Redmi_13_8GB_256GB_Pearl_Pink_RU.jpg",
+        "name": "Смартфон Xiaomi Redmi 13 8GB/256GB Pearl Pink RU",
+        "description": "6.79 \" 1080x2400 пикселей, IPS , 90 Гц; MediaTek Helio G91 Ultra , 8 ядр., 2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 108 Мп",
+        "price": "599.00"
+    },
+    {
+        "image": "Смартфон_Apple_iPhone_16_256GB_Pink_(MYEG3HN_A).jpg",
+        "name": "Смартфон Apple iPhone 16 256GB Pink (MYEG3HN/A)",
+        "description": "6.1 \" 1179х2556 пикселей, OLED , 60 Гц; Apple A18 , 6 ядр., 4.04 ГГц; ОЗУ 8 ГБ , 256 ГБ; Да; 48 Мп",
+        "price": "4399.00"
+    },
+    {
+        "image": "Смартфон_POCO_M6_Pro_12GB_512GB_Purple_RU.jpg",
+        "name": "Смартфон POCO M6 Pro 12GB/512GB Purple RU",
+        "description": "6.67 \" 1080x2400 пикселей, AMOLED , 120 Гц; MediaTek Helio G99 Ultra , 8 ядр., 2.2 ГГц; ОЗУ 12 ГБ , 512 ГБ; 64 Мп",
+        "price": "849.00"
+    },
+    {
+        "image": "Смартфон_APPLE_iPhone_14_128GB_Starlight_(MPUR3HN_.jpg",
+        "name": "Смартфон APPLE iPhone 14 128GB Starlight (MPUR3HN/A)",
+        "description": "6.1 \" 1170x2532 пикселей, OLED , 60 Гц; Apple A15 Bionic , 6 ядр., 3.23 ГГц; ОЗУ 6 ГБ , 128 ГБ; Да; 12 Мп",
+        "price": "2599.00"
+    },
+    {
+        "image": "Смартфон_Tecno_Spark_20_8GB_256GB_(черный).jpg",
+        "name": "Смартфон Tecno Spark 20 8GB/256GB (черный)",
+        "description": "6.6 \" 720x1612 пикселей, IPS , 90 Гц; MediaTek Helio G85 , 8 ядр., 2.0 ГГц; ОЗУ 8 ГБ , 256 ГБ; 50 Мп",
+        "price": "349.00"
+    },
+    {
+        "image": "Смартфон_Honor_200_(ELI-NX9)_8GB_256GB_Black.jpg",
+        "name": "Смартфон Honor 200 (ELI-NX9) 8GB/256GB Black",
+        "description": "6.7 \" 1200x2664 пикселей, AMOLED , 120 Гц; Qualcomm Snapdragon 7 Gen3 , 8 ядр., 2.63 ГГц; ОЗУ 8 ГБ , 256 ГБ; Да; 50 Мп",
+        "price": "1499.00"
+    },
+    {
+        "image": "Смартфон_APPLE_iPhone_11_128GB_White_(MHDJЗQL_A).jpg",
+        "name": "Смартфон APPLE iPhone 11 128GB White (MHDJЗQL/A)",
+        "description": "6.1 \" 828x1792 пикселей, IPS , 60 Гц; Apple A13 Bionic , 6 ядр., 2.65 ГГц; ОЗУ 4 ГБ , 128 ГБ; Да; 12 Мп",
+        "price": "1799.00"
+    },
+    {
+        "image": "Смартфон_Huawei_Pura_70_Pro_12GB_512GB_(HBN-LX9)_B.jpg",
+        "name": "Смартфон Huawei Pura 70 Pro 12GB/512GB (HBN-LX9) Black",
+        "description": "6.8 \" 1260x2844 пикселей, OLED , 120 Гц; HiSilicon Kirin 9010 , 8 ядр., 2.3 ГГц; ОЗУ 12 ГБ , 512 ГБ; 50 Мп",
+        "price": "2499.00"
+    },
+    {
+        "image": "Смартфон_Xiaomi_Redmi_Note_13_8GB_512GB_Midnight_B.jpg",
+        "name": "Смартфон Xiaomi Redmi Note 13 8GB/512GB Midnight Black EU",
+        "description": "6.67 \" 1080x2400 пикселей, AMOLED , 120 Гц; Qualcomm Snapdragon 685 , 8 ядр., 2.8 ГГц; ОЗУ 8 ГБ , 512 ГБ; 108 Мп",
+        "price": "899.00"
+    },
+    {
+        "image": "Смартфон_Xiaomi_Redmi_13_8GB_256GB_Ocean_Blue_RU.jpg",
+        "name": "Смартфон Xiaomi Redmi 13 8GB/256GB Ocean Blue RU",
+        "description": "6.79 \" 1080x2400 пикселей, IPS , 90 Гц; MediaTek Helio G91 Ultra , 8 ядр., 2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 108 Мп",
+        "price": "599.00"
+    },
+    {
+        "image": "Смартфон_Huawei_nova_12i_8GB_256Gb_(CTR-L81)_Black.jpg",
+        "name": "Смартфон Huawei nova 12i 8GB/256Gb (CTR-L81) Black",
+        "description": "6.7 \" 1080x2388 пикселей, IPS , 90 Гц; Qualcomm Snapdragon 680 , 8 ядр., 2.4 ГГц; ОЗУ 8 ГБ , 256 ГБ; 108 Мп",
+        "price": "549.00"
+    },
+    {
+        "image": "Смартфон_HONOR_90_8GB_256GB_(изумрудный_зеленый).jpg",
+        "name": "Смартфон HONOR 90 8GB/256GB (изумрудный зеленый)",
+        "description": "6.7 \" 1200x2664 пикселей, AMOLED , 120 Гц; Qualcomm Snapdragon 7 Gen1 Accelerated Edition , 8 ядр., 2.5 ГГц; ОЗУ 8 ГБ , 256 ГБ; Да; 200 Мп",
+        "price": "1199.00"
+    },
+    {
+        "image": "Смартфон_Apple_iPhone_13_128GB_Blue_(MLPK3HN_A).jpg",
+        "name": "Смартфон Apple iPhone 13 128GB Blue (MLPK3HN/A)",
+        "description": "6.1 \" 1170x2532 пикселей, OLED , 60 Гц; Apple A15 Bionic , 6 ядр.; ОЗУ 4 ГБ , 128 ГБ; Да; 12 Мп",
+        "price": "2249.00"
+    },
+    {
+        "image": "Смартфон_Xiaomi_Redmi_Note_13_Pro_8GB_256GB_Forest.jpg",
+        "name": "Смартфон Xiaomi Redmi Note 13 Pro 8GB/256GB Forest Green RU",
+        "description": "6.67 \" 1080x2400 пикселей, AMOLED , 120 Гц; MediaTek Helio G99 Ultra , 8 ядр., 2.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 200 Мп",
+        "price": "999.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_A35_5G_8GB_256GB_(темно-си.jpg",
+        "name": "Смартфон Samsung Galaxy A35 5G 8GB/256GB (темно-синий)",
+        "description": "6.6 \" 1080x2340 пикселей, AMOLED (Super AMOLED) , 120 Гц; Exynos 1380 , 8 ядр., 2.4 ГГц; ОЗУ 8 ГБ , 256 ГБ; 50 Мп",
+        "price": "1199.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_S24_FE_256GB_(SM-S721BZACC.jpg",
+        "name": "Смартфон Samsung Galaxy S24 FE 256GB (SM-S721BZACCAU) серый",
+        "description": "6.7 \" 1080x2340 пикселей, Dynamic AMOLED 2X , 120 Гц; Exynos 2400e , 10 ядр., 3.1 ГГц; ОЗУ 8 ГБ , 256 ГБ; Да; 50 Мп",
+        "price": "2499.00"
+    },
+    {
+        "image": "Смартфон_Xiaomi_Redmi_Note_13_Pro+_5G_8GB_256GB_Mo.jpg",
+        "name": "Смартфон Xiaomi Redmi Note 13 Pro+ 5G 8GB/256GB Moonlight White EU",
+        "description": "6.67 \" 1220x2712 пикселей, AMOLED , 120 Гц; MediaTek Dimensity 7200 Ultra , 8 ядр., 2.8 ГГц; ОЗУ 8 ГБ , 256 ГБ; Да; 200 Мп",
+        "price": "1499.00"
+    },
+    {
+        "image": "Смартфон_Apple_iPhone_16_128GB_Ultramarine_(MYEC3H.jpg",
+        "name": "Смартфон Apple iPhone 16 128GB Ultramarine (MYEC3HN/A)",
+        "description": "6.1 \" 1179х2556 пикселей, OLED , 60 Гц; Apple A18 , 6 ядр., 4.04 ГГц; ОЗУ 8 ГБ , 128 ГБ; Да; 48 Мп",
+        "price": "3899.00"
+    },
+    {
+        "image": "Смартфон_Huawei_nova_Y72_8GB_128GB_(MGA-LX3)_зелен.jpg",
+        "name": "Смартфон Huawei nova Y72 8GB/128GB (MGA-LX3) зеленый",
+        "description": "6.75 \" 720x1600 пикселей, TFT , 60 Гц; HiSilicon Kirin 710A , 8 ядр., 2.0 ГГц; ОЗУ 8 ГБ , 128 ГБ; 50 Мп",
+        "price": "399.00"
+    },
+    {
+        "image": "Смартфон_HONOR_X8b_(LLY-LX1)_8GB_256GB_Glamorous_G.jpg",
+        "name": "Смартфон HONOR X8b (LLY-LX1) 8GB/256GB Glamorous Green",
+        "description": "6.7 \" 1080x2412 пикселей, AMOLED , 90 Гц; Qualcomm Snapdragon 680 , 8 ядр., 2.4 ГГц; ОЗУ 8 ГБ , 256 ГБ; 108 Мп",
+        "price": "799.00"
+    },
+    {
+        "image": "Смартфон_Infinix_Hot_30_Play_NFC_8GB_128GB_(белый).jpg",
+        "name": "Смартфон Infinix Hot 30 Play NFC 8GB/128GB (белый)",
+        "description": "6.82 \" 720x1640 пикселей, IPS , 90 Гц; MediaTek Helio G37 , 8 ядр., 2.3 ГГц; ОЗУ 8 ГБ , 128 ГБ; 16 Мп",
+        "price": "329.00"
+    },
+    {
+        "image": "Смартфон_Cubot_King_Kong_9_12GB_256GB_(черный).jpg",
+        "name": "Смартфон Cubot King Kong 9 12GB/256GB (черный)",
+        "description": "6.58 \" 1080x2460 пикселей, IPS , 120 Гц; MediaTek Helio G99 , 8 ядр., 2.2 ГГц; ОЗУ 12 ГБ , 256 ГБ; 100 Мп",
+        "price": "1050.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_S24_SM-S921_256GB_(фиолето.jpg",
+        "name": "Смартфон Samsung Galaxy S24 SM-S921 256GB (фиолетовый)",
+        "description": "6.2 \" 1080x2340 пикселей, Dynamic AMOLED 2X , 120 Гц; Exynos 2400 , 10 ядр., 3.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; Да; 50 Мп",
+        "price": "2999.00"
+    },
+    {
+        "image": "Смартфон_Honor_200_Lite_(LLY-NX1)_8GB_256GB_Cyan_L.jpg",
+        "name": "Смартфон Honor 200 Lite (LLY-NX1) 8GB/256GB Cyan Lake",
+        "description": "6.7 \" 1080x2412 пикселей, AMOLED , 90 Гц; MediaTek Dimensity 6080 , 8 ядр., 2.4 ГГц; ОЗУ 8 ГБ , 256 ГБ; 108 Мп",
+        "price": "999.00"
+    },
+    {
+        "image": "Смартфон_Apple_iPhone_15_Pro_Max_512GB_Natural_Tit.jpg",
+        "name": "Смартфон Apple iPhone 15 Pro Max 512GB Natural Titanium (MU7E3RX/A)",
+        "description": "6.7 \" 1290х2796 пикселей, OLED , 120 Гц; Apple A17 Pro , 6 ядр., 3.78 ГГц; ОЗУ 8 ГБ , 512 ГБ; Да; 48 Мп",
+        "price": "5999.00"
+    },
+    {
+        "image": "Смартфон_Infinix_HOT_40_Pro_8GB_256GB_(черный).jpg",
+        "name": "Смартфон Infinix HOT 40 Pro 8GB/256GB (черный)",
+        "description": "6.78 \" 1080x2460 пикселей, IPS , 120 Гц; MediaTek Helio G99 , 8 ядр., 2.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 108 Мп",
+        "price": "599.00"
+    },
+    {
+        "image": "Смартфон_Xiaomi_14T_Pro_12GB_512GB_Titan_Gray_RU.jpg",
+        "name": "Смартфон Xiaomi 14T Pro 12GB/512GB Titan Gray RU",
+        "description": "6.67 \" 1220x2712 пикселей, OLED , 144 Гц; MediaTek Dimensity 9300+ , 8 ядр., 3.25 ГГц; ОЗУ 12 ГБ , 512 ГБ; Да; 50 Мп",
+        "price": "2799.00"
+    },
+    {
+        "image": "Смартфон_APPLE_iPhone_14_128GB_Blue_(MPVN3HN_A).jpg",
+        "name": "Смартфон APPLE iPhone 14 128GB Blue (MPVN3HN/A)",
+        "description": "6.1 \" 1170x2532 пикселей, OLED , 60 Гц; Apple A15 Bionic , 6 ядр., 3.23 ГГц; ОЗУ 6 ГБ , 128 ГБ; Да; 12 Мп",
+        "price": "2599.00"
+    },
+    {
+        "image": "Смартфон_APPLE_iPhone_11_128GB_Black_(MHDНЗQL_A).jpg",
+        "name": "Смартфон APPLE iPhone 11 128GB Black (MHDНЗQL/A)",
+        "description": "6.1 \" 828x1792 пикселей, IPS , 60 Гц; Apple A13 Bionic , 6 ядр., 2.65 ГГц; ОЗУ 4 ГБ , 128 ГБ; Да; 12 Мп",
+        "price": "1799.00"
+    },
+    {
+        "image": "Смартфон_POCO_F6_Pro_12GB_512GB_Black_RU.jpg",
+        "name": "Смартфон POCO F6 Pro 12GB/512GB Black RU",
+        "description": "6.67 \" 1440x3200 пикселей, AMOLED , 120 Гц; Qualcomm Snapdragon 8 Gen2 , 8 ядр., 3.2 ГГц; ОЗУ 12 ГБ , 512 ГБ; 50 Мп",
+        "price": "2199.00"
+    },
+    {
+        "image": "Смартфон_Honor_200_Pro_(ELP-NX9)_12GB_512GB_Black.jpg",
+        "name": "Смартфон Honor 200 Pro (ELP-NX9) 12GB/512GB Black",
+        "description": "6.78 \" 1224х2700 пикселей, AMOLED , 120 Гц; Qualcomm Snapdragon 8s Gen3 , 8 ядр., 3.0 ГГц; ОЗУ 12 ГБ , 512 ГБ; Да; 50 Мп",
+        "price": "2399.00"
+    },
+    {
+        "image": "Смартфон_HONOR_X7c_8GB_256GB_(лунный_белый).jpg",
+        "name": "Смартфон HONOR X7c 8GB/256GB (лунный белый)",
+        "description": "6.77 \" 720x1610 пикселей, TFT , 120 Гц; Qualcomm Snapdragon 685 , 8 ядр., 2.8 ГГц; ОЗУ 8 ГБ , 256 ГБ; 108 Мп",
+        "price": "799.00"
+    },
+    {
+        "image": "Смартфон_POCO_M6_Pro_8GB_256GB_Purple_RU.jpg",
+        "name": "Смартфон POCO M6 Pro 8GB/256GB Purple RU",
+        "description": "6.67 \" 1080x2400 пикселей, AMOLED , 120 Гц; MediaTek Helio G99 Ultra , 8 ядр., 2.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 64 Мп",
+        "price": "749.00"
+    },
+    {
+        "image": "Смартфон_Huawei_nova_Y61_EVE-LX9N_4GB_128GB_с_NFC_.jpg",
+        "name": "Смартфон Huawei nova Y61 EVE-LX9N 4GB/128GB с NFC (полночный черный)",
+        "description": "6.52 \" 720x1600 пикселей, IPS , 60 Гц; HiSilicon Kirin 710A , 8 ядр., 2 ГГц; ОЗУ 4 ГБ , 128 ГБ; 50 Мп",
+        "price": "299.00"
+    },
+    {
+        "image": "Смартфон_Huawei_Pura_70_Pro_12GB_512GB_(HBN-LX9)_W.jpg",
+        "name": "Смартфон Huawei Pura 70 Pro 12GB/512GB (HBN-LX9) White",
+        "description": "6.8 \" 1260x2844 пикселей, OLED , 120 Гц; HiSilicon Kirin 9010 , 8 ядр., 2.3 ГГц; ОЗУ 12 ГБ , 512 ГБ; 50 Мп",
+        "price": "2499.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_A55_5G_8GB_128GB_(голубой).jpg",
+        "name": "Смартфон Samsung Galaxy A55 5G 8GB/128GB (голубой)",
+        "description": "6.6 \" 1080x2340 пикселей, AMOLED (Super AMOLED) , 120 Гц; Exynos 1480 , 8 ядр., 2.75 ГГц; ОЗУ 8 ГБ , 128 ГБ; 50 Мп",
+        "price": "1369.00"
+    },
+    {
+        "image": "Смартфон_Huawei_nova_12s_FOA-LX9_8GB_256GB_(черный.jpg",
+        "name": "Смартфон Huawei nova 12s FOA-LX9 8GB/256GB (черный)",
+        "description": "6.7 \" 1084х2412 пикселей, OLED , 120 Гц; Qualcomm Snapdragon 778G , 8 ядр., 2.4 ГГц; ОЗУ 8 ГБ , 256 ГБ; 50 Мп",
+        "price": "1099.00"
+    },
+    {
+        "image": "Смартфон_Xiaomi_14T_Pro_12GB_512GB_Titan_Black_RU.jpg",
+        "name": "Смартфон Xiaomi 14T Pro 12GB/512GB Titan Black RU",
+        "description": "6.67 \" 1220x2712 пикселей, OLED , 144 Гц; MediaTek Dimensity 9300+ , 8 ядр., 3.25 ГГц; ОЗУ 12 ГБ , 512 ГБ; Да; 50 Мп",
+        "price": "2799.00"
+    },
+    {
+        "image": "Смартфон_HONOR_90_8GB_256GB_(арктический_лед).jpg",
+        "name": "Смартфон HONOR 90 8GB/256GB (арктический лед)",
+        "description": "6.7 \" 1200x2664 пикселей, AMOLED , 120 Гц; Qualcomm Snapdragon 7 Gen1 Accelerated Edition , 8 ядр., 2.5 ГГц; ОЗУ 8 ГБ , 256 ГБ; Да; 200 Мп",
+        "price": "1199.00"
+    },
+    {
+        "image": "Смартфон_HONOR_X8b_(LLY-LX1)_8GB_256GB_Midnight_Bl.jpg",
+        "name": "Смартфон HONOR X8b (LLY-LX1) 8GB/256GB Midnight Black",
+        "description": "6.7 \" 1080x2412 пикселей, AMOLED , 90 Гц; Qualcomm Snapdragon 680 , 8 ядр., 2.4 ГГц; ОЗУ 8 ГБ , 256 ГБ; 108 Мп",
+        "price": "799.00"
+    },
+    {
+        "image": "Смартфон_Б_У_(грейд_A+)_APPLE_iPhone_12_mini_256GB.jpg",
+        "name": "Смартфон Б/У (грейд A+) APPLE iPhone 12 mini 256GB Blue (2QMGED3)",
+        "description": "5.4 \" 1080x2340 пикселей, OLED , 60 Гц; Apple A14 Bionic , 6 ядр.; ОЗУ 4 ГБ , 256 ГБ; Да; 12 Мп",
+        "price": "1742.00"
+    },
+    {
+        "image": "Смартфон_Honor_200_(ELI-NX9)_12GB_512GB_Black.jpg",
+        "name": "Смартфон Honor 200 (ELI-NX9) 12GB/512GB Black",
+        "description": "6.7 \" 1200x2664 пикселей, AMOLED , 120 Гц; Qualcomm Snapdragon 7 Gen3 , 8 ядр., 2.63 ГГц; ОЗУ 12 ГБ , 512 ГБ; Да; 50 Мп",
+        "price": "1699.00"
+    },
+    {
+        "image": "Смартфон_Infinix_Hot_30_Play_NFC_8GB_128GB_(фиолет.jpg",
+        "name": "Смартфон Infinix Hot 30 Play NFC 8GB/128GB (фиолетовый)",
+        "description": "6.82 \" 720x1640 пикселей, IPS , 90 Гц; MediaTek Helio G37 , 8 ядр., 2.3 ГГц; ОЗУ 8 ГБ , 128 ГБ; 16 Мп",
+        "price": "329.00"
+    },
+    {
+        "image": "Смартфон_HONOR_X8b_(LLY-LX1)_8GB_128GB_Titanium_Si.jpg",
+        "name": "Смартфон HONOR X8b (LLY-LX1) 8GB/128GB Titanium Silver",
+        "description": "6.7 \" 1080x2412 пикселей, AMOLED , 90 Гц; Qualcomm Snapdragon 680 , 8 ядр., 2.4 ГГц; ОЗУ 8 ГБ , 128 ГБ; 108 Мп",
+        "price": "699.00"
+    },
+    {
+        "image": "Смартфон_Honor_X6b_(JDY-LX1)_4GB_128GB_Forest_Gree.jpg",
+        "name": "Смартфон Honor X6b (JDY-LX1) 4GB/128GB Forest Green",
+        "description": "6.56 \" 720x1612 пикселей, TFT , 90 Гц; MediaTek Helio G85 , 8 ядр., 2.0 ГГц; ОЗУ 4 ГБ , 128 ГБ; 50 Мп",
+        "price": "399.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_S24_Ultra_SM-S928_256GB_(ч.jpg",
+        "name": "Смартфон Samsung Galaxy S24 Ultra SM-S928 256GB (черный титан)",
+        "description": "6.8 \" 1440х3120 пикселей, Dynamic AMOLED 2X , 120 Гц; Qualcomm Snapdragon 8 Gen3 , 8 ядр., 3.39 ГГц; ОЗУ 12 ГБ , 256 ГБ; Да; 200 Мп",
+        "price": "4149.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_S24_SM-S921_256GB_(серый).jpg",
+        "name": "Смартфон Samsung Galaxy S24 SM-S921 256GB (серый)",
+        "description": "6.2 \" 1080x2340 пикселей, Dynamic AMOLED 2X , 120 Гц; Exynos 2400 , 10 ядр., 3.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; Да; 50 Мп",
+        "price": "2999.00"
+    },
+    {
+        "image": "Смартфон_Infinix_Note_30i_8GB_128GB_(зеленый).jpg",
+        "name": "Смартфон Infinix Note 30i 8GB/128GB (зеленый)",
+        "description": "6.66 \" 1080x2400 пикселей, AMOLED , 60 Гц; MediaTek Helio G85 , 8 ядр., 2.0 ГГц; ОЗУ 8 ГБ , 128 ГБ; 64 Мп",
+        "price": "399.00"
+    },
+    {
+        "image": "Смартфон_Xiaomi_14T_12GB_512GB_Titan_Gray_RU.jpg",
+        "name": "Смартфон Xiaomi 14T 12GB/512GB Titan Gray RU",
+        "description": "6.67 \" 1220x2712 пикселей, OLED , 144 Гц; MediaTek Dimensity 8300 Ultra , 8 ядр., 3.35 ГГц; ОЗУ 12 ГБ , 512 ГБ; Да; 50 Мп",
+        "price": "2399.00"
+    },
+    {
+        "image": "Смартфон_Apple_iPhone_16_128GB_White_(MYE93HN_A).jpg",
+        "name": "Смартфон Apple iPhone 16 128GB White (MYE93HN/A)",
+        "description": "6.1 \" 1179х2556 пикселей, OLED , 60 Гц; Apple A18 , 6 ядр., 4.04 ГГц; ОЗУ 8 ГБ , 128 ГБ; Да; 48 Мп",
+        "price": "3899.00"
+    },
+    {
+        "image": "Смартфон_Redmi_A3_3GB_64GB_Forest_Green_EU.jpg",
+        "name": "Смартфон Redmi A3 3GB/64GB Forest Green EU",
+        "description": "6.71 \" 720x1650 пикселей, IPS , 90 Гц; MediaTek Helio G36 , 8 ядр., 2.2 ГГц; ОЗУ 3 ГБ , 64 ГБ; 8 Мп",
+        "price": "249.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_S24+_SM-S926_512GB_(черный.jpg",
+        "name": "Смартфон Samsung Galaxy S24+ SM-S926 512GB (черный)",
+        "description": "6.7 \" 1440х3120 пикселей, Dynamic AMOLED 2X , 120 Гц; Exynos 2400 , 10 ядр., 3.2 ГГц; ОЗУ 12 ГБ , 512 ГБ; Да; 50 Мп",
+        "price": "3799.00"
+    },
+    {
+        "image": "Смартфон_Xiaomi_Redmi_A3_4GB_128GB_(черный).jpg",
+        "name": "Смартфон Xiaomi Redmi A3 4GB/128GB (черный)",
+        "description": "6.71 \" 720x1650 пикселей, IPS , 90 Гц; MediaTek Helio G36 , 8 ядр., 2.2 ГГц; ОЗУ 4 ГБ , 128 ГБ; 8 Мп",
+        "price": "299.00"
+    },
+    {
+        "image": "Смартфон_HONOR_X7c_8GB_256GB_(полуночный_черный).jpg",
+        "name": "Смартфон HONOR X7c 8GB/256GB (полуночный черный)",
+        "description": "6.77 \" 720x1610 пикселей, TFT , 120 Гц; Qualcomm Snapdragon 685 , 8 ядр., 2.8 ГГц; ОЗУ 8 ГБ , 256 ГБ; 108 Мп",
+        "price": "799.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_S24+_SM-S926_256GB_(фиолет.jpg",
+        "name": "Смартфон Samsung Galaxy S24+ SM-S926 256GB (фиолетовый)",
+        "description": "6.7 \" 1440х3120 пикселей, Dynamic AMOLED 2X , 120 Гц; Exynos 2400 , 10 ядр., 3.2 ГГц; ОЗУ 12 ГБ , 256 ГБ; Да; 50 Мп",
+        "price": "3299.00"
+    },
+    {
+        "image": "Смартфон_Huawei_nova_Y72_8GB_128GB_(MGA-LX3)_черны.jpg",
+        "name": "Смартфон Huawei nova Y72 8GB/128GB (MGA-LX3) черный",
+        "description": "6.75 \" 720x1600 пикселей, TFT , 60 Гц; HiSilicon Kirin 710A , 8 ядр., 2.0 ГГц; ОЗУ 8 ГБ , 128 ГБ; 50 Мп",
+        "price": "399.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_S24_FE_128GB_(SM-S721BLBBC.jpg",
+        "name": "Смартфон Samsung Galaxy S24 FE 128GB (SM-S721BLBBCAU) голубой",
+        "description": "6.7 \" 1080x2340 пикселей, Dynamic AMOLED 2X , 120 Гц; Exynos 2400e , 10 ядр., 3.1 ГГц; ОЗУ 8 ГБ , 128 ГБ; Да; 50 Мп",
+        "price": "2349.00"
+    },
+    {
+        "image": "Смартфон_Apple_iPhone_16_256GB_Teal_(MYEJ3HN_A).jpg",
+        "name": "Смартфон Apple iPhone 16 256GB Teal (MYEJ3HN/A)",
+        "description": "6.1 \" 1179х2556 пикселей, OLED , 60 Гц; Apple A18 , 6 ядр., 4.04 ГГц; ОЗУ 8 ГБ , 256 ГБ; Да; 48 Мп",
+        "price": "4399.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_A35_5G_8GB_256GB_(голубой).jpg",
+        "name": "Смартфон Samsung Galaxy A35 5G 8GB/256GB (голубой)",
+        "description": "6.6 \" 1080x2340 пикселей, AMOLED (Super AMOLED) , 120 Гц; Exynos 1380 , 8 ядр., 2.4 ГГц; ОЗУ 8 ГБ , 256 ГБ; 50 Мп",
+        "price": "1199.00"
+    },
+    {
+        "image": "Смартфон_Infinix_Hot_40_8GB_128GB_(золотистый).jpg",
+        "name": "Смартфон Infinix Hot 40 8GB/128GB (золотистый)",
+        "description": "6.78 \" 1080x2460 пикселей, IPS , 90 Гц; MediaTek Helio G88 , 8 ядр., 2.0 ГГц; ОЗУ 8 ГБ , 128 ГБ; 50 Мп",
+        "price": "398.00"
+    },
+    {
+        "image": "Смартфон_Apple_iPhone_16_Pro_128GB_Desert_Titanium.jpg",
+        "name": "Смартфон Apple iPhone 16 Pro 128GB Desert Titanium (MYNF3QN/A)",
+        "description": "6.3 \" 1206x2622 пикселей, OLED , 120 Гц; Apple A18 Pro , 6 ядр., 4.04 ГГц; ОЗУ 8 ГБ , 128 ГБ; Да; 48 Мп",
+        "price": "5499.00"
+    },
+    {
+        "image": "Смартфон_Infinix_Note_40_Pro_12Gb_256GB_Vintage_Gr.jpg",
+        "name": "Смартфон Infinix Note 40 Pro 12Gb/256GB Vintage Green",
+        "description": "6.78 \" 1080x2436 пикселей, AMOLED , 120 Гц; MediaTek Helio G99 Ultimate , 8 ядр., 2.2 ГГц; ОЗУ 12 ГБ , 256 ГБ; 108 Мп",
+        "price": "999.00"
+    },
+    {
+        "image": "Смартфон_Infinix_Note_40_Pro_8Gb_256GB_Vintage_Gre.jpg",
+        "name": "Смартфон Infinix Note 40 Pro 8Gb/256GB Vintage Green",
+        "description": "6.78 \" 1080x2436 пикселей, AMOLED , 120 Гц; MediaTek Helio G99 Ultimate , 8 ядр., 2.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 108 Мп",
+        "price": "999.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_S24_FE_128GB_(SM-S721BZABC.jpg",
+        "name": "Смартфон Samsung Galaxy S24 FE 128GB (SM-S721BZABCAU) серый",
+        "description": "6.7 \" 1080x2340 пикселей, Dynamic AMOLED 2X , 120 Гц; Exynos 2400e , 10 ядр., 3.1 ГГц; ОЗУ 8 ГБ , 128 ГБ; Да; 50 Мп",
+        "price": "2349.00"
+    },
+    {
+        "image": "Смартфон_TECNO_Camon_20_Pro_(CK7n)_8GB_256GB_Preda.jpg",
+        "name": "Смартфон TECNO Camon 20 Pro (CK7n) 8GB/256GB Predawn Black",
+        "description": "6.67 \" 1080x2400 пикселей, AMOLED , 120 Гц; MediaTek Helio G99 , 8 ядр., 2.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 64 Мп",
+        "price": "629.00"
+    },
+    {
+        "image": "Смартфон_Realme_C67_(RMX3890)_8GB_256GB_Black_Rock.jpg",
+        "name": "Смартфон Realme C67 (RMX3890) 8GB/256GB Black Rock",
+        "description": "6.72 \" 1080x2400 пикселей, IPS , 90 Гц; Qualcomm Snapdragon 685 , 8 ядр., 2.8 ГГц; ОЗУ 8 ГБ , 256 ГБ; 108 Мп",
+        "price": "599.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_A55_5G_8GB_256GB_(желтый).jpg",
+        "name": "Смартфон Samsung Galaxy A55 5G 8GB/256GB (желтый)",
+        "description": "6.6 \" 1080x2340 пикселей, AMOLED (Super AMOLED) , 120 Гц; Exynos 1480 , 8 ядр., 2.75 ГГц; ОЗУ 8 ГБ , 256 ГБ; 50 Мп",
+        "price": "1549.00"
+    },
+    {
+        "image": "Смартфон_Xiaomi_14T_Pro_12GB_1024GB_Titan_Black_RU.jpg",
+        "name": "Смартфон Xiaomi 14T Pro 12GB/1024GB Titan Black RU",
+        "description": "6.67 \" 1220x2712 пикселей, OLED , 144 Гц; MediaTek Dimensity 9300+ , 8 ядр., 3.25 ГГц; ОЗУ 12 ГБ , 1 ТБ; Да; 50 Мп",
+        "price": "3099.00"
+    },
+    {
+        "image": "Смартфон_Huawei_nova_12_SE_BNE-LX1_8GB_256GB_(черн.jpg",
+        "name": "Смартфон Huawei nova 12 SE BNE-LX1 8GB/256GB (черный)",
+        "description": "6.67 \" 1080x2400 пикселей, OLED , 90 Гц; Qualcomm Snapdragon 680 , 8 ядр., 2.4 ГГц; ОЗУ 8 ГБ , 256 ГБ; 108 Мп",
+        "price": "799.00"
+    },
+    {
+        "image": "Смартфон_Realme_12_Pro+_5G_RMX3840_8GB_256GB_(сини.jpg",
+        "name": "Смартфон Realme 12 Pro+ 5G RMX3840 8GB/256GB (синий)",
+        "description": "6.7 \" 1080x2412 пикселей, AMOLED , 120 Гц; Qualcomm Snapdragon 7s Gen2 , 8 ядр., 2.4 ГГц; ОЗУ 8 ГБ , 256 ГБ; 50 Мп",
+        "price": "1499.00"
+    },
+    {
+        "image": "Смартфон_Honor_200_(ELI-NX9)_8GB_256GB_Emerald_Gre.jpg",
+        "name": "Смартфон Honor 200 (ELI-NX9) 8GB/256GB Emerald Green",
+        "description": "6.7 \" 1200x2664 пикселей, AMOLED , 120 Гц; Qualcomm Snapdragon 7 Gen3 , 8 ядр., 2.63 ГГц; ОЗУ 8 ГБ , 256 ГБ; Да; 50 Мп",
+        "price": "1499.00"
+    },
+    {
+        "image": "Смартфон_HONOR_X8b_(LLY-LX1)_8GB_256GB_Titanium_Si.jpg",
+        "name": "Смартфон HONOR X8b (LLY-LX1) 8GB/256GB Titanium Silver",
+        "description": "6.7 \" 1080x2412 пикселей, AMOLED , 90 Гц; Qualcomm Snapdragon 680 , 8 ядр., 2.4 ГГц; ОЗУ 8 ГБ , 256 ГБ; 108 Мп",
+        "price": "799.00"
+    },
+    {
+        "image": "Смартфон_Huawei_nova_Y61_EVE-LX9N_4GB_128GB_с_NFC_.jpg",
+        "name": "Смартфон Huawei nova Y61 EVE-LX9N 4GB/128GB с NFC (сапфировый синий)",
+        "description": "6.52 \" 720x1600 пикселей, IPS , 60 Гц; HiSilicon Kirin 710A , 8 ядр., 2 ГГц; ОЗУ 4 ГБ , 128 ГБ; 50 Мп",
+        "price": "299.00"
+    },
+    {
+        "image": "Смартфон_Apple_iPhone_16_Plus_256GB_Black_(MXWN3HN.jpg",
+        "name": "Смартфон Apple iPhone 16 Plus 256GB Black (MXWN3HN/A)",
+        "description": "6.7 \" 1290х2796 пикселей, OLED , 60 Гц; Apple A18 , 6 ядр., 4.04 ГГц; ОЗУ 8 ГБ , 256 ГБ; Да; 48 Мп",
+        "price": "4899.00"
+    },
+    {
+        "image": "Смартфон_Apple_iPhone_16_Pro_Max_256GB_Black_Titan.jpg",
+        "name": "Смартфон Apple iPhone 16 Pro Max 256GB Black Titanium (MYWV3KH/A)",
+        "description": "6.9 \" 1320x2868 пикселей, OLED , 120 Гц; Apple A18 Pro , 6 ядр., 4.04 ГГц; ОЗУ 8 ГБ , 256 ГБ; Да; 48 Мп",
+        "price": "7199.00"
+    },
+    {
+        "image": "Смартфон_ASUS_ROG_Phone_8_12GB_256GB_(черный).jpg",
+        "name": "Смартфон ASUS ROG Phone 8 12GB/256GB (черный)",
+        "description": "6.78 \" 1080x2400 пикселей, AMOLED , 165 Гц; Qualcomm Snapdragon 8 Gen3 , 8 ядр., 3.3 ГГц; ОЗУ 12 ГБ , 256 ГБ; 50 Мп",
+        "price": "3525.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_S24_FE_256GB_(SM-S721BLBCC.jpg",
+        "name": "Смартфон Samsung Galaxy S24 FE 256GB (SM-S721BLBCCAU) голубой",
+        "description": "6.7 \" 1080x2340 пикселей, Dynamic AMOLED 2X , 120 Гц; Exynos 2400e , 10 ядр., 3.1 ГГц; ОЗУ 8 ГБ , 256 ГБ; Да; 50 Мп",
+        "price": "2499.00"
+    },
+    {
+        "image": "Смартфон_Infinix_Note_30_Pro_8GB_256GB_(черный).jpg",
+        "name": "Смартфон Infinix Note 30 Pro 8GB/256GB (черный)",
+        "description": "6.67 \" 1080x2400 пикселей, AMOLED , 120 Гц; MediaTek Helio G99 , 8 ядр., 2.2 ГГц; ОЗУ 8 ГБ , 256 ГБ; 108 Мп",
+        "price": "759.00"
+    },
+    {
+        "image": "Смартфон_POCO_X6_5G_8GB_256GB_Black_EU.jpg",
+        "name": "Смартфон POCO X6 5G 8GB/256GB Black EU",
+        "description": "6.67 \" 1220x2712 пикселей, AMOLED , 120 Гц; Qualcomm Snapdragon 7s Gen2 , 8 ядр., 2.4 ГГц; ОЗУ 8 ГБ , 256 ГБ; 64 Мп",
+        "price": "1099.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_S24_Ultra_SM-S928_512GB_(ж.jpg",
+        "name": "Смартфон Samsung Galaxy S24 Ultra SM-S928 512GB (желтый титан)",
+        "description": "6.8 \" 1440х3120 пикселей, Dynamic AMOLED 2X , 120 Гц; Qualcomm Snapdragon 8 Gen3 , 8 ядр., 3.39 ГГц; ОЗУ 12 ГБ , 512 ГБ; Да; 200 Мп",
+        "price": "4599.00"
+    },
+    {
+        "image": "Смартфон_Realme_C67_(RMX3890)_6GB_128GB_Sunny_Oasi.jpg",
+        "name": "Смартфон Realme C67 (RMX3890) 6GB/128GB Sunny Oasis",
+        "description": "6.72 \" 1080x2400 пикселей, IPS , 90 Гц; Qualcomm Snapdragon 685 , 8 ядр., 2.8 ГГц; ОЗУ 6 ГБ , 128 ГБ; 108 Мп",
+        "price": "499.00"
+    },
+    {
+        "image": "Смартфон_Apple_iPhone_16_128GB_Teal_(MYED3HN_A).jpg",
+        "name": "Смартфон Apple iPhone 16 128GB Teal (MYED3HN/A)",
+        "description": "6.1 \" 1179х2556 пикселей, OLED , 60 Гц; Apple A18 , 6 ядр., 4.04 ГГц; ОЗУ 8 ГБ , 128 ГБ; Да; 48 Мп",
+        "price": "3899.00"
+    },
+    {
+        "image": "Смартфон_Honor_X7b_8GB_128GB_Midnight_Black.jpg",
+        "name": "Смартфон Honor X7b 8GB/128GB Midnight Black",
+        "description": "6.8 \" 1080x2412 пикселей, IPS , 90 Гц; Qualcomm Snapdragon 680 , 8 ядр., 2.4 ГГц; ОЗУ 8 ГБ , 128 ГБ; 108 Мп",
+        "price": "549.00"
+    },
+    {
+        "image": "Смартфон_Apple_iPhone_16_Pro_256GB_Desert_Titanium.jpg",
+        "name": "Смартфон Apple iPhone 16 Pro 256GB Desert Titanium (MYNK3QN/A)",
+        "description": "6.3 \" 1206x2622 пикселей, OLED , 120 Гц; Apple A18 Pro , 6 ядр., 4.04 ГГц; ОЗУ 8 ГБ , 256 ГБ; Да; 48 Мп",
+        "price": "5999.00"
+    },
+    {
+        "image": "Смартфон_Infinix_GT_20_Pro_12GB_256GB_(кибер_оранж.jpg",
+        "name": "Смартфон Infinix GT 20 Pro 12GB/256GB (кибер оранжевый)",
+        "description": "6.78 \" 1080x2436 пикселей, AMOLED , 144 Гц; MediaTek Dimensity 8200 Ultimate , 8 ядр., 3.1 ГГц; ОЗУ 12 ГБ , 256 ГБ; 108 Мп",
+        "price": "1254.00"
+    },
+    {
+        "image": "Смартфон_Huawei_nova_12s_FOA-LX9_8GB_256GB_(белый).jpg",
+        "name": "Смартфон Huawei nova 12s FOA-LX9 8GB/256GB (белый)",
+        "description": "6.7 \" 1084х2412 пикселей, OLED , 120 Гц; Qualcomm Snapdragon 778G , 8 ядр., 2.4 ГГц; ОЗУ 8 ГБ , 256 ГБ; 50 Мп",
+        "price": "1099.00"
+    },
+    {
+        "image": "Смартфон_Huawei_Pura_70_Ultra_16GB_512GB_(HBP-LX9).jpg",
+        "name": "Смартфон Huawei Pura 70 Ultra 16GB/512GB (HBP-LX9) Brown",
+        "description": "6.8 \" 1260x2844 пикселей, OLED , 120 Гц; HiSilicon Kirin 9010 , 8 ядр., 2.3 ГГц; ОЗУ 16 ГБ , 512 ГБ; 50 Мп",
+        "price": "3999.00"
+    },
+    {
+        "image": "Смартфон_POCO_F6_12GB_512GB_Green_RU.jpg",
+        "name": "Смартфон POCO F6 12GB/512GB Green RU",
+        "description": "6.67 \" 1220x2712 пикселей, AMOLED , 120 Гц; Qualcomm Snapdragon 8s Gen3 , 8 ядр., 3 ГГц; ОЗУ 12 ГБ , 512 ГБ; 50 Мп",
+        "price": "1699.00"
+    },
+    {
+        "image": "Смартфон_Xiaomi_Redmi_Note_13_8GB_512GB_Mint_Green.jpg",
+        "name": "Смартфон Xiaomi Redmi Note 13 8GB/512GB Mint Green EU",
+        "description": "6.67 \" 1080x2400 пикселей, AMOLED , 120 Гц; Qualcomm Snapdragon 685 , 8 ядр., 2.8 ГГц; ОЗУ 8 ГБ , 512 ГБ; 108 Мп",
+        "price": "899.00"
+    },
+    {
+        "image": "Смартфон_Huawei_nova_12i_8GB_128Gb_(CTR-L81)_Green.jpg",
+        "name": "Смартфон Huawei nova 12i 8GB/128Gb (CTR-L81) Green",
+        "description": "6.7 \" 1080x2388 пикселей, IPS , 90 Гц; Qualcomm Snapdragon 680 , 8 ядр., 2.4 ГГц; ОЗУ 8 ГБ , 128 ГБ; 108 Мп",
+        "price": "549.00"
+    },
+    {
+        "image": "Смартфон_Honor_X6b_(JDY-LX1)_6GB_256GB_Forest_Gree.jpg",
+        "name": "Смартфон Honor X6b (JDY-LX1) 6GB/256GB Forest Green",
+        "description": "6.56 \" 720x1612 пикселей, TFT , 90 Гц; MediaTek Helio G85 , 8 ядр., 2.0 ГГц; ОЗУ 6 ГБ , 256 ГБ; 50 Мп",
+        "price": "499.00"
+    },
+    {
+        "image": "Смартфон_Infinix_Note_30i_8GB_128GB_(золотой_хамел.jpg",
+        "name": "Смартфон Infinix Note 30i 8GB/128GB (золотой хамелеон)",
+        "description": "6.66 \" 1080x2400 пикселей, AMOLED , 60 Гц; MediaTek Helio G85 , 8 ядр., 2.0 ГГц; ОЗУ 8 ГБ , 128 ГБ; 64 Мп",
+        "price": "399.00"
+    },
+    {
+        "image": "Смартфон_Xiaomi_Redmi_13_6GB_128GB_Midnight_Black_.jpg",
+        "name": "Смартфон Xiaomi Redmi 13 6GB/128GB Midnight Black RU",
+        "description": "6.79 \" 1080x2400 пикселей, IPS , 90 Гц; MediaTek Helio G91 Ultra , 8 ядр., 2 ГГц; ОЗУ 6 ГБ , 128 ГБ; 108 Мп",
+        "price": "549.00"
+    },
+    {
+        "image": "Смартфон_Honor_X6a_(WDY-LX1)_6GB_128GB_Midnight_Bl.jpg",
+        "name": "Смартфон Honor X6a (WDY-LX1) 6GB/128GB Midnight Black",
+        "description": "6.56 \" 720x1612 пикселей, TFT , 90 Гц; MediaTek Helio G36 , 8 ядр., 2.2 ГГц; ОЗУ 6 ГБ , 128 ГБ; 50 Мп",
+        "price": "399.00"
+    },
+    {
+        "image": "Смартфон_Realme_12_Pro+_5G_RMX3840_12GB_512GB_(син.jpg",
+        "name": "Смартфон Realme 12 Pro+ 5G RMX3840 12GB/512GB (синий)",
+        "description": "6.7 \" 1080x2412 пикселей, AMOLED , 120 Гц; Qualcomm Snapdragon 7s Gen2 , 8 ядр., 2.4 ГГц; ОЗУ 12 ГБ , 512 ГБ; 50 Мп",
+        "price": "1699.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_Z_Fold6_512GB_(SM-F956)_ро.jpg",
+        "name": "Смартфон Samsung Galaxy Z Fold6 512GB (SM-F956) розовый",
+        "description": "7.6 \" 1856x2160 пикселей, Dynamic AMOLED 2X , 120 Гц; Qualcomm Snapdragon 8 Gen3 , 8 ядр., 3.39 ГГц; ОЗУ 12 ГБ , 512 ГБ; Да; 50 Мп",
+        "price": "7199.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_XCover7_SM-G556B_6GB_128GB.jpg",
+        "name": "Смартфон Samsung Galaxy XCover7 SM-G556B 6GB/128GB (черный)",
+        "description": "6.6 \" 1080x2408 пикселей, PLS , 60 Гц; Mediatek Dimensity 6100+ , 8 ядр., 2.2 ГГц; ОЗУ 6 ГБ , 128 ГБ; Да; 50 Мп",
+        "price": "1276.00"
+    },
+    {
+        "image": "Смартфон_Honor_X6a_(WDY-LX1)_6GB_128GB_Sky_Silver.jpg",
+        "name": "Смартфон Honor X6a (WDY-LX1) 6GB/128GB Sky Silver",
+        "description": "6.56 \" 720x1612 пикселей, TFT , 90 Гц; MediaTek Helio G36 , 8 ядр., 2.2 ГГц; ОЗУ 6 ГБ , 128 ГБ; 50 Мп",
+        "price": "399.00"
+    },
+    {
+        "image": "Смартфон_NOTHING_Phone_(2)_12_256GB_A065_(A1040003.jpg",
+        "name": "Смартфон NOTHING Phone (2) 12/256GB A065 (A10400033) белый",
+        "description": "6.7 \" 1080x2412 пикселей, AMOLED , 120 Гц; Qualcomm Snapdragon 8+ Gen1 , 8 ядр., 3.2 ГГц; ОЗУ 12 ГБ , 256 ГБ; 50 Мп",
+        "price": "2870.00"
+    },
+    {
+        "image": "Смартфон_Huawei_nova_12_SE_BNE-LX1_8GB_256GB_(белы.jpg",
+        "name": "Смартфон Huawei nova 12 SE BNE-LX1 8GB/256GB (белый)",
+        "description": "6.67 \" 1080x2400 пикселей, OLED , 90 Гц; Qualcomm Snapdragon 680 , 8 ядр., 2.4 ГГц; ОЗУ 8 ГБ , 256 ГБ; 108 Мп",
+        "price": "799.00"
+    },
+    {
+        "image": "Смартфон_Samsung_Galaxy_Z_Flip6_256GB_(SM-F741)_же.jpg",
+        "name": "Смартфон Samsung Galaxy Z Flip6 256GB (SM-F741) желтый",
+        "description": "6.7 \" 1080x2640 пикселей, Dynamic AMOLED 2X , 120 Гц; Qualcomm Snapdragon 8 Gen3 , 8 ядр., 3.39 ГГц; ОЗУ 12 ГБ , 256 ГБ; Да; 50 Мп",
+        "price": "4299.00"
+    }
+]

@@ -1,0 +1,902 @@
+[
+    {
+        "image": "Ноутбук_Apple_Macbook_Air_13&amp;quot;_M1_256GB_A2.jpg",
+        "name": "Ноутбук Apple Macbook Air 13&amp;quot; M1 256GB A2337 (серый космос) + Адаптер Red Line BS-01 16А",
+        "description": "macOS Big Sur; 13.3 \" 2560x1600 px, IPS  60 Гц, 400 кд/м2; Apple M1 M1 8 -ядерный, Apple Silicon , до 3.2 ГГц; Встроенная Apple M1 GPU (7 ядер); ОЗУ 8 ГБ DDR4 , SSD 256 ГБ; 1.29 кг, 304.1 мм х 212.4 мм х 16.1 мм",
+        "price": "2899.00"
+    },
+    {
+        "image": "Ноутбук_Honor_MagicBook_X16_BRN-F56_(5301AHHM).jpg",
+        "name": "Ноутбук Honor MagicBook X16 BRN-F56 (5301AHHM)",
+        "description": "16.0 \" 1920x1200 px, IPS  60 Гц, 300 кд/м2; Intel Core-i5 12450H 8 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel UHD Graphics; ОЗУ 16 ГБ LPDDR4X , SSD 512 ГБ; 1.75 кг, 356.2 мм х 250.1 мм х 17.9 мм",
+        "price": "2399.00"
+    },
+    {
+        "image": "Игровой_ноутбук_Lenovo_LOQ_15IAX9_83GS005C.jpg",
+        "name": "Игровой ноутбук Lenovo LOQ 15IAX9 83GS005C",
+        "description": "15.6 \" 1920x1080 px, IPS  144 Гц, 300 кд/м2; Intel Core-i5 12450HX 8 -ядерный, Alder Lake , до 4.4 ГГц; Дискретная NVIDIA GeForce RTX 3050 6 ГБ GDDR6; ОЗУ 16 ГБ DDR5 , SSD 512 ГБ; 2.4 кг, 359.8 мм х 258.7 мм х 23.9 мм",
+        "price": "3499.00"
+    },
+    {
+        "image": "Ноутбук_Lenovo_IdeaPad_Slim_3_16IAH8_83ES0007.jpg",
+        "name": "Ноутбук Lenovo IdeaPad Slim 3 16IAH8 83ES0007",
+        "description": "16.0 \" 1920x1200 px, IPS  60 Гц, 300 кд/м2; Intel Core-i5 12450H 8 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel UHD Graphics; ОЗУ 16 ГБ LPDDR5 , SSD 1024 ГБ; 1.74 кг, 359.2 мм х 257 мм х 17.9 мм",
+        "price": "2299.00"
+    },
+    {
+        "image": "Игровой_ноутбук_Thunderobot_911_Plus_X_(JT009WE07R.jpg",
+        "name": "Игровой ноутбук Thunderobot 911 Plus X (JT009WE07RU)",
+        "description": "Windows 11 Pro; 17.3 \" 1920x1080 px, IPS  144 Гц; Intel Core-i5 12450H 8 -ядерный, Alder Lake , до 4.4 ГГц; Дискретная NVIDIA GeForce RTX 3050 Ti 4 ГБ GDDR6; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 2.5 кг, 397 мм х 263 мм х 25.9 мм",
+        "price": "3199.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_VivoBook_15_X1504ZA-BQ1484.jpg",
+        "name": "Ноутбук ASUS VivoBook 15 X1504ZA-BQ1484",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; Intel Core-i3 1215U 6 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ DDR4 , SSD 256 ГБ; 1.7 кг, 359.7 мм х 232.5 мм х 17.9 мм",
+        "price": "1599.00"
+    },
+    {
+        "image": "Ноутбук_Lenovo_V15_G4_AMN_82YU00W6.jpg",
+        "name": "Ноутбук Lenovo V15 G4 AMN 82YU00W6",
+        "description": "15.6 \" 1920x1080 px, TN+Film  60 Гц, 250 кд/м2; AMD Ryzen 3 7320U 4 -ядерный, Mendocino , до 4.1 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 8 ГБ LPDDR5 , SSD 512 ГБ; 1.63 кг, 359.2 мм х 235.8 мм х 19.9 мм",
+        "price": "1399.00"
+    },
+    {
+        "image": "Игровой_ноутбук_MSI_Thin_15_B12UDX-2424XBY.jpg",
+        "name": "Игровой ноутбук MSI Thin 15 B12UDX-2424XBY",
+        "description": "15.6 \" 1920x1080 px, IPS  144 Гц; Intel Core-i5 12450H 8 -ядерный, Alder Lake , до 4.4 ГГц; Дискретная NVIDIA GeForce RTX 3050 6 ГБ; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 1.86 кг, 359 мм х 254 мм х 21.7 мм",
+        "price": "3499.00"
+    },
+    {
+        "image": "Ноутбук_Digma_EVE_C5801_DN15CN-8CXW03.jpg",
+        "name": "Ноутбук Digma EVE C5801 DN15CN-8CXW03",
+        "description": "Windows 11 Pro; 15.6 \" 1920x1080 px, IPS  60 Гц, 300 кд/м2; Intel Celeron N4020 2 -ядерный, Gemini Lake R , до 2.8 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ LPDDR4 , SSD 256 ГБ; 1.5 кг, 358 мм х 228.5 мм х 20 мм",
+        "price": "811.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_Go_15_E1504GA-BQ561.jpg",
+        "name": "Ноутбук ASUS Vivobook Go 15 E1504GA-BQ561",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; Intel Processor N100 4 -ядерный, Alder Lake-N , до 3.4 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ DDR4; 1.63 кг, 360.3 мм х 232.5 мм х 17.9 мм",
+        "price": "1280.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ASUS_TUF_Gaming_F17_FX707ZC4-HX049.jpg",
+        "name": "Игровой ноутбук ASUS TUF Gaming F17 FX707ZC4-HX049",
+        "description": "17.3 \" 1920x1080 px, IPS  144 Гц, 250 кд/м2; Intel Core-i5 12500H 12 -ядерный, Alder Lake , до 4.5 ГГц; Дискретная NVIDIA GeForce RTX 3050 4 ГБ GDDR6; ОЗУ 16 ГБ DDR4 , SSD 1024 ГБ; 2.6 кг, 394 мм х 264 мм х 25.4 мм",
+        "price": "3999.00"
+    },
+    {
+        "image": "Игровой_ноутбук_MSI_Thin_GF63_12UCX-1037X.jpg",
+        "name": "Игровой ноутбук MSI Thin GF63 12UCX-1037X",
+        "description": "15.6 \" 1920x1080 px, IPS  144 Гц; Intel Core-i5 12450H 8 -ядерный, Alder Lake , до 4.4 ГГц; Дискретная NVIDIA GeForce RTX 2050 4 ГБ; ОЗУ 16 ГБ DDR4 , SSD 256 ГБ; 1.86 кг, 359 мм х 254 мм х 21.7 мм",
+        "price": "2816.00"
+    },
+    {
+        "image": "Игровой_ноутбук_Lenovo_IdeaPad_Gaming_3_15ACH6_82K.jpg",
+        "name": "Игровой ноутбук Lenovo IdeaPad Gaming 3 15ACH6 82K20296",
+        "description": "Windows 11 Home; 15.6 \" 1920x1080 px, IPS  144 Гц, 300 кд/м2; AMD Ryzen 5 5500H 4 -ядерный, Cezanne , до 4.2 ГГц; Дискретная NVIDIA GeForce RTX 2050 4 ГБ GDDR6; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 2.25 кг, 359.6 мм х 251.9 мм х 24.2 мм",
+        "price": "3654.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ASUS_TUF_Gaming_F17_FX707ZC4-HX095.jpg",
+        "name": "Игровой ноутбук ASUS TUF Gaming F17 FX707ZC4-HX095",
+        "description": "17.3 \" 1920x1080 px, IPS  144 Гц, 250 кд/м2; Intel Core-i5 12500H 12 -ядерный, Alder Lake , до 4.5 ГГц; Дискретная NVIDIA GeForce RTX 3050 4 ГБ GDDR6; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 2.6 кг, 394 мм х 264 мм х 25.4 мм",
+        "price": "3572.00"
+    },
+    {
+        "image": "Ноутбук_Huawei_MateBook_D_16_MCLF-X_53013YDK.jpg",
+        "name": "Ноутбук Huawei MateBook D 16 MCLF-X 53013YDK",
+        "description": "16.0 \" 1920x1200 px, IPS  60 Гц, 300 кд/м2; Intel Core-i5 12450H 8 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel UHD Graphics; ОЗУ 16 ГБ LPDDR4X , SSD 512 ГБ; 1.7 кг, 356.7 мм х 248.7 мм х 18.4 мм",
+        "price": "2399.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ASUS_TUF_Gaming_A15_2023_FA507NVR-.jpg",
+        "name": "Игровой ноутбук ASUS TUF Gaming A15 2023 FA507NVR-LP040",
+        "description": "15.6 \" 1920x1080 px, IPS  144 Гц, 250 кд/м2; AMD Ryzen 7 7435HS 8 -ядерный, Rembrandt R , до 4.5 ГГц; Дискретная NVIDIA GeForce RTX 4060 8 ГБ GDDR6; ОЗУ 16 ГБ DDR5 , SSD 512 ГБ; 2.2 кг, 354 мм х 251 мм х 22.4 мм",
+        "price": "4599.00"
+    },
+    {
+        "image": "Игровой_ноутбук_Lenovo_LOQ_15IRX9_83DVJJFE.jpg",
+        "name": "Игровой ноутбук Lenovo LOQ 15IRX9 83DVJJFE",
+        "description": "15.6 \" 1920x1080 px, IPS  144 Гц, 300 кд/м2; Intel Core-i5 13450HX 10 -ядерный, Raptor Lake , до 4.6 ГГц; Дискретная NVIDIA GeForce RTX 4050 6 ГБ GDDR6; ОЗУ 16 ГБ DDR5 , SSD 1024 ГБ; 2.4 кг, 359.8 мм х 258.7 мм х 23.9 мм",
+        "price": "4399.00"
+    },
+    {
+        "image": "Ноутбук_Lenovo_IdeaPad_Slim_3_15AMN8_82XQ7MFE.jpg",
+        "name": "Ноутбук Lenovo IdeaPad Slim 3 15AMN8 82XQ7MFE",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 300 кд/м2; AMD Ryzen 3 7320U 4 -ядерный, Mendocino , до 4.1 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 8 ГБ LPDDR5 , SSD 512 ГБ; 1.62 кг, 359.3 мм х 235 мм х 17.9 мм",
+        "price": "1665.00"
+    },
+    {
+        "image": "Ноутбук_Chuwi_HeroBook_Pro_N4020_8GB+256GB.jpg",
+        "name": "Ноутбук Chuwi HeroBook Pro N4020 8GB+256GB",
+        "description": "Windows 10 Home; 14.1 \" 1920x1080 px, IPS; Intel Celeron N4020 2 -ядерный, Gemini Lake R , до 2.8 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ LPDDR4 , SSD 256 ГБ; 1.16 кг, 332 мм х 214 мм х 21.3 мм",
+        "price": "841.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Zenbook_14_UM3402YA-KP818.jpg",
+        "name": "Ноутбук ASUS Zenbook 14 UM3402YA-KP818",
+        "description": "14.0 \" 2560x1600 px, IPS  60 Гц, 400 кд/м2; AMD Ryzen 5 7430U 6 -ядерный, Barcelo R , до 4.3 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 16 ГБ LPDDR4X , SSD 512 ГБ; 1.35 кг, 313.6 мм х 220.6 мм х 16.9 мм",
+        "price": "2699.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_Go_15_E1504GA-BQ252W.jpg",
+        "name": "Ноутбук ASUS Vivobook Go 15 E1504GA-BQ252W",
+        "description": "Windows 11 Home; 15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; Intel Core-i3 N305 8 -ядерный, Alder Lake-N , до 3.8 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ DDR4; 1.63 кг, 320.7 мм х 217 мм х 16.9 мм",
+        "price": "1822.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_Go_15_E1504FA-BQ1185.jpg",
+        "name": "Ноутбук ASUS Vivobook Go 15 E1504FA-BQ1185",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; AMD Ryzen 5 7520U 4 -ядерный, Mendocino , до 4.3 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 8 ГБ LPDDR5 , SSD 512 ГБ; 1.63 кг, 360.3 мм х 232.5 мм х 17.9 мм",
+        "price": "1999.00"
+    },
+    {
+        "image": "Игровой_ноутбук_MSI_Thin_15_B12UC-1433X.jpg",
+        "name": "Игровой ноутбук MSI Thin 15 B12UC-1433X",
+        "description": "15.6 \" 1920x1080 px, IPS  144 Гц; Intel Core-i5 12450H 8 -ядерный, Alder Lake , до 4.4 ГГц; Дискретная NVIDIA GeForce RTX 3050 4 ГБ; ОЗУ 8 ГБ DDR4 , SSD 512 ГБ; 1.86 кг, 359 мм х 254 мм х 21.7 мм",
+        "price": "3057.00"
+    },
+    {
+        "image": "Ноутбук_Lenovo_IdeaPad_1_15ALC7_82R400E7.jpg",
+        "name": "Ноутбук Lenovo IdeaPad 1 15ALC7 82R400E7",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; AMD Ryzen 5 5500U 6 -ядерный, Lucienne , до 4.0 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 1.61 кг, 360.2 мм х 236 мм х 17.9 мм",
+        "price": "1929.00"
+    },
+    {
+        "image": "Игровой_ноутбук_Lenovo_IdeaPad_Gaming_3_16IAH7_82S.jpg",
+        "name": "Игровой ноутбук Lenovo IdeaPad Gaming 3 16IAH7 82SA00FB",
+        "description": "16.0 \" 1920x1200 px, IPS  165 Гц, 350 кд/м2; Intel Core-i7 12650H 10 -ядерный, Alder Lake , до 4.7 ГГц; Дискретная NVIDIA GeForce RTX 3050 Ti 4 ГБ GDDR6; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 2.6 кг, 359.6 мм х 277.8 мм х 20.9 мм",
+        "price": "3811.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_15_X1504ZA-BQ128W.jpg",
+        "name": "Ноутбук ASUS Vivobook 15 X1504ZA-BQ128W",
+        "description": "Windows 11 Home; 15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; Intel Core-i5 1235U 10 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 1.7 кг, 359.7 мм х 232.5 мм х 17.9 мм",
+        "price": "2899.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ThundeRobot_Zero_G3_Ultra_(JT009L0.jpg",
+        "name": "Игровой ноутбук ThundeRobot Zero G3 Ultra (JT009L00BRU)",
+        "description": "Windows 11 Home; 16.0 \" 3840x2400 px, IPS  240 Гц; Intel Core-i9 13900HX 24 -ядерный, Raptor Lake , до 5.4 ГГц; Дискретная NVIDIA GeForce RTX 4080 12 ГБ GDDR6; ОЗУ 32 ГБ DDR5 , SSD 2048 ГБ; 2.58 кг, 360 мм х 286 мм х 27.3 мм",
+        "price": "12655.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ASUS_TUF_Gaming_A15_FA506NC-HN107W.jpg",
+        "name": "Игровой ноутбук ASUS TUF Gaming A15 FA506NC-HN107W",
+        "description": "Windows 11 Home; 15.6 \" 1920x1080 px, IPS  144 Гц, 250 кд/м2; AMD Ryzen 5 7535HS 6 -ядерный, Rembrandt R , до 4.55 ГГц; Дискретная NVIDIA GeForce RTX 3050 4 ГБ; ОЗУ 16 ГБ DDR5 , SSD 512 ГБ; 2.3 кг, 359 мм х 228 мм х 24.5 мм",
+        "price": "3822.00"
+    },
+    {
+        "image": "Игровой_ноутбук_MSI_Cyborg_15_A12VE-1445XBY.jpg",
+        "name": "Игровой ноутбук MSI Cyborg 15 A12VE-1445XBY",
+        "description": "15.6 \" 1920x1080 px, IPS  144 Гц; Intel Core-i5 12450H 8 -ядерный, Alder Lake , до 4.4 ГГц; Дискретная NVIDIA GeForce RTX 4050 6 ГБ GDDR6; ОЗУ 16 ГБ DDR5 , SSD 512 ГБ; 1.98 кг, 359.36 мм х 250.34 мм х 22.9 мм",
+        "price": "4139.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ASUS_TUF_Gaming_A15_2023_FA507NU-L.jpg",
+        "name": "Игровой ноутбук ASUS TUF Gaming A15 2023 FA507NU-LP153",
+        "description": "15.6 \" 1920x1080 px, IPS  144 Гц, 250 кд/м2; AMD Ryzen 5 7535HS 6 -ядерный, Rembrandt R , до 4.55 ГГц; Дискретная NVIDIA GeForce RTX 4050 6 ГБ GDDR6; ОЗУ 16 ГБ DDR5 , SSD 512 ГБ; 2.2 кг, 354 мм х 251 мм х 22.4 мм",
+        "price": "4651.00"
+    },
+    {
+        "image": "Ноутбук_Apple_MacBook_Air_13_A2337_(MGN63RU_A)_Spa.jpg",
+        "name": "Ноутбук Apple MacBook Air 13 A2337 (MGN63RU/A) Space Grey",
+        "description": "macOS Big Sur; 13.3 \" 2560x1600 px, IPS  60 Гц, 400 кд/м2; Apple M1 M1 8 -ядерный, Apple Silicon , до 3.2 ГГц; Встроенная Apple M1 GPU (7 ядер); ОЗУ 8 ГБ DDR4 , SSD 256 ГБ; 1.29 кг, 304.1 мм х 212.4 мм х 16.1 мм",
+        "price": "3501.00"
+    },
+    {
+        "image": "Ноутбук_Apple_MacBook_Air_13&amp;quot;_M3_A3113_8_.jpg",
+        "name": "Ноутбук Apple MacBook Air 13&amp;quot; M3 A3113 8/256GB (серебристый) + Адаптер Red Line BS-01 16А",
+        "description": "Mac OS; 13.6 \" 2560х1664 px, IPS  60 Гц, 500 кд/м2; Apple M3 M3 8 -ядерный, Apple Silicon; Встроенная Apple M3 GPU (8 ядер); ОЗУ 8 ГБ, SSD 256 ГБ; 1.24 кг, 304.1 мм х 215 мм х 11.3 мм",
+        "price": "4599.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ASUS_TUF_Gaming_F17_FX707VI-LL055.jpg",
+        "name": "Игровой ноутбук ASUS TUF Gaming F17 FX707VI-LL055",
+        "description": "17.3 \" 1920x1080 px, IPS  144 Гц, 250 кд/м2; Intel Core-i7 13620H 10 -ядерный, Raptor Lake R , до 4.9 ГГц; Дискретная NVIDIA GeForce RTX 4070 8 ГБ GDDR6; ОЗУ 16 ГБ DDR5 , SSD 1024 ГБ; 2.6 кг, 394 мм х 264 мм х 25.4 мм",
+        "price": "6899.00"
+    },
+    {
+        "image": "Ноутбук_Digma_Eve_C4800_DN14CN-8CXW01.jpg",
+        "name": "Ноутбук Digma Eve C4800 DN14CN-8CXW01",
+        "description": "Windows 11 Pro; 14.0 \" 1920x1080 px, IPS  60 Гц; Intel Celeron N4020 2 -ядерный, Gemini Lake R , до 2.8 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ DDR4 , SSD 256 ГБ; 1.25 кг, 333 мм х 220 мм х 16.9 мм",
+        "price": "765.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ASUS_TUF_Gaming_F15_FX507ZC4-HN009.jpg",
+        "name": "Игровой ноутбук ASUS TUF Gaming F15 FX507ZC4-HN009",
+        "description": "15.6 \" 1920x1080 px, IPS  144 Гц, 250 кд/м2; Intel Core-i5 12500H 12 -ядерный, Alder Lake , до 4.5 ГГц; Дискретная NVIDIA GeForce RTX 3050 4 ГБ GDDR6; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 2.2 кг, 354 мм х 251 мм х 24.9 мм",
+        "price": "3799.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ASUS_TUF_Gaming_A15_2023_FA507NV-L.jpg",
+        "name": "Игровой ноутбук ASUS TUF Gaming A15 2023 FA507NV-LP104",
+        "description": "15.6 \" 1920x1080 px, IPS  144 Гц, 250 кд/м2; AMD Ryzen 5 7535HS 6 -ядерный, Rembrandt R , до 4.55 ГГц; Дискретная NVIDIA GeForce RTX 4060 8 ГБ GDDR6; ОЗУ 16 ГБ DDR5 , SSD 512 ГБ; 2.2 кг, 354 мм х 251 мм х 22.4 мм",
+        "price": "5575.00"
+    },
+    {
+        "image": "Ноутбук_Huawei_MateBook_D_14_MDF-X_53013XFA.jpg",
+        "name": "Ноутбук Huawei MateBook D 14 MDF-X 53013XFA",
+        "description": "Windows 11 Home; 14.0 \" 1920x1200 px, IPS  60 Гц, 300 кд/м2; Intel Core-i5 12450H 8 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ LPDDR4X , SSD 512 ГБ; 1.39 кг, 314.5 мм х 227.8 мм х 15.9 мм",
+        "price": "2499.00"
+    },
+    {
+        "image": "Ноутбук_Lenovo_IdeaPad_1_15ALC7_82R400E9.jpg",
+        "name": "Ноутбук Lenovo IdeaPad 1 15ALC7 82R400E9",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; AMD Ryzen 7 5700U 8 -ядерный, Lucienne , до 4.3 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 1.61 кг, 360.2 мм х 236 мм х 17.9 мм",
+        "price": "2102.00"
+    },
+    {
+        "image": "Ноутбук_Lenovo_IdeaPad_Slim_3_15IAH8_83ER00D5.jpg",
+        "name": "Ноутбук Lenovo IdeaPad Slim 3 15IAH8 83ER00D5",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 300 кд/м2; Intel Core-i5 12450H 8 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel UHD Graphics; ОЗУ 16 ГБ LPDDR5 , SSD 1024 ГБ; 1.62 кг, 359.3 мм х 235 мм х 17.9 мм",
+        "price": "2299.00"
+    },
+    {
+        "image": "Ноутбук_KUU_G3_Pro_Core_i7-1185G7_16+512G.jpg",
+        "name": "Ноутбук KUU G3 Pro Core i7-1185G7 16+512G",
+        "description": "Windows 11 Pro; 15.6 \" 1920x1080 px, IPS  60 Гц; Intel Core-i7 1185G7 4 -ядерный, Tiger Lake , до 4.8 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 2 кг, 360 мм х 232 мм х 20.5 мм",
+        "price": "2328.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_Go_15_E1504GA-BQ577.jpg",
+        "name": "Ноутбук ASUS Vivobook Go 15 E1504GA-BQ577",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; Intel Processor N100 4 -ядерный, Alder Lake-N , до 3.4 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ DDR4; 1.63 кг, 360.3 мм х 232.5 мм х 17.9 мм",
+        "price": "1477.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_15_X1504ZA-BQ1164.jpg",
+        "name": "Ноутбук ASUS Vivobook 15 X1504ZA-BQ1164",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; Intel Core-i3 1215U 6 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ DDR4 , SSD 512 ГБ; 1.7 кг, 359.7 мм х 232.5 мм х 17.9 мм",
+        "price": "1855.00"
+    },
+    {
+        "image": "Ноутбук_Apple_MacBook_Air_13_A2337_(MGN63ZP_A)_Spa.jpg",
+        "name": "Ноутбук Apple MacBook Air 13 A2337 (MGN63ZP/A) Space Grey",
+        "description": "macOS Big Sur; 13.3 \" 2560x1600 px, IPS  60 Гц, 400 кд/м2; Apple M1 M1 8 -ядерный, Apple Silicon , до 3.2 ГГц; Встроенная Apple M1 GPU (7 ядер); ОЗУ 8 ГБ DDR4 , SSD 256 ГБ; 1.29 кг, 304.1 мм х 212.4 мм х 16.1 мм",
+        "price": "3499.00"
+    },
+    {
+        "image": "Игровой_ноутбук_MSI_Thin_GF63_12UC-1036X.jpg",
+        "name": "Игровой ноутбук MSI Thin GF63 12UC-1036X",
+        "description": "15.6 \" 1920x1080 px, IPS  144 Гц; Intel Core-i5 12450H 8 -ядерный, Alder Lake , до 4.4 ГГц; Дискретная NVIDIA GeForce RTX 3050 4 ГБ; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 1.86 кг, 359 мм х 254 мм х 21.7 мм",
+        "price": "3093.00"
+    },
+    {
+        "image": "Ноутбук_Lenovo_IdeaPad_1_15ALC7_82R4PADS_+_Коврик_.jpg",
+        "name": "Ноутбук Lenovo IdeaPad 1 15ALC7 82R4PADS + Коврик для мыши Havit MP845 Черный",
+        "description": "Windows 11 Home; 15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; AMD Ryzen 5 5500U 6 -ядерный, Lucienne , до 4.0 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 8 ГБ DDR4 , SSD 512 ГБ; 1.61 кг, 360.2 мм х 236 мм х 17.9 мм",
+        "price": "2099.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_Go_15_E1504GA-BQ508.jpg",
+        "name": "Ноутбук ASUS Vivobook Go 15 E1504GA-BQ508",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; Intel Core-i3 N305 8 -ядерный, Alder Lake-N , до 3,8 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ DDR4 , SSD 512 ГБ; 1.63 кг, 360.3 мм х 232.5 мм х 17.9 мм",
+        "price": "1600.00"
+    },
+    {
+        "image": "Ноутбук_Chuwi_GemiBook_Plus_16GB+512GB.jpg",
+        "name": "Ноутбук Chuwi GemiBook Plus 16GB+512GB",
+        "description": "Windows 11 Home; 15.6 \" 1920x1080 px, IPS  60 Гц, 280 кд/м2; Intel Processor N100 4 -ядерный, Alder Lake-N , до 3.4 ГГц; Встроенная Intel UHD Graphics; ОЗУ 16 ГБ LPDDR5 , SSD 512 ГБ; 1.46 кг, 323.4 мм х 219.9 мм х 19.9 мм",
+        "price": "1299.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ASUS_TUF_Gaming_Dash_F15_FX507ZI4-.jpg",
+        "name": "Игровой ноутбук ASUS TUF Gaming Dash F15 FX507ZI4-LP041",
+        "description": "15.6 \" 1920x1080 px, IPS  144 Гц, 250 кд/м2; Intel Core-i7 12700H 14 -ядерный, Alder Lake , до 4.7 ГГц; Дискретная NVIDIA GeForce RTX 4070 8 ГБ; ОЗУ 32 ГБ DDR5 , SSD 1024 ГБ; 2.2 кг, 354 мм х 251 мм х 24.9 мм",
+        "price": "6720.00"
+    },
+    {
+        "image": "Игровой_ноутбук_MSI_Thin_15_B12VE-1294X.jpg",
+        "name": "Игровой ноутбук MSI Thin 15 B12VE-1294X",
+        "description": "15.6 \" 1920x1080 px, IPS  144 Гц; Intel Core-i5 12450H 8 -ядерный, Alder Lake , до 4.4 ГГц; Дискретная NVIDIA GeForce RTX 4050 6 ГБ GDDR6; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 1.86 кг, 359 мм х 254 мм х 21.7 мм",
+        "price": "4046.00"
+    },
+    {
+        "image": "Игровой_ноутбук_Lenovo_Legion_5_15IAH7_82RC009T.jpg",
+        "name": "Игровой ноутбук Lenovo Legion 5 15IAH7 82RC009T",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 300 кд/м2; Intel Core-i5 12450H 8 -ядерный, Alder Lake , до 4.4 ГГц; Дискретная NVIDIA GeForce RTX 3050 4 ГБ GDDR6; ОЗУ 16 ГБ DDR5 , SSD 512 ГБ; 2.4 кг, 358.8 мм х 262.35 мм х 19.99 мм",
+        "price": "4926.00"
+    },
+    {
+        "image": "Ноутбук_Lenovo_V15_G4_IRU_83A100H0.jpg",
+        "name": "Ноутбук Lenovo V15 G4 IRU 83A100H0",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 300 кд/м2; Intel Core-i5 13420H 8 -ядерный, Raptor Lake , до 4.6 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 1.65 кг, 359.2 мм х 235.8 мм х 19.9 мм",
+        "price": "2499.00"
+    },
+    {
+        "image": "Ноутбук_Asus_Vivobook_15_X1502ZA-BQ2345.jpg",
+        "name": "Ноутбук Asus Vivobook 15 X1502ZA-BQ2345",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; Intel Core-i7 12700H 14 -ядерный, Alder Lake , до 4.7 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 1.7 кг, 359.7 мм х 232.5 мм х 17.9 мм",
+        "price": "2563.00"
+    },
+    {
+        "image": "Ноутбук_Huawei_MateBook_D_16_MCLG-X_53013WXA.jpg",
+        "name": "Ноутбук Huawei MateBook D 16 MCLG-X 53013WXA",
+        "description": "Windows 11 Home; 16.0 \" 1920x1200 px, IPS  60 Гц, 300 кд/м2; Intel Core-i5 13420H 8 -ядерный, Raptor Lake , до 4.6 ГГц; Встроенная Intel UHD Graphics; ОЗУ 16 ГБ LPDDR4X , SSD 512 ГБ; 1.7 кг, 356.7 мм х 248.7 мм х 18.4 мм",
+        "price": "2992.00"
+    },
+    {
+        "image": "Игровой_ноутбук_MSI_Thin_15_B12VE-1292.jpg",
+        "name": "Игровой ноутбук MSI Thin 15 B12VE-1292",
+        "description": "Windows 11 Home; 15.6 \" 1920x1080 px, IPS  144 Гц; Intel Core-i7 12650H 10 -ядерный, Alder Lake , до 4.7 ГГц; Дискретная NVIDIA GeForce RTX 4050 6 ГБ GDDR6; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 1.86 кг, 359 мм х 254 мм х 21.7 мм",
+        "price": "4508.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_15_X1504VA-BQ1285.jpg",
+        "name": "Ноутбук ASUS Vivobook 15 X1504VA-BQ1285",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; Intel Core-i5 1335U 10 -ядерный, Raptor Lake , до 4.6 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 1.7 кг, 359.7 мм х 232.5 мм х 17.9 мм",
+        "price": "2399.00"
+    },
+    {
+        "image": "Игровой_ноутбук_MSI_Cyborg_15_A12UDX-1446BY.jpg",
+        "name": "Игровой ноутбук MSI Cyborg 15 A12UDX-1446BY",
+        "description": "Windows 11 Home; 15.6 \" 1920x1080 px, IPS  144 Гц; Intel Core-i5 12450H 8 -ядерный, Alder Lake , до 4.4 ГГц; Дискретная NVIDIA GeForce RTX 3050 6 ГБ GDDR6; ОЗУ 16 ГБ DDR5 , SSD 512 ГБ; 1.98 кг, 359.36 мм х 250.34 мм х 22.9 мм",
+        "price": "4099.00"
+    },
+    {
+        "image": "Игровой_ноутбук_Lenovo_Legion_5_16IRX9_83DG0CTR.jpg",
+        "name": "Игровой ноутбук Lenovo Legion 5 16IRX9 83DG0CTR",
+        "description": "16.0 \" 2560x1600 px, IPS  240 Гц, 500 кд/м2; Intel Core-i7 14650HX 16 -ядерный, Raptor Lake R , до 5.2 ГГц; Дискретная NVIDIA GeForce RTX 4060 8 ГБ GDDR6; ОЗУ 32 ГБ DDR5 , SSD 1024 ГБ; 2.36 кг, 359.7 мм х 262.3 мм х 25.2 мм",
+        "price": "7023.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_Go_15_E1504FA-BQ1035.jpg",
+        "name": "Ноутбук ASUS Vivobook Go 15 E1504FA-BQ1035",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; AMD Ryzen 5 7520U 4 -ядерный, Mendocino , до 4.3 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 16 ГБ LPDDR5 , SSD 512 ГБ; 1.63 кг, 360.3 мм х 232.5 мм х 17.9 мм",
+        "price": "2025.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ASUS_ROG_Zephyrus_G16_GU605MY-QR11.jpg",
+        "name": "Игровой ноутбук ASUS ROG Zephyrus G16 GU605MY-QR111W",
+        "description": "Windows 11 Home; 16.0 \" 2560x1600 px, OLED  240 Гц, 500 кд/м2; Intel Core Ultra 9 185H 16 -ядерный, Meteor Lake , до 5.1 ГГц; Дискретная NVIDIA GeForce RTX 4090 16 ГБ GDDR6; ОЗУ 32 ГБ LPDDR5X , SSD 1024 ГБ; 1.85 кг, 354 мм х 246 мм х 16.4 мм",
+        "price": "13599.00"
+    },
+    {
+        "image": "Игровой_ноутбук_MSI_Thin_15_B12UC-1628X.jpg",
+        "name": "Игровой ноутбук MSI Thin 15 B12UC-1628X",
+        "description": "15.6 \" 1920x1080 px, IPS  144 Гц; Intel Core-i7 12650H 10 -ядерный, Alder Lake , до 4.7 ГГц; Дискретная NVIDIA GeForce RTX 3050 4 ГБ; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 1.86 кг, 359 мм х 254 мм х 21.7 мм",
+        "price": "3999.00"
+    },
+    {
+        "image": "Ноутбук_Acer_Aspire_5_A515-45-R73P_(NX.A84EX.015).jpg",
+        "name": "Ноутбук Acer Aspire 5 A515-45-R73P (NX.A84EX.015)",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц; AMD Ryzen 3 5300U 4 -ядерный, Lucienne , до 3.8 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 8 ГБ DDR4 , SSD 512 ГБ; 1.8 кг, 363.4 мм х 250.5 мм х 17.95 мм",
+        "price": "1499.00"
+    },
+    {
+        "image": "Игровой_ноутбук_MSI_Titan_18_HX_A14VIG-211.jpg",
+        "name": "Игровой ноутбук MSI Titan 18 HX A14VIG-211",
+        "description": "Windows 11 Home; 18.0 \" 3840x2400 px, IPS  120 Гц; Intel Core-i9 14900HX 24 -ядерный, Raptor Lake R , до 5.8 ГГц; Дискретная NVIDIA GeForce RTX 4090 16 ГБ; ОЗУ 64 ГБ DDR5 , SSD 3072 ГБ; 3.6 кг, 404 мм х 307.5 мм х 32.05 мм",
+        "price": "22548.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ASUS_TUF_Gaming_F15_FX507VU-LP150.jpg",
+        "name": "Игровой ноутбук ASUS TUF Gaming F15 FX507VU-LP150",
+        "description": "15.6 \" 1920x1080 px, IPS  144 Гц, 250 кд/м2; Intel Core-i7 13620H 10 -ядерный, Raptor Lake , до 4.9 ГГц; Дискретная NVIDIA GeForce RTX 4050 6 ГБ GDDR6; ОЗУ 16 ГБ DDR5 , SSD 512 ГБ; 2.2 кг, 354 мм х 251 мм х 24.9 мм",
+        "price": "5155.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ASUS_TUF_Gaming_A15_FA506NC-HN063.jpg",
+        "name": "Игровой ноутбук ASUS TUF Gaming A15 FA506NC-HN063",
+        "description": "15.6 \" 1920x1080 px, IPS  144 Гц, 250 кд/м2; AMD Ryzen 5 7535HS 6 -ядерный, Rembrandt R , до 4.55 ГГц; Дискретная NVIDIA GeForce RTX 3050 4 ГБ; ОЗУ 16 ГБ DDR5 , SSD 512 ГБ; 2.3 кг, 359 мм х 228 мм х 24.5 мм",
+        "price": "3904.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ASUS_TUF_Gaming_A15_FA506NC-HN065.jpg",
+        "name": "Игровой ноутбук ASUS TUF Gaming A15 FA506NC-HN065",
+        "description": "15.6 \" 1920x1080 px, IPS  144 Гц, 250 кд/м2; AMD Ryzen 5 7535HS 6 -ядерный, Rembrandt R , до 4.55 ГГц; Дискретная NVIDIA GeForce RTX 3050 4 ГБ; ОЗУ 16 ГБ DDR5 , SSD 512 ГБ; 2.3 кг, 359 мм х 228 мм х 24.5 мм",
+        "price": "3419.00"
+    },
+    {
+        "image": "Ноутбук_Apple_Macbook_Pro_16.2&amp;quot;_M3_Max_20.jpg",
+        "name": "Ноутбук Apple Macbook Pro 16.2&amp;quot; M3 Max 2023 MRW33RU/A",
+        "description": "16.2 \" 3456х2234 px, IPS  120 Гц, 1000 кд/м2; Apple M3 M3 Max 14 -ядерный, Apple Silicon; Встроенная Apple M3 Max GPU (30 ядер); ОЗУ 36 ГБ, SSD 1024 ГБ; 2.14 кг, 355.7 мм х 248.1 мм х 16.8 мм",
+        "price": "18815.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ASUS_ROG_Strix_G16_G614JV-N4071.jpg",
+        "name": "Игровой ноутбук ASUS ROG Strix G16 G614JV-N4071",
+        "description": "16.0 \" 2560x1600 px, IPS  240 Гц; Intel Core-i7 13650HX 14 -ядерный, Raptor Lake , до 4.9 ГГц; Дискретная NVIDIA GeForce RTX 4060 8 ГБ; ОЗУ 16 ГБ LPDDR5 , SSD 1024 ГБ; 2.5 кг, 354 мм х 264 мм х 30.4 мм",
+        "price": "6399.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ASUS_TUF_Gaming_A15_2023_FA507NVR-.jpg",
+        "name": "Игровой ноутбук ASUS TUF Gaming A15 2023 FA507NVR-LP045W",
+        "description": "Windows 11 Home; 15.6 \" 1920x1080 px, IPS  144 Гц; AMD Ryzen 7 7435HS 8 -ядерный, Rembrandt R , до 4.5 ГГц; Дискретная NVIDIA GeForce RTX 4060 8 ГБ GDDR6; ОЗУ 16 ГБ DDR5 , SSD 512 ГБ; 2.2 кг, 354 мм х 251 мм х 22.4 мм",
+        "price": "5240.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_VivoBook_15_X1502ZA-BQ1949.jpg",
+        "name": "Ноутбук ASUS VivoBook 15 X1502ZA-BQ1949",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; Intel Core-i7 12700H 14 -ядерный, Alder Lake , до 4.7 ГГц; Встроенная Intel Iris Xe / UHD Graphics; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 1.7 кг, 359.7 мм х 232.5 мм х 17.9 мм",
+        "price": "2456.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_Go_15_E1504GA-BQ193.jpg",
+        "name": "Ноутбук ASUS Vivobook Go 15 E1504GA-BQ193",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; Intel Core-i3 N305 8 -ядерный, Alder Lake-N , до 3,8 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ DDR4; 1.63 кг, 360.3 мм х 232.5 мм х 17.9 мм",
+        "price": "1543.00"
+    },
+    {
+        "image": "Ноутбук_H-Book_by_Horizont_15_IPK1_T52E3WG_(481044.jpg",
+        "name": "Ноутбук H-Book by Horizont 15 IPK1 T52E3WG (4810443004284)",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц; Intel Core-i5 1235U 10 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 8 ГБ DDR4 , SSD 256 ГБ; 1.7 кг, 357 мм х 228 мм х 20 мм",
+        "price": "1608.00"
+    },
+    {
+        "image": "Игровой_ноутбук_MSI_Cyborg_15_A13VF-1222RU.jpg",
+        "name": "Игровой ноутбук MSI Cyborg 15 A13VF-1222RU",
+        "description": "Windows 11 Home; 15.6 \" 1920x1080 px, IPS  144 Гц; Intel Core-i7 13620H 10 -ядерный, Raptor Lake , до 4.9 ГГц; Дискретная NVIDIA GeForce RTX 4060 8 ГБ GDDR6; ОЗУ 16 ГБ DDR5 , SSD 512 ГБ; 1.98 кг, 359.36 мм х 250.34 мм х 22.9 мм",
+        "price": "5224.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ASUS_TUF_Gaming_F15_FX507ZC4-HN078.jpg",
+        "name": "Игровой ноутбук ASUS TUF Gaming F15 FX507ZC4-HN078",
+        "description": "15.6 \" 1920x1080 px, IPS  144 Гц, 250 кд/м2; Intel Core-i7 12700H 14 -ядерный, Alder Lake , до 4.4 ГГц; Дискретная NVIDIA GeForce RTX 3050 4 ГБ GDDR6; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 2.2 кг, 354 мм х 251 мм х 24.9 мм",
+        "price": "3679.00"
+    },
+    {
+        "image": "Ноутбук_Infinix_Inbook_Y3_Max_YL613_(71008301535).jpg",
+        "name": "Ноутбук Infinix Inbook Y3 Max YL613 (71008301535)",
+        "description": "Windows 11 Home; 16.0 \" 1920x1200 px, IPS  60 Гц, 300 кд/м2; Intel Core-i5 1235U 10 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 16 ГБ LPDDR4X , SSD 512 ГБ; 1.65 кг, 357.3 мм х 248.8 мм х 17.95 мм",
+        "price": "2072.00"
+    },
+    {
+        "image": "Игровой_ноутбук_MSI_Katana_15_B13VGK-1631XBY.jpg",
+        "name": "Игровой ноутбук MSI Katana 15 B13VGK-1631XBY",
+        "description": "15.6 \" 2560x1440 px, IPS  165 Гц; Intel Core-i7 13620H 10 -ядерный, Raptor Lake , до 4.9 ГГц; Дискретная NVIDIA GeForce RTX 4070 8 ГБ; ОЗУ 16 ГБ DDR5 , SSD 1024 ГБ; 2.3 кг, 359 мм х 259 мм х 26.9 мм",
+        "price": "5799.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ASUS_ROG_Strix_G16_2023_G614JV-N41.jpg",
+        "name": "Игровой ноутбук ASUS ROG Strix G16 2023 G614JV-N4125",
+        "description": "16.0 \" 2560x1600 px, IPS  240 Гц; Intel Core-i7 13650HX 14 -ядерный, Raptor Lake , до 4.9 ГГц; Дискретная NVIDIA GeForce RTX 4060 8 ГБ; ОЗУ 32 ГБ LPDDR5 , SSD 1024 ГБ; 2.5 кг, 354 мм х 264 мм х 30.4 мм",
+        "price": "6485.00"
+    },
+    {
+        "image": "Ноутбук_HP_15s-fr5004TU_6C008PA.jpg",
+        "name": "Ноутбук HP 15s-fr5004TU 6C008PA",
+        "description": "Windows 11 Home; 15.6 \" 1920x1080 px, IPS  60 Гц, 300 кд/м2; Intel Core-i5 1240P 12 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 1.74 кг, 358.5 мм х 242 мм х 17.9 мм",
+        "price": "2499.00"
+    },
+    {
+        "image": "Ноутбук_Lenovo_IdeaPad_1_15ALC7_82R400E6.jpg",
+        "name": "Ноутбук Lenovo IdeaPad 1 15ALC7 82R400E6",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; AMD Ryzen 5 5500U 6 -ядерный, Lucienne , до 4.0 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 8 ГБ DDR4 , SSD 512 ГБ; 1.61 кг, 360.2 мм х 236 мм х 17.9 мм",
+        "price": "1805.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_15_X1504ZA-BQ1120.jpg",
+        "name": "Ноутбук ASUS Vivobook 15 X1504ZA-BQ1120",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; Intel Core-i5 1235U 10 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 1.7 кг, 359.7 мм х 232.5 мм х 17.9 мм",
+        "price": "2097.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ASUS_TUF_Gaming_F15_FX507ZC4-HN143.jpg",
+        "name": "Игровой ноутбук ASUS TUF Gaming F15 FX507ZC4-HN143",
+        "description": "15.6 \" 1920x1080 px, IPS  144 Гц, 250 кд/м2; Intel Core-i5 12500H 12 -ядерный, Alder Lake , до 4.5 ГГц; Дискретная NVIDIA GeForce RTX 3050 4 ГБ GDDR6; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 2.2 кг, 354 мм х 251 мм х 24.9 мм",
+        "price": "3404.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_16X_M3604YA-MB258W.jpg",
+        "name": "Ноутбук ASUS Vivobook 16X M3604YA-MB258W",
+        "description": "Windows 11 Home; 16.0 \" 1920x1200 px, IPS  60 Гц, 300 кд/м2; AMD Ryzen 5 7430U 6 -ядерный, Barcelo R , до 4.3 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 1.76 кг, 359.5 мм х 249.5 мм х 17.9 мм",
+        "price": "2555.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_VivoBook_15_X1502ZA-BQ2343.jpg",
+        "name": "Ноутбук ASUS VivoBook 15 X1502ZA-BQ2343",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; Intel Core-i7 12700H 14 -ядерный, Alder Lake , до 4.7 ГГц; Встроенная Intel Iris Xe / UHD Graphics; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 1.7 кг, 359.7 мм х 232.5 мм х 17.9 мм",
+        "price": "2401.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ASUS_TUF_Gaming_F17_FX707ZC4-HX076.jpg",
+        "name": "Игровой ноутбук ASUS TUF Gaming F17 FX707ZC4-HX076",
+        "description": "17.3 \" 1920x1080 px, IPS  144 Гц, 250 кд/м2; Intel Core-i5 12500H 12 -ядерный, Alder Lake , до 4.5 ГГц; Дискретная NVIDIA GeForce RTX 3050 4 ГБ GDDR6; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 2.6 кг, 394 мм х 264 мм х 25.4 мм",
+        "price": "3799.00"
+    },
+    {
+        "image": "Ноутбук_Infinix_Inbook_Y3_Max_YL613_(71008301570).jpg",
+        "name": "Ноутбук Infinix Inbook Y3 Max YL613 (71008301570)",
+        "description": "16.0 \" 1920x1200 px, IPS  60 Гц, 300 кд/м2; Intel Core-i5 1235U 10 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 16 ГБ LPDDR4X , SSD 512 ГБ; 1.65 кг, 357.3 мм х 248.8 мм х 17.95 мм",
+        "price": "1953.00"
+    },
+    {
+        "image": "Ноутбук_Infinix_Inbook_Y3_Max_YL613_(71008301569).jpg",
+        "name": "Ноутбук Infinix Inbook Y3 Max YL613 (71008301569)",
+        "description": "16.0 \" 1920x1200 px, IPS  60 Гц, 300 кд/м2; Intel Core-i5 1235U 10 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 8 ГБ LPDDR4X , SSD 512 ГБ; 1.65 кг, 357.3 мм х 248.8 мм х 17.95 мм",
+        "price": "1731.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ASUS_TUF_Gaming_Dash_F15_2023_FX50.jpg",
+        "name": "Игровой ноутбук ASUS TUF Gaming Dash F15 2023 FX507ZI4-LP030",
+        "description": "15.6 \" 1920x1080 px, IPS  144 Гц, 250 кд/м2; Intel Core-i7 12700H 14 -ядерный, Alder Lake , до 4.7 ГГц; Дискретная NVIDIA GeForce RTX 4070 8 ГБ; ОЗУ 16 ГБ DDR5 , SSD 512 ГБ; 2.2 кг, 354 мм х 251 мм х 24.9 мм",
+        "price": "5599.00"
+    },
+    {
+        "image": "Игровой_ноутбук_Asus_TUF_Gaming_F15_FX507VI-HQ108.jpg",
+        "name": "Игровой ноутбук Asus TUF Gaming F15 FX507VI-HQ108",
+        "description": "15.6 \" 2560x1440 px, IPS  165 Гц, 300 кд/м2; Intel Core-i7 13620H 10 -ядерный, Raptor Lake , до 4.9 ГГц; Дискретная NVIDIA GeForce RTX 4070 8 ГБ GDDR6; ОЗУ 16 ГБ DDR5 , SSD 1024 ГБ; 2.2 кг, 354 мм х 251 мм х 24.9 мм",
+        "price": "6929.00"
+    },
+    {
+        "image": "Ноутбук_Asus_Zenbook_14_UM3402YA-KP838.jpg",
+        "name": "Ноутбук Asus Zenbook 14 UM3402YA-KP838",
+        "description": "14.0 \" 2560x1600 px, IPS  60 Гц, 400 кд/м2; AMD Ryzen 5 7430U 6 -ядерный, Barcelo R , до 4.3 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 16 ГБ LPDDR4X , SSD 512 ГБ; 1.35 кг, 313.6 мм х 220.6 мм х 16.9 мм",
+        "price": "2799.00"
+    },
+    {
+        "image": "Игровой_ноутбук_Lenovo_LOQ_15IRX9_83DV93ST.jpg",
+        "name": "Игровой ноутбук Lenovo LOQ 15IRX9 83DV93ST",
+        "description": "15.6 \" 2560x1440 px, IPS  165 Гц, 350 кд/м2; Intel Core-i7 13650HX 14 -ядерный, Raptor Lake , до 4.9 ГГц; Дискретная NVIDIA GeForce RTX 4050 6 ГБ GDDR6; ОЗУ 16 ГБ DDR5 , SSD 1024 ГБ; 2.4 кг, 359.8 мм х 258.7 мм х 23.9 мм",
+        "price": "5099.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_Go_15_E1504FA-BQ415.jpg",
+        "name": "Ноутбук ASUS Vivobook Go 15 E1504FA-BQ415",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; AMD Ryzen 5 7520U 4 -ядерный, Mendocino , до 4.3 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 8 ГБ LPDDR5 , SSD 512 ГБ; 1.63 кг, 360.3 мм х 232.5 мм х 17.9 мм",
+        "price": "1755.00"
+    },
+    {
+        "image": "Игровой_ноутбук_HP_Victus_15-fb1013dx_845A2UA.jpg",
+        "name": "Игровой ноутбук HP Victus 15-fb1013dx 845A2UA",
+        "description": "Windows 11 Home; 15.6 \" 1920x1080 px, IPS  144 Гц, 250 кд/м2; AMD Ryzen 5 7535HS 6 -ядерный, Rembrandt R , до 4.55 ГГц; Дискретная NVIDIA GeForce RTX 2050 4 ГБ; ОЗУ 8 ГБ DDR5 , SSD 512 ГБ; 2.29 кг, 357.9 мм х 255 мм х 23.5 мм",
+        "price": "3800.00"
+    },
+    {
+        "image": "Ноутбук_Acer_Aspire_3_A315-59-57H0_(NX.K6TEL.009).jpg",
+        "name": "Ноутбук Acer Aspire 3 A315-59-57H0 (NX.K6TEL.009)",
+        "description": "Windows 11; 15.6 \" 1920x1080 px, IPS  60 Гц; Intel Core-i5 1235U 10 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ DDR4 , SSD 512 ГБ; 1.7 кг, 363.4 мм х 238.4 мм х 19.9 мм",
+        "price": "1988.00"
+    },
+    {
+        "image": "Ноутбук_Apple_MacBook_Air_15&amp;quot;_M2_A2941_(M.jpg",
+        "name": "Ноутбук Apple MacBook Air 15&amp;quot; M2 A2941 (MQKV3ZP/A) Starlight",
+        "description": "Mac OS; 15.3 \" 2880х1864 px, IPS  60 Гц, 500 кд/м2; Apple M2 M2 8 -ядерный, Apple Silicon; Встроенная Apple M2 GPU (10 ядер); ОЗУ 8 ГБ, SSD 512 ГБ; 1.51 кг, 340.4 мм х 237.6 мм х 11.5 мм",
+        "price": "5999.00"
+    },
+    {
+        "image": "Игровой_ноутбук_Lenovo_LOQ_15IRX9_83DV7KTL.jpg",
+        "name": "Игровой ноутбук Lenovo LOQ 15IRX9 83DV7KTL",
+        "description": "15.6 \" 2560x1440 px, IPS  165 Гц, 350 кд/м2; Intel Core-i5 13450HX 10 -ядерный, Raptor Lake , до 4.6 ГГц; Дискретная NVIDIA GeForce RTX 4060 8 ГБ GDDR6; ОЗУ 16 ГБ DDR5 , SSD 1024 ГБ; 2.4 кг, 359.8 мм х 258.7 мм х 23.9 мм",
+        "price": "6190.00"
+    },
+    {
+        "image": "Ноутбук_Asus_Vivobook_16X_K3604VA-MB244.jpg",
+        "name": "Ноутбук Asus Vivobook 16X K3604VA-MB244",
+        "description": "16.0 \" 1920x1200 px, IPS  60 Гц, 300 кд/м2; Intel Core-i7 1335U 10 -ядерный, Raptor Lake , до 4.6 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 16 ГБ DDR4 , SSD 1024 ГБ; 1.76 кг, 359.5 мм х 249.4 мм х 17.9 мм",
+        "price": "2945.00"
+    },
+    {
+        "image": "Ноутбук_Lenovo_IdeaPad_Slim_3_15IAH8_83ER0086.jpg",
+        "name": "Ноутбук Lenovo IdeaPad Slim 3 15IAH8 83ER0086",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 300 кд/м2; Intel Core-i5 12450H 8 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel UHD Graphics; ОЗУ 16 ГБ LPDDR5 , SSD 512 ГБ; 1.62 кг, 359.3 мм х 235 мм х 17.9 мм",
+        "price": "2224.00"
+    },
+    {
+        "image": "Игровой_ноутбук_Lenovo_Legion_5_16IRX9_83DG0ETR.jpg",
+        "name": "Игровой ноутбук Lenovo Legion 5 16IRX9 83DG0ETR",
+        "description": "16.0 \" 2560x1600 px, IPS  240 Гц, 500 кд/м2; Intel Core-i7 14650HX 16 -ядерный, Raptor Lake R , до 5.2 ГГц; Дискретная NVIDIA GeForce RTX 4070 8 ГБ GDDR6; ОЗУ 32 ГБ DDR5 , SSD 1024 ГБ; 2.36 кг, 359.7 мм х 262.3 мм х 25.2 мм",
+        "price": "7889.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ASUS_ROG_Strix_SCAR_18_G834JYR-R60.jpg",
+        "name": "Игровой ноутбук ASUS ROG Strix SCAR 18 G834JYR-R6027W",
+        "description": "Windows 11 Home; 18.0 \" 2560x1600 px, Mini LED  240 Гц, 1100 кд/м2; Intel Core-i9 14900HX 24 -ядерный, Raptor Lake R , до 5.8 ГГц; Дискретная NVIDIA GeForce RTX 4090 16 ГБ GDDR6; ОЗУ 32 ГБ DDR5 , SSD 2048 ГБ; 3.1 кг, 399 мм х 294 мм х 30.8 мм",
+        "price": "16777.00"
+    },
+    {
+        "image": "Ноутбук_Lenovo_IdeaPad_3_15IAU7_82RK00R3.jpg",
+        "name": "Ноутбук Lenovo IdeaPad 3 15IAU7 82RK00R3",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 300 кд/м2; Intel Core-i3 1215U 6 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ DDR4 , SSD 512 ГБ; 1.63 кг, 359.2 мм х 236.5 мм х 19.9 мм",
+        "price": "1959.00"
+    },
+    {
+        "image": "Ноутбук_H-Book_by_Horizont_14_МАК1_TC2E3W.jpg",
+        "name": "Ноутбук H-Book by Horizont 14 МАК1 TC2E3W",
+        "description": "Windows 11 Home; 14.0 \" 1920x1080 px, TN+Film  60 Гц, 250 кд/м2; Intel Celeron N5100 4 -ядерный, Jasper Lake , до 2.8 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ LPDDR4X , SSD 256 ГБ; 1.4 кг, 326 мм х 225 мм х 17.9 мм",
+        "price": "1091.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_Go_15_E1504FA-BQ038W.jpg",
+        "name": "Ноутбук ASUS Vivobook Go 15 E1504FA-BQ038W",
+        "description": "Windows 11 Home; 15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; AMD Ryzen 5 7520U 4 -ядерный, Mendocino , до 4.3 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 8 ГБ LPDDR5 , SSD 512 ГБ; 1.63 кг, 360.3 мм х 232.5 мм х 17.9 мм",
+        "price": "2153.00"
+    },
+    {
+        "image": "Ноутбук_Huawei_MateBook_D_15_AMD_BoM-WFP9_53013TUE.jpg",
+        "name": "Ноутбук Huawei MateBook D 15 AMD BoM-WFP9 53013TUE",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; AMD Ryzen 7 5700U 8 -ядерный, Lucienne , до 4.3 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 8 ГБ DDR4 , SSD 512 ГБ; 1.56 кг, 357.8 мм х 229.9 мм х 16.9 мм",
+        "price": "2799.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_Go_15_E1504FA-BQ1033.jpg",
+        "name": "Ноутбук ASUS Vivobook Go 15 E1504FA-BQ1033",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; AMD Ryzen 5 7520U 4 -ядерный, Mendocino , до 4.3 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 16 ГБ LPDDR5 , SSD 512 ГБ; 1.63 кг, 360.3 мм х 232.5 мм х 17.9 мм",
+        "price": "2053.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ASUS_TUF_Gaming_A15_FA506NCR-HN057.jpg",
+        "name": "Игровой ноутбук ASUS TUF Gaming A15 FA506NCR-HN057",
+        "description": "15.6 \" 1920x1080 px, IPS  144 Гц, 250 кд/м2; AMD Ryzen 7 7435HS 8 -ядерный, Rembrandt R , до 4.5 ГГц; Дискретная NVIDIA GeForce RTX 3050 4 ГБ; ОЗУ 16 ГБ DDR5 , SSD 512 ГБ; 2.3 кг, 359 мм х 228 мм х 24.5 мм",
+        "price": "3597.00"
+    },
+    {
+        "image": "Ноутбук_Apple_MacBook_Air_15&amp;quot;_A3114_M3_8_.jpg",
+        "name": "Ноутбук Apple MacBook Air 15&amp;quot; A3114 M3 8/256GB (тёмная ночь) + Адаптер Red Line BS-01 16А",
+        "description": "15.3 \" 2880х1864 px, IPS  60 Гц, 500 кд/м2; Apple M3 M3 8 -ядерный, Apple Silicon; Встроенная Apple M3 GPU (10 ядер); ОЗУ 8 ГБ, SSD 256 ГБ; 1.51 кг, 340.4 мм х 237.6 мм х 11.5 мм",
+        "price": "5599.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_Go_15_E1504FA-BQ615W.jpg",
+        "name": "Ноутбук ASUS Vivobook Go 15 E1504FA-BQ615W",
+        "description": "Windows 11 Home; 15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; AMD Ryzen 5 7520U 4 -ядерный, Mendocino , до 4.3 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 16 ГБ LPDDR5 , SSD 512 ГБ; 1.63 кг, 360.3 мм х 232.5 мм х 17.9 мм",
+        "price": "2327.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_15X_OLED_K3504VA-MA508.jpg",
+        "name": "Ноутбук ASUS Vivobook 15X OLED K3504VA-MA508",
+        "description": "15.6 \" 2880x1620 px, OLED  120 Гц, 400 кд/м2; Intel Core-i5 1335U 10 -ядерный, Raptor Lake , до 4.6 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 1.6 кг, 359.7 мм х 232.5 мм х 17.9 мм",
+        "price": "2699.00"
+    },
+    {
+        "image": "Игровой_ноутбук_Gigabyte_G6_KF-G3KZ853SH.jpg",
+        "name": "Игровой ноутбук Gigabyte G6 KF-G3KZ853SH",
+        "description": "Windows 11 Home; 16.0 \" 1920x1200 px, IPS  165 Гц, 250 кд/м2; Intel Core-i7 12650H 10 -ядерный, Alder Lake , до 4.7 ГГц; Дискретная NVIDIA GeForce RTX 4060 8 ГБ GDDR6; ОЗУ 16 ГБ DDR5 , SSD 512 ГБ; 2.3 кг, 359.5 мм х 263.8 мм х 26 мм",
+        "price": "5116.00"
+    },
+    {
+        "image": "Игровой_ноутбук_Lenovo_LOQ_15IRX9_83DV6ATR.jpg",
+        "name": "Игровой ноутбук Lenovo LOQ 15IRX9 83DV6ATR",
+        "description": "15.6 \" 2560x1440 px, IPS  165 Гц, 300 кд/м2; Intel Core-i5 13450HX 10 -ядерный, Raptor Lake , до 4.6 ГГц; Дискретная NVIDIA GeForce RTX 4050 6 ГБ GDDR6; ОЗУ 16 ГБ DDR5 , SSD 1024 ГБ; 2.4 кг, 359.8 мм х 258.7 мм х 23.9 мм",
+        "price": "5053.00"
+    },
+    {
+        "image": "Ноутбук_Huawei_MateBook_D_16_2024_MCLG-X_53014BUY.jpg",
+        "name": "Ноутбук Huawei MateBook D 16 2024 MCLG-X 53014BUY",
+        "description": "16.0 \" 1920x1200 px, IPS  60 Гц, 300 кд/м2; Intel Core-i5 13420H 8 -ядерный, Raptor Lake , до 4.6 ГГц; Встроенная Intel UHD Graphics; ОЗУ 16 ГБ LPDDR4X , SSD 1024 ГБ; 1.68 кг, 356.7 мм х 248.7 мм х 17 мм",
+        "price": "4699.00"
+    },
+    {
+        "image": "Ноутбук_Digma_EVE_P5851_DN15N5-8CXW05.jpg",
+        "name": "Ноутбук Digma EVE P5851 DN15N5-8CXW05",
+        "description": "Windows 11 Pro; 15.6 \" 1920x1080 px, IPS  60 Гц, 300 кд/м2; Intel Pentium Silver N5030 4 -ядерный, Gemini Lake R , до 3.1 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ LPDDR4 , SSD 256 ГБ; 1.5 кг, 358 мм х 228.5 мм х 20 мм",
+        "price": "1101.00"
+    },
+    {
+        "image": "Игровой_ноутбук_Lenovo_LOQ_15IRH8_82XVU4TR.jpg",
+        "name": "Игровой ноутбук Lenovo LOQ 15IRH8 82XVU4TR",
+        "description": "15.6 \" 1920x1080 px, IPS  144 Гц, 350 кд/м2; Intel Core-i5 12450H 8 -ядерный, Alder Lake , до 4.4 ГГц; Дискретная NVIDIA GeForce RTX 3050 6 ГБ GDDR6; ОЗУ 16 ГБ DDR5 , SSD 512 ГБ; 2.4 кг, 359.6 мм х 264.8 мм х 25.2 мм",
+        "price": "4473.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_VivoBook_17X_M3704YA-AU195.jpg",
+        "name": "Ноутбук ASUS VivoBook 17X M3704YA-AU195",
+        "description": "17.3 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; AMD Ryzen 5 7430U 6 -ядерный, Barcelo R , до 4.3 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 2.1 кг, 399.3 мм х 251.3 мм х 19.8 мм",
+        "price": "2496.00"
+    },
+    {
+        "image": "Ноутбук_H-Book_by_Horizont_15_MAК4_T54E4W_48104430.jpg",
+        "name": "Ноутбук H-Book by Horizont 15 MAК4 T54E4W 4810443003881",
+        "description": "Windows 11 Home; 15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; Intel Core-i5 1155G7 4 -ядерный, Tiger Lake , до 4.5 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 1.8 кг, 358 мм х 244 мм х 18.9 мм",
+        "price": "1911.00"
+    },
+    {
+        "image": "Ноутбук_Lenovo_IdeaPad_3_15IAU7_82RKYCFE.jpg",
+        "name": "Ноутбук Lenovo IdeaPad 3 15IAU7 82RKYCFE",
+        "description": "Windows 11 Home; 15.6 \" 1920x1080 px, IPS  60 Гц, 300 кд/м2; Intel Core-i5 1235U 10 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 8 ГБ DDR4 , SSD 512 ГБ; 1.63 кг, 359.2 мм х 236.5 мм х 19.9 мм",
+        "price": "2499.00"
+    },
+    {
+        "image": "Ноутбук_Infinix_Inbook_Y3_Max_YL613_(71008301568).jpg",
+        "name": "Ноутбук Infinix Inbook Y3 Max YL613 (71008301568)",
+        "description": "16.0 \" 1920x1200 px, IPS  60 Гц, 300 кд/м2; Intel Core-i3 1215U 6 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ LPDDR4X , SSD 512 ГБ; 1.65 кг, 357.3 мм х 248.8 мм х 17.95 мм",
+        "price": "1582.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_16_X1605VA-MB863.jpg",
+        "name": "Ноутбук ASUS Vivobook 16 X1605VA-MB863",
+        "description": "16.0 \" 1920x1200 px, IPS  60 Гц, 300 кд/м2; Intel Core-i7 13700H 14 -ядерный, Raptor Lake , до 5.0 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 32 ГБ DDR4 , SSD 1024 ГБ; 1.88 кг, 358.7 мм х 249.5 мм х 19.9 мм",
+        "price": "3595.00"
+    },
+    {
+        "image": "Ноутбук_Apple_Macbook_Air_15&amp;quot;_M2_2023_512.jpg",
+        "name": "Ноутбук Apple Macbook Air 15&amp;quot; M2 2023 512GB (серебристый) + Адаптер Red Line BS-01 16А",
+        "description": "15.3 \" 2880х1864 px, IPS  60 Гц, 500 кд/м2; Apple M2 M2 8 -ядерный, Silicon; Встроенная Apple M2 GPU (10 ядер); ОЗУ 8 ГБ, SSD 512 ГБ; 1.51 кг, 340.4 мм х 237.6 мм х 11.5 мм",
+        "price": "5555.00"
+    },
+    {
+        "image": "Ноутбук_H-Book_by_Horizont_15_МАК4_T34E4W_48104430.jpg",
+        "name": "Ноутбук H-Book by Horizont 15 МАК4 T34E4W 4810443003973",
+        "description": "Windows 11 Home; 15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; Intel Core-i3 1115G4 2 -ядерный, Tiger Lake , до 4.1 ГГц; Встроенная Intel UHD Graphics; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 1.8 кг, 358 мм х 244 мм х 18.9 мм",
+        "price": "1552.00"
+    },
+    {
+        "image": "Ноутбук_Acer_Aspire_5_A515-58P-54GH_(NX.KHJER.00A).jpg",
+        "name": "Ноутбук Acer Aspire 5 A515-58P-54GH (NX.KHJER.00A)",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц; Intel Core-i5 1335U 10 -ядерный, Raptor Lake , до 4.6 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 8 ГБ LPDDR5 , SSD 512 ГБ; 1.78 кг, 362.9 мм х 237.5 мм х 18.9 мм",
+        "price": "2199.00"
+    },
+    {
+        "image": "Игровой_ноутбук_Asus_TUF_Gaming_F16_FX607JV-N3144.jpg",
+        "name": "Игровой ноутбук Asus TUF Gaming F16 FX607JV-N3144",
+        "description": "16.0 \" 1920x1200 px, IPS  165 Гц, 250 кд/м2; Intel Core-i7 13650HX 14 -ядерный, Raptor Lake , до 4.9 ГГц; Дискретная NVIDIA GeForce RTX 4060 8 ГБ GDDR6; ОЗУ 16 ГБ DDR5 , SSD 1024 ГБ; 2.27 кг, 355 мм х 252 мм х 28.2 мм",
+        "price": "5475.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_17_X1704ZA-AU341.jpg",
+        "name": "Ноутбук ASUS Vivobook 17 X1704ZA-AU341",
+        "description": "17.3 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; Intel Pentium Gold 8505 5 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ DDR4 , SSD 512 ГБ; 2.1 кг, 399.3 мм х 254.3 мм х 19.9 мм",
+        "price": "1936.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_16_X1605ZA-MB853.jpg",
+        "name": "Ноутбук ASUS Vivobook 16 X1605ZA-MB853",
+        "description": "16.0 \" 1920x1200 px, IPS  60 Гц, 300 кд/м2; Intel Core-i5 1235U 10 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 1.88 кг, 358.7 мм х 249.5 мм х 19.9 мм",
+        "price": "2151.00"
+    },
+    {
+        "image": "Ноутбук_Acer_Aspire_3_A315-24P-R16W_(NX.KDEER.009).jpg",
+        "name": "Ноутбук Acer Aspire 3 A315-24P-R16W (NX.KDEER.009)",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц; AMD Ryzen 3 7320U 4 -ядерный, Mendocino , до 4.1 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 8 ГБ LPDDR5 , SSD 256 ГБ; 1.78 кг, 362.9 мм х 237.5 мм х 18.9 мм",
+        "price": "1696.00"
+    },
+    {
+        "image": "Ноутбук_Asus_Zenbook_14_UM3402YA-KP836W.jpg",
+        "name": "Ноутбук Asus Zenbook 14 UM3402YA-KP836W",
+        "description": "Windows 11 Home; 14.0 \" 2560x1600 px, IPS  60 Гц, 400 кд/м2; AMD Ryzen 5 7530U 6 -ядерный, Barcelo R , до 4.5 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 16 ГБ LPDDR4X , SSD 512 ГБ; 1.35 кг, 313.6 мм х 220.6 мм х 16.9 мм",
+        "price": "3259.00"
+    },
+    {
+        "image": "Ноутбук_Asus_Zenbook_14_OLED_UX3405MA-QD690.jpg",
+        "name": "Ноутбук Asus Zenbook 14 OLED UX3405MA-QD690",
+        "description": "14.0 \" 1920x1200 px, OLED  60 Гц, 400 кд/м2; Intel Core Ultra 5 125H 14 -ядерный, Meteor Lake , до 4.5 ГГц; Встроенная Intel Arc Graphics; ОЗУ 16 ГБ LPDDR5X , SSD 512 ГБ; 1.22 кг, 312.4 мм х 220.1 мм х 14.9 мм",
+        "price": "3649.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Zenbook_15_OLED_UM3504DA-MA476.jpg",
+        "name": "Ноутбук ASUS Zenbook 15 OLED UM3504DA-MA476",
+        "description": "15.6 \" 2880x1620 px, OLED  120 Гц, 400 кд/м2; AMD Ryzen 5 7535U 6 -ядерный, Rembrandt R , до 4.55 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 16 ГБ LPDDR5 , SSD 512 ГБ; 1.4 кг, 354.8 мм х 226.6 мм х 15.8 мм",
+        "price": "3349.00"
+    },
+    {
+        "image": "Ноутбук_HP_EliteBook_845_G8_490X0UC.jpg",
+        "name": "Ноутбук HP EliteBook 845 G8 490X0UC",
+        "description": "Windows 11 Pro; 14.0 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; AMD Ryzen 5 Pro 5650U 6 -ядерный, Cezanne , до 4.2 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 16 ГБ DDR4 , SSD 256 ГБ; 1.33 кг, 323.6 мм х 214.7 мм х 17.9 мм",
+        "price": "2620.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_S_14_OLED_K3402ZA-KM268.jpg",
+        "name": "Ноутбук ASUS Vivobook S 14 OLED K3402ZA-KM268",
+        "description": "14.0 \" 2880x1800 px, OLED  90 Гц, 600 кд/м2; Intel Core-i5 12500H 12 -ядерный, Alder Lake , до 4.5 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 8 ГБ DDR4 , SSD 512 ГБ; 1.5 кг, 316.4 мм х 224.5 мм х 18.9 мм",
+        "price": "2585.00"
+    },
+    {
+        "image": "Игровой_ноутбук_MSI_Sword_17_HX_B13VFKG-099X.jpg",
+        "name": "Игровой ноутбук MSI Sword 17 HX B13VFKG-099X",
+        "description": "17.0 \" 1920x1200 px, IPS  165 Гц; Intel Core-i7 13700HX 16 -ядерный, Raptor Lake , до 5.0 ГГц; Дискретная NVIDIA GeForce RTX 4060 8 ГБ GDDR6; ОЗУ 16 ГБ DDR5 , SSD 1024 ГБ; 2.8 кг, 383.2 мм х 279.9 мм х 27.3 мм",
+        "price": "5840.00"
+    },
+    {
+        "image": "Ноутбук_Apple_Macbook_Air_13&amp;quot;_M3_2024_Z1B.jpg",
+        "name": "Ноутбук Apple Macbook Air 13&amp;quot; M3 2024 Z1B8001NN",
+        "description": "13.6 \" 2560х1664 px, IPS  60 Гц, 500 кд/м2; Apple M3 M3 8 -ядерный, Apple Silicon; Встроенная Apple M3 GPU (10 ядер); ОЗУ 16 ГБ, SSD 512 ГБ; 1.24 кг, 304.1 мм х 215 мм х 11.3 мм",
+        "price": "7399.00"
+    },
+    {
+        "image": "Ноутбук_Lenovo_IdeaPad_Slim_3_16IAH8_83ES0013.jpg",
+        "name": "Ноутбук Lenovo IdeaPad Slim 3 16IAH8 83ES0013",
+        "description": "16.0 \" 1920x1200 px, IPS  60 Гц, 300 кд/м2; Intel Core-i5 12450H 8 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel UHD Graphics; ОЗУ 16 ГБ LPDDR5 , SSD 512 ГБ; 1.74 кг, 359.2 мм х 257 мм х 17.9 мм",
+        "price": "2393.00"
+    },
+    {
+        "image": "Ноутбук_Apple_Macbook_Air_13&amp;quot;_M3_2024_Z1B.jpg",
+        "name": "Ноутбук Apple Macbook Air 13&amp;quot; M3 2024 Z1BC0022B",
+        "description": "13.6 \" 2560х1664 px, IPS  60 Гц, 500 кд/м2; Apple M3 M3 8 -ядерный, Apple Silicon; Встроенная Apple M3 GPU (10 ядер); ОЗУ 16 ГБ, SSD 512 ГБ; 1.24 кг, 304.1 мм х 215 мм х 11.3 мм",
+        "price": "7077.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_Go_15_E1504GA-BQ192.jpg",
+        "name": "Ноутбук ASUS Vivobook Go 15 E1504GA-BQ192",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; Intel Core-i3 N305 8 -ядерный, Alder Lake-N , до 3,8 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ DDR4 , SSD 256 ГБ; 1.63 кг, 360.3 мм х 232.5 мм х 17.9 мм",
+        "price": "1499.00"
+    },
+    {
+        "image": "Ноутбук_Lenovo_IdeaPad_3_15IAU7_82RK00MJ.jpg",
+        "name": "Ноутбук Lenovo IdeaPad 3 15IAU7 82RK00MJ",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 300 кд/м2; Intel Core-i5 1235U 10 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 1.63 кг, 359.2 мм х 236.5 мм х 19.9 мм",
+        "price": "2440.00"
+    },
+    {
+        "image": "Игровой_ноутбук_MSI_Katana_15_B13VFK-1893XBY.jpg",
+        "name": "Игровой ноутбук MSI Katana 15 B13VFK-1893XBY",
+        "description": "15.6 \" 2560x1440 px, IPS  165 Гц; Intel Core-i9 13900H 14 -ядерный, Raptor Lake , до 5.4 ГГц; Дискретная NVIDIA GeForce RTX 4060 8 ГБ; ОЗУ 16 ГБ DDR5 , SSD 1024 ГБ; 2.25 кг, 359 мм х 259 мм х 24.9 мм",
+        "price": "6155.00"
+    },
+    {
+        "image": "Игровой_ноутбук_ASUS_TUF_Gaming_F17_FX707ZC4-HX122.jpg",
+        "name": "Игровой ноутбук ASUS TUF Gaming F17 FX707ZC4-HX122",
+        "description": "17.3 \" 1920x1080 px, IPS  144 Гц, 250 кд/м2; Intel Core-i5 12500H 12 -ядерный, Alder Lake , до 4.5 ГГц; Дискретная NVIDIA GeForce RTX 3050 4 ГБ GDDR6; ОЗУ 16 ГБ DDR4 , SSD 1024 ГБ; 2.6 кг, 394 мм х 264 мм х 25.4 мм",
+        "price": "3799.00"
+    },
+    {
+        "image": "Ноутбук_H-Book_by_Horizont_16_IPK2_T54E4WG_(481044.jpg",
+        "name": "Ноутбук H-Book by Horizont 16 IPK2 T54E4WG (4810443004307)",
+        "description": "Windows 11 Pro; 16.0 \" 1920x1200 px, IPS  60 Гц; Intel Core-i5 12500H 12 -ядерный, Alder Lake , до 4.5 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 16 ГБ DDR4 , SSD 512 ГБ; 1.75 кг, 356 мм х 246 мм х 18 мм",
+        "price": "2382.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_Go_15_OLED_E1504FA-L11184.jpg",
+        "name": "Ноутбук ASUS Vivobook Go 15 OLED E1504FA-L11184",
+        "description": "15.6 \" 1920x1080 px, OLED  60 Гц, 400 кд/м2; AMD Ryzen 3 7320U 4 -ядерный, Mendocino , до 4.1 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 8 ГБ LPDDR5 , SSD 512 ГБ; 1.63 кг, 360.3 мм х 232.5 мм х 17.9 мм",
+        "price": "1888.00"
+    },
+    {
+        "image": "Ноутбук_MSI_Modern_14_C7M-239X.jpg",
+        "name": "Ноутбук MSI Modern 14 C7M-239X",
+        "description": "14.0 \" 1920x1080 px, IPS  60 Гц, 300 кд/м2; AMD Ryzen 5 7530U 6 -ядерный, Barcelo R , до 4.5 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 8 ГБ DDR4 , SSD 512 ГБ; 1.4 кг, 319.9 мм х 223 мм х 19.35 мм",
+        "price": "2039.00"
+    },
+    {
+        "image": "Ноутбук_Acer_Predator_Helios_18_PH18-72-94QH.jpg",
+        "name": "Ноутбук Acer Predator Helios 18 PH18-72-94QH",
+        "description": "Windows 11 Home; 18.0 \" 2560x1600 px, IPS  240 Гц, 500 кд/м2; Intel Core-i9 14900HX 24 -ядерный, Raptor Lake R , до 5.8 ГГц; Дискретная NVIDIA GeForce RTX 4090 16 ГБ GDDR6; ОЗУ 64 ГБ DDR5 , SSD 4096 ГБ; 3.25 кг, 404 мм х 311.6 мм х 28.9 мм",
+        "price": "15999.00"
+    },
+    {
+        "image": "Ноутбук_HP_Pavilion_15-eg3148nia_8J406EA.jpg",
+        "name": "Ноутбук HP Pavilion 15-eg3148nia 8J406EA",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; Intel Core-i5 1335U 10 -ядерный, Raptor Lake , до 4.6 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 8 ГБ DDR4 , SSD 512 ГБ; 1.74 кг, 360.2 мм х 234 мм х 17.9 мм",
+        "price": "2619.00"
+    },
+    {
+        "image": "Игровой_ноутбук_MSI_Thin_A15_B7UCX-299XBY.jpg",
+        "name": "Игровой ноутбук MSI Thin A15 B7UCX-299XBY",
+        "description": "15.6 \" 1920x1080 px, IPS  144 Гц; AMD Ryzen 5 7535HS 6 -ядерный, Rembrandt R , до 4.55 ГГц; Дискретная NVIDIA GeForce RTX 2050 4 ГБ; ОЗУ 16 ГБ DDR5 , SSD 512 ГБ; 1.86 кг, 359 мм х 254 мм х 21.7 мм",
+        "price": "3399.00"
+    },
+    {
+        "image": "Игровой_ноутбук_Asus_ROG_Strix_G16_G614JZ-N3030.jpg",
+        "name": "Игровой ноутбук Asus ROG Strix G16 G614JZ-N3030",
+        "description": "16.0 \" 1920x1200 px, IPS  165 Гц, 250 кд/м2; Intel Core-i7 13650HX 14 -ядерный, Raptor Lake , до 4.9 ГГц; Дискретная NVIDIA GeForce RTX 4080 12 ГБ GDDR6; ОЗУ 16 ГБ DDR5 , SSD 1024 ГБ; 2.5 кг, 354 мм х 264 мм х 30.4 мм",
+        "price": "10777.00"
+    },
+    {
+        "image": "Ноутбук_Huawei_MateBook_16s_CREFG-X_53013SDA.jpg",
+        "name": "Ноутбук Huawei MateBook 16s CREFG-X 53013SDA",
+        "description": "Windows 11 Home; 16.0 \" 2520х1680 px, IPS  60 Гц, 400 кд/м2; Intel Core-i9 13900H 14 -ядерный, Raptor Lake , до 5.4 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 16 ГБ LPDDR5 , SSD 1024 ГБ; 1.99 кг, 351 мм х 254.9 мм х 17.8 мм",
+        "price": "5599.00"
+    },
+    {
+        "image": "Ноутбук_Infinix_Inbook_X3_Plus_12TH_XL31_710083017.jpg",
+        "name": "Ноутбук Infinix Inbook X3 Plus 12TH XL31 71008301770",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 300 кд/м2; Intel Core-i5 1235U 10 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel Iris Xe Graphics; ОЗУ 16 ГБ LPDDR4X , SSD 512 ГБ; 1.6 кг, 360.3 мм х 237 мм х 15.3 мм",
+        "price": "1945.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_15_X1504ZA-BQ1213.jpg",
+        "name": "Ноутбук ASUS Vivobook 15 X1504ZA-BQ1213",
+        "description": "15.6 \" 1920x1080 px, IPS  60 Гц, 250 кд/м2; Intel Core-i3 1215U 6 -ядерный, Alder Lake , до 4.4 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ DDR4 , SSD 512 ГБ; 1.7 кг, 359.7 мм х 232.5 мм х 17.9 мм",
+        "price": "1899.00"
+    },
+    {
+        "image": "Ноутбук_KUU_Xbook-2_8GB+1T.jpg",
+        "name": "Ноутбук KUU Xbook-2 8GB+1T",
+        "description": "Windows 11 Home; 14.1 \" 1920x1080 px, IPS  60 Гц; Intel Celeron J4125 4 -ядерный, Gemini Lake R , до 2.7 ГГц; Встроенная Intel UHD Graphics; ОЗУ 8 ГБ LPDDR4 , SSD 1024 ГБ; 1.4 кг, 322 мм х 210 мм х 21 мм",
+        "price": "1260.00"
+    },
+    {
+        "image": "Игровой_ноутбук_Asus_ROG_Strix_G16_G614JI-N4181.jpg",
+        "name": "Игровой ноутбук Asus ROG Strix G16 G614JI-N4181",
+        "description": "16.0 \" 2560x1600 px, IPS  240 Гц, 500 кд/м2; Intel Core-i7 13650HX 14 -ядерный, Raptor Lake , до 4.9 ГГц; Дискретная NVIDIA GeForce RTX 4070 8 ГБ GDDR6; ОЗУ 32 ГБ DDR5 , SSD 1024 ГБ; 2.5 кг, 354 мм х 264 мм х 30.4 мм",
+        "price": "7955.00"
+    },
+    {
+        "image": "Ноутбук_ASUS_Vivobook_Go_15_OLED_E1504FA-L1291W.jpg",
+        "name": "Ноутбук ASUS Vivobook Go 15 OLED E1504FA-L1291W",
+        "description": "Windows 11 Home; 15.6 \" 1920x1080 px, OLED  60 Гц, 400 кд/м2; AMD Ryzen 5 7520U 4 -ядерный, Mendocino , до 4.3 ГГц; Встроенная AMD Radeon Graphics; ОЗУ 8 ГБ LPDDR5 , SSD 512 ГБ; 1.63 кг, 360.3 мм х 232.5 мм х 17.9 мм",
+        "price": "2755.00"
+    }
+]
