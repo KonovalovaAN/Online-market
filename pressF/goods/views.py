@@ -6,14 +6,14 @@ from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
 from rest_framework import status, renderers
 
-from goods.models import Products
+from goods.models import Products, Good
 from goods.serializer import CatalogSerializer
 
 class ProductListView(APIView):
 #    permission_classes = [IsAuthenticated]
 
     def get(self, request):
-        goods = Products.objects.all()
+        goods = Good.objects.all()
         serializer = CatalogSerializer(goods, many=True)
         return Response(serializer.data)
 #Swagger
