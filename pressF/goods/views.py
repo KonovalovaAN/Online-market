@@ -13,8 +13,8 @@ class ProductListView(APIView):
 #    permission_classes = [IsAuthenticated]
 
     def get(self, request):
-        goods = Good.objects.all()
-        serializer = GoodSerializer(goods, many=True)
+        goods = Products.objects.all()
+        serializer = CatalogSerializer(goods, many=True)
         return Response(serializer.data)
 #Swagger
 
