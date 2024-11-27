@@ -1,13 +1,41 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 function Catalog() {
+  const [goods, setGoods] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 15;
+
   useEffect(() => {
-    document.title = "Каталог"; 
+    document.title = "Каталог";
+
+    fetch('http://127.0.0.1:8000/api/goods/') // Получаем данные с API
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("Failed to fetch goods");
+        }
+        return response.json();
+      })
+      .then(data => {
+        setGoods(data); // Сохраняем данные товаров
+      })
+      .catch(error => {
+        console.error("Error fetching goods:", error);
+      });
   }, []);
+
+  // Разделение товаров по страницам
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentItems = goods.slice(indexOfFirstItem, indexOfLastItem);
+
+  // Переключение страниц
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
   return (
-      <div>
-        <section>
-            <div className="container">
+    
+    <div>
+      <section>
+      <div className="container">
                 {/* Каталог и корзина с фиксированным расположением на странице */}
                 <div className="row mt-1 position-fixed z-3">
                     {/* Каталог */}
@@ -134,280 +162,80 @@ function Catalog() {
                     {/* Закончилась разметка модального окна */}
                 </div>
             </div>
-            {/* Контент */}
-            <div className="container">
-                <div className="row mt-1">
-                    <div className="col-lg-2">
-                        {/* Пустой блок на усмотрение */}
-                    </div>
-                    <div className="col-lg-10">
-                        {/* Контент на странице */}
-                        <div className="row">
-                            {/* Карта товара */}
-                            <div className="col-lg-4 col-md-6 p-4">
-                                <div className="card border-primary rounded custom-shadow">
-                                    <img src="../deps/images/goods/tablet3.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-div">
-                                        <a href="/product">
-                                            <p className="card-title">Планшет Teclast P30T 4GB/128GB (серый)</p>
-                                        </a>
-                                        <p className="card-text text-truncate">Описание</p>
-                                        <p className="product_id">id: 02265</p>
-                                        <div className="d-flex justify-content-between">                           
-                                            <p><strong>Стоимость:</strong></p>
-                                            <a href="#" className="btn add-to-cart">
-                                                {/* <img className="mx-1" src="../deps/icons/cart-plus.svg" alt="Catalog Icon"
-                                                    width="32" height="32"> */}
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* Карта товара */}
-                            <div className="col-lg-4 col-md-6 p-4">
-                                <div className="card border-primary rounded custom-shadow">
-                                    <img src="../deps/images/goods/tablet2.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-div">
-                                        <a href="#">
-                                            <p className="card-title">Планшет Huawei MatePad SE 11 Gray</p>
-                                        </a>
-                                        <p className="card-text text-truncate">Описание</p>
-                                        <p className="product_id">id: 02265</p>
-                                        <div className="d-flex justify-content-between">
-                                            <p><strong>Стоимость:</strong></p>
-                                            <a href="#" className="btn add-to-cart">
-                                                {/* <img className="mx-1" src="../deps/icons/cart-plus.svg" alt="Catalog Icon"
-                                                    width="32" height="32"> */}
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* Карта товара */}
-                            <div className="col-lg-4 col-md-6 p-4">
-                                <div className="card border-primary rounded custom-shadow">
-                                    <img src="../deps/images/goods/laptop3.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-div">
-                                        <a href="#">
-                                            <p className="card-title">Ноутбук H-Book by Horizont 15 IPK1</p>
-                                        </a>
-                                        <p className="card-text text-truncate">Описание</p>
-                                        <p className="product_id">id: 02265</p>
-                                        <div className="d-flex justify-content-between">
-                                            <p><strong>Стоимость:</strong></p>
-                                            <a href="#" className="btn">
-                                                {/* <img className="mx-1" src="../deps/icons/cart-plus.svg" alt="Catalog Icon"
-                                                    width="32" height="32"> */}
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* Карта товара */}
-                            <div className="col-lg-4 col-md-6 p-4">
-                                <div className="card border-primary rounded custom-shadow">
-                                    <img src="../deps/images/goods/laptop2.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-div">
-                                        <a href="#">
-                                            <p className="card-title">Игровой ноутбук MSI Cyborg 15 A13VF-1225XBY</p>
-                                        </a>
-                                        <p className="card-text text-truncate">Описание</p>
-                                        <p className="product_id">id: 02265</p>
-                                        <div className="d-flex justify-content-between">
-                                            <p><strong>Стоимость:</strong></p>
-                                            <a href="#" className="btn">
-                                                {/* <img className="mx-1" src="../deps/icons/cart-plus.svg" alt="Catalog Icon"
-                                                    width="32" height="32"> */}
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* Карта товара */}
-                            <div className="col-lg-4 col-md-6 p-4">
-                                <div className="card border-primary rounded custom-shadow">
-                                    <img src="../deps/images/goods/pc3.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-div">
-                                        <a href="https://www.youtube.com/watch?v=qFILPlp5QKo&ab_channel=MORGENSHTERNFAMILY">
-                                            <p className="card-title">Игровой компьютер HAFF Gaming Mirana 1834ipd</p>
-                                        </a>
-                                        <p className="card-text text-truncate">Описание</p>
-                                        <p className="product_id">id: 02265</p>
-                                        <div className="d-flex justify-content-between">
-                                            <p><strong>Стоимость:</strong></p>
-                                            <a href="#" className="btn">
-                                                {/* <img className="mx-1" src="../deps/icons/cart-plus.svg" alt="Catalog Icon"
-                                                    width="32" height="32"> */}
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* Карта товара */}
-                            <div className="col-lg-4 col-md-6 p-4">
-                                <div className="card border-primary rounded custom-shadow">
-                                    <img src="../deps/images/goods/pc2.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-div">
-                                        <a href="#">
-                                            <p className="card-title">Игровой компьютер Thunderobot JT00EP00QRU</p>
-                                        </a>
-                                        <p className="card-text text-truncate">Описание</p>
-                                        <p className="product_id">id: 02265</p>
-                                        <div className="d-flex justify-content-between">
-                                            <p><strong>Стоимость:</strong></p>
-                                            <a href="#" className="btn">
-                                                {/* <img className="mx-1" src="../deps/icons/cart-plus.svg" alt="Catalog Icon"
-                                                    width="32" height="32"> */}
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* Карта товара */}
-                            <div className="col-lg-4 col-md-6 p-4">
-                                <div className="card border-primary rounded custom-shadow">
-                                    <img src="../deps/images/goods/pc1.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-div">
-                                        <a href="#">
-                                            <p className="card-title">Компьютер JET Gamer 5i9400FD16SD48X105TL2W5</p>
-                                        </a>
-                                        <p className="card-text text-truncate">Описание</p>
-                                        <p className="product_id">id: 02265</p>
-                                        <div className="d-flex justify-content-between">
-                                            <p><strong>Стоимость:</strong></p>
-                                            <a href="#" className="btn">
-                                                {/* <img className="mx-1" src="../deps/icons/cart-plus.svg" alt="Catalog Icon"
-                                                    width="32" height="32"> */}
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* Карта товара */}
-                            <div className="col-lg-4 col-md-6 p-4">
-                                <div className="card border-primary rounded custom-shadow">
-                                    <img src="../deps/images/goods/tablet1.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-div">
-                                        <a href="#">
-                                            <p className="card-title">Планшет Xiaomi Redmi Pad SE 6GB/128GB RU (серый)</p>
-                                        </a>
-                                        <p className="card-text text-truncate">Диван, он же софа обыкновенная, ничего примечательного для описания.</p>
-                                        <p className="product_id">id: 02265</p>
-                                        <div className="d-flex justify-content-between">
-                                            <p><strong>Стоимость:</strong></p>
-                                            <a href="#" className="btn">
-                                                {/* <img className="mx-1" src="../deps/icons/cart-plus.svg" alt="Catalog Icon"
-                                                    width="32" height="32"> */}
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* Карта товара */}
-                            <div className="col-lg-4 col-md-6 p-4">
-                                <div className="card border-primary rounded custom-shadow">
-                                    <img src="../deps/images/goods/laptop1.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-div">
-                                        <a href="#">
-                                            <p className="card-title">Игровой ноутбук ASUS TUF Gaming A15 FA506NCR-HN044</p>
-                                        </a>
-                                        <p className="card-text text-truncate">Описание</p>
-                                        <p className="product_id">id: 02265</p>
-                                        <div className="d-flex justify-content-between">
-                                            <p><strong>Стоимость:</strong></p>
-                                            <a href="#" className="btn">
-                                                {/* <img className="mx-1" src="../deps/icons/cart-plus.svg" alt="Catalog Icon"
-                                                    width="32" height="32"> */}
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* Карта товара */}
-                            <div className="col-lg-4 col-md-6 p-4">
-                                <div className="card border-primary rounded custom-shadow">
-                                    <img src="../deps/images/goods/phone3.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-div">
-                                        <a href="#">
-                                            <p className="card-title">Смартфон Huawei Pura 70 Pro 12GB/512GB (HBN-LX9) White</p>
-                                        </a>
-                                        <p className="card-text text-truncate">Описание</p>
-                                        <p className="product_id">id: 02265</p>
-                                        <div className="d-flex justify-content-between">
-                                            <p><strong>Стоимость:</strong></p>
-                                            <a href="#" className="btn">
-                                                {/* <img className="mx-1" src="../deps/icons/cart-plus.svg" alt="Catalog Icon"
-                                                    width="32" height="32"> */}
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* Карта товара */}
-                            <div className="col-lg-4 col-md-6 p-4">
-                                <div className="card border-primary rounded custom-shadow">
-                                    <img src="../deps/images/goods/phone2.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-div">
-                                        <a href="#">
-                                            <p className="card-title">Смартфон Samsung Galaxy S24 FE 256GB серый</p>
-                                        </a>
-                                        <p className="card-text text-truncate">Описание</p>
-                                        <p className="product_id">id: 02265</p>
-                                        <div className="d-flex justify-content-between">
-                                            <p><strong>Стоимость:</strong></p>
-                                            <a href="#" className="btn">
-                                                {/* <img className="mx-1" src="../deps/icons/cart-plus.svg" alt="Catalog Icon"
-                                                    width="32" height="32"> */}
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* Карта товара */}
-                            <div className="col-lg-4 col-md-6 p-4">
-                                <div className="card border-primary rounded custom-shadow">
-                                    <img src="../deps/images/goods/phone1.jpg" className="card-img-top" alt="..."/>
-                                    <div className="card-div">
-                                        <a href="#">
-                                            <p className="card-title">Смартфон Xiaomi 14T 12GB/256GB Titan Black RU</p>
-                                        </a>
-                                        <p className="card-text text-truncate">Описание.</p>
-                                        <p className="product_id">id: 02265</p>
-                                        <div className="d-flex justify-content-between">
-                                            <p><strong>Стоимость:</strong></p>
-                                            <a href="#" className="btn">
-                                                {/* <img className="mx-1" src="../deps/icons/cart-plus.svg" alt="Catalog Icon"
-                                                    width="32" height="32"> */}
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
+        <div className="container">
+          {/* Каталог товаров */}
+          <div className="row mt-1">
+            <div className="col-lg-2">{/* Placeholder for left column */}</div>
+            <div className="col-lg-10">
+              {/* Display goods */}
+              <div className="row">
+                {currentItems.length > 0 ? (
+                  currentItems.map((item, index) => (
+                    <div className="col-lg-4 col-md-6 p-4" key={index}>
+                    {/* Карта товара */}
+                    <div className="card border-primary rounded custom-shadow h-100">
+                      <img 
+                        src={`http://127.0.0.1:8000${item.image}`} 
+                        className="card-img-top" 
+                        alt={item.name} 
+                        style={{ 
+                          width: '310px', 
+                          height: '350px', 
+                          objectFit: 'contain', 
+                          display: 'block', 
+                          marginLeft: 'auto', 
+                          marginRight: 'auto', 
+                          paddingTop: '10px' 
+                        }} 
+                      />
+                      
+                      <div className="card-body d-flex flex-column">
+                        <a href="#">
+                          <p className="card-title">{item.name}</p>
+                        </a>
+                        <p><strong>Характеристики:</strong> {item.description}</p>
+                  
+                        {/* Move the price to the bottom */}
+                        <div className="mt-auto d-flex justify-content-between">
+                          <p><strong>Стоимость:</strong> {item.price} BYN</p>
+                          <a href="#" className="btn add-to-cart">
+                            {/* Иконка корзины */}
+                          </a>
                         </div>
-                        {/* Пагинация */}
-                        <nav aria-label="Page navigation example">
-                            <ul className="pagination justify-content-center my-4">
-                                <div className="custom-shadow d-flex">
-                                    <li className="page-item disabled">
-                                      <a className="page-link">Previous</a>
-                                    </li>
-                                    <li className="page-item"><a className="page-link" href="#">1</a></li>
-                                    <li className="page-item"><a className="page-link" href="#">2</a></li>
-                                    <li className="page-item"><a className="page-link" href="#">3</a></li>
-                                    <li className="page-item">
-                                      <a className="page-link" href="#">Next</a>
-                                    </li>
-                                </div>
-                            </ul>
-                        </nav>
-                        <div style={{ padding: '35px', borderRadius: '15px' }}></div>
+                      </div>
+                    </div>                  
                     </div>
-                </div>
+                  ))
+                ) : (
+                  <p>Товары не найдены.</p>
+                )}
+              </div>
             </div>
-        </section>
-      </div>
-  )
+          </div>
+        </div>
+      </section>
+
+      {/* Пагинация */}
+      <nav aria-label="Page navigation example">
+        <ul className="pagination justify-content-center my-4">
+          <li className={`page-item ${currentPage === 1 ? 'disabled' : ''}`}>
+            <a className="page-link" href="#" onClick={() => paginate(currentPage - 1)}>Previous</a>
+          </li>
+          {[...Array(Math.ceil(goods.length / itemsPerPage))].map((_, index) => (
+            <li key={index} className={`page-item ${currentPage === index + 1 ? 'active' : ''}`}>
+              <a className="page-link" href="#" onClick={() => paginate(index + 1)}>
+                {index + 1}
+              </a>
+            </li>
+          ))}
+          <li className={`page-item ${currentPage === Math.ceil(goods.length / itemsPerPage) ? 'disabled' : ''}`}>
+            <a className="page-link" href="#" onClick={() => paginate(currentPage + 1)}>Next</a>
+          </li>
+        </ul>
+      </nav>
+      <div style={{ padding: '35px', borderRadius: '15px' }}></div>
+    </div>
+  );
 }
 
-export default Catalog
+export default Catalog;
