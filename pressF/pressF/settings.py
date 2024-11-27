@@ -24,8 +24,9 @@ SECRET_KEY = 'django-insecure-)yc&v3vx7a(j%$kms$x@lk_4($83pe$-^td@)fuim(k^^)+@*s
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+client_ip = '192.168.0.104'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', client_ip, 'localhost', '192.168.0.100']
 
 
 # Application definition
@@ -75,8 +76,9 @@ MIDDLEWARE.insert(0, 'corsheaders.middleware.CorsMiddleware')
 CORS_ALLOW_ALL_ORIGINS = True  # Для разработки
 #jquery client
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # Домен React-приложения
+    'http://' + client_ip + ':3000',  # Укажите IP клиента и порт React-приложения
 ]
+
 
 
 ROOT_URLCONF = 'pressF.urls'
