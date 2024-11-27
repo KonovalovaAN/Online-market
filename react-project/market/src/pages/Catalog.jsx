@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
+const String = `192.168.0.100`
+
 function Catalog() {
   const [goods, setGoods] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
@@ -8,7 +10,7 @@ function Catalog() {
   useEffect(() => {
     document.title = "Каталог";
 
-    fetch('http://127.0.0.1:8080/api/goods/') // Получаем данные с API
+    fetch('http://' + String + ':8080/api/goods/') // Получаем данные с API
       .then(response => {
         if (!response.ok) {
           throw new Error("Failed to fetch goods");
@@ -175,7 +177,7 @@ function Catalog() {
                     {/* Карта товара */}
                     <div className="card border-primary rounded custom-shadow h-100">
                       <img 
-                        src={`http://127.0.0.1:8080${item.image}`} 
+                        src={`http://` + String + `:8080${item.image}`} 
                         className="card-img-top" 
                         alt={item.name} 
                         style={{ 
