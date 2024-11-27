@@ -4,19 +4,18 @@ from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
-from rest_framework import status
+from rest_framework import status, renderers
 
 from goods.models import Products
+from goods.serializer import CatalogSerializer
 
 class ProductListView(APIView):
-    permission_classes = [IsAuthenticated]
+#    permission_classes = [IsAuthenticated]
 
     def get(self, request):
-        products = [
-            {"id": 1, "name": "Laptop", "price": 1000},
-            {"id": 2, "name": "Phone", "price": 500},
-        ]
-        return Response(products, status=status.HTTP_200_OK)
+        goods = Good.objects.all()
+        serializer = GoodSerializer(goods, many=True)
+        return Response(serializer.data)
 #Swagger
 
 def catalog(request):
@@ -34,5 +33,14 @@ def catalog(request):
     }
     return render(request, 'goods/catalog.html', context)
 
+
 def product(request):
     return render(request, 'goods/product.html')
+
+
+'''
+def rest_catalog(request):
+    goods = [obj.__dict__() for obj in Products.objects.all()]
+    json_renderer = renderers.JSONRenderer()
+    return json_renderer.render(goods)
+'''

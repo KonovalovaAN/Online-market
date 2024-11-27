@@ -17,10 +17,12 @@ Including another URLconf
 
 from django.urls import path
 from main import views
+from main.views import ExampleAPI
 
 app_name = 'main'
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('about/', views.about, name='about')
+    path('about/', views.about, name='about'),
+    path('api/example/', ExampleAPI.as_view(), name='example-api')
 ]

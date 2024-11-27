@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'corsheaders',
     'rest_framework',
     'rest_framework_simplejwt',
 
@@ -75,6 +74,10 @@ MIDDLEWARE.insert(0, 'corsheaders.middleware.CorsMiddleware')
 
 CORS_ALLOW_ALL_ORIGINS = True  # Для разработки
 #jquery client
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",  # Домен React-приложения
+]
+
 
 ROOT_URLCONF = 'pressF.urls'
 
