@@ -8,7 +8,7 @@ function Catalog() {
   useEffect(() => {
     document.title = "Каталог";
 
-    fetch('http://127.0.0.1:8000/api/goods/') // Получаем данные с API
+    fetch('http://127.0.0.1:8080/api/goods/') // Получаем данные с API
       .then(response => {
         if (!response.ok) {
           throw new Error("Failed to fetch goods");
@@ -175,7 +175,7 @@ function Catalog() {
                     {/* Карта товара */}
                     <div className="card border-primary rounded custom-shadow h-100">
                       <img 
-                        src={`http://127.0.0.1:8000${item.image}`} 
+                        src={`http://127.0.0.1:8080${item.image}`} 
                         className="card-img-top" 
                         alt={item.name} 
                         style={{ 
