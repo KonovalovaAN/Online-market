@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import CatalogDropdown from '../components/CatalogDropdown';
 
 function Profile() {
   useEffect(() => {
@@ -12,21 +13,7 @@ function Profile() {
             {/* Каталог и корзина с фиксированным расположением на странице */}
             <div class="row mt-1 position-fixed z-3">
                 {/* Каталог */}
-                <div class="dropdown mb-2">
-                    <button class="btn btn-secondary dropdown-toggle btn-dark" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Каталог
-                        <img class="mx-1" src="../deps/icons/grid-fill.svg" alt="Catalog Icon" width="16"
-                            height="16"/>
-                    </button>
-                    <ul class="dropdown-menu bg-dark" data-bs-theme="dark">
-                        <li><a class="dropdown-item text-white" href="/catalog">Все товары</a></li>
-                        <li><a class="dropdown-item text-white" href="/catalog">Ноутбуки</a></li>
-                        <li><a class="dropdown-item text-white" href="/catalog">Планшеты</a></li>
-                        <li><a class="dropdown-item text-white" href="/catalog">Смартфона</a></li>
-                        <li><a class="dropdown-item text-white" href="/catalog">Компьютеры</a></li>
-                    </ul>
-                </div>
+                <CatalogDropdown />
             </div>
         </div>
         {/* Контент */}
