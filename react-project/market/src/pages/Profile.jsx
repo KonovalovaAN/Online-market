@@ -1,156 +1,128 @@
 import React, { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import CatalogDropdown from '../components/CatalogDropdown';
+import Cart from '../components/Cart'; 
+import Orders from '../components/Orders';
 
 function Profile() {
-  useEffect(() => {
-    document.title = "Профиль"; 
-  }, []);
-  return (
+  const { t } = useTranslation();
 
-      <div>
-    <section>
-        <div class="container">
-            {/* Каталог и корзина с фиксированным расположением на странице */}
-            <div class="row mt-1 position-fixed z-3">
-                {/* Каталог */}
-                <CatalogDropdown />
-            </div>
+  useEffect(() => {
+    document.title = t('profile');
+  }, [t]);
+
+  return (
+    <div>
+      <section>
+        <div className="container">
+          {/* Каталог и корзина с фиксированным расположением на странице */}
+          <div className="row mt-1 position-fixed z-3">
+            {/* Каталог */}
+            <CatalogDropdown />
+          </div>
         </div>
         {/* Контент */}
-        <div class="container">
-            <div class="row mt-1">
-                <div class="col-lg-2">
-                    {/* Пустой блок на усмотрение */}
-                </div>
-                <div class="col-lg-10">
-                    {/* Контент на странице */}
-                    <div class="row">
-                        <div class="container mt-5">
-                            <div class="row">
-                                {/* Профиль с данными пользователя */}
-                                <div class="col-md-5">
-                                    <div class=" bg-white p-4 mb-4 mx-2 rounded custom-shadow">
-                                        <h3 class="text-center mb-4">Профиль пользователя</h3>
-                                        <form>
-                                            <div class="row">
-                                                <div class="col-md-12 mb-3 text-center">
-                                                <img
-                                                    src="../deps/images/baseavatar.jpg"
-                                                    alt="Аватар пользователя"
-                                                    className="img-fluid rounded-circle"
-                                                    style={{ maxWidth: '150px' }}
-                                                />  
-                                                    <input type="file" class="form-control mt-3" id="avatar"
-                                                        accept="image/*"/>
-                                                </div>
-                                                <div class="col-md-12 mb-3">
-                                                    <label for="firstName" class="form-label">Имя*</label>
-                                                    <input type="text" class="form-control" id="firstName"
-                                                        placeholder="Введите ваше имя" value="" required/>
-                                                </div>
-                                                <div class="col-md-12 mb-3">
-                                                    <label for="lastName" class="form-label">Фамилия*</label>
-                                                    <input type="text" class="form-control" id="lastName"
-                                                        placeholder="Введите вашу фамилию" value="" required/>
-                                                </div>
-                                                <div class="col-md-12 mb-3">
-                                                    <label for="username" class="form-label">Имя пользователя*</label>
-                                                    <input type="text" class="form-control" id="username"
-                                                        placeholder="Введите ваше имя пользователя" value="" required/>
-                                                </div>
-                                                <div class="col-md-12 mb-3">
-                                                    <label for="email" class="form-label">Email*</label>
-                                                    <input type="email" class="form-control" id="email"
-                                                        placeholder="Введите ваш email *youremail@example.com" value=""
-                                                        required/>
-                                                </div>
-                                            </div>
-                                            <button type="submit" class="btn btn-dark">Сохранить</button>
-                                        </form>
-                                    </div>
-                                </div>
-                                {/* Корзина */}
-                                <div class="col-md-7">
-                                    <div class=" bg-white p-4 mb-4 mx-2 rounded custom-shadow">
-                                        <h3 class="text-center mb-4">Корзина</h3>
-                                        <div class="container" id="cart-items-container">
-                                            {/* Разметка корзины */}
-                                            <div class="card mb-3 text-bg-light shadow-lg">
-                                                <div class="card-header">
-                                                    <h5 class="card-title">Товар</h5>
-                                                </div>
-                                                <ul class="list-group list-group-flush">
-                                                    <li class="list-group-item">
-                                                        <div class="row text-center">
-                                                            <div class="col p-0">
-                                                                <div class="input-group">
-                                                                    <span class="input-group-btn">
-                                                                        <button type="button" class="btn btn-dark btn-sm decrement"
-                                                                            data-cart-id="" data-cart-change-url="">-</button>
-                                                                    </span>
-                                                                    <input type="text" class="form-control number" value="1"
-                                                                        readOnly/>
-                                                                    <span class="input-group-btn">
-                                                                        <button type="button" class="btn btn-dark btn-sm increment"
-                                                                            data-cart-id="" data-cart-change-url="">+</button>
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col p-0">
-                                                                <a href="#" class="remove-from-cart" data-cart-id="">
-                                                                    <img class="mx-1" src="../deps/icons/trash3-fill.svg"
-                                                                        alt="Catalog Icon" width="16" height="16"/>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="card mb-3 shadow-lg">
-                                                <div class="card-footer">
-                                                    <p class="float-left">Итого <strong>1</strong> товар(а) на сумму</p>
-                                                </div>
-                                            </div>
-                                            <a class="btn btn-dark" href="/create_order">
-                                                Оформить заказ
-                                            </a>
-                                            {/* Закончилась разметка корзины */}
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* Оформленные заказы */}
-                                <div class="col-md-12">
-                                    <div class=" bg-white p-4 mb-4 mx-2 rounded custom-shadow">
-                                        <h3 class="text-center mb-4">Мои заказы</h3>
-                                                <div class="accordion-item">
-                                                    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
-                                                        <div class="accordion-div">
-                                                            <table class="table table-dark table-hover">
-                                                                <thead>
-                                                                    <tr>
-                                                                        <th>Товар</th>
-                                                                        <th>Количество</th>
-                                                                        <th>Цена</th>
-                                                                        <th>Общая стоимость</th>
-                                                                    </tr>
-                                                                </thead>
-                                                            </table>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        {/* Закончилась разметка заказов */}
-                                    </div>
-                                </div>
+        <div className="container">
+          <div className="row mt-1">
+            <div className="col-lg-2">
+              {/* Пустой блок на усмотрение */}
+            </div>
+            <div className="col-lg-10">
+              {/* Контент на странице */}
+              <div className="row">
+                <div className="container mt-5">
+                  <div className="row">
+                    {/* Профиль с данными пользователя */}
+                    <div className="col-md-5">
+                      <div className="bg-white p-4 mb-4 mx-2 rounded custom-shadow">
+                        <h3 className="text-center mb-4">{t('profile')}</h3>
+                        <form>
+                          <div className="row">
+                            <div className="col-md-12 mb-3 text-center">
+                              <img
+                                src="../deps/images/baseavatar.jpg"
+                                alt="Аватар пользователя"
+                                className="img-fluid rounded-circle"
+                                style={{ maxWidth: '150px' }}
+                              />
+                              <input
+                                type="file"
+                                className="form-control mt-3"
+                                id="avatar"
+                                accept="image/*"
+                              />
                             </div>
-                        </div>
+                            <div className="col-md-12 mb-3">
+                              <label htmlFor="firstName" className="form-label">
+                                {t('firstName')}*
+                              </label>
+                              <input
+                                type="text"
+                                className="form-control"
+                                id="firstName"
+                                placeholder={t('enterFirstName')}
+                                value=""
+                                required
+                              />
+                            </div>
+                            <div className="col-md-12 mb-3">
+                              <label htmlFor="lastName" className="form-label">
+                                {t('lastName')}*
+                              </label>
+                              <input
+                                type="text"
+                                className="form-control"
+                                id="lastName"
+                                placeholder={t('enterLastName')}
+                                value=""
+                                required
+                              />
+                            </div>
+                            <div className="col-md-12 mb-3">
+                              <label htmlFor="username" className="form-label">
+                                {t('username')}*
+                              </label>
+                              <input
+                                type="text"
+                                className="form-control"
+                                id="username"
+                                placeholder={t('enterUsername')}
+                                value=""
+                                required
+                              />
+                            </div>
+                            <div className="col-md-12 mb-3">
+                              <label htmlFor="email" className="form-label">
+                                {t('email')}*
+                              </label>
+                              <input
+                                type="email"
+                                className="form-control"
+                                id="email"
+                                placeholder={t('enterEmail')}
+                                value=""
+                                required
+                              />
+                            </div>
+                          </div>
+                          <button type="submit" className="btn btn-dark">
+                            {t('save')}
+                          </button>
+                        </form>
+                      </div>
                     </div>
-                </div>
+                    <Cart />
+                      </div>
+                    </div>
+                    <Orders />
+                  </div> 
+            </div>
+          </div>
+          </div>
         </section>
         <div style={{ padding: '35px', borderRadius: '15px' }}></div>
       </div>
-  )
-}
+    );
+  }
 
-export default Profile
+export default Profile;

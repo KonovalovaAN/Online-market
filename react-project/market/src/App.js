@@ -14,6 +14,7 @@
   import Footer from './components/Footer';
   import Chat from './components/Chat'; 
   import { logEvent } from './utils/logger';
+  import './i18n.js'; 
 
 
   const App = () => {

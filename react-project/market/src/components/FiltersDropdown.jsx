@@ -1,6 +1,9 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 function FiltersDropdown() {
+  const { t } = useTranslation();
+
   return (
     <div className="dropdown mb-2">
       <button
@@ -9,7 +12,7 @@ function FiltersDropdown() {
         data-bs-toggle="dropdown"
         aria-expanded="false"
       >
-        Фильтры
+        {t('filters')} 
       </button>
 
       <div action="" method="get" className="dropdown-menu bg-dark" data-bs-theme="dark">
@@ -23,10 +26,10 @@ function FiltersDropdown() {
           />
           <input type="hidden" name="q" value="request.GET.q" />
           <label className="form-check-label" htmlFor="flexCheckDefault">
-            Товары по акции
+            {t('onSale')} 
           </label>
         </div>
-        <p className="text-white mx-3 mt-3">Сортировать:</p>
+        <p className="text-white mx-3 mt-3">{t('sortBy')}:</p> 
         <div className="form-check text-white mx-3">
           <input
             className="form-check-input"
@@ -37,7 +40,7 @@ function FiltersDropdown() {
             defaultChecked
           />
           <label className="form-check-label" htmlFor="flexRadioDefault1">
-            По умолчанию
+            {t('default')} 
           </label>
         </div>
         <div className="form-check text-white mx-3">
@@ -49,7 +52,7 @@ function FiltersDropdown() {
             value="price"
           />
           <label className="form-check-label" htmlFor="flexRadioDefault2">
-            От дешевых к дорогим
+            {t('cheapestToMostExpensive')} 
           </label>
         </div>
         <div className="form-check text-white mx-3">
@@ -61,11 +64,11 @@ function FiltersDropdown() {
             value="-price"
           />
           <label className="form-check-label" htmlFor="flexRadioDefault3">
-            От дорогих к дешевым
+            {t('mostExpensiveToCheapest')} 
           </label>
         </div>
         <button type="submit" className="btn btn-primary mx-3 mt-3">
-          Применить
+          {t('apply')} 
         </button>
       </div>
     </div>

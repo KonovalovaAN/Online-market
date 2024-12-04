@@ -1,6 +1,9 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 function CatalogDropdown() {
+  const { t } = useTranslation();
+
   return (
     <div className="dropdown mb-2">
       <button
@@ -9,11 +12,11 @@ function CatalogDropdown() {
         data-bs-toggle="dropdown"
         aria-expanded="false"
       >
-        Каталог
+        {t('catalog')}
         <img
           className="mx-1"
           src="../deps/icons/grid-fill.svg"
-          alt="Catalog Icon"
+          alt={t('catalogIconAlt')}
           width="16"
           height="16"
         />
@@ -21,27 +24,27 @@ function CatalogDropdown() {
       <ul className="dropdown-menu bg-dark" data-bs-theme="dark">
         <li>
           <a className="dropdown-item text-white" href="/catalog">
-            Все товары
+            {t('allProducts')}
           </a>
         </li>
         <li>
           <a className="dropdown-item text-white" href="/catalog">
-            Ноутбуки
+            {t('laptops')}
           </a>
         </li>
         <li>
           <a className="dropdown-item text-white" href="/catalog">
-            Планшеты
+            {t('tablets')}
           </a>
         </li>
         <li>
           <a className="dropdown-item text-white" href="/catalog">
-            Смартфоны
+            {t('smartphones')}
           </a>
         </li>
         <li>
           <a className="dropdown-item text-white" href="/catalog">
-            Компьютеры
+            {t('computers')}
           </a>
         </li>
       </ul>

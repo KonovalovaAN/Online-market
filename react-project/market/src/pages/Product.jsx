@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next'; 
 import CatalogDropdown from '../components/CatalogDropdown';
 
 const String = '127.0.0.1';
@@ -8,6 +9,7 @@ function Product() {
   const { name } = useParams(); 
   const [product, setProduct] = useState(null);
   const navigate = useNavigate();
+  const { t } = useTranslation(); 
 
   useEffect(() => {
     if (!name) {
@@ -27,89 +29,28 @@ function Product() {
       })
       .catch((error) => {
         console.error('Ошибка при загрузке товара:', error);
-        alert('Товар не найден. Попробуйте еще раз.');
+        alert(t('productNotFound')); 
       });
-  }, [name]); 
+  }, [name, t]);
 
   const handleAddToCart = () => {
-    console.log(`Товар ${product.name} добавлен в корзину!`);
+    console.log(`${t('productAddedToCart')}: ${product.name}`);
   };
 
   return product ? (
     <div className="container">
         <div className="container">
-                  {/* Каталог и корзина с фиксированным расположением на странице */}
                   <div className="row mt-1 position-fixed z-3">
                       {/* Каталог */}
                       <CatalogDropdown />
                       <div>
                           <button type="button" className="btn btn-dark btn-secondary d-flex" id="modalButton" aria-expanded="false">
-                              <img className="mx-1" src="../deps/icons/basket2-fill.svg" alt="Catalog Icon" width="24"
+                              <img className="mx-1" src="../deps/icons/basket2-fill.svg" alt={t('catalogIconAlt')} width="24"
                                   height="24"/>
                               <span>0</span>
                           </button>
                       </div>
                       <div style={{ padding: '4px', borderRadius: '15px' }}></div>
-                       {/* Разметка модального окна корзины */}
-                       <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel"
-                          aria-hidden="true">
-                          <div className="modal-dialog modal-dialog-scrollable">
-                              <div className="modal-content">
-                                  <div className="modal-header">
-                                      <button type="button" className="btn-close" data-bs-dismiss="modal"
-                                          aria-label="Close"></button>
-                                  </div>
-                                  <div className="modal-div">
-                                      <h3 className="text-center mb-4">Корзина</h3>
-                                      <div className="container" id="cart-items-container">
-                                          {/* Разметка корзины */}
-                                          <div className="card mb-3 text-bg-light shadow-lg">
-                                              <div className="card-header">
-                                                  <h5 className="card-title">Товар</h5>
-                                              </div>
-                                              <ul className="list-group list-group-flush">
-                                                  <li className="list-group-item">
-                                                      <div className="row text-center">
-                                                          <div className="col p-0">
-                                                              <div className="input-group">
-                                                                  <span className="input-group-btn">
-                                                                      <button type="button" className="btn btn-dark btn-sm decrement"
-                                                                          data-cart-id="" data-cart-change-url="">-</button>
-                                                                  </span>
-                                                                  <input type="text" className="form-control number" value="1"
-                                                                      readOnly/>
-                                                                  <span className="input-group-btn">
-                                                                      <button type="button" className="btn btn-dark btn-sm increment"
-                                                                          data-cart-id="" data-cart-change-url="">+</button>
-                                                                  </span>
-                                                              </div>
-                                                          </div>
-                                                          <div className="col p-0"><strong>Стоимость:</strong></div>
-                                                          <div className="col p-0">
-                                                              {/* <a href="#" className="remove-from-cart" data-cart-id="">
-                                          
-                                                              </a> */}
-                                                          </div>
-                                                      </div>
-                                                  </li>
-                                              </ul>
-                                          </div>
-                                          <div className="card mb-3 shadow-lg">
-                                              <div className="card-footer">
-                                                  <p className="float-left">Итого <strong>0</strong> товар(а) на сумму</p>
-                                                  <h4 className="float-left"><strong>0 BYN</strong></h4>
-                                              </div>
-                                          </div>
-                                          {/* Закончилась разметка корзины */}
-                                      </div>
-                                      <a className="btn btn-dark" href="/create_order">
-                                          Оформить заказ
-                                      </a>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                      {/* Закончилась разметка модального окна */}
                   </div>
               </div>
         
@@ -118,7 +59,6 @@ function Product() {
          <div className="container mt-4" style={{ marginLeft: '155px' }}>
             <div className="card mb-4 custom-shadow">
               <div className="row g-0 d-flex align-items-center" >
-                {/* Изображение слева */}
                 <div className="col-md-4 text-center">
                   <img
                     src={`http://${String}:8000${product.image}`}
@@ -129,17 +69,16 @@ function Product() {
                     data-bs-target="#imageModal1"
                   />
                 </div>
-                {/* Контент справа */}
                 <div className="col-md-8">
                   <div className="card-body">
                     <h2>{product.name}</h2>
-                    <p><strong>Описание:</strong> {product.description}</p>
-                    <p><strong>Цена:</strong> {product.price} BYN</p>
+                    <p><strong>{t('description')}:</strong> {product.description}</p>
+                    <p><strong>{t('price')}:</strong> {product.price} BYN</p>
                     <button
                       onClick={handleAddToCart}
                       className="btn btn-dark add-to-cart"
                     >
-                      Добавить в корзину
+                      {t('addToCart')}
                     </button>
                   </div>
                 </div>
@@ -154,7 +93,7 @@ function Product() {
     <div className="container text-center">
       <div style={{ padding: '35px', borderRadius: '15px' }}></div>
       <div className="spinner-border" role="status">
-        <span className="visually-hidden">Загрузка...</span>
+        <span className="visually-hidden">{t('loading')}</span>
       </div>
     </div>
   );

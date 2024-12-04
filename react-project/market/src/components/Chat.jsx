@@ -5,15 +5,17 @@ import closeIcon from './chatIcons/CloseIcon.svg';
 import sendIcon from './chatIcons/SendIcon.svg';
 import searchIcon from './chatIcons/SearchIcon.svg';
 import clipIcon from './chatIcons/ClipIcon.svg';
-import StickerIcon from './chatIcons/StickerIcon.svg'; 
+import StickerIcon from './chatIcons/StickerIcon.svg';
+import { useTranslation } from 'react-i18next';  
 
 const Chat = () => {
+  const { t } = useTranslation();  
   const [isOpen, setIsOpen] = useState(false);
   const [closing, setClosing] = useState(false);
   const [messages, setMessages] = useState([]);
   const [inputValue, setInputValue] = useState('');
   const [file, setFile] = useState(null);
-  const [showEmojiPicker, setShowEmojiPicker] = useState(false); // State for emoji picker
+  const [showEmojiPicker, setShowEmojiPicker] = useState(false); 
 
   const toggleChat = () => {
     if (isOpen) {
@@ -35,8 +37,8 @@ const Chat = () => {
         { text: inputValue, file, type: 'sent', timestamp },
       ]);
       
-      setInputValue(''); // Clear input
-      setFile(null); // Clear file
+      setInputValue(''); 
+      setFile(null); 
     }
   };
 
@@ -49,29 +51,29 @@ const Chat = () => {
   };
 
   const handleEmojiSelect = (emoji) => {
-    setInputValue(inputValue + emoji); // Append emoji to input
-    setShowEmojiPicker(false); // Hide emoji picker after selection
+    setInputValue(inputValue + emoji); 
+    setShowEmojiPicker(false); 
   };
 
-  const emojis = ['😊', '😂', '😢', '😍', '😎', '😜', '😇']; // Simple emoji list
+  const emojis = ['😊', '😂', '😢', '😍', '😎', '😜', '😇']; 
 
   return (
     <div>
       {!isOpen && !closing ? (
         <div className="chat-container" onClick={toggleChat}>
           <div className="input-container">
-            Появились вопросы? Пишите нам!
+            {t('prompt')}
             <div className="icon-container">
-              <img src={messageIcon} alt="Message icon" className="icon" />
+              <img src={messageIcon} alt={t('messageIcon')} className="icon" />
             </div>
           </div>
         </div>
       ) : (
         <div className={`chat-window ${isOpen && !closing ? 'open' : 'close'}`}>
           <div className="chat-header">
-            <img src={searchIcon} alt="Search icon" className="icon" />
-            Напишите ваше сообщение
-            <img src={closeIcon} alt="Close chat" className="icon" onClick={toggleChat} />
+            <img src={searchIcon} alt={t('searchIcon')} className="icon" />
+            {t('header')}
+            <img src={closeIcon} alt={t('closeIcon')} className="icon" onClick={toggleChat} />
           </div>
           <div className="chat-body">
             {messages.map((msg, index) => (
@@ -92,7 +94,7 @@ const Chat = () => {
 
           <div className="chat-input">
             <label htmlFor="file-input">
-              <img src={clipIcon} alt="Attach icon" className="clip-icon" />
+              <img src={clipIcon} alt={t('attachIcon')} className="clip-icon" />
             </label>
             <input
               id="file-input"
@@ -102,16 +104,16 @@ const Chat = () => {
             />
             <input
               type="text"
-              placeholder="Введите сообщение"
+              placeholder={t('placeholder')}
               className="input-with-emoji"
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
             />
             <button className="emoji-button" onClick={toggleEmojiPicker}>
-              <img src={StickerIcon} alt="Emoji icon" />
+              <img src={StickerIcon} alt={t('emojiIcon')} />
             </button>
             <button className="send-button" onClick={handleSend}>
-              <img src={sendIcon} alt="Send icon" />
+              <img src={sendIcon} alt={t('sendIcon')} />
             </button>
 
             {showEmojiPicker && (
