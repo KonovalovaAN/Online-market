@@ -12,7 +12,7 @@ import Registration from './pages/Registration';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Chat from './components/Chat'; 
+import Chat from './components/Chat';
 import { logEvent } from './utils/logger';
 
 
@@ -47,3 +47,18 @@ const App = () => {
 };
 
 export default App;
+
+// import React from 'react';
+// import Chat from './components/Chat'; // Проверьте правильность пути
+//
+// const App = () => {
+//     return (
+//         <div>
+//             <h1>Добро пожаловать!</h1>
+//             {/* Добавьте компонент Chat здесь */}
+//             <Chat />
+//         </div>
+//     );
+// };
+//
+// export default App;
