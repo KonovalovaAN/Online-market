@@ -43,7 +43,9 @@ INSTALLED_APPS = [
 
     'main',
     'goods',
-    'my_auth'
+    'my_auth',
+    'channels',
+    'chat',
 ]
 
 #Swagger
@@ -77,6 +79,8 @@ CORS_ALLOW_ALL_ORIGINS = True  # Для разработки
 #jquery client
 CORS_ALLOWED_ORIGINS = [
     'http://' + client_ip + ':3000',  # Укажите IP клиента и порт React-приложения
+    "http://localhost:3000",
+    "http://localhost:3001",
 ]
 
 
@@ -105,13 +109,23 @@ WSGI_APPLICATION = 'pressF.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'market_db',
+        'USER': 'plotvichka_2',
+        'PASSWORD': '19062006',
+        'HOST': 'localhost',  # Change if using a remote PostgreSQL server
+        'PORT': '5432',       # Default PostgreSQL port
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
@@ -156,3 +170,20 @@ MEDIA_ROOT = BASE_DIR / 'media'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            'hosts': [('127.0.0.1', 6379)],
+        },
+    },
+}
+
+CSRF_TRUSTED_ORIGINS = [
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+]
+
+ASGI_APPLICATION = 'pressF.asgi.application'
+

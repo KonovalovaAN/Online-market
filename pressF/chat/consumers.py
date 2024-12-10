@@ -4,12 +4,8 @@ import os
 from channels.generic.websocket import AsyncWebsocketConsumer
 import django
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'main.settings')
-django.setup()
-
-
-from .models import Message
-from django.contrib.auth.models import User
+# os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'main.settings')
+# django.setup()
 from django.db.models import Q
 from asgiref.sync import sync_to_async
 
@@ -41,6 +37,8 @@ class ChatConsumer(AsyncWebsocketConsumer):
         )
 
     async def receive(self, text_data):
+        from .models import Message
+        from django.contrib.auth.models import User
         # from django.contrib.auth.models import User
         # from .models import Message
         print("receive tmp consumer new")
