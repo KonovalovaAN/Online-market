@@ -1,36 +1,102 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next'; 
+import CatalogDropdown from '../components/CatalogDropdown';
+
+const String = '127.0.0.1';
 
 function Product() {
+  const { name } = useParams(); 
+  const [product, setProduct] = useState(null);
+  const navigate = useNavigate();
+  const { t } = useTranslation(); 
+
   useEffect(() => {
-    document.title = "Страница продукта"; 
-  }, []);
-  return (
-        <div>
-          <section>
-              <div className="container">
-                  {/* Каталог и корзина с фиксированным расположением на странице */}
+    if (!name) {
+      console.error('Отсутствует параметр имени продукта');
+      return;
+    }
+
+    fetch('http://' + String + ':8000/api/goods/' + name)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error('Товар не найден');
+        }
+        return response.json();
+      })
+      .then((data) => {
+        setProduct(data); 
+      })
+      .catch((error) => {
+        console.error('Ошибка при загрузке товара:', error);
+        alert(t('productNotFound')); 
+      });
+  }, [name, t]);
+
+  const handleAddToCart = () => {
+    console.log(`${t('productAddedToCart')}: ${product.name}`);
+  };
+
+  return product ? (
+    <div className="container">
+        <div className="container">
                   <div className="row mt-1 position-fixed z-3">
                       {/* Каталог */}
-                      <div className="dropdown mb-2">
-                          <button className="btn btn-secondary dropdown-toggle btn-dark" type="button" data-bs-toggle="dropdown"
-                              aria-expanded="false">
-                              Каталог
-                              <img className="mx-1" src="../deps/icons/grid-fill.svg" alt="Catalog Icon" width="16"
-                                  height="16"/>
+                      <CatalogDropdown />
+                      <div>
+                          <button type="button" className="btn btn-dark btn-secondary d-flex" id="modalButton" aria-expanded="false">
+                              <img className="mx-1" src="../deps/icons/basket2-fill.svg" alt={t('catalogIconAlt')} width="24"
+                                  height="24"/>
+                              <span>0</span>
                           </button>
-                          <ul className="dropdown-menu bg-dark" data-bs-theme="dark">
-                              <li><a className="dropdown-item text-white" href="/catalog">Все товары</a></li>
-                              <li><a className="dropdown-item text-white" href="/catalog">Ноутбуки</a></li>
-                              <li><a className="dropdown-item text-white" href="/catalog">Планшеты</a></li>
-                              <li><a className="dropdown-item text-white" href="/catalog">Смартфона</a></li>
-                              <li><a className="dropdown-item text-white" href="/catalog">Компьютеры</a></li>
-                          </ul>
                       </div>
+                      <div style={{ padding: '4px', borderRadius: '15px' }}></div>
                   </div>
               </div>
-          </section>
+        
+      <div className="row mt-2">
+        <div className="col-lg-10">
+         <div className="container mt-4" style={{ marginLeft: '155px' }}>
+            <div className="card mb-4 custom-shadow">
+              <div className="row g-0 d-flex align-items-center" >
+                <div className="col-md-4 text-center">
+                  <img
+                    src={`http://${String}:8000${product.image}`}
+                    className="img-thumbnail"
+                    alt={product.name}
+                    style={{ maxWidth: '100%', height: 'auto' }}
+                    data-bs-toggle="modal"
+                    data-bs-target="#imageModal1"
+                  />
+                </div>
+                <div className="col-md-8">
+                  <div className="card-body">
+                    <h2>{product.name}</h2>
+                    <p><strong>{t('description')}:</strong> {product.description}</p>
+                    <p><strong>{t('price')}:</strong> {product.price} BYN</p>
+                    <button
+                      onClick={handleAddToCart}
+                      className="btn btn-dark add-to-cart"
+                    >
+                      {t('addToCart')}
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-  )
+      <div style={{ padding: '35px', borderRadius: '15px' }}></div>
+    </div>
+  ) : (
+    <div className="container text-center">
+      <div style={{ padding: '35px', borderRadius: '15px' }}></div>
+      <div className="spinner-border" role="status">
+        <span className="visually-hidden">{t('loading')}</span>
+      </div>
+    </div>
+  );
 }
 
-export default Product
+export default Product;
