@@ -1,10 +1,17 @@
 import json
+import os
+
 from channels.generic.websocket import AsyncWebsocketConsumer
-from django.contrib.auth import authenticate
+import django
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'main.settings')
+django.setup()
 
 
-# from django.contrib.auth import authenticate, login
-# from django.contrib.auth.models import User
+from .models import Message
+from django.contrib.auth.models import User
+from django.db.models import Q
+from asgiref.sync import sync_to_async
 
 
 class ChatConsumer(AsyncWebsocketConsumer):
@@ -34,26 +41,30 @@ class ChatConsumer(AsyncWebsocketConsumer):
         )
 
     async def receive(self, text_data):
+        # from django.contrib.auth.models import User
+        # from .models import Message
         print("receive chat consumer new")
         # Получаем сообщение от пользователя
         data = json.loads(text_data)
-        print(text_data)
-        print(data)
         message = data['text']
         timestamp = data.get('timestamp', '')
 
-        # Отправляем сообщение "Привет" обратно отправителю
-        response_message = "Привет"
-        response_timestamp = timestamp  # Можно также использовать тот же timestamp, что был в сообщении
-
         # Отправляем сообщение обратно в ту же комнату
-        tmp_json = json.dumps({
-            'text': message,
-            'timestamp': response_timestamp,
-            'type': 'received'
-        })
-        print(tmp_json)
+        # tmp_json = json.dumps({
+        #     'text': message,
+        #     'timestamp': timestamp,
+        #     'type': 'received'
+        # })
         # await self.send(text_data=tmp_json)
+        from_id = await sync_to_async(User.objects.get)(username=self.from_user)
+        to_id = await sync_to_async(User.objects.get)(username=self.to_user)
+        await sync_to_async(Message.objects.create)(
+            text=message,
+            timestamp=timestamp,
+            sender_id=from_id.id,
+            receiver_id=to_id.id
+        )
+
 
         # Отправляем сообщение всем участникам (если нужно, чтобы все видели сообщение)
         await self.channel_layer.group_send(
@@ -73,7 +84,8 @@ class ChatConsumer(AsyncWebsocketConsumer):
 
         # Отправляем это сообщение всем участникам
         await self.send(text_data=json.dumps({
-            'message': message,
+            'text': message,
             'timestamp': timestamp,
+            'type': 'sent'
             # 'type': 'received'
         }))

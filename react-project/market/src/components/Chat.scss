@@ -2,7 +2,7 @@ $primary-color: #eaee85;
 $secondary-color: #f0f0f0;
 $highlight-color: #a9a9a9;
 $font-color: rgb(46, 46, 46);
-$icon-size: 20px;  
+$icon-size: 20px;
 $shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
 .chat-container {
@@ -48,7 +48,7 @@ $shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   box-shadow: $shadow;
   display: flex;
   flex-direction: column;
-  
+
   &.open {
     animation: slideUp 0.4s ease forwards;
   }
@@ -78,24 +78,24 @@ $shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     flex: 1;
     padding: 10px;
     background-color: #d3d3d3;
-    overflow-y: auto; 
+    overflow-y: auto;
   }
 
   .chat-input {
     display: flex;
-    align-items: center;  
+    align-items: center;
     background-color: $highlight-color;
     padding: 10px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 
     .clip-icon {
-      width: $icon-size;  
+      width: $icon-size;
       height: $icon-size;
-      margin-right: 10px; 
-      cursor: pointer;  
-      display: flex;       
-      align-items: center; 
+      margin-right: 10px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
     }
 
     input {
@@ -103,7 +103,7 @@ $shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       padding: 5px;
       border-radius: 10px;
       border: none;
-      padding-right: 0px; 
+      padding-right: 0px;
       background-repeat: no-repeat;
       background-position: right 10px center;
       background-size: $icon-size $icon-size;
@@ -118,10 +118,10 @@ $shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       margin-left: 3px;
 
       img {
-        width: $icon-size;    
+        width: $icon-size;
         height: $icon-size;
-        display: flex;        
-        align-items: center; 
+        display: flex;
+        align-items: center;
       }
     }
   }
@@ -155,7 +155,7 @@ $shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   background-color: #d3d3d3;
   overflow-y: auto;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .message-bubble {
@@ -163,21 +163,21 @@ $shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 10px;
   border-radius: 15px;
   margin: 5px 0;
-  max-width: 70%; 
-  word-wrap: break-word; 
-  white-space: normal; 
-  overflow-wrap: break-word; 
-  display: inline-block; 
+  max-width: 70%;
+  word-wrap: break-word;
+  white-space: normal;
+  overflow-wrap: break-word;
+  display: inline-block;
 }
 
 
 .message-bubble.sent {
-  align-self: flex-end; 
-  background-color: #d1e7dd; 
+  align-self: flex-end;
+  background-color: #d1e7dd;
 }
 
 .message-bubble.received {
-  align-self: flex-start; 
+  align-self: flex-start;
 }
 
 .timestamp {
@@ -197,14 +197,14 @@ $shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
 .emoji-picker {
   position: absolute;
-  bottom: 60px;  
+  bottom: 60px;
   right: 50px;
   background-color: white;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
   display: grid;
-  grid-template-columns: repeat(4, 30px);  
+  grid-template-columns: repeat(4, 30px);
   gap: 5px;
   z-index: 10;
 }
@@ -220,3 +220,42 @@ $shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
   }
 }
+
+
+/* Базовый стиль для всех сообщений */
+.message-bubble {
+  max-width: 70%;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 14px;
+  position: relative;
+  word-wrap: break-word;
+  margin-bottom: 10px;
+}
+
+/* Сообщения, отправленные пользователем */
+.message-bubble.sent {
+  background-color: #4caf50; /* Зеленый цвет для отправленных */
+  color: white;
+  align-self: flex-end; /* Выравнивание справа */
+  border-top-right-radius: 0; /* Круглая граница справа */
+}
+
+/* Сообщения, полученные от собеседника */
+.message-bubble.received {
+  background-color: #e0e0e0; /* Серый цвет для полученных */
+  color: black;
+  align-self: flex-start; /* Выравнивание слева */
+  border-top-left-radius: 0; /* Круглая граница слева */
+}
+
+/* Время сообщения */
+.timestamp {
+  font-size: 12px;
+  color: #888;
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+
+

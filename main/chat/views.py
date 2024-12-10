@@ -34,36 +34,77 @@ def login(request):
     if request.method == "POST":
         print("i am in login post")
         data = json.loads(request.body)
-        username = data.get('username')
+        username = data.get('fromUser')
         password = data.get('password')
 
         user = User.objects.filter(username=username, password=password)
-        print(username, password)
-        print(user)
+        print(f'{username=}, {password=}')
+        print(f'{user=}')
         if user:
             return JsonResponse({'success': True})
         return JsonResponse({'success': False, 'message': 'Неверный логин или пароль'}, status=400)
     return JsonResponse({'success': False, 'message': 'Нельзя при авторизации запрашивать get request'}, status=400)
 
 @csrf_exempt
-def load(request):
+def load_messages(request):
     if request.method == "POST":
         print("i am in load post")
         data = json.loads(request.body)
         print(data)
-        username = data.get('username')
-        messages = Message.objects.filter(receiver=User.objects.get(username=username).id)
+        fromUser = data.get('fromUser')
+        toUser = data.get('toUser')
+        fromMessages = Message.objects.filter(sender__username=fromUser, receiver__username=toUser)
+        toMessages = Message.objects.filter(sender__username=toUser, receiver__username=fromUser)
         print("after get messages")
 
-        grouped_messages: dict[str, list[str]] = {}
-        for message in messages:
-            grouped_messages.setdefault(User.objects.get(id=message.sender_id).username, []).append(message.text)
-        print("after get grouped messages")
         result = list()
-        for username, messages in grouped_messages.items():
-            lst = {'username':username, 'messages':messages}
-            result.append(lst)
+        for message in fromMessages:
+            result.append({
+                'text': message.text,
+                'timestamp': message.timestamp,
+                'type': 'sent'
+            })
+
+        for message in toMessages:
+            result.append({
+                'text': message.text,
+                'timestamp': message.timestamp,
+                'type': 'received'
+            })
+        result.sort(key=lambda x: x['timestamp'])
 
         return JsonResponse(result, safe=False)
+
+    return JsonResponse({'success': False, 'message': 'Нельзя при авторизации запрашивать get request'}, status=400)
+
+@csrf_exempt
+def load_conversations(request):
+    if request.method == "POST":
+        print("i am in load conv post")
+        data = json.loads(request.body)
+        fromUser = data.get('fromUser')
+        usernames = Message.objects.filter(sender__username=fromUser).values('receiver__username').distinct()
+
+        result = list()
+        for username in usernames:
+            result.append({
+                'username': username['receiver__username']
+            })
+
+        return JsonResponse(result, safe=False)
+
+    return JsonResponse({'success': False, 'message': 'Нельзя при авторизации запрашивать get request'}, status=400)
+
+@csrf_exempt
+def create_conversation(request):
+    if request.method == "POST":
+        print("i am creating chat")
+        data = json.loads(request.body)
+        newChatUsername = data.get('newChatUsername')
+        try:
+            User.objects.get(username=newChatUsername)
+            return JsonResponse({'success': True}, status=200)
+        except Exception as e:
+            return JsonResponse({'success': False}, status=200)
 
     return JsonResponse({'success': False, 'message': 'Нельзя при авторизации запрашивать get request'}, status=400)
