@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-)yc&v3vx7a(j%$kms$x@lk_4($83pe$-^td@)fuim(k^^)+@*s
 DEBUG = True
 client_ip = '192.168.0.104'
 
-ALLOWED_HOSTS = ['127.0.0.1', client_ip, 'localhost', '192.168.0.100']
+ALLOWED_HOSTS = ['127.0.0.1', client_ip, 'localhost', '192.168.0.100', '25.43.123.165']
 
 
 # Application definition

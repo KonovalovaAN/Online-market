@@ -83,12 +83,18 @@ def load_conversations(request):
         print("i am in load conv post")
         data = json.loads(request.body)
         fromUser = data.get('fromUser')
-        usernames = Message.objects.filter(sender__username=fromUser).values('receiver__username').distinct()
+        names1 = Message.objects.filter(sender__username=fromUser).values('receiver__username').distinct()
+        names2 = Message.objects.filter(receiver__username=fromUser).values('sender__username').distinct()
+        names = set()
+        for name in names1:
+            names.add(name['receiver__username'])
+        for name in names2:
+            names.add(name['sender__username'])
 
         result = list()
-        for username in usernames:
+        for name in names:
             result.append({
-                'username': username['receiver__username']
+                'username': name
             })
 
         return JsonResponse(result, safe=False)
