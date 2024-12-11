@@ -1,19 +1,20 @@
-import React, { useEffect } from 'react';
-//import React from 'react';
-import About from './pages/About';
-import Cart from './pages/Cart';
-import Catalog from './pages/Catalog';
-import CreateOrder from './pages/CreateOrder';
-import Index from './pages/Index';
-import Login from './pages/Login';
-import Product from './pages/Product';
-import Profile from './pages/Profile';
-import Registration from './pages/Registration';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Chat from './components/Chat'; 
-import { logEvent } from './utils/logger';
+  import React, { useEffect } from 'react';
+  //import React from 'react';
+  import About from './pages/About';
+  import Cart from './pages/Cart';
+  import Catalog from './pages/Catalog';
+  import CreateOrder from './pages/CreateOrder';
+  import Index from './pages/Index';
+  import Login from './pages/Login';
+  import Product from './pages/Product';
+  import Profile from './pages/Profile';
+  import Registration from './pages/Registration';
+  import { BrowserRouter, Routes, Route } from 'react-router-dom';
+  import Header from './components/Header';
+  import Footer from './components/Footer';
+  import Chat from './components/Chat'; 
+  import { logEvent } from './utils/logger';
+  import './i18n.js'; 
 
 
   const App = () => {
@@ -47,20 +48,4 @@ import { logEvent } from './utils/logger';
     );
   };
 
-export default App;
-export default App;
-
-// import React from 'react';
-// import Chat from './components/Chat'; // Проверьте правильность пути
-//
-// const App = () => {
-//     return (
-//         <div>
-//             <h1>Добро пожаловать!</h1>
-//             {/* Добавьте компонент Chat здесь */}
-//             <Chat />
-//         </div>
-//     );
-// };
-//
-// export default App;
+  export default App;
