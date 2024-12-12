@@ -33,3 +33,11 @@ openapi-generator-cli generate -i http://localhost:8000/swagger.json -g python -
 
 2. Подключение к Postman: Импортируйте JSON-схему в Postman для автоматического создания коллекции запросов:
 В Postman выберите File > Import и укажите URL для JSON схемы (http://localhost:8000/swagger.json) или скачанный JSON файл.
+
+## Run Docker ##
+1. Start Docker Engine
+2. In folder /pressF run commands:
+```
+docker build . -t press-f-image
+docker run --rm -p 8000:8000 press-f-image
+```
