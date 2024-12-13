@@ -1,11 +1,17 @@
 # How to run Docker?
 <br>
-Run the following commands:
 
-```
-docker build . -t press-f-client
-docker run -p 3000:3000 press-f-client
-```
+0. Install Git and Docker
+
+1. Clone our repo ```git clone <our-repo-url>```
+
+2. Change a working directory ```cd online-market/react-project/market```
+
+3. Build Docker image: ```docker build . -t press-f-client```
+
+4. Run Docker container ```docker run -p 3000:3000 press-f-client```
+
+5. Enjoy our beatiful frontend
 
 # Getting Started with Create React App
 
