@@ -1,3 +1,12 @@
+# How to run Docker?
+<br>
+Run the following commands:
+
+```
+docker build . -t press-f-client
+docker run -p 3000:3000 press-f-client
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
