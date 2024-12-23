@@ -127,7 +127,7 @@ function CreateOrder() {
                               className="form-control"
                               id="id_phone_number"
                               name="phone_number"
-                              placeholder="In format: XXX-XXX-XX-XX"
+                              placeholder={t('in_format_text')}
                               required
                             />
                           </div>
@@ -203,6 +203,7 @@ function CreateOrder() {
                             </div>
                           </div>
                         </div>
+                        <button type="submit" class="btn btn-dark">{t('create_order')}</button>
                       </form>
                     </div>
                   </div>

@@ -124,7 +124,9 @@ i18n
           passwordLabel: "Password",
           confirmPasswordLabel: "Confirm Password",
           confirmPasswordPlaceholder: "Confirm your password",
-          registerButton: "Register"
+          registerButton: "Register",
+          create_order: "Create order",
+          in_format_text: "In format: +375-XX-XXX-XX-XX"
         },
       },
       ru: {
@@ -244,7 +246,9 @@ i18n
           passwordLabel: "Пароль",
           confirmPasswordLabel: "Подтверждение пароля",
           confirmPasswordPlaceholder: "Подтвердите пароль",
-          registerButton: "Зарегистрироваться"
+          registerButton: "Зарегистрироваться",
+          create_order: "Оформить заказ",
+          in_format_text: "В формате: +375-XX-XXX-XX-XX"
         },
       },
     },

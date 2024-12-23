@@ -1,46 +1,85 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import CatalogDropdown from '../components/CatalogDropdown';
-import Cart from '../components/Cart'; 
+import Cart from '../components/Cart';
 import Orders from '../components/Orders';
 
 function Profile() {
   const { t } = useTranslation();
 
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    username: '',
+    email: '',
+  });
+  const [avatar, setAvatar] = useState('../deps/images/baseavatar.jpg'); // Путь к стандартной аватарке
+
   useEffect(() => {
     document.title = t('profile');
+
+    // Загрузка данных из localStorage при загрузке компонента
+    const savedData = JSON.parse(localStorage.getItem('profileData'));
+    const savedAvatar = localStorage.getItem('profileAvatar');
+
+    if (savedData) {
+      setFormData(savedData);
+    }
+
+    if (savedAvatar) {
+      setAvatar(savedAvatar); // Восстанавливаем аватарку
+    }
   }, [t]);
+
+  const handleAvatarChange = (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = () => {
+        setAvatar(reader.result); 
+        localStorage.setItem('profileAvatar', reader.result); 
+      };
+      reader.readAsDataURL(file);
+    }
+  };
+
+  const handleInputChange = (e) => {
+    const { id, value } = e.target;
+    setFormData((prevState) => ({
+      ...prevState,
+      [id]: value,
+    }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    localStorage.setItem('profileData', JSON.stringify(formData)); 
+    alert(t('dataSaved')); 
+  };
 
   return (
     <div>
       <section>
         <div className="container">
-          {/* Каталог и корзина с фиксированным расположением на странице */}
           <div className="row mt-1 position-fixed z-3">
-            {/* Каталог */}
             <CatalogDropdown />
           </div>
         </div>
-        {/* Контент */}
         <div className="container">
           <div className="row mt-1">
-            <div className="col-lg-2">
-              {/* Пустой блок на усмотрение */}
-            </div>
+            <div className="col-lg-2"></div>
             <div className="col-lg-10">
-              {/* Контент на странице */}
               <div className="row">
                 <div className="container mt-5">
                   <div className="row">
-                    {/* Профиль с данными пользователя */}
                     <div className="col-md-5">
                       <div className="bg-white p-4 mb-4 mx-2 rounded custom-shadow">
                         <h3 className="text-center mb-4">{t('profile')}</h3>
-                        <form>
+                        <form onSubmit={handleSubmit}>
                           <div className="row">
                             <div className="col-md-12 mb-3 text-center">
                               <img
-                                src="../deps/images/baseavatar.jpg"
+                                src={avatar}
                                 alt="Аватар пользователя"
                                 className="img-fluid rounded-circle"
                                 style={{ maxWidth: '150px' }}
@@ -50,6 +89,7 @@ function Profile() {
                                 className="form-control mt-3"
                                 id="avatar"
                                 accept="image/*"
+                                onChange={handleAvatarChange}
                               />
                             </div>
                             <div className="col-md-12 mb-3">
@@ -61,7 +101,8 @@ function Profile() {
                                 className="form-control"
                                 id="firstName"
                                 placeholder={t('enterFirstName')}
-                                value=""
+                                value={formData.firstName}
+                                onChange={handleInputChange}
                                 required
                               />
                             </div>
@@ -74,7 +115,8 @@ function Profile() {
                                 className="form-control"
                                 id="lastName"
                                 placeholder={t('enterLastName')}
-                                value=""
+                                value={formData.lastName}
+                                onChange={handleInputChange}
                                 required
                               />
                             </div>
@@ -87,7 +129,8 @@ function Profile() {
                                 className="form-control"
                                 id="username"
                                 placeholder={t('enterUsername')}
-                                value=""
+                                value={formData.username}
+                                onChange={handleInputChange}
                                 required
                               />
                             </div>
@@ -100,7 +143,8 @@ function Profile() {
                                 className="form-control"
                                 id="email"
                                 placeholder={t('enterEmail')}
-                                value=""
+                                value={formData.email}
+                                onChange={handleInputChange}
                                 required
                               />
                             </div>
@@ -112,17 +156,17 @@ function Profile() {
                       </div>
                     </div>
                     <Cart />
-                      </div>
-                    </div>
-                    <Orders />
-                  </div> 
+                  </div>
+                </div>
+                <Orders />
+              </div>
             </div>
           </div>
-          </div>
-        </section>
-        <div style={{ padding: '35px', borderRadius: '15px' }}></div>
-      </div>
-    );
-  }
+        </div>
+      </section>
+      <div style={{ padding: '35px', borderRadius: '15px' }}></div>
+    </div>
+  );
+}
 
 export default Profile;
