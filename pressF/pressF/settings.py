@@ -111,12 +111,16 @@ WSGI_APPLICATION = 'pressF.wsgi.application'
 #     }
 # }
 
+'''
+        'USER': 'plotvichka_2',
+        'PASSWORD': '19062006',
+'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'market_db',
-        'USER': 'plotvichka_2',
-        'PASSWORD': '19062006',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
         'HOST': 'localhost',  # Change if using a remote PostgreSQL server
         'PORT': '5432',       # Default PostgreSQL port
     }

@@ -84,11 +84,11 @@
                             height="16">
                     </button>
                     <ul class="dropdown-menu bg-dark" data-bs-theme="dark">
-                        <li><a class="dropdown-item text-white" href={% url "goods:catalog" %}>Все товары</a></li>
-                        <li><a class="dropdown-item text-white" href={% url "goods:catalog" %}>Ноутбуки</a></li>
-                        <li><a class="dropdown-item text-white" href={% url "goods:catalog" %}>Планшеты</a></li>
-                        <li><a class="dropdown-item text-white" href={% url "goods:catalog" %}>Смартфона</a></li>
-                        <li><a class="dropdown-item text-white" href={% url "goods:catalog" %}>Компьютеры</a></li>
+                        <li><a class="dropdown-item text-white" href={% url "goods:catalog" "all" %}>Все товары</a></li>
+                        <li><a class="dropdown-item text-white" href={% url "goods:catalog" "laptops" %}>Ноутбуки</a></li>
+                        <li><a class="dropdown-item text-white" href={% url "goods:catalog" "tablets" %}>Планшеты</a></li>
+                        <li><a class="dropdown-item text-white" href={% url "goods:catalog" "phones" %}>Смартфона</a></li>
+                        <li><a class="dropdown-item text-white" href={% url "goods:catalog" "computers" %}>Компьютеры</a></li>
                     </ul>
                 </div>
                 <!-- Значек корзины, вызывает модальное окно -->
