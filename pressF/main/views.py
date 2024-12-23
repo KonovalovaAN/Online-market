@@ -15,6 +15,11 @@ def index(request):
 def about(request):
     return render(request, 'main/about.html')
 
+def index_rest(request):
+    catalog = [obj.__dict__() for obj in Categories.objects.all()]
+    json_renderer = renderers.JSONRenderer()
+    return json_renderer.render(catalog)
+
 class ExampleAPI(APIView):
     def get(self, request):
         return Response({"message": "Hello from Django!"})

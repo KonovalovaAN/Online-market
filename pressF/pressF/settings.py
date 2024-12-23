@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework_simplejwt',
+    'drf_yasg',
+    'corsheaders',
 
     'main',
     'goods',
@@ -48,11 +50,6 @@ INSTALLED_APPS = [
     'chat',
 ]
 
-#Swagger
-INSTALLED_APPS += [
-    'drf_yasg',
-]
-#Swagger
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
@@ -71,8 +68,6 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
-#jquery client
-INSTALLED_APPS += ['corsheaders']
 MIDDLEWARE.insert(0, 'corsheaders.middleware.CorsMiddleware')
 
 CORS_ALLOW_ALL_ORIGINS = True  # Для разработки

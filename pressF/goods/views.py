@@ -38,9 +38,8 @@ def product(request):
     return render(request, 'goods/product.html')
 
 
-'''
+
 def rest_catalog(request):
     goods = [obj.__dict__() for obj in Products.objects.all()]
     json_renderer = renderers.JSONRenderer()
     return json_renderer.render(goods)
-'''
