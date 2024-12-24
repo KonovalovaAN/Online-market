@@ -71,6 +71,7 @@ function CartModal() {
               <a className="btn btn-dark" href="/create_order">
                 {t('checkout')}
               </a>
+              <div style={{ padding: '10px', borderRadius: '15px' }}></div>
             </div>
           </div>
         </div>
